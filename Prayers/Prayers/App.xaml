@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prayers.App">
+    <!--
+        Define global resources and styles here, that apply to all pages in your app.
+    -->
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="AppShellBgColor">#BFC9CA</Color>
+            <Color x:Key="AppShellFgColor">#BFC9CA</Color>
+            <Color x:Key="AppShellTitleColor">#BFC9CA</Color>
+            <Color x:Key="AppShellDisabledColor">#BFC9CA</Color>
+            <Color x:Key="AppShellUnselectedColor">#BFC9CA</Color>
+            <Color x:Key="AppShellTabBarBackgroundColor">#BFC9CA</Color>
+            <Color x:Key="AppShellTabBarForegroundColor">#BFC9CA</Color>
+            <Color x:Key="AppShellTabBarUnselectedColor">#BFC9CA</Color>
+            <Color x:Key="AppShellTabBarDisabledColor">#BFC9CA</Color>
+            <Color x:Key="AppShellTabBarTitleColor">#BFC9CA</Color>
+            <!--<Style x:Key="sfPagerFontFamily" TargetType="sfPager:SfPagerLabel">
+         <Setter Property="FontFamily"
+             Value="Arial" />
+     </Style>-->
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

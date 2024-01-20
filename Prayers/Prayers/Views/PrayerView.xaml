@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Prayers.Views.PrayerView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="20" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Button
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Command="{Binding btnGoPreviousCommand}"
+                    IsEnabled="{Binding CanGoPrevious}"
+                    Text="Previous" />
+                <Button
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    Command="{Binding btnGoNextCommand}"
+                    IsEnabled="{Binding CanGoNext}"
+                    Text="Next" />
+            </Grid>
+            <StackLayout>
+                <ScrollView>
+                    <StackLayout x:Name="contentStack">
+                        <Label
+                            FontSize="Header"
+                            HorizontalOptions="CenterAndExpand"
+                            Text="{Binding PageId}"
+                            VerticalOptions="CenterAndExpand" />
+
+                    </StackLayout>
+                </ScrollView>
+
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

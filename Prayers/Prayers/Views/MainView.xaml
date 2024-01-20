@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Prayers.Views.MainView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                Margin="10"
+                FontAttributes="Bold"
+                FontSize="Large"
+                HorizontalOptions="CenterAndExpand"
+                HorizontalTextAlignment="Center"
+                Text="{Binding PrayerMainHeader01}"
+                VerticalOptions="CenterAndExpand" />
+            <Image
+                Margin="30,10,30,10"
+                Aspect="AspectFit"
+                Source="mainpic.jpg" />
+            <Label
+                Margin="10"
+                FontAttributes="Bold"
+                FontSize="Medium"
+                HorizontalOptions="CenterAndExpand"
+                HorizontalTextAlignment="Center"
+                Text="{Binding PrayerMainHeader02}"
+                VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
