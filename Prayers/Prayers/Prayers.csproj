@@ -24,30 +24,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Controls\ParaBulletNumberItemView.xaml.cs">
-      <DependentUpon>ParaBulletNumberItemView.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Controls\ParaBulletItemView.xaml.cs">
-      <DependentUpon>ParaBulletItemView.xaml</DependentUpon>
+    <Compile Update="Controls\ParaBulletView.xaml.cs">
+      <DependentUpon>ParaBulletView.xaml</DependentUpon>
     </Compile>
     <Compile Update="Controls\ParaHeaderView.xaml.cs">
       <DependentUpon>ParaHeaderView.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Controls\ParaContinuationView.xaml.cs">
-      <DependentUpon>ParaContinuationView.xaml</DependentUpon>
-    </Compile>
     <Compile Update="Controls\ParaContentView.xaml.cs">
       <DependentUpon>ParaContentView.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Controls\ParaJustifiedContentView.xaml.cs">
-      <DependentUpon>ParaJustifiedContentView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Controls\ParaJustifiedContentView.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="Views\MainView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

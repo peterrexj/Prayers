@@ -11,19 +11,19 @@ using Xamarin.Forms.Xaml;
 namespace Prayers
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ParaContentView : ContentView
+    public partial class ParaBulletView : ContentView
     {
-        public ParaContentView()
+        public ParaBulletView()
         {
             InitializeComponent();
-
-            lblContent.SetBinding(Label.TextColorProperty, new Binding("TextColor", source: this));
-            lblContent.SetBinding(Label.FontFamilyProperty, new Binding("FontFamily", source: this));
-            lblContent.SetBinding(Label.FontSizeProperty, new Binding("FontSize", source: this));
 
             lblContentNormal.SetBinding(Label.TextColorProperty, new Binding("TextColor", source: this));
             lblContentNormal.SetBinding(Label.FontFamilyProperty, new Binding("FontFamily", source: this));
             lblContentNormal.SetBinding(Label.FontSizeProperty, new Binding("FontSize", source: this));
+
+            lblContentJustified.SetBinding(Label.TextColorProperty, new Binding("TextColor", source: this));
+            lblContentJustified.SetBinding(Label.FontFamilyProperty, new Binding("FontFamily", source: this));
+            lblContentJustified.SetBinding(Label.FontSizeProperty, new Binding("FontSize", source: this));
         }
 
         #region Para Content
@@ -35,7 +35,7 @@ namespace Prayers
 
         private static void OnParaContentPropertyPropertyChanged(BindableObject bindable, object oldValue, object newValue)
         {
-            var control = (ParaContentView)bindable;
+            var control = (ParaBulletView)bindable;
             if (control != null)
             {
                 if (newValue != null)
@@ -43,8 +43,8 @@ namespace Prayers
                     if (newValue is string)
                     {
                         string value = (string)newValue;
-                        control.lblContent.Text = value;
                         control.lblContentNormal.Text = value;
+                        control.lblContentJustified.Text = value;
                     }
                 }
             }
@@ -55,7 +55,36 @@ namespace Prayers
             get { return (string)GetValue(ParaContentProperty); }
             set { SetValue(ParaContentProperty, value); }
         }
+        #endregion
 
+        #region Para Number
+
+        public static readonly BindableProperty ParaNumberProperty =
+           BindableProperty.Create(
+               propertyName: nameof(ParaNumber), returnType: typeof(string),
+               declaringType: typeof(string), defaultValue: default(string),
+               propertyChanged: OnParaNumberPropertyPropertyChanged);
+
+        private static void OnParaNumberPropertyPropertyChanged(BindableObject bindable, object oldValue, object newValue)
+        {
+            var control = (ParaBulletView)bindable;
+            if (control != null)
+            {
+                if (newValue != null)
+                {
+                    if (newValue is string value)
+                    {
+                        control.lblNumber.Text = value;
+                    }
+                }
+            }
+        }
+
+        public string ParaNumber
+        {
+            get { return (string)GetValue(ParaNumberProperty); }
+            set { SetValue(ParaNumberProperty, value); }
+        }
         #endregion
 
         #region Text Wrap
@@ -67,7 +96,7 @@ namespace Prayers
 
         private static void OnTextWrapPropertyPropertyChanged(BindableObject bindable, object oldValue, object newValue)
         {
-            var control = (ParaContentView)bindable;
+            var control = (ParaBulletView)bindable;
             if (control != null)
             {
                 if (newValue != null)
@@ -78,12 +107,12 @@ namespace Prayers
                         if (value.IsEmpty() || (value.HasValue() && value == "Normal"))
                         {
                             control.lblContentNormal.IsVisible = true;
-                            control.lblContent.IsVisible = false;
+                            control.lblContentJustified.IsVisible = false;
                         }
                         else if (value == "Justify")
                         {
                             control.lblContentNormal.IsVisible = false;
-                            control.lblContent.IsVisible = true;
+                            control.lblContentJustified.IsVisible = true;
                         }
                     }
                 }
@@ -107,7 +136,7 @@ namespace Prayers
 
         private static void OnFontAlignPropertyPropertyChanged(BindableObject bindable, object oldValue, object newValue)
         {
-            var control = (ParaContentView)bindable;
+            var control = (ParaBulletView)bindable;
             if (control != null)
             {
                 if (newValue != null)
@@ -120,24 +149,33 @@ namespace Prayers
                             control.lblContentNormal.HorizontalOptions = LayoutOptions.StartAndExpand;
                             control.lblContentNormal.HorizontalTextAlignment = TextAlignment.Start;
 
-                            control.lblContent.HorizontalOptions = LayoutOptions.StartAndExpand;
-                            control.lblContent.HorizontalTextAlignment = TextAlignment.Start;
+                            control.lblContentJustified.HorizontalOptions = LayoutOptions.StartAndExpand;
+                            control.lblContentJustified.HorizontalTextAlignment = TextAlignment.Start;
+
+                            control.lblNumber.HorizontalOptions = LayoutOptions.StartAndExpand;
+                            control.lblNumber.HorizontalTextAlignment= TextAlignment.Start;
                         }
                         else if (value == "Left")
                         {
                             control.lblContentNormal.HorizontalOptions = LayoutOptions.EndAndExpand;
                             control.lblContentNormal.HorizontalTextAlignment = TextAlignment.End;
 
-                            control.lblContent.HorizontalOptions = LayoutOptions.EndAndExpand;
-                            control.lblContent.HorizontalTextAlignment = TextAlignment.End;
+                            control.lblContentJustified.HorizontalOptions = LayoutOptions.EndAndExpand;
+                            control.lblContentJustified.HorizontalTextAlignment = TextAlignment.End;
+
+                            control.lblNumber.HorizontalOptions = LayoutOptions.EndAndExpand;
+                            control.lblNumber.HorizontalTextAlignment = TextAlignment.End;
                         }
                         else if (value == "Center")
                         {
                             control.lblContentNormal.HorizontalOptions = LayoutOptions.CenterAndExpand;
                             control.lblContentNormal.HorizontalTextAlignment = TextAlignment.Center;
 
-                            control.lblContent.HorizontalOptions = LayoutOptions.CenterAndExpand;
-                            control.lblContent.HorizontalTextAlignment = TextAlignment.Center;
+                            control.lblContentJustified.HorizontalOptions = LayoutOptions.CenterAndExpand;
+                            control.lblContentJustified.HorizontalTextAlignment = TextAlignment.Center;
+
+                            control.lblNumber.HorizontalOptions = LayoutOptions.CenterAndExpand;
+                            control.lblNumber.HorizontalTextAlignment = TextAlignment.Center;
                         }
                     }
                 }
@@ -161,7 +199,7 @@ namespace Prayers
 
         private static void OnFontCustomAttributesPropertyPropertyChanged(BindableObject bindable, object oldValue, object newValue)
         {
-            var control = (ParaContentView)bindable;
+            var control = (ParaBulletView)bindable;
             if (control != null)
             {
                 if (newValue != null)
@@ -173,18 +211,21 @@ namespace Prayers
                         {
                             if (value.ContainsIgnoreCase("Bold") && value.ContainsIgnoreCase("Italics"))
                             {
-                                control.lblContent.FontAttributes = FontAttributes.Bold | FontAttributes.Italic;
+                                control.lblContentJustified.FontAttributes = FontAttributes.Bold | FontAttributes.Italic;
                                 control.lblContentNormal.FontAttributes = FontAttributes.Bold | FontAttributes.Italic;
+                                control.lblNumber.FontAttributes = FontAttributes.Bold | FontAttributes.Italic;
                             }
                             else if (value.ContainsIgnoreCase("Bold"))
                             {
-                                control.lblContent.FontAttributes = FontAttributes.Bold;
+                                control.lblContentJustified.FontAttributes = FontAttributes.Bold;
                                 control.lblContentNormal.FontAttributes = FontAttributes.Bold;
+                                control.lblNumber.FontAttributes = FontAttributes.Bold;
                             }
                             else if (value.ContainsIgnoreCase("Italics"))
                             {
-                                control.lblContent.FontAttributes = FontAttributes.Italic;
+                                control.lblContentJustified.FontAttributes = FontAttributes.Italic;
                                 control.lblContentNormal.FontAttributes = FontAttributes.Italic;
+                                control.lblNumber.FontAttributes = FontAttributes.Italic;
                             }
                         }
                     }
@@ -202,7 +243,7 @@ namespace Prayers
 
         #region Text Color
         public static readonly BindableProperty TextColorProperty =
-         BindableProperty.Create(nameof(TextColor), typeof(Color), typeof(ParaContentView), Color.Default);
+         BindableProperty.Create(nameof(TextColor), typeof(Color), typeof(ParaBulletView), Color.Default);
 
         public Color TextColor
         {
@@ -214,7 +255,7 @@ namespace Prayers
         #region Font Family
 
         public static readonly BindableProperty FontFamilyProperty =
-            BindableProperty.Create(nameof(FontFamily), typeof(string), typeof(ParaContentView), default(string));
+            BindableProperty.Create(nameof(FontFamily), typeof(string), typeof(ParaBulletView), default(string));
 
         public string FontFamily
         {
@@ -227,7 +268,7 @@ namespace Prayers
         #region Font Size
 
         public static readonly BindableProperty FontSizeProperty =
-            BindableProperty.Create(nameof(FontSize), typeof(double), typeof(ParaContentView), default(double));
+            BindableProperty.Create(nameof(FontSize), typeof(double), typeof(ParaBulletView), default(double));
 
         public double FontSize
         {
