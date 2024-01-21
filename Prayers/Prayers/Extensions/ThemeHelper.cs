@@ -24,6 +24,7 @@ namespace Prayers.Extensions
         public static void UpdateAppThemes(StyleModelDefault styleModel)
         {
             if (styleModel == null) return;
+            
             ResourceDictionary appResources = Application.Current.Resources;
             if (appResources.ContainsKey("AppShellBgColor") && styleModel.AppShellBgColor.HasValue())
             {

@@ -4,16 +4,8 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:controls="clr-namespace:Prayers.Controls">
-    <FlexLayout>
-        <controls:LabelExtended
-            x:Name="lblContent"
-            Margin="30,10,30,10"
-            HorizontalOptions="StartAndExpand"
-            VerticalOptions="CenterAndExpand" />
-        <Label
-            x:Name="lblContentNormal"
-            Margin="30,2,30,0"
-            HorizontalOptions="StartAndExpand"
-            VerticalOptions="CenterAndExpand" />
-    </FlexLayout>
+    <StackLayout>
+        <controls:LabelExtended x:Name="lblContent" Margin="30,10,30,10" />
+        <Label x:Name="lblContentNormal" Margin="30,2,30,0" />
+    </StackLayout>
 </ContentView>
