@@ -1,6 +1,4 @@
-﻿using Pj.Library;
-using Prayers.ViewModels.Extras;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -50,30 +48,6 @@ namespace Prayers
             get { return (string)GetValue(ParaHeaderContentProperty); }
             set { SetValue(ParaHeaderContentProperty, value); }
         }
-
-        #region Style
-        public static readonly BindableProperty DefaultStyleProperty =
-            BindableProperty.Create(
-                propertyName: nameof(DefaultStyle), returnType: typeof(StyleModelDefault),
-                declaringType: typeof(StyleModelDefault), defaultValue: default(StyleModelDefault),
-                propertyChanged: OnFontCustomAttributesPropertyPropertyChanged);
-
-        private static void OnFontCustomAttributesPropertyPropertyChanged(BindableObject bindable, object oldValue, object newValue)
-        {
-            var control = (ParaHeaderView)bindable;
-            if (control != null)
-            {
-                
-            }
-        }
-
-        public StyleModelDefault DefaultStyle
-        {
-            get { return (StyleModelDefault)GetValue(DefaultStyleProperty); }
-            set { SetValue(DefaultStyleProperty, value); }
-        }
-
-        #endregion
 
         #region Text Color
         public static readonly BindableProperty TextColorProperty =

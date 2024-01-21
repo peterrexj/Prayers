@@ -1,5 +1,4 @@
-﻿using Prayers.Extensions;
-using Prayers.Services;
+﻿using Prayers.Services;
 using Prayers.Views;
 using System;
 using Xamarin.Forms;
@@ -13,7 +12,6 @@ namespace Prayers
         public App()
         {
             InitializeComponent();
-            ThemeHelper.UpdateAppThemes();
             SharedServices.LoadPrayerViewModelData();
 
             MainPage = new AppShell();

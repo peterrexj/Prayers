@@ -1,5 +1,4 @@
-﻿using Pj.Library;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Prayers
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ParaContentView : ContentView
+    public partial class ParaJustifiedContentView : ContentView
     {
-        public ParaContentView()
+        public ParaJustifiedContentView()
         {
             InitializeComponent();
 
@@ -22,47 +21,6 @@ namespace Prayers
             lblContent.SetBinding(Label.FontSizeProperty, new Binding("FontSize", source: this));
         }
 
-        #region Text Wrap
-        public static readonly BindableProperty TextWrapProperty =
-            BindableProperty.Create(
-                propertyName: nameof(TextWrap), returnType: typeof(string),
-                declaringType: typeof(string), defaultValue: default(string),
-                propertyChanged: OnTextWrapPropertyPropertyChanged);
-
-        private static void OnTextWrapPropertyPropertyChanged(BindableObject bindable, object oldValue, object newValue)
-        {
-            var control = (ParaContentView)bindable;
-            if (control != null)
-            {
-                if (newValue != null)
-                {
-                    if (newValue is string)
-                    {
-                        string value = (string)newValue;
-                        if (value.IsEmpty() || (value.HasValue() && value == "Normal"))
-                        {
-                            control.lblContentNormal.IsVisible = true;
-                            control.lblContent.IsVisible = false;
-                        }
-                        else if (value == "Justify")
-                        {
-                            control.lblContentNormal.IsVisible = false;
-                            control.lblContent.IsVisible = true;
-                        }
-                    }
-                }
-            }
-        }
-
-        public string TextWrap
-        {
-            get { return (string)GetValue(TextWrapProperty); }
-            set { SetValue(TextWrapProperty, value); }
-        }
-
-        #endregion
-
-        #region Para Content
         public static readonly BindableProperty ParaContentProperty =
             BindableProperty.Create(
                 propertyName: nameof(ParaContent), returnType: typeof(string),
@@ -71,7 +29,7 @@ namespace Prayers
 
         private static void OnParaContentPropertyPropertyChanged(BindableObject bindable, object oldValue, object newValue)
         {
-            var control = (ParaContentView)bindable;
+            var control = (ParaJustifiedContentView)bindable;
             if (control != null)
             {
                 if (newValue != null)
@@ -80,7 +38,6 @@ namespace Prayers
                     {
                         string value = (string)newValue;
                         control.lblContent.Text = value;
-                        control.lblContentNormal.Text = value;
                     }
                 }
             }
@@ -92,11 +49,9 @@ namespace Prayers
             set { SetValue(ParaContentProperty, value); }
         }
 
-        #endregion
-
         #region Text Color
         public static readonly BindableProperty TextColorProperty =
-         BindableProperty.Create(nameof(TextColor), typeof(Color), typeof(ParaContentView), Color.Default);
+         BindableProperty.Create(nameof(TextColor), typeof(Color), typeof(ParaJustifiedContentView), Color.Default);
 
         public Color TextColor
         {
@@ -108,7 +63,7 @@ namespace Prayers
         #region Font Family
 
         public static readonly BindableProperty FontFamilyProperty =
-            BindableProperty.Create(nameof(FontFamily), typeof(string), typeof(ParaContentView), default(string));
+            BindableProperty.Create(nameof(FontFamily), typeof(string), typeof(ParaJustifiedContentView), default(string));
 
         public string FontFamily
         {
@@ -121,7 +76,7 @@ namespace Prayers
         #region Font Size
 
         public static readonly BindableProperty FontSizeProperty =
-            BindableProperty.Create(nameof(FontSize), typeof(double), typeof(ParaContentView), default(double));
+            BindableProperty.Create(nameof(FontSize), typeof(double), typeof(ParaJustifiedContentView), default(double));
 
         public double FontSize
         {

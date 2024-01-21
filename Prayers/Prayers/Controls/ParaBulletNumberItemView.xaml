@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentView
-    x:Class="Prayers.ParaBulletView"
+    x:Class="Prayers.ParaBulletNumberItemView"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:controls="clr-namespace:Prayers.Controls">
@@ -8,9 +8,10 @@
         <Label
             x:Name="lblNumber"
             FontAttributes="Bold"
-            LineBreakMode="NoWrap"
-            WidthRequest="40" />
-        <controls:LabelExtended x:Name="lblContentJustified" />
-        <Label x:Name="lblContentNormal" />
+            FontSize="15"
+            WidthRequest="40"
+            LineBreakMode="NoWrap" />
+        <controls:LabelExtended
+            x:Name="lblContent" />
     </FlexLayout>
 </ContentView>

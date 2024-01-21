@@ -1,5 +1,4 @@
 ﻿using Pj.Library;
-using Prayers.Extensions;
 using Prayers.Services;
 using Prayers.ViewModels;
 using System;
@@ -31,8 +30,6 @@ namespace Prayers.Views
 
         protected override void OnAppearing()
         {
-            viewModel.DefaultStyle = ThemeHelper.GetDefaultStyleTheme();
-
             base.OnAppearing();
 
             if (PageId != null )
@@ -54,27 +51,24 @@ namespace Prayers.Views
                 }
                 else if (item.ContentType == "P")
                 {
-                    var para = new ParaContentView
-                    {
-                        ParaContent = item.Content,
-                        FontSize = item.FontSize,
-                        TextWrap = item.TextWrap,
-                        FontAlign = item.FontAlign,
-                        FontCustomAttributes = item.FontAttribute
-                    };
+                    //var para = new ParaJustifiedContentView { ParaContent = item.Content, FontSize = item.FontSize };
+                    var para = new ParaContentView { ParaContent = item.Content, 
+                        FontSize = item.FontSize, TextWrap = item.TextWrap };
+                    contentStack.Children.Add(para);
+                }
+                else if (item.ContentType == "P_Cont")
+                {
+                    var para = new ParaContinuationView { ParaContent = item.Content, FontSize = item.FontSize };
                     contentStack.Children.Add(para);
                 }
                 else if (item.ContentType == "P_Bullet")
                 {
-                    var para = new ParaBulletView
-                    {
-                        ParaContent = item.Content,
-                        ParaNumber = item.AdditionalData,
-                        FontSize = item.FontSize,
-                        TextWrap = item.TextWrap,
-                        FontAlign = item.FontAlign,
-                        FontCustomAttributes = item.FontAttribute
-                    };
+                    var para = new ParaBulletItemView { ParaContent = item.Content, FontSize = item.FontSize };
+                    contentStack.Children.Add(para);
+                }
+                else if (item.ContentType == "P_Bullet_No")
+                {
+                    var para = new ParaBulletNumberItemView { ParaContent = item.Content, ParaNumber = item.AdditionalData, FontSize = item.FontSize };
                     contentStack.Children.Add(para);
                 }
 

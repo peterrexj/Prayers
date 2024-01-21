@@ -74,34 +74,19 @@ namespace Prayers.Services
 
                         foreach (var item in data.PageData)
                         {
-                            var tempData = new PageContentModel
+
+                            pageData.Content.Add(new PageContentModel
                             {
                                 ContentType = item.ContentType,
+                                Content = item.Content.Trim(),
                                 FontSize = item.FontSize == null ? 12 : item.FontSize.Value,
                                 FontAlign = item.FontAlign.HasValue() ? item.FontAlign.Trim() : "Right",
-                                FontAttribute = item.FontAttribute?.SplitAndTrim(",").ToArray() ?? new string[] { },
+                                FontAttribute = item.FontAttribute,
                                 TextWrap = item.TextWrap.HasValue() ? item.TextWrap : "Normal",
                                 AdditionalData = item.AdditionalData,
+                                
                                 IsHeader = item.ContentType.HasValue() && item.ContentType == "H"
-                            };
-
-                            if (item.SpaceBefore.HasValue && item.SpaceBefore.Value > 0)
-                            {
-                                if (item.FontAlign.HasValue() && item.FontAlign.Trim().EqualsIgnoreCase("Right"))
-                                {
-                                    tempData.Content = item.Content.Trim().PadLeft(item.Content.Trim().Length + item.SpaceBefore.Value);
-                                }
-                                else 
-                                {
-                                    tempData.Content = item.Content.Trim().PadRight(item.Content.Trim().Length + item.SpaceBefore.Value);
-                                }
-                            }
-                            else
-                            {
-                                tempData.Content = item.Content.Trim();
-
-                            }
-                            pageData.Content.Add(tempData);
+                            });
                         }
 
                         _prayerViewModelData.SinglePageDataModels.Add(pageData);

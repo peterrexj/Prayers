@@ -2,59 +2,12 @@
 <ContentView
     x:Class="Prayers.ParaHeaderView"
     xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:converters="clr-namespace:Prayers.Converters"
-    xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
-    xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms">
-    <ContentView.Resources>
-        <ResourceDictionary>
-            <converters:StringToColorConverter x:Key="stringToColorConverter" />
-        </ResourceDictionary>
-    </ContentView.Resources>
-    <StackLayout>
-
-        <sfBorder:SfBorder
-            Grid.Row="0"
-            Grid.Column="1"
-            Margin="10"
-            BorderColor="{Binding DefaultStyle.HighlightBoxBorderColor, Converter={StaticResource stringToColorConverter}}"
-            BorderWidth="2"
-            CornerRadius="10"
-            HorizontalOptions="FillAndExpand"
-            VerticalOptions="FillAndExpand">
-            <Grid>
-                <magic:GradientView GradientSource="{Binding DefaultStyle.HighlightBgSource}" VerticalOptions="FillAndExpand" />
-                <StackLayout>
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="10" />
-                            <RowDefinition Height="Auto" />
-                            <RowDefinition Height="10" />
-                        </Grid.RowDefinitions>
-                        <StackLayout
-                            Grid.Row="1"
-                            HorizontalOptions="Fill"
-                            VerticalOptions="Fill">
-                            <Label
-                                x:Name="lblContent"
-                                Margin="10"
-                                FontAttributes="Bold"
-                                HorizontalOptions="CenterAndExpand"
-                                HorizontalTextAlignment="Center"
-                                VerticalOptions="CenterAndExpand" />
-                        </StackLayout>
-                    </Grid>
-                </StackLayout>
-            </Grid>
-        </sfBorder:SfBorder>
-
-        <!--<Label
-            x:Name="lblContent"
-            Margin="10"
-            BackgroundColor="{Binding DefaultStyle.HighlightBoxBorderColor, Converter={StaticResource stringToColorConverter}}"
-            FontAttributes="Bold"
-            HorizontalOptions="CenterAndExpand"
-            HorizontalTextAlignment="Center"
-            VerticalOptions="CenterAndExpand" />-->
-    </StackLayout>
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Label
+        x:Name="lblContent"
+        Margin="10"
+        FontAttributes="Bold"
+        HorizontalOptions="CenterAndExpand"
+        HorizontalTextAlignment="Center"
+        VerticalOptions="CenterAndExpand" />
 </ContentView>

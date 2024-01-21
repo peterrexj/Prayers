@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using Prayers.Models;
+﻿using Prayers.Models;
 using Prayers.ViewModels.Extras;
 using Prayers.Views;
 using System;
@@ -87,19 +86,6 @@ namespace Prayers.ViewModels
             get => SinglePageDataModel?.NextPageId != null && SinglePageDataModel?.NextPageId.HasValue == true;
             //get => true;
             //get { return currentPageIndex < pages.Count - 1; }
-        }
-
-        [JsonIgnore]
-        private StyleModelDefault styleModelDefault;
-        [JsonIgnore]
-        public StyleModelDefault DefaultStyle
-        {
-            get => styleModelDefault;
-            set
-            {
-                styleModelDefault = value;
-                OnPropertyChanged("DefaultStyle");
-            }
         }
     }
 }
