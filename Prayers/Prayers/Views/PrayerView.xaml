@@ -19,21 +19,26 @@
             <StackLayout>
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="20" />
+                        <ColumnDefinition Width="80" />
                         <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="20" />
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="40" />
                         <RowDefinition Height="30" />
                         <RowDefinition Height="4" />
-                        <RowDefinition Height="40" />
                     </Grid.RowDefinitions>
+
+                    <Image
+                        Grid.RowSpan="2"
+                        Grid.Column="0"
+                        Margin="10,3,0,0"
+                        Aspect="AspectFit"
+                        Source="mainpic.jpg" />
+
                     <progressBar:SfStepProgressBar
                         x:Name="stepProgress"
                         Grid.Row="0"
-                        Grid.Column="0"
+                        Grid.Column="1"
                         Grid.ColumnSpan="4"
                         BackgroundColor="Transparent"
                         BindableLayout.ItemsSource="{Binding ProgressInformation}"
@@ -87,7 +92,7 @@
 
                     <FlexLayout
                         Grid.Row="1"
-                        Grid.Column="0"
+                        Grid.Column="1"
                         Grid.ColumnSpan="4"
                         HorizontalOptions="CenterAndExpand"
                         JustifyContent="Center"
@@ -182,8 +187,19 @@
                         </sfButtons:SfButton>
                     </FlexLayout>
 
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="20" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40" />
+                    </Grid.RowDefinitions>
                     <Button
-                        Grid.Row="3"
+                        Grid.Row="0"
                         Grid.Column="1"
                         BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                         Command="{Binding btnGoPreviousCommand}"
@@ -191,14 +207,13 @@
                         Text="Previous"
                         TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
                     <Button
-                        Grid.Row="3"
+                        Grid.Row="0"
                         Grid.Column="2"
                         BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                         Command="{Binding btnGoNextCommand}"
                         IsEnabled="{Binding CanGoNext}"
                         Text="Next"
                         TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
-
                 </Grid>
                 <StackLayout>
                     <ScrollView>
