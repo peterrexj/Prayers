@@ -1,4 +1,5 @@
 ﻿using Pj.Library;
+using Prayers.ViewModels.Extras;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,11 +18,9 @@ namespace Prayers
         {
             InitializeComponent();
 
-            lblContentNormal.SetBinding(Label.TextColorProperty, new Binding("TextColor", source: this));
             lblContentNormal.SetBinding(Label.FontFamilyProperty, new Binding("FontFamily", source: this));
             lblContentNormal.SetBinding(Label.FontSizeProperty, new Binding("FontSize", source: this));
 
-            lblContentJustified.SetBinding(Label.TextColorProperty, new Binding("TextColor", source: this));
             lblContentJustified.SetBinding(Label.FontFamilyProperty, new Binding("FontFamily", source: this));
             lblContentJustified.SetBinding(Label.FontSizeProperty, new Binding("FontSize", source: this));
         }
@@ -85,6 +84,30 @@ namespace Prayers
             get { return (string)GetValue(ParaNumberProperty); }
             set { SetValue(ParaNumberProperty, value); }
         }
+        #endregion
+
+        #region Style
+        public static readonly BindableProperty DefaultStyleProperty =
+            BindableProperty.Create(
+                propertyName: nameof(DefaultStyle), returnType: typeof(StyleModelDefault),
+                declaringType: typeof(StyleModelDefault), defaultValue: default(StyleModelDefault),
+                propertyChanged: OnDefaultStylePropertyPropertyChanged);
+
+        private static void OnDefaultStylePropertyPropertyChanged(BindableObject bindable, object oldValue, object newValue)
+        {
+            var control = (ParaBulletView)bindable;
+            if (control != null)
+            {
+
+            }
+        }
+
+        public StyleModelDefault DefaultStyle
+        {
+            get { return (StyleModelDefault)GetValue(DefaultStyleProperty); }
+            set { SetValue(DefaultStyleProperty, value); }
+        }
+
         #endregion
 
         #region Text Wrap
@@ -239,17 +262,6 @@ namespace Prayers
             set { SetValue(FontCustomAttributesProperty, value); }
         }
 
-        #endregion
-
-        #region Text Color
-        public static readonly BindableProperty TextColorProperty =
-         BindableProperty.Create(nameof(TextColor), typeof(Color), typeof(ParaBulletView), Color.Default);
-
-        public Color TextColor
-        {
-            get { return (Color)GetValue(TextColorProperty); }
-            set { SetValue(TextColorProperty, value); }
-        }
         #endregion
 
         #region Font Family

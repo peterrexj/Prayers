@@ -27,12 +27,10 @@
                 <StackLayout>
                     <Grid>
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="10" />
                             <RowDefinition Height="Auto" />
-                            <RowDefinition Height="10" />
                         </Grid.RowDefinitions>
                         <StackLayout
-                            Grid.Row="1"
+                            Grid.Row="0"
                             HorizontalOptions="Fill"
                             VerticalOptions="Fill">
                             <Label

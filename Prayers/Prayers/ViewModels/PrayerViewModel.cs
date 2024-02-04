@@ -1,13 +1,16 @@
-﻿using Newtonsoft.Json;
+﻿using FontAwesome;
+using Newtonsoft.Json;
+using Pj.Library;
+using Prayers.Extensions;
 using Prayers.Models;
+using Prayers.Services;
 using Prayers.ViewModels.Extras;
-using Prayers.Views;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Syncfusion.XForms.ProgressBar;
+using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
 
 namespace Prayers.ViewModels
 {
@@ -15,9 +18,14 @@ namespace Prayers.ViewModels
     {
         public ICommand btnGoPreviousCommand { get; set; }
         public ICommand btnGoNextCommand { get; set; }
+        public ICommand progressTappedCommand { get; set; }
+        public ICommand playAudio { get; set; }
+        public ICommand pauseAudio { get; set; }
+        public ICommand stopAudio { get; set; }
+        public ICommand changeTheme { get; set; }
 
-        string _pageId;
-        public string PageId
+        int _pageId;
+        public int PageId
         {
             get { return _pageId; }
             set
@@ -26,6 +34,7 @@ namespace Prayers.ViewModels
                 OnPropertyChanged(nameof(PageId));
             }
         }
+        private int pageIndex => PageId - 1;
 
         private SinglePageDataModel _singlePageDataModel;
         public SinglePageDataModel SinglePageDataModel
@@ -36,7 +45,7 @@ namespace Prayers.ViewModels
                 _singlePageDataModel = value;
                 if (value != null)
                 {
-                    PageId = value.PageId.ToString();
+                    PageId = value.PageId;
                 }
                 OnPropertyChanged(nameof(SinglePageDataModel));
                 OnPropertyChanged(nameof(CanGoPrevious));
@@ -44,18 +53,35 @@ namespace Prayers.ViewModels
             }
         }
 
+        private ObservableCollection<PrayerProgressModel> _progressInformation;
+        public ObservableCollection<PrayerProgressModel> ProgressInformation
+        {
+            get => _progressInformation;
+            set
+            {
+                _progressInformation = value;
+                OnPropertyChanged(nameof(ProgressInformation));
+            }
+        }
+
+
+
         public PrayerViewModel()
         {
             btnGoPreviousCommand = new Command(async () => await GoPrevious());
             btnGoNextCommand = new Command(async () => await GoNext());
+            progressTappedCommand = new Command<StepTappedEventArgs>(async (args) => await OnProgressStepTapped(args));
+            playAudio = new Command(async () => await PlayAudio());
+            pauseAudio = new Command(PauseAudio);
+            stopAudio = new Command(StopAudio);
+            changeTheme = new Command(async () => await ToggleAppTheme());
         }
 
         public async Task GoPrevious()
         {
             if (CanGoPrevious)
             {
-                //var route = $"{nameof(PrayerView)}?PageId=1";
-                //var route = $"Page2?PageId=1";
+                StopAudio();
                 var route = $"Page{SinglePageDataModel.PreviousPageId}?PageId={SinglePageDataModel.PreviousPageId}";
                 await Shell.Current.GoToAsync(route);
             }
@@ -65,28 +91,61 @@ namespace Prayers.ViewModels
         {
             if (CanGoNext)
             {
-                //var route = $"//{nameof(PrayerView)}?PageId=1";
+                StopAudio();
                 var route = $"Page{SinglePageDataModel.NextPageId}?PageId={SinglePageDataModel.NextPageId}";
+                await Shell.Current.GoToAsync(route);
+            }
+        }   
 
+        public bool CanGoPrevious => SinglePageDataModel?.PreviousPageId != null && SinglePageDataModel?.PreviousPageId.HasValue == true;
+
+        public bool CanGoNext => SinglePageDataModel?.NextPageId != null && SinglePageDataModel?.NextPageId.HasValue == true;
+
+        public async Task OnProgressStepTapped(StepTappedEventArgs args)
+        {
+            if (args != null && pageIndex != args.Index)
+            {
+                var route = $"Page{args.Index + 1}?PageId={args.Index + 1}";
                 await Shell.Current.GoToAsync(route);
             }
         }
 
-        public bool CanGoPrevious
+        public string AudioFileName { get; set; }
+
+        public async Task PlayAudio()
         {
-            //get => true;
-            get
+            if (AudioFileName.HasValue())
             {
-                return SinglePageDataModel?.PreviousPageId != null && SinglePageDataModel?.PreviousPageId.HasValue == true;
+                await SharedServices.AudioController.PlayAudio(AudioFileName);
             }
-            //get { return currentPageIndex > 0; }
         }
 
-        public bool CanGoNext
+        public void PauseAudio()
         {
-            get => SinglePageDataModel?.NextPageId != null && SinglePageDataModel?.NextPageId.HasValue == true;
-            //get => true;
-            //get { return currentPageIndex < pages.Count - 1; }
+            if (AudioFileName.HasValue())
+            {
+                SharedServices.AudioController.PauseAudio();
+            }
+        }
+
+        public void StopAudio()
+        {
+            if (AudioFileName.HasValue())
+            {
+                SharedServices.AudioController.StopAudio();
+            }
+        }
+
+        public async Task ToggleAppTheme()
+        {
+            await Task.Run(() =>
+            {
+                ViewHelper.RunOnAppDispatcher(() =>
+                {
+                    SettingsHelper.Model.SelectedTheme = SettingsHelper.Model.SelectedTheme == "Light" ? "Dark" : "Light";
+                    DefaultStyle = ThemeHelper.GetDefaultStyleTheme(SettingsHelper.Model.SelectedAppTheme);
+                });
+            });
         }
 
         [JsonIgnore]

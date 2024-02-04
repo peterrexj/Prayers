@@ -113,7 +113,9 @@ namespace Prayers.Services
 
 
         static ILocalFileStorage _localStorage;
-
         public static ILocalFileStorage LocalStorage => _localStorage ?? DependencyService.Get<ILocalFileStorage>();
+
+        static AudioController audioController;
+        public static AudioController AudioController => audioController ?? new AudioController();
     }
 }

@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\Font Awesome 5 Free-Solid-900.otf" />
     <None Remove="Fonts\Kartika.ttf" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Fonts\Font Awesome 5 Free-Solid-900.otf" />
     <EmbeddedResource Include="Fonts\Kartika.ttf" />
   </ItemGroup>
 
@@ -19,6 +21,7 @@
     <PackageReference Include="Pj.Library" Version="1.0.4.28" />
     <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="23.1.39" />
     <PackageReference Include="Syncfusion.Xamarin.Core" Version="23.1.39" />
+    <PackageReference Include="Syncfusion.Xamarin.SfProgressBar" Version="23.1.39" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
@@ -26,6 +29,9 @@
   <ItemGroup>
     <Compile Update="Controls\ParaBulletView.xaml.cs">
       <DependentUpon>ParaBulletView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\ParaImageView.xaml.cs">
+      <DependentUpon>ParaImageView.xaml</DependentUpon>
     </Compile>
     <Compile Update="Controls\ParaHeaderView.xaml.cs">
       <DependentUpon>ParaHeaderView.xaml</DependentUpon>

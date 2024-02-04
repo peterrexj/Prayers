@@ -56,9 +56,9 @@ namespace Prayers
             BindableProperty.Create(
                 propertyName: nameof(DefaultStyle), returnType: typeof(StyleModelDefault),
                 declaringType: typeof(StyleModelDefault), defaultValue: default(StyleModelDefault),
-                propertyChanged: OnFontCustomAttributesPropertyPropertyChanged);
+                propertyChanged: OnDefaultStylePropertyPropertyChanged);
 
-        private static void OnFontCustomAttributesPropertyPropertyChanged(BindableObject bindable, object oldValue, object newValue)
+        private static void OnDefaultStylePropertyPropertyChanged(BindableObject bindable, object oldValue, object newValue)
         {
             var control = (ParaHeaderView)bindable;
             if (control != null)

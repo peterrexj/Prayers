@@ -2,9 +2,12 @@
 <ContentPage
     x:Class="Prayers.Views.PrayerView"
     xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:converters="clr-namespace:Prayers.Converters"
+    xmlns:fontAwesome="clr-namespace:FontAwesome"
     xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    xmlns:progressBar="clr-namespace:Syncfusion.XForms.ProgressBar;assembly=Syncfusion.SfProgressBar.XForms"
+    xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms">
     <ContentPage.Resources>
         <ResourceDictionary>
             <converters:StringToColorConverter x:Key="stringToColorConverter" />
@@ -22,33 +25,154 @@
                         <ColumnDefinition Width="20" />
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="50" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="40" />
                     </Grid.RowDefinitions>
+                    <FlexLayout
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="4"
+                        HorizontalOptions="CenterAndExpand"
+                        JustifyContent="Center"
+                        VerticalOptions="CenterAndExpand">
+                        <sfButtons:SfButton
+                            Margin="4,0,0,0"
+                            BackgroundColor="Transparent"
+                            Command="{Binding changeTheme}"
+                            CornerRadius="30"
+                            WidthRequest="30">
+                            <Image>
+                                <Image.Source>
+                                    <FontImageSource
+                                        FontFamily="FontAwesome5Solid"
+                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.Sun}"
+                                        Color="{Binding DefaultStyle.ThemeButtonColor, Converter={StaticResource stringToColorConverter}}" />
+                                </Image.Source>
+                            </Image>
+                        </sfButtons:SfButton>
+                        <sfButtons:SfButton
+                            Margin="30,0,0,0"
+                            BackgroundColor="Transparent"
+                            Command="{Binding playAudio}"
+                            CornerRadius="30"
+                            WidthRequest="30">
+                            <Image>
+                                <Image.Source>
+                                    <FontImageSource
+                                        FontFamily="FontAwesome5Solid"
+                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.PlayCircle}"
+                                        Color="{Binding DefaultStyle.ThemeButtonColor, Converter={StaticResource stringToColorConverter}}" />
+                                </Image.Source>
+                            </Image>
+                        </sfButtons:SfButton>
+                        <sfButtons:SfButton
+                            Margin="4,0,0,0"
+                            BackgroundColor="Transparent"
+                            Command="{Binding pauseAudio}"
+                            CornerRadius="30"
+                            WidthRequest="30">
+                            <Image>
+                                <Image.Source>
+                                    <FontImageSource
+                                        FontFamily="FontAwesome5Solid"
+                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.PauseCircle}"
+                                        Color="{Binding DefaultStyle.ThemeButtonColor, Converter={StaticResource stringToColorConverter}}" />
+                                </Image.Source>
+                            </Image>
+                        </sfButtons:SfButton>
+                        <sfButtons:SfButton
+                            Margin="4,0,0,0"
+                            BackgroundColor="Transparent"
+                            Command="{Binding stopAudio}"
+                            CornerRadius="30"
+                            WidthRequest="30">
+                            <Image>
+                                <Image.Source>
+                                    <FontImageSource
+                                        FontFamily="FontAwesome5Solid"
+                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.StopCircle}"
+                                        Color="{Binding DefaultStyle.ThemeButtonColor, Converter={StaticResource stringToColorConverter}}" />
+                                </Image.Source>
+                            </Image>
+                        </sfButtons:SfButton>
+                        <sfButtons:SfButton
+                            Margin="30,0,0,0"
+                            BackgroundColor="Transparent"
+                            CornerRadius="30"
+                            WidthRequest="30">
+                            <Image>
+                                <Image.Source>
+                                    <FontImageSource
+                                        FontFamily="FontAwesome5Solid"
+                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.PlusCircle}"
+                                        Color="{Binding DefaultStyle.ThemeButtonColor, Converter={StaticResource stringToColorConverter}}" />
+                                </Image.Source>
+                            </Image>
+                        </sfButtons:SfButton>
+                        <sfButtons:SfButton
+                            Margin="4,0,0,0"
+                            BackgroundColor="Transparent"
+                            CornerRadius="30"
+                            WidthRequest="30">
+                            <Image>
+                                <Image.Source>
+                                    <FontImageSource
+                                        FontFamily="FontAwesome5Solid"
+                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.MinusCircle}"
+                                        Color="{Binding DefaultStyle.ThemeButtonColor, Converter={StaticResource stringToColorConverter}}" />
+                                </Image.Source>
+                            </Image>
+                        </sfButtons:SfButton>
+                    </FlexLayout>
+
                     <Button
-                    Grid.Row="0"
-                    Grid.Column="1"
-                    Command="{Binding btnGoPreviousCommand}"
-                    IsEnabled="{Binding CanGoPrevious}"
-                    Text="Previous" />
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        Command="{Binding btnGoPreviousCommand}"
+                        IsEnabled="{Binding CanGoPrevious}"
+                        Text="Previous" />
                     <Button
-                    Grid.Row="0"
-                    Grid.Column="2"
-                    Command="{Binding btnGoNextCommand}"
-                    IsEnabled="{Binding CanGoNext}"
-                    Text="Next" />
+                        Grid.Row="2"
+                        Grid.Column="2"
+                        Command="{Binding btnGoNextCommand}"
+                        IsEnabled="{Binding CanGoNext}"
+                        Text="Next" />
+                    <progressBar:SfStepProgressBar
+                        x:Name="stepProgress"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="4"
+                        BackgroundColor="Transparent"
+                        BindableLayout.ItemsSource="{Binding ProgressInformation}"
+                        HorizontalOptions="CenterAndExpand"
+                        Orientation="Horizontal"
+                        ProgressAnimationDuration="0"
+                        StepViewTappedCommand="{Binding progressTappedCommand}"
+                        TitleAlignment="Start"
+                        TitleSpace="10"
+                        VerticalOptions="CenterAndExpand">
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate>
+                                <progressBar:StepView
+                                    x:Name="stepView"
+                                    ProgressValue="{Binding ProgressValue}"
+                                    Status="{Binding Status}">
+                                    <progressBar:StepView.ImageSource>
+                                        <FontImageSource
+                                            FontFamily="FontAwesome5Solid"
+                                            Glyph="{x:Static fontAwesome:FontAwesomeIcons.Pray}"
+                                            Color="{Binding DefaultStyle.ThemeButtonColor, Converter={StaticResource stringToColorConverter}}" />
+                                    </progressBar:StepView.ImageSource>
+                                </progressBar:StepView>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </progressBar:SfStepProgressBar>
                 </Grid>
                 <StackLayout>
                     <ScrollView>
-                        <StackLayout x:Name="contentStack">
-                            <Label
-                            FontSize="Header"
-                            HorizontalOptions="CenterAndExpand"
-                            Text="{Binding PageId}"
-                            VerticalOptions="CenterAndExpand" />
-
-                        </StackLayout>
+                        <StackLayout x:Name="contentStack" Padding="0,0,0,30" />
                     </ScrollView>
-
                 </StackLayout>
             </StackLayout>
         </Grid>

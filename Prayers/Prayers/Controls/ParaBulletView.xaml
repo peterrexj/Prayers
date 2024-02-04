@@ -3,14 +3,22 @@
     x:Class="Prayers.ParaBulletView"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:controls="clr-namespace:Prayers.Controls">
+    xmlns:controls="clr-namespace:Prayers.Controls"
+    xmlns:converters="clr-namespace:Prayers.Converters">
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <converters:StringToColorConverter x:Key="stringToColorConverter" />
+        </ResourceDictionary>
+    </ContentView.Resources>
     <FlexLayout Margin="15,2,30,0">
         <Label
             x:Name="lblNumber"
+            Margin="0,3,0,0"
             FontAttributes="Bold"
             LineBreakMode="NoWrap"
+            TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
             WidthRequest="40" />
         <controls:LabelExtended x:Name="lblContentJustified" />
-        <Label x:Name="lblContentNormal" />
+        <Label x:Name="lblContentNormal" TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}" />
     </FlexLayout>
 </ContentView>
