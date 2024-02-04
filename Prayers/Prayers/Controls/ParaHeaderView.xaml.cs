@@ -18,7 +18,7 @@ namespace Prayers
         {
             InitializeComponent();
 
-            lblContent.SetBinding(Label.TextColorProperty, new Binding("TextColor", source: this));
+            //lblContent.SetBinding(Label.TextColorProperty, new Binding("TextColor", source: this));
             lblContent.SetBinding(Label.FontFamilyProperty, new Binding("FontFamily", source: this));
             lblContent.SetBinding(Label.FontSizeProperty, new Binding("FontSize", source: this));
         }
@@ -75,16 +75,16 @@ namespace Prayers
 
         #endregion
 
-        #region Text Color
-        public static readonly BindableProperty TextColorProperty =
-         BindableProperty.Create(nameof(TextColor), typeof(Color), typeof(ParaHeaderView), Color.Default);
+        //#region Text Color
+        //public static readonly BindableProperty TextColorProperty =
+        // BindableProperty.Create(nameof(TextColor), typeof(Color), typeof(ParaHeaderView), Color.Default);
 
-        public Color TextColor
-        {
-            get { return (Color)GetValue(TextColorProperty); }
-            set { SetValue(TextColorProperty, value); }
-        }
-        #endregion
+        //public Color TextColor
+        //{
+        //    get { return (Color)GetValue(TextColorProperty); }
+        //    set { SetValue(TextColorProperty, value); }
+        //}
+        //#endregion
 
         #region Font Family
 

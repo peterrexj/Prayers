@@ -17,13 +17,13 @@
             Grid.Row="0"
             Grid.Column="1"
             Margin="10"
-            BorderColor="{Binding DefaultStyle.HighlightBoxBorderColor, Converter={StaticResource stringToColorConverter}}"
+            BorderColor="{Binding DefaultStyle.BoxBorderColor, Converter={StaticResource stringToColorConverter}}"
             BorderWidth="2"
             CornerRadius="10"
             HorizontalOptions="FillAndExpand"
             VerticalOptions="FillAndExpand">
             <Grid>
-                <magic:GradientView GradientSource="{Binding DefaultStyle.HighlightBgSource}" VerticalOptions="FillAndExpand" />
+                <magic:GradientView GradientSource="{Binding DefaultStyle.BoxBgSource}" VerticalOptions="FillAndExpand" />
                 <StackLayout>
                     <Grid>
                         <Grid.RowDefinitions>
@@ -38,6 +38,7 @@
                                 Margin="10"
                                 FontAttributes="Bold"
                                 HorizontalOptions="CenterAndExpand"
+                                TextColor="{Binding DefaultStyle.BoxFontColor, Converter={StaticResource stringToColorConverter}}"
                                 HorizontalTextAlignment="Center"
                                 VerticalOptions="CenterAndExpand" />
                         </StackLayout>
@@ -49,7 +50,7 @@
         <!--<Label
             x:Name="lblContent"
             Margin="10"
-            BackgroundColor="{Binding DefaultStyle.HighlightBoxBorderColor, Converter={StaticResource stringToColorConverter}}"
+            BackgroundColor="{Binding DefaultStyle.BoxBorderColor, Converter={StaticResource stringToColorConverter}}"
             FontAttributes="Bold"
             HorizontalOptions="CenterAndExpand"
             HorizontalTextAlignment="Center"

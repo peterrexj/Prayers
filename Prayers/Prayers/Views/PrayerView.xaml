@@ -25,10 +25,66 @@
                         <ColumnDefinition Width="20" />
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
+                        <RowDefinition Height="40" />
                         <RowDefinition Height="30" />
-                        <RowDefinition Height="30" />
+                        <RowDefinition Height="4" />
                         <RowDefinition Height="40" />
                     </Grid.RowDefinitions>
+                    <progressBar:SfStepProgressBar
+                        x:Name="stepProgress"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="4"
+                        BackgroundColor="Transparent"
+                        BindableLayout.ItemsSource="{Binding ProgressInformation}"
+                        HorizontalOptions="CenterAndExpand"
+                        Orientation="Horizontal"
+                        ProgressAnimationDuration="0"
+                        StepViewTappedCommand="{Binding progressTappedCommand}"
+                        TitleAlignment="Start"
+                        TitleSpace="10"
+                        VerticalOptions="CenterAndExpand">
+                        <progressBar:SfStepProgressBar.NotStartedStepStyle>
+                            <progressBar:StepStyle
+                                x:TypeArguments="progressBar:NotStartedStepState"
+                                MarkerShapeType="Circle"
+                                TrackColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarTrackColor, Converter={StaticResource stringToColorConverter}}" />
+                        </progressBar:SfStepProgressBar.NotStartedStepStyle>
+
+                        <progressBar:SfStepProgressBar.InProgressStepStyle>
+                            <progressBar:StepStyle
+                                x:TypeArguments="progressBar:InProgressStepState"
+                                MarkerFillColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarInProgressMarkerFillColor, Converter={StaticResource stringToColorConverter}}"
+                                MarkerShapeType="Circle"
+                                MarkerStrokeColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarInProgressMarkerStrokeColor, Converter={StaticResource stringToColorConverter}}"
+                                MarkerStrokeWidth="1"
+                                TrackColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarTrackColor, Converter={StaticResource stringToColorConverter}}" />
+                        </progressBar:SfStepProgressBar.InProgressStepStyle>
+
+                        <progressBar:SfStepProgressBar.CompletedStepStyle>
+                            <progressBar:StepStyle
+                                x:TypeArguments="progressBar:CompletedStepState"
+                                MarkerFillColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarCompletedBgColor, Converter={StaticResource stringToColorConverter}}"
+                                MarkerShapeType="Circle"
+                                ProgressLineColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarTrackColor, Converter={StaticResource stringToColorConverter}}" />
+                        </progressBar:SfStepProgressBar.CompletedStepStyle>
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate>
+                                <progressBar:StepView
+                                    x:Name="stepView"
+                                    ProgressValue="{Binding ProgressValue}"
+                                    Status="{Binding Status}">
+                                    <progressBar:StepView.ImageSource>
+                                        <FontImageSource
+                                            FontFamily="FontAwesome5Solid"
+                                            Glyph="{x:Static fontAwesome:FontAwesomeIcons.Pray}"
+                                            Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarIconMainBgColor, Converter={StaticResource stringToColorConverter}}" />
+                                    </progressBar:StepView.ImageSource>
+                                </progressBar:StepView>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </progressBar:SfStepProgressBar>
+
                     <FlexLayout
                         Grid.Row="1"
                         Grid.Column="0"
@@ -47,13 +103,13 @@
                                     <FontImageSource
                                         FontFamily="FontAwesome5Solid"
                                         Glyph="{x:Static fontAwesome:FontAwesomeIcons.Sun}"
-                                        Color="{Binding DefaultStyle.ThemeButtonColor, Converter={StaticResource stringToColorConverter}}" />
+                                        Color="{Binding DefaultStyle.ThemeButtonBgColor, Converter={StaticResource stringToColorConverter}}" />
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
                         <sfButtons:SfButton
                             Margin="30,0,0,0"
-                            BackgroundColor="#1A5276"
+                            BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                             Command="{Binding playAudio}"
                             CornerRadius="30"
                             WidthRequest="30">
@@ -62,13 +118,13 @@
                                     <FontImageSource
                                         FontFamily="FontAwesome5Solid"
                                         Glyph="{x:Static fontAwesome:FontAwesomeIcons.PlayCircle}"
-                                        Color="{Binding DefaultStyle.ThemeButtonColor, Converter={StaticResource stringToColorConverter}}" />
+                                        Color="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
                         <sfButtons:SfButton
                             Margin="4,0,0,0"
-                            BackgroundColor="Transparent"
+                            BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                             Command="{Binding pauseAudio}"
                             CornerRadius="30"
                             WidthRequest="30">
@@ -77,13 +133,13 @@
                                     <FontImageSource
                                         FontFamily="FontAwesome5Solid"
                                         Glyph="{x:Static fontAwesome:FontAwesomeIcons.PauseCircle}"
-                                        Color="{Binding DefaultStyle.ThemeButtonColor, Converter={StaticResource stringToColorConverter}}" />
+                                        Color="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
                         <sfButtons:SfButton
                             Margin="4,0,0,0"
-                            BackgroundColor="Transparent"
+                            BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                             Command="{Binding stopAudio}"
                             CornerRadius="30"
                             WidthRequest="30">
@@ -92,13 +148,13 @@
                                     <FontImageSource
                                         FontFamily="FontAwesome5Solid"
                                         Glyph="{x:Static fontAwesome:FontAwesomeIcons.StopCircle}"
-                                        Color="{Binding DefaultStyle.ThemeButtonColor, Converter={StaticResource stringToColorConverter}}" />
+                                        Color="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
                         <sfButtons:SfButton
                             Margin="30,0,0,0"
-                            BackgroundColor="Transparent"
+                            BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                             CornerRadius="30"
                             WidthRequest="30">
                             <Image>
@@ -106,13 +162,13 @@
                                     <FontImageSource
                                         FontFamily="FontAwesome5Solid"
                                         Glyph="{x:Static fontAwesome:FontAwesomeIcons.PlusCircle}"
-                                        Color="{Binding DefaultStyle.ThemeButtonColor, Converter={StaticResource stringToColorConverter}}" />
+                                        Color="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
                         <sfButtons:SfButton
                             Margin="4,0,0,0"
-                            BackgroundColor="Transparent"
+                            BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                             CornerRadius="30"
                             WidthRequest="30">
                             <Image>
@@ -120,14 +176,14 @@
                                     <FontImageSource
                                         FontFamily="FontAwesome5Solid"
                                         Glyph="{x:Static fontAwesome:FontAwesomeIcons.MinusCircle}"
-                                        Color="{Binding DefaultStyle.ThemeButtonColor, Converter={StaticResource stringToColorConverter}}" />
+                                        Color="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
                     </FlexLayout>
 
                     <Button
-                        Grid.Row="2"
+                        Grid.Row="3"
                         Grid.Column="1"
                         BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                         Command="{Binding btnGoPreviousCommand}"
@@ -135,65 +191,14 @@
                         Text="Previous"
                         TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
                     <Button
-                        Grid.Row="2"
+                        Grid.Row="3"
                         Grid.Column="2"
                         BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                         Command="{Binding btnGoNextCommand}"
                         IsEnabled="{Binding CanGoNext}"
                         Text="Next"
                         TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
-                    <progressBar:SfStepProgressBar
-                        x:Name="stepProgress"
-                        Grid.Row="0"
-                        Grid.Column="0"
-                        Grid.ColumnSpan="4"
-                        BackgroundColor="Transparent"
-                        BindableLayout.ItemsSource="{Binding ProgressInformation}"
-                        HorizontalOptions="CenterAndExpand"
-                        Orientation="Horizontal"
-                        ProgressAnimationDuration="0"
-                        StepViewTappedCommand="{Binding progressTappedCommand}"
-                        TitleAlignment="Start"
-                        TitleSpace="10"
-                        VerticalOptions="CenterAndExpand">
-                        <progressBar:SfStepProgressBar.NotStartedStepStyle>
-                            <progressBar:StepStyle
-                                x:TypeArguments="progressBar:NotStartedStepState"
-                                MarkerContentFillColor="Transparent"
-                                MarkerShapeType="Circle"
-                                MarkerStrokeColor="Red" />
-                        </progressBar:SfStepProgressBar.NotStartedStepStyle>
 
-                        <progressBar:SfStepProgressBar.InProgressStepStyle>
-                            <progressBar:StepStyle
-                                x:TypeArguments="progressBar:InProgressStepState"
-                                MarkerFillColor="Transparent"
-                                MarkerShapeType="Circle" />
-                        </progressBar:SfStepProgressBar.InProgressStepStyle>
-
-                        <progressBar:SfStepProgressBar.CompletedStepStyle>
-                            <progressBar:StepStyle
-                                x:TypeArguments="progressBar:CompletedStepState"
-                                MarkerContentFillColor="Transparent"
-                                MarkerFillColor="Green"
-                                MarkerShapeType="Circle" />
-                        </progressBar:SfStepProgressBar.CompletedStepStyle>
-                        <BindableLayout.ItemTemplate>
-                            <DataTemplate>
-                                <progressBar:StepView
-                                    x:Name="stepView"
-                                    ProgressValue="{Binding ProgressValue}"
-                                    Status="{Binding Status}">
-                                    <progressBar:StepView.ImageSource>
-                                        <FontImageSource
-                                            FontFamily="FontAwesome5Solid"
-                                            Glyph="{x:Static fontAwesome:FontAwesomeIcons.Pray}"
-                                            Color="Red" />
-                                    </progressBar:StepView.ImageSource>
-                                </progressBar:StepView>
-                            </DataTemplate>
-                        </BindableLayout.ItemTemplate>
-                    </progressBar:SfStepProgressBar>
                 </Grid>
                 <StackLayout>
                     <ScrollView>

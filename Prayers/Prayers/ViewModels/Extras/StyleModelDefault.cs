@@ -7,34 +7,30 @@ namespace Prayers.ViewModels.Extras
 {
     public class StyleModelDefault : BasePropertyChangeModel
     {
-        public string DefaultForegroundColor { get; set; }
         public IGradientSource DefaultMgPageBgSource { get; set; }
 
         //Box
+        public string BoxFontColor { get; set; }
+
+        //Highlight Box
         public IGradientSource BoxBgSource { get; set; }
         public string BoxBorderColor { get; set; }
 
-        //Highlight Box
-        public IGradientSource HighlightBgSource { get; set; }
-        public string HighlightBoxBorderColor { get; set; }
-        public string HighlightFgColor { get; set; }
-
-        //Input Text
-        public string InputTextFgColor { get; set; }
-        public string InputTextWhenFocusedColor { get; set; }
-        public string InputTextWhenUnFocusedColor { get; set; }
-        public string InputErrorTextFgColor { get; set; }
-
         //Button
-        public IGradientSource ButtonBgSource { get; set; }
         public string ButtonFgColor { get; set; }
         public string ButtonBgColor { get; set; }
+        public string ThemeButtonBgColor { get; set; }
+
+        //Progress Bar
+        public string ProgressBarTrackColor { get; set; }
+        public string ProgressBarInProgressMarkerFillColor { get; set; }
+        public string ProgressBarInProgressMarkerStrokeColor { get; set; }
+        public string ProgressBarCompletedBgColor { get; set; }
+        public string ProgressBarIconMainBgColor { get; set; }
+
 
         //Fonts
-        public string DefaultFontFamily { get; set; }
         public string DefaultFontColor { get; set; }
-        public double BoxItemCurrencyFontSize { get; set; }
-        public double BoxItemHighlightNumberFontSize { get; set; }
 
 
         //App Theme Base
