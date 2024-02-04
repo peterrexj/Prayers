@@ -53,7 +53,7 @@
                         </sfButtons:SfButton>
                         <sfButtons:SfButton
                             Margin="30,0,0,0"
-                            BackgroundColor="Transparent"
+                            BackgroundColor="#1A5276"
                             Command="{Binding playAudio}"
                             CornerRadius="30"
                             WidthRequest="30">
@@ -129,15 +129,19 @@
                     <Button
                         Grid.Row="2"
                         Grid.Column="1"
+                        BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                         Command="{Binding btnGoPreviousCommand}"
                         IsEnabled="{Binding CanGoPrevious}"
-                        Text="Previous" />
+                        Text="Previous"
+                        TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
                     <Button
                         Grid.Row="2"
                         Grid.Column="2"
+                        BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                         Command="{Binding btnGoNextCommand}"
                         IsEnabled="{Binding CanGoNext}"
-                        Text="Next" />
+                        Text="Next"
+                        TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
                     <progressBar:SfStepProgressBar
                         x:Name="stepProgress"
                         Grid.Row="0"
@@ -152,6 +156,28 @@
                         TitleAlignment="Start"
                         TitleSpace="10"
                         VerticalOptions="CenterAndExpand">
+                        <progressBar:SfStepProgressBar.NotStartedStepStyle>
+                            <progressBar:StepStyle
+                                x:TypeArguments="progressBar:NotStartedStepState"
+                                MarkerContentFillColor="Transparent"
+                                MarkerShapeType="Circle"
+                                MarkerStrokeColor="Red" />
+                        </progressBar:SfStepProgressBar.NotStartedStepStyle>
+
+                        <progressBar:SfStepProgressBar.InProgressStepStyle>
+                            <progressBar:StepStyle
+                                x:TypeArguments="progressBar:InProgressStepState"
+                                MarkerFillColor="Transparent"
+                                MarkerShapeType="Circle" />
+                        </progressBar:SfStepProgressBar.InProgressStepStyle>
+
+                        <progressBar:SfStepProgressBar.CompletedStepStyle>
+                            <progressBar:StepStyle
+                                x:TypeArguments="progressBar:CompletedStepState"
+                                MarkerContentFillColor="Transparent"
+                                MarkerFillColor="Green"
+                                MarkerShapeType="Circle" />
+                        </progressBar:SfStepProgressBar.CompletedStepStyle>
                         <BindableLayout.ItemTemplate>
                             <DataTemplate>
                                 <progressBar:StepView
@@ -162,7 +188,7 @@
                                         <FontImageSource
                                             FontFamily="FontAwesome5Solid"
                                             Glyph="{x:Static fontAwesome:FontAwesomeIcons.Pray}"
-                                            Color="{Binding DefaultStyle.ThemeButtonColor, Converter={StaticResource stringToColorConverter}}" />
+                                            Color="Red" />
                                     </progressBar:StepView.ImageSource>
                                 </progressBar:StepView>
                             </DataTemplate>

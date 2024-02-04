@@ -28,6 +28,7 @@ namespace Prayers.ViewModels.Extras
         //Button
         public IGradientSource ButtonBgSource { get; set; }
         public string ButtonFgColor { get; set; }
+        public string ButtonBgColor { get; set; }
 
         //Fonts
         public string DefaultFontFamily { get; set; }
