@@ -67,9 +67,10 @@
                         <ColumnDefinition Width="50*" />
                         <ColumnDefinition Width="10" />
                     </Grid.ColumnDefinitions>
+                        <!--AnimationCompleted="SfEffectsView_AnimationCompleted"-->
                     <syncEffectsView:SfEffectsView
                         Grid.Column="1"
-                        AnimationCompleted="SfEffectsView_AnimationCompleted"
+                        TouchUpCommand="{Binding btnStartCommand}"
                         BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                         CornerRadius="10"
                         FadeOutRipple="True"
@@ -77,11 +78,9 @@
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="50" />
+                                <ColumnDefinition Width="30" />
+                                <ColumnDefinition Width="10" />
                             </Grid.ColumnDefinitions>
-                            <!--<Grid.RowDefinitions>
-                 <RowDefinition Height="30" />
-             </Grid.RowDefinitions>-->
                             <Label
                                 Grid.Column="0"
                                 Margin="10,0,0,0"
@@ -90,16 +89,12 @@
                                 HorizontalOptions="Center"
                                 Text="Start"
                                 TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}"
-                                VerticalOptions="Center">
-                                <!--<Label.GestureRecognizers>
-                     <TapGestureRecognizer Tapped="SynonAntonBox_Tapped" />
-                 </Label.GestureRecognizers>-->
-                            </Label>
+                                VerticalOptions="Center" />
 
                             <sfButtons:SfButton
                                 Grid.Column="1"
                                 BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
-                                Command="{Binding playAudio}"
+                                Command="{Binding btnStartCommand}"
                                 CornerRadius="30"
                                 HeightRequest="30"
                                 VerticalOptions="Center"

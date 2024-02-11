@@ -7,7 +7,9 @@
     xmlns:fontAwesome="clr-namespace:FontAwesome"
     xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
     xmlns:progressBar="clr-namespace:Syncfusion.XForms.ProgressBar;assembly=Syncfusion.SfProgressBar.XForms"
-    xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms">
+    xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms">
     <ContentPage.Resources>
         <ResourceDictionary>
             <converters:StringToColorConverter x:Key="stringToColorConverter" />
@@ -100,6 +102,21 @@
                         <sfButtons:SfButton
                             Margin="4,0,0,0"
                             BackgroundColor="Transparent"
+                            Command="{Binding goHome}"
+                            CornerRadius="30"
+                            WidthRequest="30">
+                            <Image>
+                                <Image.Source>
+                                    <FontImageSource
+                                        FontFamily="FontAwesome5Solid"
+                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.Home}"
+                                        Color="{Binding DefaultStyle.ThemeButtonBgColor, Converter={StaticResource stringToColorConverter}}" />
+                                </Image.Source>
+                            </Image>
+                        </sfButtons:SfButton>
+                        <sfButtons:SfButton
+                            Margin="4,0,0,0"
+                            BackgroundColor="Transparent"
                             Command="{Binding changeTheme}"
                             CornerRadius="30"
                             WidthRequest="30">
@@ -157,7 +174,7 @@
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
-                        <sfButtons:SfButton
+                        <!--<sfButtons:SfButton
                             Margin="30,0,0,0"
                             BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                             CornerRadius="30"
@@ -184,7 +201,7 @@
                                         Color="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
                                 </Image.Source>
                             </Image>
-                        </sfButtons:SfButton>
+                        </sfButtons:SfButton>-->
                     </FlexLayout>
 
                 </Grid>
@@ -198,22 +215,110 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="40" />
                     </Grid.RowDefinitions>
-                    <Button
+                    <syncEffectsView:SfEffectsView
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
+                        CornerRadius="10"
+                        FadeOutRipple="True"
+                        IsVisible="{Binding CanGoPrevious}"
+                        RippleAnimationDuration="500"
+                        TouchUpCommand="{Binding btnGoPreviousCommand}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="10" />
+                                <ColumnDefinition Width="30" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Label
+                                Grid.Column="2"
+                                Margin="10,0,0,0"
+                                FontAttributes="Bold"
+                                FontSize="Medium"
+                                HorizontalOptions="Center"
+                                Text="Back"
+                                TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}"
+                                VerticalOptions="Center" />
+
+                            <sfButtons:SfButton
+                                Grid.Column="1"
+                                BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
+                                Command="{Binding btnGoPreviousCommand}"
+                                CornerRadius="30"
+                                HeightRequest="25"
+                                VerticalOptions="Center"
+                                WidthRequest="30">
+                                <Image>
+                                    <Image.Source>
+                                        <FontImageSource
+                                            FontFamily="FontAwesome5Solid"
+                                            Glyph="{x:Static fontAwesome:FontAwesomeIcons.ArrowAltCircleLeft}"
+                                            Color="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
+                                    </Image.Source>
+                                </Image>
+                            </sfButtons:SfButton>
+                        </Grid>
+                    </syncEffectsView:SfEffectsView>
+                    <syncEffectsView:SfEffectsView
+                        Grid.Row="0"
+                        Grid.Column="2"
+                        BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
+                        CornerRadius="10"
+                        FadeOutRipple="True"
+                        IsVisible="{Binding CanGoNext}"
+                        RippleAnimationDuration="500"
+                        TouchUpCommand="{Binding btnGoNextCommand}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="30" />
+                                <ColumnDefinition Width="10" />
+                            </Grid.ColumnDefinitions>
+                            <Label
+                                Grid.Column="0"
+                                Margin="10,0,0,0"
+                                FontAttributes="Bold"
+                                FontSize="Medium"
+                                HorizontalOptions="Center"
+                                Text="Next"
+                                TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}"
+                                VerticalOptions="Center" />
+
+                            <sfButtons:SfButton
+                                Grid.Column="1"
+                                BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
+                                Command="{Binding btnGoNextCommand}"
+                                CornerRadius="30"
+                                HeightRequest="25"
+                                VerticalOptions="Center"
+                                WidthRequest="30">
+                                <Image>
+                                    <Image.Source>
+                                        <FontImageSource
+                                            FontFamily="FontAwesome5Solid"
+                                            Glyph="{x:Static fontAwesome:FontAwesomeIcons.ArrowAltCircleRight}"
+                                            Color="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
+                                    </Image.Source>
+                                </Image>
+                            </sfButtons:SfButton>
+                        </Grid>
+                    </syncEffectsView:SfEffectsView>
+                    <!--<Button
                         Grid.Row="0"
                         Grid.Column="1"
                         BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                         Command="{Binding btnGoPreviousCommand}"
                         IsEnabled="{Binding CanGoPrevious}"
                         Text="Previous"
-                        TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
-                    <Button
+                        TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />-->
+                    <!--<Button
                         Grid.Row="0"
                         Grid.Column="2"
                         BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                         Command="{Binding btnGoNextCommand}"
                         IsEnabled="{Binding CanGoNext}"
                         Text="Next"
-                        TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
+                        TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />-->
                 </Grid>
                 <StackLayout>
                     <ScrollView>

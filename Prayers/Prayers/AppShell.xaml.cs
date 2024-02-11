@@ -11,7 +11,7 @@ namespace Prayers
         public AppShell()
         {
             InitializeComponent();
-            //Routing.RegisterRoute(nameof(MainView), typeof(MainView));
+            Routing.RegisterRoute(nameof(MainView), typeof(MainView));
             Routing.RegisterRoute(nameof(PrayerView), typeof(PrayerView));
             foreach (var item in SharedServices.PrayerViewModelData.SinglePageDataModels)
             {

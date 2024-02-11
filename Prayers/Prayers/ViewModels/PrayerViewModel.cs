@@ -23,6 +23,7 @@ namespace Prayers.ViewModels
         public ICommand pauseAudio { get; set; }
         public ICommand stopAudio { get; set; }
         public ICommand changeTheme { get; set; }
+        public ICommand goHome { get; set; }
 
         int _pageId;
         public int PageId
@@ -75,6 +76,7 @@ namespace Prayers.ViewModels
             pauseAudio = new Command(PauseAudio);
             stopAudio = new Command(StopAudio);
             changeTheme = new Command(async () => await ToggleAppTheme());
+            goHome = new Command(async () => await ProcessRequestToGoHome());
         }
 
         public async Task GoPrevious()
@@ -159,6 +161,12 @@ namespace Prayers.ViewModels
                 styleModelDefault = value;
                 OnPropertyChanged("DefaultStyle");
             }
+        }
+
+        private async Task ProcessRequestToGoHome()
+        {
+            var route = $"///MainView";
+            await Shell.Current.GoToAsync(route);
         }
     }
 }

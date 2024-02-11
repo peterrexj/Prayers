@@ -3,11 +3,16 @@ using Prayers.ViewModels.Extras;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace Prayers.ViewModels
 {
     public class MainViewModel : BaseViewModel
     {
+        public ICommand btnStartCommand { get; set; }
+
         private string _prayerMainHeader01;
         public string PrayerMainHeader01
         {
@@ -28,6 +33,17 @@ namespace Prayers.ViewModels
                 _prayerMainHeader02 = value;
                 OnPropertyChanged("PrayerMainHeader02");
             }
+        }
+
+        public MainViewModel()
+        {
+            btnStartCommand = new Command(async () => await ProcessRequestToPrayerPage());
+        }
+
+        private async Task ProcessRequestToPrayerPage()
+        {
+            var route = $"Page1?PageId=1";
+            await Shell.Current.GoToAsync(route);
         }
 
         [JsonIgnore]
