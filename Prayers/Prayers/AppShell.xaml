@@ -41,8 +41,8 @@
         await Shell.Current.GoToAsync("//LoginPage");
     -->
     <TabBar>
-        <!--<ShellContent Route="MainView" Title="Main" ContentTemplate="{DataTemplate local:MainView}" />-->
-        <ShellContent Route="PrayerView" Title="Prayer" ContentTemplate="{DataTemplate local:PrayerView}" />
+        <ShellContent Route="MainView" Title="Main" ContentTemplate="{DataTemplate local:MainView}" />
+        <!--<ShellContent Route="PrayerView" Title="Prayer" ContentTemplate="{DataTemplate local:PrayerView}" />-->
     </TabBar>
 
 

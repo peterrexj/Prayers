@@ -1,4 +1,6 @@
-﻿using Prayers.Services;
+﻿using Prayers.Extensions;
+using Prayers.Models;
+using Prayers.Services;
 using Prayers.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -33,6 +35,24 @@ namespace Prayers.Views
             }
 
             BindingContext = viewModel;
+        }
+
+        protected override void OnAppearing()
+        {
+            viewModel.DefaultStyle = ThemeHelper.GetDefaultStyleTheme();
+
+            base.OnAppearing();
+        }
+
+        private async void SfEffectsView_AnimationCompleted(object sender, EventArgs e)
+        {
+            await ProcessRequestToPrayerPage();
+        }
+
+        private async Task ProcessRequestToPrayerPage()
+        {
+            var route = $"Page1?PageId=1";
+            await Shell.Current.GoToAsync(route);
         }
     }
 }

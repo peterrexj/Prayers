@@ -1,4 +1,5 @@
-﻿using Prayers.ViewModels.Extras;
+﻿using Newtonsoft.Json;
+using Prayers.ViewModels.Extras;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -26,6 +27,19 @@ namespace Prayers.ViewModels
             {
                 _prayerMainHeader02 = value;
                 OnPropertyChanged("PrayerMainHeader02");
+            }
+        }
+
+        [JsonIgnore]
+        private StyleModelDefault styleModelDefault;
+        [JsonIgnore]
+        public StyleModelDefault DefaultStyle
+        {
+            get => styleModelDefault;
+            set
+            {
+                styleModelDefault = value;
+                OnPropertyChanged("DefaultStyle");
             }
         }
     }
