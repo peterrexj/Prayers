@@ -1,9 +1,12 @@
-﻿using System;
+﻿using Syncfusion.XForms.UWP.Border;
+using Syncfusion.XForms.UWP.ProgressBar;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -29,8 +32,12 @@ namespace Prayers.UWP
         /// </summary>
         public App()
         {
+            ConfigHelperUwp.LoadConfig();
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(ConfigHelperUwp.SyncFusionLicense);
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            this.UnhandledException += OnUnhandledException;
+            TaskScheduler.UnobservedTaskException += OnUnobservedTaskException;
         }
 
         /// <summary>
@@ -61,8 +68,8 @@ namespace Prayers.UWP
 
                 List<Assembly> assembliesToInclude = new List<Assembly>
                 {
-                    typeof(Syncfusion.XForms.UWP.ProgressBar.SfLinearProgressRenderer).GetTypeInfo().Assembly,
-                    typeof(Syncfusion.XForms.UWP.Border.SfBorderRenderer).GetTypeInfo().Assembly
+                    typeof(SfLinearProgressRenderer).GetTypeInfo().Assembly,
+                    typeof(SfBorderRenderer).GetTypeInfo().Assembly
                 };
 
                 Xamarin.Forms.Forms.Init(e, assembliesToInclude);
@@ -109,6 +116,21 @@ namespace Prayers.UWP
             var deferral = e.SuspendingOperation.GetDeferral();
             //TODO: Save application state and stop any background activity
             deferral.Complete();
+        }
+
+        private void OnUnhandledException(object sender, Windows.UI.Xaml.UnhandledExceptionEventArgs e)
+        {
+            // Handle the unhandled exception here
+            // You can log the exception, display an error message, or perform any other necessary action
+
+            e.Handled = true; // Set Handled to true to indicate that the exception has been handled
+        }
+        private void OnUnobservedTaskException(object sender, UnobservedTaskExceptionEventArgs e)
+        {
+            // Handle the unobserved task exception here
+            // You can log the exception, display an error message, or perform any other necessary action
+
+            e.SetObserved(); // Mark the exception as observed to prevent it from being rethrown
         }
     }
 }

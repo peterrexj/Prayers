@@ -44,8 +44,10 @@
                         <StackLayout VerticalOptions="Center">
                             <Image
                                 Margin="30,10,30,10"
-                                Aspect="AspectFit"
-                                Source="mainpic.png" />
+                                Aspect="AspectFill"
+                                HorizontalOptions="Center"
+                                Source="{Binding PathToMainImage}"
+                                VerticalOptions="Center" />
                         </StackLayout>
                     </Grid>
                 </sfBorder:SfBorder>
@@ -67,14 +69,14 @@
                         <ColumnDefinition Width="50*" />
                         <ColumnDefinition Width="10" />
                     </Grid.ColumnDefinitions>
-                        <!--AnimationCompleted="SfEffectsView_AnimationCompleted"-->
+                    <!--  AnimationCompleted="SfEffectsView_AnimationCompleted"  -->
                     <syncEffectsView:SfEffectsView
                         Grid.Column="1"
-                        TouchUpCommand="{Binding btnStartCommand}"
                         BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                         CornerRadius="10"
                         FadeOutRipple="True"
-                        RippleAnimationDuration="500">
+                        RippleAnimationDuration="500"
+                        TouchUpCommand="{Binding btnStartCommand}">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />

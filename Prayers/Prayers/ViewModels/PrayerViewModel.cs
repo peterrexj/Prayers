@@ -168,5 +168,7 @@ namespace Prayers.ViewModels
             var route = $"///MainView";
             await Shell.Current.GoToAsync(route);
         }
+
+        public string PathToMainImage => SharedServices.PathToMainImage;
     }
 }

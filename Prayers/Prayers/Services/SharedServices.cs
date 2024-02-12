@@ -10,7 +10,6 @@ namespace Prayers.Services
 {
     public static class SharedServices
     {
-
         public static void LoadPrayerViewModelData()
         {
             if (PrayerViewModelData?.SinglePageDataModels.Count == null)
@@ -111,11 +110,35 @@ namespace Prayers.Services
             }
         }
 
-
         static ILocalFileStorage _localStorage;
         public static ILocalFileStorage LocalStorage => _localStorage ?? DependencyService.Get<ILocalFileStorage>();
 
         static AudioController audioController;
         public static AudioController AudioController => audioController ?? new AudioController();
+
+        private static string _pathToMainImage;
+        public static string PathToMainImage
+        {
+            get
+            {
+                if (_pathToMainImage.IsEmpty())
+                {
+                    if (Device.RuntimePlatform ==  Device.Android)
+                    {
+                        _pathToMainImage = "drawable/mainpic.jpg";
+                    }
+                    else if (Device.RuntimePlatform == Device.iOS)
+                    {
+                        _pathToMainImage = "Resources/mainpic.jpg";
+                    }
+                    else if (Device.RuntimePlatform == Device.UWP)
+                    {
+                        _pathToMainImage = "Assets/mainpic.jpg";
+                    }
+
+                }
+                return _pathToMainImage;
+            }
+        }
     }
 }

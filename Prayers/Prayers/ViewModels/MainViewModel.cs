@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Prayers.Services;
 using Prayers.ViewModels.Extras;
 using System;
 using System.Collections.Generic;
@@ -34,6 +35,8 @@ namespace Prayers.ViewModels
                 OnPropertyChanged("PrayerMainHeader02");
             }
         }
+
+        public string PathToMainImage => SharedServices.PathToMainImage;
 
         public MainViewModel()
         {

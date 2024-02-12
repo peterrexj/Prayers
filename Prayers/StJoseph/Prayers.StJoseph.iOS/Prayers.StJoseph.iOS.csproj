@@ -63,10 +63,18 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\..\..\LinkFiles\iOS\ConfigHelper.cs">
+      <Link>Services\ConfigHelper.cs</Link>
+    </Compile>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Renderer\LabelExtendedRenderer.cs" />
     <Compile Include="Services\AudioPlayerService.cs" />
+    <Compile Include="Services\DataSourceService.cs" />
+    <Compile Include="Services\LocalFileStorageService.cs" />
+    <None Include="..\..\..\Resources\St Joseph Prayer.csv">
+      <Link>St Joseph Prayer.csv</Link>
+    </None>
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -149,14 +157,19 @@
     <PackageReference Include="Syncfusion.Xamarin.SfProgressBar">
       <Version>23.1.39</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2622" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Prayers\Prayers.csproj">
       <Project>{263578ae-ff9c-4304-b7e1-526864052b6a}</Project>
       <Name>Prayers</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\Resources\StJoseph\mainpic.jpg">
+      <Link>Resources\mainpic.jpg</Link>
+    </BundleResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

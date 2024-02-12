@@ -8,9 +8,7 @@ namespace Prayers.Services
 {
     public interface ILocalFileStorage
     {
-        string PrayerEmbeddedDataFilePath { get; }
         IEnumerable<PrayerRawDataModel> PrayerEmbeddedData { get; }
-
 
         Task WriteTextAsync(string fileName, string text);
         Task<string> ReadTextAsync(string fileName);

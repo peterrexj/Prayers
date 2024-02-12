@@ -1,11 +1,6 @@
-﻿using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using CsvHelper;
-using Prayers.Droid.Services;
+﻿using CsvHelper;
+using Foundation;
+using Prayers.iOS.Services;
 using Prayers.Models;
 using Prayers.Services;
 using System;
@@ -14,24 +9,26 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UIKit;
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
 
 [assembly: Dependency(typeof(LocalFileStorageService))]
-namespace Prayers.Droid.Services
+namespace Prayers.iOS.Services
 {
     public class LocalFileStorageService : ILocalFileStorage
     {
-        public string PrayerEmbeddedDataFilePath => "St Joseph Prayer.csv";
-
-        public IEnumerable<PrayerRawDataModel> PrayerEmbeddedData => ReadCsvFile<PrayerRawDataModel>(PrayerEmbeddedDataFilePath).AsEnumerable();
+        public IEnumerable<PrayerRawDataModel> PrayerEmbeddedData => ReadCsvFile<PrayerRawDataModel>(DependencyService.Get<IDataSource>().PrayerEmbeddedDataFilePath).AsEnumerable();
 
         public static List<T> ReadCsvFile<T>(string path)
         {
             try
             {
-                using var reader = new StreamReader(Android.App.Application.Context.Assets.Open(path));
-                using var csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture);
-                return csv.GetRecords<T>().ToList();
+                using (var reader = new StreamReader(Path.Combine(NSBundle.MainBundle.BundlePath, path)))
+                using (var csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
+                {
+                    return csv.GetRecords<T>().ToList();
+                }
             }
             catch (Exception ex)
             {
@@ -39,12 +36,10 @@ namespace Prayers.Droid.Services
             }
         }
 
-
-
-
         public async Task WriteTextAsync(string fileName, string text)
         {
-            var file = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), fileName);
+            var documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            var file = Path.Combine(documents, fileName);
             using (var streamWriter = new StreamWriter(file, false))
             {
                 await streamWriter.WriteAsync(text);
@@ -52,7 +47,8 @@ namespace Prayers.Droid.Services
         }
         public async Task<string> ReadTextAsync(string fileName)
         {
-            var file = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), fileName);
+            var documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            var file = Path.Combine(documents, fileName);
             using (var streamReader = new StreamReader(file))
             {
                 return await streamReader.ReadToEndAsync();
@@ -60,9 +56,9 @@ namespace Prayers.Droid.Services
         }
 
         public string DefaultDataFilePath =>
-          Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), "defaultdata.json");
+            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "defaultdata.json");
         public string SettingsDataFilePath =>
-            Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), "settingsdata.json");
+            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "settingsdata.json");
 
         public string FilePathBasedOnType<T>()
         {
