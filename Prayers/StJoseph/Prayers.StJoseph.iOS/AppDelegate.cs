@@ -32,6 +32,7 @@ namespace Prayers.iOS
 
             Syncfusion.XForms.iOS.ProgressBar.SfLinearProgressBarRenderer.Init();
             Syncfusion.XForms.iOS.Border.SfBorderRenderer.Init();
+            Syncfusion.XForms.iOS.Buttons.SfButtonRenderer.Init();
 
             LoadApplication(new App());
 

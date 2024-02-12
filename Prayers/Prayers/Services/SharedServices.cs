@@ -129,7 +129,7 @@ namespace Prayers.Services
                     }
                     else if (Device.RuntimePlatform == Device.iOS)
                     {
-                        _pathToMainImage = "Resources/mainpic.jpg";
+                        _pathToMainImage = "mainpic.jpg";
                     }
                     else if (Device.RuntimePlatform == Device.UWP)
                     {

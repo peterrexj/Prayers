@@ -7,10 +7,12 @@
     xmlns:fontAwesome="clr-namespace:FontAwesome"
     xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
     xmlns:progressBar="clr-namespace:Syncfusion.XForms.ProgressBar;assembly=Syncfusion.SfProgressBar.XForms"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
     xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
-    xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms">
-    <ContentPage.Resources>
+    xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
+    ios:Page.UseSafeArea="True">
+    <ContentPage.Resources> 
         <ResourceDictionary>
             <converters:StringToColorConverter x:Key="stringToColorConverter" />
         </ResourceDictionary>
