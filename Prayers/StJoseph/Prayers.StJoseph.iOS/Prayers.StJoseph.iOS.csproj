@@ -69,6 +69,7 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Renderer\LabelExtendedRenderer.cs" />
+    <Compile Include="Services\AppInformation.cs" />
     <Compile Include="Services\AudioPlayerService.cs" />
     <Compile Include="Services\DataSourceService.cs" />
     <Compile Include="Services\LocalFileStorageService.cs" />

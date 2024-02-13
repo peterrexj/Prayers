@@ -1,5 +1,8 @@
-﻿using System;
+﻿using Microsoft.AppCenter.Crashes;
+using Pj.Library;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Prayers.Extensions
@@ -10,10 +13,10 @@ namespace Prayers.Extensions
         {
             try
             {
-#if DEBUG
-                throw exception;
-#else
-                Dictionary<string, string> errorContext = new();
+//#if DEBUG
+                //throw exception;
+//#else
+                Dictionary<string, string> errorContext = [];
                 if (specificDetails != null)
                 {
                     int counter = 0;
@@ -23,7 +26,7 @@ namespace Prayers.Extensions
                     }
                 }
                 ViewHelper.RunOnAppDispatcher(() => Crashes.TrackError(exception, DeviceDetails.GenerateMetaInformation(errorContext)));
-#endif
+//#endif
             }
             catch (Exception)
             {
