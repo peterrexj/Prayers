@@ -172,5 +172,15 @@
       <Link>Resources\mainpic.jpg</Link>
     </BundleResource>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\Resources\StJoseph\Page01_Female.mp3">
+      <Link>Resources\Page01_Female.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\Resources\StJoseph\Page02_Male.mp3">
+      <Link>Resources\Page02_Male.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
