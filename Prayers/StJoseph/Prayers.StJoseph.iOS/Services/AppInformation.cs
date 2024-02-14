@@ -7,6 +7,6 @@ namespace Prayers.iOS.Services
 {
     public class AppInformation : IAppInformation
     {
-        public string AppCentreAppKey => "28ecb3c8-c7d9-4453-8da2-f17d93438eb6";
+        public string AppCentreAppKey => "3ada4676-8728-4c94-b865-51423cb1190b";
     }
 }
