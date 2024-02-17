@@ -5,12 +5,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:converters="clr-namespace:Prayers.Converters"
     xmlns:fontAwesome="clr-namespace:FontAwesome"
-    xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
     xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
     xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
     xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
-    ios:Page.UseSafeArea="True">
+    ios:Page.UseSafeArea="False">
     <ContentPage.Resources>
         <ResourceDictionary>
             <converters:StringToColorConverter x:Key="stringToColorConverter" />
@@ -22,7 +22,10 @@
 
             <StackLayout>
                 <Label
-                    Margin="0"
+                    Margin="{OnPlatform Android={OnIdiom Phone='0,0,0,0',
+                                                         Tablet='0,0,0,0'},
+                                        iOS={OnIdiom Phone='0,25,0,0',
+                                                     Tablet='0,25,0,0'}}"
                     FontAttributes="Bold"
                     FontSize="Large"
                     HorizontalOptions="CenterAndExpand"
@@ -58,7 +61,7 @@
                     Text="{Binding PrayerMainHeader02}"
                     TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
                     VerticalOptions="CenterAndExpand" />
-                <Grid Margin="0,0,0,10">
+                <Grid Margin="{OnPlatform Android={OnIdiom Phone='0,0,0,10', Tablet='0,0,0,10'}, iOS={OnIdiom Phone='0,0,0,20', Tablet='0,0,0,20'}}">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="50" />
                     </Grid.RowDefinitions>

@@ -18,7 +18,7 @@ namespace Prayers.iOS.Services
 {
     public class LocalFileStorageService : ILocalFileStorage
     {
-        public IEnumerable<PrayerRawDataModel> PrayerEmbeddedData => ReadCsvFile<PrayerRawDataModel>(DependencyService.Get<IDataSource>().PrayerEmbeddedDataFilePath).AsEnumerable();
+        public IEnumerable<PrayerRawDataModel> PrayerEmbeddedData => ReadCsvFile<PrayerRawDataModel>(DependencyService.Get<IAppInformation>().PrayerEmbeddedDataFilePath).AsEnumerable();
 
         public static List<T> ReadCsvFile<T>(string path)
         {

@@ -11,7 +11,7 @@
     xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
     xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
-    ios:Page.UseSafeArea="True">
+    ios:Page.UseSafeArea="False">
     <ContentPage.Resources> 
         <ResourceDictionary>
             <converters:StringToColorConverter x:Key="stringToColorConverter" />
@@ -21,7 +21,11 @@
         <Grid>
             <magic:GradientView GradientSource="{Binding DefaultStyle.DefaultMgPageBgSource}" VerticalOptions="FillAndExpand" />
             <StackLayout>
-                <Grid>
+                <Grid 
+                    Margin="{OnPlatform Android={OnIdiom Phone='0,0,0,0',
+                                     Tablet='0,0,0,0'},
+                    iOS={OnIdiom Phone='0,50,0,0',
+                                 Tablet='0,50,0,0'}}">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="80" />
                         <ColumnDefinition Width="10" />

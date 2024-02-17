@@ -79,16 +79,6 @@ namespace Prayers.Views
                         }))
                 );
 
-
-
-            //viewModel.ProgressInformation = new ObservableCollection<PrayerProgressModel>(SharedServices.PrayerViewModelData.SinglePageDataModels.Select(f =>
-            //    new PrayerProgressModel
-            //    {
-            //        Title = "",
-            //        ProgressValue = 0,
-            //        Status = Syncfusion.XForms.ProgressBar.StepStatus.Completed
-            //    }));
-
             foreach (var item in viewModel.SinglePageDataModel.Content)
             {
                 if (item.ContentType == "H")
@@ -135,7 +125,6 @@ namespace Prayers.Views
                 {
                     viewModel.AudioFileName = item.Content.Trim();
                 }
-
             }
         }
     }
