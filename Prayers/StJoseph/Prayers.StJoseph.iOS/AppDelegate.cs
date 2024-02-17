@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Foundation;
+using Microsoft.AppCenter.Crashes;
 using UIKit;
 
 namespace Prayers.iOS
@@ -24,24 +25,34 @@ namespace Prayers.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            ObjCRuntime.Class.ThrowOnInitFailure = false;
-            AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
-            TaskScheduler.UnobservedTaskException += TaskScheduler_UnobservedTaskException;
+            try
+            {
+                ObjCRuntime.Class.ThrowOnInitFailure = false;
+                AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
+                TaskScheduler.UnobservedTaskException += TaskScheduler_UnobservedTaskException;
 
-            global::Xamarin.Forms.Forms.Init();
+                global::Xamarin.Forms.Forms.Init();
 
-            Syncfusion.XForms.iOS.ProgressBar.SfLinearProgressBarRenderer.Init();
-            Syncfusion.XForms.iOS.Border.SfBorderRenderer.Init();
-            Syncfusion.XForms.iOS.Buttons.SfButtonRenderer.Init();
+                Syncfusion.XForms.iOS.ProgressBar.SfLinearProgressBarRenderer.Init();
+                Syncfusion.XForms.iOS.Border.SfBorderRenderer.Init();
+                Syncfusion.XForms.iOS.Buttons.SfButtonRenderer.Init();
 
-            LoadApplication(new App());
+                LoadApplication(new App());
 
-            Xamarin.Essentials.Platform.Init(() => GetCurrentUIViewController());
+                Xamarin.Essentials.Platform.Init(() => GetCurrentUIViewController());
 
 #if DEBUG
-            DisplayCrashReport();
+                //DisplayCrashReport();
 #endif
-            
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
+            finally
+            {
+               
+            }
             return base.FinishedLaunching(app, options);
         }
 
@@ -61,7 +72,8 @@ namespace Prayers.iOS
         {
             var newExc = new Exception("TaskSchedulerOnUnobservedTaskException", e.Exception);
 #if DEBUG
-            LogUnhandledException(newExc);
+            Crashes.TrackError(newExc);
+            //LogUnhandledException(newExc);
 #else
             Crashes.TrackError(newExc);
 #endif
