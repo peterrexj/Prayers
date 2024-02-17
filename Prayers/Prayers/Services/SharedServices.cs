@@ -1,4 +1,5 @@
 ﻿using Pj.Library;
+using Prayers.Extensions;
 using Prayers.Models;
 using System;
 using System.Collections.Generic;
@@ -25,85 +26,93 @@ namespace Prayers.Services
             {
                 if (_prayerViewModelData == null)
                 {
-                    var prayerRawData = DependencyService.Get<ILocalFileStorage>().PrayerEmbeddedData;
-                    if (prayerRawData != null)
-                    {
-                        //throw some message to user about data load failure
-                    }
 
-                    _prayerViewModelData = new PrayerAppModel
+                    try
                     {
-                        MainHeaders = new List<string>(),
-                        SinglePageDataModels = new List<SinglePageDataModel>()
-                    };
-
-                    var grpData = prayerRawData.GroupBy(f => f.HeaderSequenceId)
-                        .Select(f => new { f.Key, PageData = f.OrderBy(g => g.SequenceId).ToList() })
-                        .ToList();
-
-                    foreach (var data in grpData.Where(f => f.Key == -1)
-                        .SelectMany(f => f.PageData)
-                        .OrderBy(f => f.SequenceId))
-                    {
-                        if (data.ContentType == "MH")
+                        var prayerRawData = DependencyService.Get<ILocalFileStorage>().PrayerEmbeddedData;
+                        if (prayerRawData != null)
                         {
-                            _prayerViewModelData.MainHeaders.Add(data.Content.Trim());
+                            //throw some message to user about data load failure
                         }
-                    }
 
-
-                    int currentPageId = 0;
-                    foreach (var data in grpData.Where(f => f.Key != -1))
-                    {
-                        currentPageId++;
-                        var pageData = new SinglePageDataModel
+                        _prayerViewModelData = new PrayerAppModel
                         {
-                            PageId = currentPageId,
-                            Content = new List<PageContentModel>()
+                            MainHeaders = new List<string>(),
+                            SinglePageDataModels = new List<SinglePageDataModel>()
                         };
-                        if (currentPageId == 1)
+
+                        var grpData = prayerRawData.GroupBy(f => f.HeaderSequenceId)
+                            .Select(f => new { f.Key, PageData = f.OrderBy(g => g.SequenceId).ToList() })
+                            .ToList();
+
+                        foreach (var data in grpData.Where(f => f.Key == -1)
+                            .SelectMany(f => f.PageData)
+                            .OrderBy(f => f.SequenceId))
                         {
-                            pageData.PreviousPageId = null;
-                        }
-                        else
-                        {
-                            pageData.PreviousPageId = currentPageId - 1;
-                            _prayerViewModelData.SinglePageDataModels.Last().NextPageId = currentPageId;
+                            if (data.ContentType == "MH")
+                            {
+                                _prayerViewModelData.MainHeaders.Add(data.Content.Trim());
+                            }
                         }
 
-                        foreach (var item in data.PageData)
+
+                        int currentPageId = 0;
+                        foreach (var data in grpData.Where(f => f.Key != -1))
                         {
-                            var tempData = new PageContentModel
+                            currentPageId++;
+                            var pageData = new SinglePageDataModel
                             {
-                                ContentType = item.ContentType,
-                                FontSize = item.FontSize == null ? 12 : item.FontSize.Value,
-                                FontAlign = item.FontAlign.HasValue() ? item.FontAlign.Trim() : "Right",
-                                FontAttribute = item.FontAttribute?.SplitAndTrim(",").ToArray() ?? new string[] { },
-                                TextWrap = item.TextWrap.HasValue() ? item.TextWrap : "Normal",
-                                AdditionalData = item.AdditionalData,
-                                IsHeader = item.ContentType.HasValue() && item.ContentType == "H"
+                                PageId = currentPageId,
+                                Content = new List<PageContentModel>()
                             };
-
-                            if (item.SpaceBefore.HasValue && item.SpaceBefore.Value > 0)
+                            if (currentPageId == 1)
                             {
-                                if (item.FontAlign.HasValue() && item.FontAlign.Trim().EqualsIgnoreCase("Right"))
-                                {
-                                    tempData.Content = item.Content.Trim().PadLeft(item.Content.Trim().Length + item.SpaceBefore.Value);
-                                }
-                                else 
-                                {
-                                    tempData.Content = item.Content.Trim().PadRight(item.Content.Trim().Length + item.SpaceBefore.Value);
-                                }
+                                pageData.PreviousPageId = null;
                             }
                             else
                             {
-                                tempData.Content = item.Content.Trim();
-
+                                pageData.PreviousPageId = currentPageId - 1;
+                                _prayerViewModelData.SinglePageDataModels.Last().NextPageId = currentPageId;
                             }
-                            pageData.Content.Add(tempData);
-                        }
 
-                        _prayerViewModelData.SinglePageDataModels.Add(pageData);
+                            foreach (var item in data.PageData)
+                            {
+                                var tempData = new PageContentModel
+                                {
+                                    ContentType = item.ContentType,
+                                    FontSize = item.FontSize == null ? 12 : item.FontSize.Value,
+                                    FontAlign = item.FontAlign.HasValue() ? item.FontAlign.Trim() : "Right",
+                                    FontAttribute = item.FontAttribute?.SplitAndTrim(",").ToArray() ?? new string[] { },
+                                    TextWrap = item.TextWrap.HasValue() ? item.TextWrap : "Normal",
+                                    AdditionalData = item.AdditionalData,
+                                    IsHeader = item.ContentType.HasValue() && item.ContentType == "H"
+                                };
+
+                                if (item.SpaceBefore.HasValue && item.SpaceBefore.Value > 0)
+                                {
+                                    if (item.FontAlign.HasValue() && item.FontAlign.Trim().EqualsIgnoreCase("Right"))
+                                    {
+                                        tempData.Content = item.Content.Trim().PadLeft(item.Content.Trim().Length + item.SpaceBefore.Value);
+                                    }
+                                    else
+                                    {
+                                        tempData.Content = item.Content.Trim().PadRight(item.Content.Trim().Length + item.SpaceBefore.Value);
+                                    }
+                                }
+                                else
+                                {
+                                    tempData.Content = item.Content.Trim();
+
+                                }
+                                pageData.Content.Add(tempData);
+                            }
+
+                            _prayerViewModelData.SinglePageDataModels.Add(pageData);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        ExceptionHandler.CaptureException(ex, "SharedServices.PrayerViewModelData");
                     }
                 }
                 return _prayerViewModelData;
@@ -135,7 +144,6 @@ namespace Prayers.Services
                     {
                         _pathToMainImage = "Assets/mainpic.jpg";
                     }
-
                 }
                 return _pathToMainImage;
             }

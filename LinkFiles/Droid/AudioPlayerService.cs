@@ -1,4 +1,5 @@
 ﻿using Android.Media;
+using Microsoft.AppCenter.Crashes;
 using Prayers.Droid.Services;
 using Prayers.Services;
 using System;
@@ -55,7 +56,7 @@ namespace Prayers.Droid.Services
             }
             catch (Exception ex)
             {
-
+                Crashes.TrackError(ex);
             }
 
         }
@@ -65,23 +66,34 @@ namespace Prayers.Droid.Services
             _mediaPlayer.Start();
         }
 
-        //private void
-
         public void Pause()
         {
-            if (_mediaPlayer != null && _mediaPlayer.IsPlaying)
+            try
             {
-                _mediaPlayer.Pause();
+                if (_mediaPlayer != null && _mediaPlayer.IsPlaying)
+                {
+                    _mediaPlayer.Pause();
+                }
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
             }
         }
 
         public void Stop()
         {
-            if (_mediaPlayer != null)
+            try
             {
-                _mediaPlayer.Stop();
-                //_mediaPlayer.Release();
-                ReleasePlayer();
+                if (_mediaPlayer != null)
+                {
+                    _mediaPlayer.Stop();
+                    ReleasePlayer();
+                }
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
             }
         }
     }

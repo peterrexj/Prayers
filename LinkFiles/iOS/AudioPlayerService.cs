@@ -1,5 +1,6 @@
 ﻿using AVFoundation;
 using Foundation;
+using Microsoft.AppCenter.Crashes;
 using Prayers.iOS.Services;
 using Prayers.Services;
 using System;
@@ -59,24 +60,33 @@ namespace Prayers.iOS.Services
             }
             catch (Exception ex)
             {
-
-                
+                Crashes.TrackError(ex);
             }
         }
 
         public void Pause()
         {
-            if (_mediaPlayer != null && _mediaPlayer.Playing)
+            try
             {
+                if (_mediaPlayer == null || !_mediaPlayer.Playing) return;
                 _mediaPlayer.Pause();
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
             }
         }
 
         public void Stop()
         {
-            if (_mediaPlayer != null)
+            try
             {
+                if (_mediaPlayer == null) return;
                 ReleasePlayer();
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
             }
         }
     }
