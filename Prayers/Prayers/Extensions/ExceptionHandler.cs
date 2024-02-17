@@ -13,10 +13,10 @@ namespace Prayers.Extensions
         {
             try
             {
-//#if DEBUG
+                //#if DEBUG
                 //throw exception;
-//#else
-                Dictionary<string, string> errorContext = [];
+                //#else
+                Dictionary<string, string> errorContext = new Dictionary<string, string>();
                 if (specificDetails != null)
                 {
                     int counter = 0;
