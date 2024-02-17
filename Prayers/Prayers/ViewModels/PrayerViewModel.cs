@@ -165,6 +165,7 @@ namespace Prayers.ViewModels
 
         private async Task ProcessRequestToGoHome()
         {
+            StopAudio();
             var route = $"///MainView";
             await Shell.Current.GoToAsync(route);
         }

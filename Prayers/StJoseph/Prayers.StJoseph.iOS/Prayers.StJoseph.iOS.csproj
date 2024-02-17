@@ -66,16 +66,19 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\..\..\LinkFiles\iOS\AudioPlayerService.cs">
+      <Link>Services\AudioPlayerService.cs</Link>
+    </Compile>
     <Compile Include="..\..\..\LinkFiles\iOS\ConfigHelper.cs">
       <Link>Services\ConfigHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\LinkFiles\iOS\LocalFileStorageService.cs">
+      <Link>Services\LocalFileStorageService.cs</Link>
     </Compile>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Renderer\LabelExtendedRenderer.cs" />
     <Compile Include="Services\AppInformation.cs" />
-    <Compile Include="Services\AudioPlayerService.cs" />
-    <Compile Include="Services\DataSourceService.cs" />
-    <Compile Include="Services\LocalFileStorageService.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />

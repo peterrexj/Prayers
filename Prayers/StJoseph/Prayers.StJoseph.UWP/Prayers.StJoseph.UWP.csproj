@@ -109,7 +109,6 @@
     <Compile Include="Renderer\AspectImageRenderer.cs" />
     <Compile Include="Renderer\LabelExtendedRenderer.cs" />
     <Compile Include="Services\AppInformation.cs" />
-    <Compile Include="Services\DataSourceService.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">

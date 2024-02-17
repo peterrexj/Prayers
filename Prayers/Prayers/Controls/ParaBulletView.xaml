@@ -16,9 +16,13 @@
             Margin="0,3,0,0"
             FontAttributes="Bold"
             LineBreakMode="NoWrap"
+            LineHeight="1.2"
             TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
             WidthRequest="40" />
         <controls:LabelExtended x:Name="lblContentJustified" />
-        <Label x:Name="lblContentNormal" TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}" />
+        <Label
+            x:Name="lblContentNormal"
+            LineHeight="1.2"
+            TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}" />
     </FlexLayout>
 </ContentView>
