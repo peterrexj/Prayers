@@ -65,8 +65,6 @@ namespace Prayers.ViewModels
             }
         }
 
-
-
         public PrayerViewModel()
         {
             btnGoPreviousCommand = new Command(async () => await GoPrevious());
