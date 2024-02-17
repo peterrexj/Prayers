@@ -94,7 +94,7 @@
     <ImageAsset Include="Assets.xcassets\start_logo.imageset\mainpic.jpg">
       <Visible>false</Visible>
     </ImageAsset>
-    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Resources\SplashScreen.storyboard" />
     <BundleResource Include="..\..\..\Resources\St Joseph Prayer.csv">
       <Link>St Joseph Prayer.csv</Link>
     </BundleResource>

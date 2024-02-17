@@ -41,9 +41,9 @@ namespace Prayers.iOS
 
                 Xamarin.Essentials.Platform.Init(() => GetCurrentUIViewController());
 
-#if DEBUG
+//#if DEBUG
                 //DisplayCrashReport();
-#endif
+//#endif
             }
             catch (Exception ex)
             {
