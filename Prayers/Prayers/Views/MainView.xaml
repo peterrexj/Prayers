@@ -22,10 +22,10 @@
 
             <StackLayout>
                 <Label
-                    Margin="{OnPlatform Android={OnIdiom Phone='0,0,0,0',
-                                                         Tablet='0,0,0,0'},
-                                        iOS={OnIdiom Phone='0,25,0,0',
-                                                     Tablet='0,25,0,0'}}"
+                    Margin="{OnPlatform Android={OnIdiom Phone='10,0,10,0',
+                                                         Tablet='10,0,10,0'},
+                                        iOS={OnIdiom Phone='10,25,10,0',
+                                                     Tablet='10,25,10,0'}}"
                     FontAttributes="Bold"
                     FontSize="Large"
                     HorizontalOptions="CenterAndExpand"
@@ -61,7 +61,7 @@
                     Text="{Binding PrayerMainHeader02}"
                     TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
                     VerticalOptions="CenterAndExpand" />
-                <Grid Margin="{OnPlatform Android={OnIdiom Phone='0,0,0,10', Tablet='0,0,0,10'}, iOS={OnIdiom Phone='0,0,0,20', Tablet='0,0,0,20'}}">
+                <Grid Margin="{OnPlatform Android={OnIdiom Phone='10,0,10,10', Tablet='10,0,10,10'}, iOS={OnIdiom Phone='10,0,10,20', Tablet='10,0,10,20'}}">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="50" />
                     </Grid.RowDefinitions>
@@ -74,7 +74,7 @@
                     <syncEffectsView:SfEffectsView
                         Grid.Column="1"
                         BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
-                        CornerRadius="10"
+                        CornerRadius="5"
                         FadeOutRipple="True"
                         RippleAnimationDuration="500"
                         TouchUpCommand="{Binding btnStartCommand}">

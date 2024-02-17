@@ -7,6 +7,7 @@ using Prayers.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace Prayers
 {
@@ -45,22 +46,46 @@ namespace Prayers
                 }
             }
 
-            ThemeHelper.UpdateAppThemes();
-            SharedServices.LoadPrayerViewModelData();
-
-            MainPage = new AppShell();
+            try
+            {
+                MainPage = new AppShell();
+                ThemeHelper.UpdateAppThemes();
+                SharedServices.LoadPrayerViewModelData();
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
         }
 
         protected override void OnStart()
         {
+            OnResume();
         }
 
         protected override void OnSleep()
         {
+            RequestedThemeChanged -= App_RequestedThemeChanged;
         }
 
         protected override void OnResume()
         {
+            RequestedThemeChanged += App_RequestedThemeChanged;
+        }
+
+        private void App_RequestedThemeChanged(object sender, AppThemeChangedEventArgs e)
+        {
+            try
+            {
+                MainThread.BeginInvokeOnMainThread(() =>
+                {
+                    ThemeHelper.UpdateAppThemes(ThemeHelper.GetDefaultStyleTheme());
+                });
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
         }
     }
 }

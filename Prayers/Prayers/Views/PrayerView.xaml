@@ -220,13 +220,13 @@
                             <ColumnDefinition Width="20" />
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="40" />
+                            <RowDefinition Height="50" />
                         </Grid.RowDefinitions>
                         <syncEffectsView:SfEffectsView
                             Grid.Row="0"
                             Grid.Column="1"
                             BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
-                            CornerRadius="10"
+                            CornerRadius="5"
                             FadeOutRipple="True"
                             IsVisible="{Binding CanGoPrevious}"
                             RippleAnimationDuration="500"
@@ -270,7 +270,7 @@
                             Grid.Row="0"
                             Grid.Column="2"
                             BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
-                            CornerRadius="10"
+                            CornerRadius="5"
                             FadeOutRipple="True"
                             IsVisible="{Binding CanGoNext}"
                             RippleAnimationDuration="500"
