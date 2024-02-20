@@ -1,7 +1,4 @@
-﻿using Prayers.ViewModels.Extras;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
@@ -12,13 +9,17 @@ namespace Prayers.Services
         public static bool IsPlaying = false;
 
         readonly IAudioPlayerService audioPlayerService;
+        //readonly AudioPlayer01Service audioPlyService;
+
         public AudioController()
         {
             audioPlayerService = DependencyService.Get<IAudioPlayerService>();
+            //audioPlyService = new AudioPlayer01Service();
         }
 
         public async Task PlayAudio(List<string> audioFiles)
         {
+            //await audioPlyService.Play(audioFiles);
             await audioPlayerService.Play(audioFiles);
             IsPlaying = true;
         }
@@ -26,11 +27,13 @@ namespace Prayers.Services
         public void StopAudio()
         {
             IsPlaying = false;
+            //audioPlyService.Stop();
             audioPlayerService.Stop();
         }
 
         public void PauseAudio()
         {
+            //audioPlyService.Pause();
             audioPlayerService.Pause();
         }
 
@@ -38,6 +41,5 @@ namespace Prayers.Services
         {
             IsPlaying = false;
         }
-
     }
 }

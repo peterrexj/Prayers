@@ -28,7 +28,7 @@
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
     <CodesignKey>Apple Development: Created via API (965CR7HS5Q)</CodesignKey>
-    <CodesignProvision>VS: WildCard Development</CodesignProvision>
+    <CodesignProvision>VS: com.pj.stjosephnovenamalayalam Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -306,21 +306,6 @@
   <ItemGroup>
     <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page9 - Content1.mp3">
       <Link>Resources\Page9 - Content1.mp3</Link>
-    </BundleResource>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\page test1.mp3">
-      <Link>Resources\page test1.mp3</Link>
-    </BundleResource>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\page test2.mp3">
-      <Link>Resources\page test2.mp3</Link>
-    </BundleResource>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\page test3.mp3">
-      <Link>Resources\page test3.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
