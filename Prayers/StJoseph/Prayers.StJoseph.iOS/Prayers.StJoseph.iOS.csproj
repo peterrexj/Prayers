@@ -308,5 +308,20 @@
       <Link>Resources\Page9 - Content1.mp3</Link>
     </BundleResource>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\Resources\StJoseph\page test1.mp3">
+      <Link>Resources\page test1.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\Resources\StJoseph\page test2.mp3">
+      <Link>Resources\page test2.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\Resources\StJoseph\page test3.mp3">
+      <Link>Resources\page test3.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

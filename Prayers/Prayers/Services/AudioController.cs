@@ -17,9 +17,9 @@ namespace Prayers.Services
             audioPlayerService = DependencyService.Get<IAudioPlayerService>();
         }
 
-        public async Task PlayAudio(string audioFile)
+        public async Task PlayAudio(List<string> audioFiles)
         {
-            await audioPlayerService.Play(audioFile);
+            await audioPlayerService.Play(audioFiles);
             IsPlaying = true;
         }
 

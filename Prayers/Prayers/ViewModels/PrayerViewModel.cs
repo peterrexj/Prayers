@@ -6,7 +6,9 @@ using Prayers.Models;
 using Prayers.Services;
 using Prayers.ViewModels.Extras;
 using Syncfusion.XForms.ProgressBar;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
@@ -67,6 +69,7 @@ namespace Prayers.ViewModels
 
         public PrayerViewModel()
         {
+            AudioFiles = new List<string>();
             btnGoPreviousCommand = new Command(async () => await GoPrevious());
             btnGoNextCommand = new Command(async () => await GoNext());
             progressTappedCommand = new Command<StepTappedEventArgs>(async (args) => await OnProgressStepTapped(args));
@@ -110,19 +113,19 @@ namespace Prayers.ViewModels
             }
         }
 
-        public string AudioFileName { get; set; }
+        public List<string> AudioFiles { get; set; }
 
         public async Task PlayAudio()
         {
-            if (AudioFileName.HasValue())
+            if (AudioFiles.Any())
             {
-                await SharedServices.AudioController.PlayAudio(AudioFileName);
+                await SharedServices.AudioController.PlayAudio(AudioFiles);
             }
         }
 
         public void PauseAudio()
         {
-            if (AudioFileName.HasValue())
+            if (AudioFiles.Any())
             {
                 SharedServices.AudioController.PauseAudio();
             }
@@ -130,7 +133,7 @@ namespace Prayers.ViewModels
 
         public void StopAudio()
         {
-            if (AudioFileName.HasValue())
+            if (AudioFiles.Any())
             {
                 SharedServices.AudioController.StopAudio();
             }

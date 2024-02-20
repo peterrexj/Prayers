@@ -1,8 +1,10 @@
 ﻿using Android.Media;
 using Microsoft.AppCenter.Crashes;
+using Pj.Library;
 using Prayers.Droid.Services;
 using Prayers.Services;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
@@ -12,9 +14,10 @@ namespace Prayers.Droid.Services
     public class AudioPlayerService : IAudioPlayerService
     {
         private MediaPlayer _mediaPlayer;
-
+        private Queue<string> _mediaFilesToPlay;
         public AudioPlayerService()
         {
+            _mediaFilesToPlay = new Queue<string>();
         }
 
         private void InitializePlayer()
@@ -31,13 +34,20 @@ namespace Prayers.Droid.Services
             _mediaPlayer.Completion -= _mediaPlayer_Completion;
             _mediaPlayer = null;
         }
-        private void _mediaPlayer_Completion(object sender, EventArgs e)
+        private async void _mediaPlayer_Completion(object sender, EventArgs e)
         {
-            SharedServices.AudioController.AudioComplete();
-            ReleasePlayer();
+            try
+            {
+                ReleasePlayer();
+                await CheckAudioToPlay();
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
         }
 
-        public async Task Play(string audioFilePath)
+        public async Task Play(List<string> audioFilePath)
         {
             try
             {
@@ -48,22 +58,43 @@ namespace Prayers.Droid.Services
                 }
                 else
                 {
-                    InitializePlayer();
-                    var fd = global::Android.App.Application.Context.Assets.OpenFd(audioFilePath);
-                    await _mediaPlayer.SetDataSourceAsync(fd.FileDescriptor, fd.StartOffset, fd.Length);
-                    _mediaPlayer.Prepare();
+                    _mediaFilesToPlay.Clear();
+                    audioFilePath.Iter(f => _mediaFilesToPlay.Enqueue(f));
+                    await CheckAudioToPlay();
                 }
             }
             catch (Exception ex)
             {
                 Crashes.TrackError(ex);
             }
+        }
 
+        private async Task CheckAudioToPlay()
+        {
+            if (_mediaFilesToPlay.Count <= 0)
+            {
+                SharedServices.AudioController.AudioComplete();
+                return;
+            }
+            var file = _mediaFilesToPlay.Dequeue();
+            if (file.IsEmpty()) return;
+
+            InitializePlayer();
+            var fd = global::Android.App.Application.Context.Assets.OpenFd(file);
+            await _mediaPlayer.SetDataSourceAsync(fd.FileDescriptor, fd.StartOffset, fd.Length);
+            _mediaPlayer.Prepare();
         }
 
         private void _mediaPlayer_Prepared(object sender, EventArgs e)
         {
-            _mediaPlayer.Start();
+            try
+            {
+                _mediaPlayer.Start();
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
         }
 
         public void Pause()

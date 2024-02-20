@@ -83,7 +83,9 @@ namespace Prayers.Views
             {
                 if (item.ContentType == "H")
                 {
-                    var para = new ParaHeaderView { ParaHeaderContent = item.Content, 
+                    var para = new ParaHeaderView
+                    {
+                        ParaHeaderContent = item.Content,
                         FontSize = item.FontSize,
                     };
                     contentStack.Children.Add(para);
@@ -123,7 +125,10 @@ namespace Prayers.Views
                 }
                 else if (item.ContentType == "Sound")
                 {
-                    viewModel.AudioFileName = item.Content.Trim();
+                    if (item.Content.HasValue())
+                    {
+                        viewModel.AudioFiles.Add(item.Content.Trim());
+                    }
                 }
             }
         }

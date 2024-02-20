@@ -1,9 +1,11 @@
 ﻿using AVFoundation;
 using Foundation;
 using Microsoft.AppCenter.Crashes;
+using Pj.Library;
 using Prayers.iOS.Services;
 using Prayers.Services;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -16,6 +18,12 @@ namespace Prayers.iOS.Services
     public class AudioPlayerService : IAudioPlayerService
     {
         private AVAudioPlayer _mediaPlayer;
+        private Queue<string> _mediaFilesToPlay;
+
+        public AudioPlayerService()
+        {
+            _mediaFilesToPlay = new Queue<string>();
+        }
 
         private void InitializePlayer(string fileName)
         {
@@ -27,8 +35,15 @@ namespace Prayers.iOS.Services
 
         private void _mediaPlayer_FinishedPlaying(object sender, AVStatusEventArgs e)
         {
-            SharedServices.AudioController.AudioComplete();
-            ReleasePlayer();
+            try
+            {
+                ReleasePlayer();
+                CheckAudioToPlay();
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
         }
 
         private void ReleasePlayer()
@@ -38,7 +53,7 @@ namespace Prayers.iOS.Services
             _mediaPlayer = null;
         }
 
-        public async Task Play(string audioFilePath)
+        public async Task Play(List<string> audioFilePath)
         {
             try
             {
@@ -51,17 +66,32 @@ namespace Prayers.iOS.Services
                     }
                     else
                     {
-                        InitializePlayer(audioFilePath);
-                        _mediaPlayer.PrepareToPlay();
-                        _mediaPlayer.Play();
+                        _mediaFilesToPlay.Clear();
+                        audioFilePath.Iter(f => _mediaFilesToPlay.Enqueue(f));
+                        CheckAudioToPlay();
                     }
                 });
-                
+
             }
             catch (Exception ex)
             {
                 Crashes.TrackError(ex);
             }
+        }
+
+        private void CheckAudioToPlay()
+        {
+            if (_mediaFilesToPlay.Count <= 0)
+            {
+                SharedServices.AudioController.AudioComplete();
+                return;
+            }
+            var file = _mediaFilesToPlay.Dequeue();
+            if (file.IsEmpty()) return;
+
+            InitializePlayer(file);
+            _mediaPlayer.PrepareToPlay();
+            _mediaPlayer.Play();
         }
 
         public void Pause()

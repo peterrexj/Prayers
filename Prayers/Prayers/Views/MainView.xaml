@@ -22,19 +22,19 @@
 
             <StackLayout>
                 <Label
-                    Margin="{OnPlatform Android={OnIdiom Phone='10,0,10,0',
-                                                         Tablet='10,0,10,0'},
-                                        iOS={OnIdiom Phone='10,25,10,0',
-                                                     Tablet='10,25,10,0'}}"
+                    Margin="{OnPlatform Android={OnIdiom Phone='10,20,10,0',
+                                                         Tablet='10,20,10,0'},
+                                        iOS={OnIdiom Phone='10,60,10,0',
+                                                     Tablet='10,60,10,0'}}"
                     FontAttributes="Bold"
-                    FontSize="Large"
+                    FontSize="34"
                     HorizontalOptions="CenterAndExpand"
                     HorizontalTextAlignment="Center"
                     Text="{Binding PrayerMainHeader01}"
                     TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
                     VerticalOptions="CenterAndExpand" />
                 <sfBorder:SfBorder
-                    Margin="10"
+                    Margin="30,0,30,0"
                     BorderColor="{Binding DefaultStyle.BoxBorderColor, Converter={StaticResource stringToColorConverter}}"
                     BorderWidth="1"
                     CornerRadius="0"
@@ -55,13 +55,13 @@
                 <Label
                     Margin="0"
                     FontAttributes="Bold"
-                    FontSize="Medium"
+                    FontSize="25"
                     HorizontalOptions="CenterAndExpand"
                     HorizontalTextAlignment="Center"
                     Text="{Binding PrayerMainHeader02}"
                     TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
                     VerticalOptions="CenterAndExpand" />
-                <Grid Margin="{OnPlatform Android={OnIdiom Phone='10,0,10,10', Tablet='10,0,10,10'}, iOS={OnIdiom Phone='10,0,10,20', Tablet='10,0,10,20'}}">
+                <Grid Margin="{OnPlatform Android={OnIdiom Phone='10,0,10,30', Tablet='10,0,10,30'}, iOS={OnIdiom Phone='10,0,10,60', Tablet='10,0,10,60'}}">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="50" />
                     </Grid.RowDefinitions>
