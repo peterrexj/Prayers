@@ -20,7 +20,7 @@
         <Grid>
             <magic:GradientView GradientSource="{Binding DefaultStyle.DefaultMgPageBgSource}" VerticalOptions="FillAndExpand" />
             <StackLayout>
-                <Grid Margin="{OnPlatform Android={OnIdiom Phone='0,0,0,0', Tablet='0,0,0,0'}, iOS={OnIdiom Phone='0,50,0,0', Tablet='0,50,0,0'}}">
+                <Grid Margin="{OnPlatform Android={OnIdiom Phone='0,0,0,15', Tablet='0,0,0,15'}, iOS={OnIdiom Phone='0,50,0,15', Tablet='0,50,0,15'}}">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="80" />
                         <ColumnDefinition Width="10" />
@@ -28,7 +28,7 @@
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="40" />
-                        <RowDefinition Height="30" />
+                        <RowDefinition Height="40" />
                         <RowDefinition Height="4" />
                         <RowDefinition Height="40" />
                     </Grid.RowDefinitions>
@@ -45,27 +45,29 @@
                         Grid.Row="0"
                         Grid.Column="2"
                         Grid.ColumnSpan="4"
-                        BackgroundColor="Transparent"
                         BindableLayout.ItemsSource="{Binding ProgressInformation}"
                         HorizontalOptions="CenterAndExpand"
                         Orientation="Horizontal"
                         ProgressAnimationDuration="0"
                         StepViewTappedCommand="{Binding progressTappedCommand}"
                         TitleAlignment="Start"
-                        TitleSpace="10"
                         VerticalOptions="CenterAndExpand">
                         <progressBar:SfStepProgressBar.NotStartedStepStyle>
                             <progressBar:StepStyle
                                 x:TypeArguments="progressBar:NotStartedStepState"
+                                MarkerContentSize="20"
                                 MarkerShapeType="Circle"
+                                MarkerSize="30"
                                 TrackColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarTrackColor, Converter={StaticResource stringToColorConverter}}" />
                         </progressBar:SfStepProgressBar.NotStartedStepStyle>
 
                         <progressBar:SfStepProgressBar.InProgressStepStyle>
                             <progressBar:StepStyle
                                 x:TypeArguments="progressBar:InProgressStepState"
+                                MarkerContentSize="20"
                                 MarkerFillColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarInProgressMarkerFillColor, Converter={StaticResource stringToColorConverter}}"
                                 MarkerShapeType="Circle"
+                                MarkerSize="30"
                                 MarkerStrokeColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarInProgressMarkerStrokeColor, Converter={StaticResource stringToColorConverter}}"
                                 MarkerStrokeWidth="1"
                                 TrackColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarTrackColor, Converter={StaticResource stringToColorConverter}}" />
@@ -74,8 +76,10 @@
                         <progressBar:SfStepProgressBar.CompletedStepStyle>
                             <progressBar:StepStyle
                                 x:TypeArguments="progressBar:CompletedStepState"
+                                MarkerContentSize="20"
                                 MarkerFillColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarCompletedBgColor, Converter={StaticResource stringToColorConverter}}"
                                 MarkerShapeType="Circle"
+                                MarkerSize="30"
                                 ProgressLineColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarTrackColor, Converter={StaticResource stringToColorConverter}}" />
                         </progressBar:SfStepProgressBar.CompletedStepStyle>
                         <BindableLayout.ItemTemplate>
@@ -106,8 +110,8 @@
                             Margin="4,0,0,0"
                             BackgroundColor="Transparent"
                             Command="{Binding goHome}"
-                            CornerRadius="30"
-                            WidthRequest="30">
+                            CornerRadius="40"
+                            WidthRequest="40">
                             <Image>
                                 <Image.Source>
                                     <FontImageSource
@@ -118,11 +122,11 @@
                             </Image>
                         </sfButtons:SfButton>
                         <sfButtons:SfButton
-                            Margin="4,0,0,0"
+                            Margin="8,0,0,0"
                             BackgroundColor="Transparent"
                             Command="{Binding changeTheme}"
-                            CornerRadius="30"
-                            WidthRequest="30">
+                            CornerRadius="40"
+                            WidthRequest="40">
                             <Image>
                                 <Image.Source>
                                     <FontImageSource
@@ -136,8 +140,8 @@
                             Margin="30,0,0,0"
                             BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                             Command="{Binding playAudio}"
-                            CornerRadius="30"
-                            WidthRequest="30">
+                            CornerRadius="40"
+                            WidthRequest="40">
                             <Image>
                                 <Image.Source>
                                     <FontImageSource
@@ -151,8 +155,8 @@
                             Margin="4,0,0,0"
                             BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                             Command="{Binding pauseAudio}"
-                            CornerRadius="30"
-                            WidthRequest="30">
+                            CornerRadius="40"
+                            WidthRequest="40">
                             <Image>
                                 <Image.Source>
                                     <FontImageSource
@@ -166,8 +170,8 @@
                             Margin="4,0,0,0"
                             BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                             Command="{Binding stopAudio}"
-                            CornerRadius="30"
-                            WidthRequest="30">
+                            CornerRadius="40"
+                            WidthRequest="40">
                             <Image>
                                 <Image.Source>
                                     <FontImageSource
@@ -181,8 +185,8 @@
                             Margin="30,0,0,0"
                             BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                             Command="{Binding increaseFont}"
-                            CornerRadius="30"
-                            WidthRequest="30">
+                            CornerRadius="40"
+                            WidthRequest="40">
                             <Image>
                                 <Image.Source>
                                     <FontImageSource
@@ -196,8 +200,8 @@
                             Margin="4,0,0,0"
                             BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                             Command="{Binding decreaseFont}"
-                            CornerRadius="30"
-                            WidthRequest="30">
+                            CornerRadius="40"
+                            WidthRequest="40">
                             <Image>
                                 <Image.Source>
                                     <FontImageSource
@@ -312,7 +316,6 @@
                         </syncEffectsView:SfEffectsView>
                     </Grid>
                 </Grid>
-
 
                 <StackLayout>
                     <ScrollView>
