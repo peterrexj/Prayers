@@ -34,6 +34,9 @@ namespace Prayers.Views
         {
             viewModel.DefaultStyle = ThemeHelper.GetDefaultStyleTheme();
 
+            viewModel.ParaContentViews = new List<ParaContentView>();
+            viewModel.ParaBulletViews = new List<ParaBulletView>();
+
             base.OnAppearing();
 
             int currentPageId = 0;
@@ -79,6 +82,8 @@ namespace Prayers.Views
                         }))
                 );
 
+            double currentFontSize = SettingsHelper.Model.CurrentFontSize;
+
             foreach (var item in viewModel.SinglePageDataModel.Content)
             {
                 if (item.ContentType == "H")
@@ -95,11 +100,14 @@ namespace Prayers.Views
                     var para = new ParaContentView
                     {
                         ParaContent = item.Content,
-                        FontSize = item.FontSize,
+                        FontSize = item.FontSize + currentFontSize,
                         TextWrap = item.TextWrap,
                         FontAlign = item.FontAlign,
                         FontCustomAttributes = item.FontAttribute,
                     };
+
+                    viewModel.ParaContentViews.Add(para);
+
                     contentStack.Children.Add(para);
                 }
                 else if (item.ContentType == "P_Bullet")
@@ -108,11 +116,14 @@ namespace Prayers.Views
                     {
                         ParaContent = item.Content,
                         ParaNumber = item.AdditionalData,
-                        FontSize = item.FontSize,
+                        FontSize = item.FontSize + currentFontSize,
                         TextWrap = item.TextWrap,
                         FontAlign = item.FontAlign,
                         FontCustomAttributes = item.FontAttribute
                     };
+
+                    viewModel.ParaBulletViews.Add(para);
+
                     contentStack.Children.Add(para);
                 }
                 else if (item.ContentType == "P_Img")

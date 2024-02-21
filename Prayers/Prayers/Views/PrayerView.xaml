@@ -5,14 +5,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:converters="clr-namespace:Prayers.Converters"
     xmlns:fontAwesome="clr-namespace:FontAwesome"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
     xmlns:progressBar="clr-namespace:Syncfusion.XForms.ProgressBar;assembly=Syncfusion.SfProgressBar.XForms"
-    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
-    xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
     xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
     ios:Page.UseSafeArea="False">
-    <ContentPage.Resources> 
+    <ContentPage.Resources>
         <ResourceDictionary>
             <converters:StringToColorConverter x:Key="stringToColorConverter" />
         </ResourceDictionary>
@@ -21,11 +20,7 @@
         <Grid>
             <magic:GradientView GradientSource="{Binding DefaultStyle.DefaultMgPageBgSource}" VerticalOptions="FillAndExpand" />
             <StackLayout>
-                <Grid 
-                    Margin="{OnPlatform Android={OnIdiom Phone='0,0,0,0',
-                                     Tablet='0,0,0,0'},
-                    iOS={OnIdiom Phone='0,50,0,0',
-                                 Tablet='0,50,0,0'}}">
+                <Grid Margin="{OnPlatform Android={OnIdiom Phone='0,0,0,0', Tablet='0,0,0,0'}, iOS={OnIdiom Phone='0,50,0,0', Tablet='0,50,0,0'}}">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="80" />
                         <ColumnDefinition Width="10" />
@@ -182,9 +177,10 @@
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
-                        <!--<sfButtons:SfButton
+                        <sfButtons:SfButton
                             Margin="30,0,0,0"
                             BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
+                            Command="{Binding increaseFont}"
                             CornerRadius="30"
                             WidthRequest="30">
                             <Image>
@@ -199,6 +195,7 @@
                         <sfButtons:SfButton
                             Margin="4,0,0,0"
                             BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
+                            Command="{Binding decreaseFont}"
                             CornerRadius="30"
                             WidthRequest="30">
                             <Image>
@@ -209,10 +206,13 @@
                                         Color="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
                                 </Image.Source>
                             </Image>
-                        </sfButtons:SfButton>-->
+                        </sfButtons:SfButton>
                     </FlexLayout>
-                    
-                    <Grid Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="5">
+
+                    <Grid
+                        Grid.Row="3"
+                        Grid.Column="1"
+                        Grid.ColumnSpan="5">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="20" />
                             <ColumnDefinition Width="*" />
@@ -310,22 +310,6 @@
                                 </sfButtons:SfButton>
                             </Grid>
                         </syncEffectsView:SfEffectsView>
-                        <!--<Button
-        Grid.Row="0"
-        Grid.Column="1"
-        BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
-        Command="{Binding btnGoPreviousCommand}"
-        IsEnabled="{Binding CanGoPrevious}"
-        Text="Previous"
-        TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />-->
-                        <!--<Button
-        Grid.Row="0"
-        Grid.Column="2"
-        BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
-        Command="{Binding btnGoNextCommand}"
-        IsEnabled="{Binding CanGoNext}"
-        Text="Next"
-        TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />-->
                     </Grid>
                 </Grid>
 

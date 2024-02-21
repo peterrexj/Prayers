@@ -43,12 +43,6 @@ namespace Prayers.ViewModels.Extras
         }
         public AppThemes SelectedAppTheme => EnumHelper<AppThemes>.FromString(selectedTheme);
 
-        #region Commands
-
-
-        #endregion
-
-
         [JsonIgnore]
         private ObservableCollection<string> themes;
         [JsonIgnore]
@@ -75,6 +69,23 @@ namespace Prayers.ViewModels.Extras
             {
                 styleModelDefault = value;
                 OnPropertyChanged(nameof(StyleModelDefault));
+            }
+        }
+
+        private double currentFontSize;
+        public double CurrentFontSize
+        {
+            get => currentFontSize;
+            set
+            {
+                if (isUpdating == false)
+                {
+                    isUpdating = true;
+                    currentFontSize = value;
+                    OnPropertyChanged("CurrentFontSize");
+                    SaveData();
+                    isUpdating = false;
+                }
             }
         }
 
