@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="mainpic.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="23">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="start_logo" translatesAutoresizingMaskIntoConstraints="NO" id="23">
                                 <rect key="frame" x="41" y="147" width="311" height="582"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                             </imageView>
@@ -38,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="mainpic.jpg" width="281.25" height="435"/>
+        <image name="start_logo" width="375" height="580"/>
     </resources>
 </document>
