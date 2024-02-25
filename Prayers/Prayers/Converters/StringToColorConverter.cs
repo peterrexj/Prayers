@@ -47,5 +47,9 @@ namespace Prayers.Converters
             // Return null if the conversion fails
             return null;
         }
+        public System.Drawing.Color ToColorFromHex(string value)
+        {
+            return (System.Drawing.Color)Convert(value, typeof(Color), null, CultureInfo.CurrentCulture);
+        }
     }
 }

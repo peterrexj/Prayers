@@ -17,7 +17,7 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <Grid>
+        <Grid IsEnabled="{Binding IsFree}">
             <magic:GradientView GradientSource="{Binding DefaultStyle.DefaultMgPageBgSource}" VerticalOptions="FillAndExpand" />
             <StackLayout>
                 <Grid Margin="{OnPlatform Android={OnIdiom Phone='0,0,0,15', Tablet='0,0,0,15'}, iOS={OnIdiom Phone='0,50,0,15', Tablet='0,50,0,15'}}">
@@ -247,7 +247,7 @@
                             <ColumnDefinition Width="5" />
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="50" />
+                            <RowDefinition Height="40" />
                         </Grid.RowDefinitions>
                         <syncEffectsView:SfEffectsView
                             Grid.Row="0"
@@ -273,7 +273,6 @@
                                     Text="Back"
                                     TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}"
                                     VerticalOptions="Center" />
-
                                 <sfButtons:SfButton
                                     Grid.Column="1"
                                     BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
@@ -314,6 +313,7 @@
                                     FontAttributes="Bold"
                                     FontSize="Medium"
                                     HorizontalOptions="Center"
+                                    IsEnabled="{Binding IsFree}"
                                     Text="Next"
                                     TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}"
                                     VerticalOptions="Center" />
@@ -324,6 +324,7 @@
                                     Command="{Binding btnGoNextCommand}"
                                     CornerRadius="30"
                                     HeightRequest="25"
+                                    IsEnabled="{Binding IsFree}"
                                     VerticalOptions="Center"
                                     WidthRequest="30">
                                     <Image>

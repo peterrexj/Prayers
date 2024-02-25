@@ -96,6 +96,9 @@
     <Compile Include="..\..\..\LinkFiles\Uwp\ConfigHelper.cs">
       <Link>Services\ConfigHelper.cs</Link>
     </Compile>
+    <Compile Include="..\..\..\LinkFiles\Uwp\DeviceSpecificEnvironmentService.cs">
+      <Link>Services\DeviceSpecificEnvironmentService.cs</Link>
+    </Compile>
     <Compile Include="..\..\..\LinkFiles\Uwp\LocalFileStorageService.cs">
       <Link>Services\LocalFileStorageService.cs</Link>
     </Compile>

@@ -98,6 +98,9 @@
     <Compile Include="..\..\..\LinkFiles\Droid\ConfigHelper.cs">
       <Link>Services\ConfigHelper.cs</Link>
     </Compile>
+    <Compile Include="..\..\..\LinkFiles\Droid\DeviceSpecificEnvironmentService.cs">
+      <Link>Services\DeviceSpecificEnvironmentService.cs</Link>
+    </Compile>
     <Compile Include="..\..\..\LinkFiles\Droid\LocalFileStorageService.cs">
       <Link>Services\LocalFileStorageService.cs</Link>
     </Compile>
@@ -150,19 +153,10 @@
     <AndroidResource Include="Resources\xml\appcenter_backup_rule.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-anydpi-v26\appicon.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\mipmap-hdpi\appicon_adaptive_fore.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-hdpi\appicon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\mipmap-hdpi\appicon_adaptive_back.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-mdpi\appicon.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-mdpi\appicon_adaptive_back.png" />
@@ -171,16 +165,10 @@
     <AndroidResource Include="Resources\mipmap-mdpi\appicon_adaptive_fore.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xhdpi\appicon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\mipmap-xhdpi\appicon_adaptive_back.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-xhdpi\appicon_adaptive_fore.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxhdpi\appicon.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-xxhdpi\appicon_adaptive_back.png" />
@@ -190,9 +178,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-xxxhdpi\appicon_adaptive_fore.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\appicon.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-xxxhdpi\appicon_adaptive_back.png" />
@@ -300,21 +285,6 @@
     </AndroidAsset>
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="..\..\..\Resources\StJoseph\page test1.mp3">
-      <Link>Assets\page test1.mp3</Link>
-    </AndroidAsset>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidAsset Include="..\..\..\Resources\StJoseph\page test2.mp3">
-      <Link>Assets\page test2.mp3</Link>
-    </AndroidAsset>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidAsset Include="..\..\..\Resources\StJoseph\page test3.mp3">
-      <Link>Assets\page test3.mp3</Link>
-    </AndroidAsset>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable-hdpi\splash_logo.png" />
   </ItemGroup>
   <ItemGroup>
@@ -337,6 +307,24 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\splash_logo_land.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\appicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\appicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-anydpi-v26\appicon.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\appicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\appicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\appicon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

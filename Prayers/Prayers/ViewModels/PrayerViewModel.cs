@@ -92,30 +92,34 @@ namespace Prayers.ViewModels
 
         public async Task GoPrevious()
         {
+            IsBusy = true;
             try
             {
                 if (CanGoPrevious)
                 {
                     StopAudio();
                     var route = $"Page{SinglePageDataModel.PreviousPageId}?PageId={SinglePageDataModel.PreviousPageId}";
-                    await Shell.Current.GoToAsync(route);
+                    await Shell.Current.GoToAsync(route, animate: false);
                 }
             }
             catch (Exception ex) { ExceptionHandler.CaptureException(ex); }
+            finally { IsBusy = false; }
         }
 
         public async Task GoNext()
         {
+            IsBusy = true;
             try
             {
                 if (CanGoNext)
                 {
                     StopAudio();
                     var route = $"Page{SinglePageDataModel.NextPageId}?PageId={SinglePageDataModel.NextPageId}";
-                    await Shell.Current.GoToAsync(route);
+                    await Shell.Current.GoToAsync(route, animate: false);
                 }
             }
             catch (Exception ex) { ExceptionHandler.CaptureException(ex); }
+            finally { IsBusy = false; }
         }
 
         public bool CanGoPrevious => SinglePageDataModel?.PreviousPageId != null && SinglePageDataModel?.PreviousPageId.HasValue == true;
@@ -272,7 +276,7 @@ namespace Prayers.ViewModels
                             var realFontSize = SinglePageDataModel.Content.FirstOrDefault(f => f.Content == para.ParaContent)?.FontSize;
                             if (realFontSize != null && realFontSize > 0)
                             {
-                                if (para.FontSize > realFontSize + maxFontSize)
+                                if (para.FontSize > realFontSize + minFontSize)
                                 {
                                     para.FontSize--;
                                 }

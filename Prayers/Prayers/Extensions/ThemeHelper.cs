@@ -1,6 +1,8 @@
 ﻿using Pj.Library;
 using Prayers.Models;
+using Prayers.Services;
 using Prayers.ViewModels.Extras;
+using System;
 using Xamarin.Forms;
 
 namespace Prayers.Extensions
@@ -17,6 +19,18 @@ namespace Prayers.Extensions
             return DefaultStyleProvider.LoadDefaultStyle(appThemes);
         }
 
+        public static void UpdateStatusBarBasedOnTheme(Color statusBarColor, bool isDarkTheme)
+        {
+            try
+            {
+                DependencyService.Get<IDeviceSpecificEnvironment>().SetStatusBarColor(statusBarColor, isDarkTheme);
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+        }
+
         public static void UpdateAppThemes()
         {
             UpdateAppThemes(GetDefaultStyleTheme());
@@ -24,7 +38,8 @@ namespace Prayers.Extensions
         public static void UpdateAppThemes(StyleModelDefault styleModel)
         {
             if (styleModel == null) return;
-            
+            UpdateStatusBarBasedOnTheme(styleModel.PageBgColorConverted, styleModel.AppTheme == AppThemes.Dark);
+
             ResourceDictionary appResources = Application.Current.Resources;
             if (appResources.ContainsKey("AppShellBgColor") && styleModel.AppShellBgColor.HasValue())
             {
@@ -65,6 +80,10 @@ namespace Prayers.Extensions
             if (appResources.ContainsKey("AppShellTabBarTitleColor") && styleModel.AppShellTabBarTitleColor.HasValue())
             {
                 appResources["AppShellTabBarTitleColor"] = styleModel.AppShellTabBarTitleColor;
+            }
+            if (appResources.ContainsKey("AppShellBackgroundColor") && styleModel.AppShellBackgroundColor.HasValue())
+            {
+                appResources["AppShellBackgroundColor"] = styleModel.AppShellBackgroundColor;
             }
         }
     }

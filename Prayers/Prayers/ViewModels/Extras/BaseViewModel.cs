@@ -15,7 +15,7 @@ namespace Prayers.ViewModels.Extras
             }
             set
             {
-                _isBusy = !value;
+                _isBusy = value;
                 OnPropertyChanged("IsBusy");
                 OnPropertyChanged("IsFree");
             }

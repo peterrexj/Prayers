@@ -1,6 +1,6 @@
 ﻿using MagicGradients;
-using Newtonsoft.Json;
-using System.Collections.ObjectModel;
+using Prayers.Models;
+using Prayers.Services;
 using Xamarin.Forms;
 
 namespace Prayers.ViewModels.Extras
@@ -8,6 +8,7 @@ namespace Prayers.ViewModels.Extras
     public class StyleModelDefault : BasePropertyChangeModel
     {
         public IGradientSource DefaultMgPageBgSource { get; set; }
+        public Color PageBgColorConverted => SharedServices.ToColorConverter.ToColorFromHex(AppShellBackgroundColor);
 
         //Box
         public string BoxFontColor { get; set; }
@@ -34,6 +35,8 @@ namespace Prayers.ViewModels.Extras
 
 
         //App Theme Base
+        public AppThemes AppTheme { get; set; }
+        public string AppShellBackgroundColor { get; set; }
         public string AppShellBgColor { get; set; }
         public string AppShellFgColor { get; set; }
         public string AppShellTitleColor { get; set; }
@@ -44,8 +47,5 @@ namespace Prayers.ViewModels.Extras
         public string AppShellTabBarUnselectedColor { get; set; }
         public string AppShellTabBarDisabledColor { get; set; }
         public string AppShellTabBarTitleColor { get; set; }
-
     }
-
-
 }

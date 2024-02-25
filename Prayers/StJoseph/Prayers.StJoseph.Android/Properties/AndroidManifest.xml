@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="3" android:versionName="3" package="com.pj.stjosephnovenamalayalam" android:installLocation="preferExternal">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33" />
-	<application android:label="St. Joseph Novena Malayalam" android:theme="@style/MainTheme" android:fullBackupContent="@xml/appcenter_backup_rule"></application>
+	<application android:label="St. Joseph Novena Malayalam" android:theme="@style/MainTheme" android:fullBackupContent="@xml/appcenter_backup_rule" android:icon="@mipmap/appicon"></application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>

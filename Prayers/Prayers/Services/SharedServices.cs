@@ -1,10 +1,10 @@
 ﻿using Pj.Library;
+using Prayers.Converters;
 using Prayers.Extensions;
 using Prayers.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Xamarin.Forms;
 
 namespace Prayers.Services
@@ -124,6 +124,10 @@ namespace Prayers.Services
 
         static AudioController audioController;
         public static AudioController AudioController => audioController ?? new AudioController();
+
+        static StringToColorConverter _toColorConverter;
+        public static StringToColorConverter ToColorConverter => _toColorConverter ??= new StringToColorConverter();
+        public static IValueConverter ToColorConverterAsValueConverter => ToColorConverter;
 
         private static string _pathToMainImage;
         public static string PathToMainImage

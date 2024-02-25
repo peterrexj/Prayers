@@ -78,6 +78,9 @@
     <Compile Include="..\..\..\LinkFiles\iOS\ConfigHelper.cs">
       <Link>Services\ConfigHelper.cs</Link>
     </Compile>
+    <Compile Include="..\..\..\LinkFiles\iOS\DeviceSpecificEnvironmentService.cs">
+      <Link>Services\DeviceSpecificEnvironmentService.cs</Link>
+    </Compile>
     <Compile Include="..\..\..\LinkFiles\iOS\LocalFileStorageService.cs">
       <Link>Services\LocalFileStorageService.cs</Link>
     </Compile>
@@ -176,7 +179,9 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\152.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\start_logo.imageset\splash_logo.png" />
+    <ImageAsset Include="Assets.xcassets\start_logo.imageset\splash_logo.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

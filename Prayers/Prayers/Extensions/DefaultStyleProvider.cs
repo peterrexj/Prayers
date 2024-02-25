@@ -14,6 +14,8 @@ namespace Prayers.Extensions
                 case AppThemes.Dark:
                     return new StyleModelDefault
                     {
+                        AppTheme = appTheme,
+
                         //Background
                         DefaultMgPageBgSource = CssGradientSource.Parse("linear-gradient(116deg, rgba(232,232,232,0.0299999993294477) 0%, rgba(232,232,232,0.0299999993294477) 10%, rgba(14,14,14,0.0299999993294477) 10%, rgba(14,14,14,0.0299999993294477) 66%, rgba(232,232,232,0.0299999993294477) 66%, rgba(232,232,232,0.0299999993294477) 72%, rgba(44,44,44,0.0299999993294477) 72%, rgba(44,44,44,0.0299999993294477) 81%, rgba(51,51,51,0.0299999993294477) 81%, rgba(51,51,51,0.0299999993294477) 100%),linear-gradient(109deg, rgba(155,155,155,0.0299999993294477) 0%, rgba(155,155,155,0.0299999993294477) 23%, rgba(30,30,30,0.0299999993294477) 23%, rgba(30,30,30,0.0299999993294477) 63%, rgba(124,124,124,0.0299999993294477) 63%, rgba(124,124,124,0.0299999993294477) 73%, rgba(195,195,195,0.0299999993294477) 73%, rgba(195,195,195,0.0299999993294477) 84%, rgba(187,187,187,0.0299999993294477) 84%, rgba(187,187,187,0.0299999993294477) 100%),linear-gradient(79deg, rgba(254,254,254,0.0299999993294477) 0%, rgba(254,254,254,0.0299999993294477) 27%, rgba(180,180,180,0.0299999993294477) 27%, rgba(180,180,180,0.0299999993294477) 33%, rgba(167,167,167,0.0299999993294477) 33%, rgba(167,167,167,0.0299999993294477) 34%, rgba(68,68,68,0.0299999993294477) 34%, rgba(68,68,68,0.0299999993294477) 63%, rgba(171,171,171,0.0299999993294477) 63%, rgba(171,171,171,0.0299999993294477) 100%),linear-gradient(109deg, rgba(71,71,71,0.0299999993294477) 0%, rgba(71,71,71,0.0299999993294477) 3%, rgba(97,97,97,0.0299999993294477) 3%, rgba(97,97,97,0.0299999993294477) 40%, rgba(40,40,40,0.0299999993294477) 40%, rgba(40,40,40,0.0299999993294477) 55%, rgba(5,5,5,0.0299999993294477) 55%, rgba(5,5,5,0.0299999993294477) 73%, rgba(242,242,242,0.0299999993294477) 73%, rgba(242,242,242,0.0299999993294477) 100%),linear-gradient(271deg, rgba(70,70,70,0.0299999993294477) 0%, rgba(70,70,70,0.0299999993294477) 11%, rgba(178,178,178,0.0299999993294477) 11%, rgba(178,178,178,0.0299999993294477) 23%, rgba(28,28,28,0.0299999993294477) 23%, rgba(28,28,28,0.0299999993294477) 72%, rgba(152,152,152,0.0299999993294477) 72%, rgba(152,152,152,0.0299999993294477) 86%, rgba(43,43,43,0.0299999993294477) 86%, rgba(43,43,43,0.0299999993294477) 100%),linear-gradient(90deg, rgba(27,27,27,1) 0%, rgba(1,1,1,1) 100%)"),
 
@@ -50,10 +52,13 @@ namespace Prayers.Extensions
                         AppShellTabBarUnselectedColor = "",
                         AppShellTabBarDisabledColor = "",
                         AppShellTabBarTitleColor = "",
+                        AppShellBackgroundColor = "#447e58",
                     };
                 case AppThemes.Light:
                     return new StyleModelDefault
                     {
+                        AppTheme = appTheme,
+
                         DefaultMgPageBgSource = CssGradientSource.Parse("linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 100%),linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 100%),repeating-linear-gradient(135deg, rgba(175,175,175,0.150000005960464) 0%, rgba(175,175,175,0.150000005960464) 0.1915828%, rgba(0,0,0,0) 0.1915828%, rgba(0,0,0,0) 0.3831657%),linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%)"),
 
                         //Box
@@ -91,57 +96,10 @@ namespace Prayers.Extensions
                         AppShellTabBarUnselectedColor = "#5D6D7E",
                         AppShellTabBarDisabledColor = "#979A9A", //does not Works
                         AppShellTabBarTitleColor = "#21618C", //selected foreground color
+                        AppShellBackgroundColor = "#3091c4",
                     };
                 default:
                     return null;
-            }
-        }
-
-        private static double BoxCurrencyFontSize
-        {
-            get
-            {
-                if (Device.RuntimePlatform == Device.Android)
-                {
-                    if (Device.Idiom == TargetIdiom.Phone)
-                    {
-                        return 18;
-                    }
-                    else { return 24; }
-                }
-                if (Device.RuntimePlatform == Device.iOS)
-                {
-                    if (Device.Idiom == TargetIdiom.Phone)
-                    {
-                        return 18;
-                    }
-                    else { return 24; }
-                }
-                return 24;
-            }
-        }
-
-        private static double BoxMainHighlightFontSize
-        {
-            get
-            {
-                if (Device.RuntimePlatform == Device.Android)
-                {
-                    if (Device.Idiom == TargetIdiom.Phone)
-                    {
-                        return 22;
-                    }
-                    else { return 30; }
-                }
-                if (Device.RuntimePlatform == Device.iOS)
-                {
-                    if (Device.Idiom == TargetIdiom.Phone)
-                    {
-                        return 22;
-                    }
-                    else { return 30; }
-                }
-                return 30;
             }
         }
     }

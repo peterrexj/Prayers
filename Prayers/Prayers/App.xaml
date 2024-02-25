@@ -17,6 +17,7 @@
             <Color x:Key="AppShellTabBarUnselectedColor">#BFC9CA</Color>
             <Color x:Key="AppShellTabBarDisabledColor">#BFC9CA</Color>
             <Color x:Key="AppShellTabBarTitleColor">#BFC9CA</Color>
+            <Color x:Key="AppShellBackgroundColor">#BFC9CA</Color>
             <!--<Style x:Key="sfPagerFontFamily" TargetType="sfPager:SfPagerLabel">
          <Setter Property="FontFamily"
              Value="Arial" />
