@@ -10,19 +10,30 @@
             <converters:StringToColorConverter x:Key="stringToColorConverter" />
         </ResourceDictionary>
     </ContentView.Resources>
-    <FlexLayout Margin="15,2,30,0">
+    <Grid Margin="15,2,30,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
         <Label
             x:Name="lblNumber"
-            Margin="0,3,0,0"
+            Grid.Column="0"
+            Margin="0,2,0,0"
             FontAttributes="Bold"
-            LineBreakMode="NoWrap"
+            HorizontalTextAlignment="Center"
             LineHeight="1.2"
             TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
-            WidthRequest="40" />
-        <controls:LabelExtended x:Name="lblContentJustified" />
+            VerticalTextAlignment="Start"
+            WidthRequest="30" />
+        <controls:LabelExtended x:Name="lblContentJustified" Grid.Column="1" />
+
         <Label
             x:Name="lblContentNormal"
+            Grid.Column="1"
+            Margin="-5,0,0,0"
             LineHeight="1.2"
             TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}" />
-    </FlexLayout>
+
+    </Grid>
+
 </ContentView>

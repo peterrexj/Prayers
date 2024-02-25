@@ -18,6 +18,9 @@ namespace Prayers
         {
             InitializeComponent();
 
+            lblNumber.SetBinding(Label.FontFamilyProperty, new Binding("FontFamily", source: this));
+            lblNumber.SetBinding(Label.FontSizeProperty, new Binding("FontSize", source: this));
+
             lblContentNormal.SetBinding(Label.FontFamilyProperty, new Binding("FontFamily", source: this));
             lblContentNormal.SetBinding(Label.FontSizeProperty, new Binding("FontSize", source: this));
 

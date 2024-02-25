@@ -22,19 +22,20 @@
             <StackLayout>
                 <Grid Margin="{OnPlatform Android={OnIdiom Phone='0,0,0,15', Tablet='0,0,0,15'}, iOS={OnIdiom Phone='0,50,0,15', Tablet='0,50,0,15'}}">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="110" />
                         <ColumnDefinition Width="10" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
+                        <RowDefinition Height="10" />
                         <RowDefinition Height="40" />
-                        <RowDefinition Height="40" />
+                        <RowDefinition Height="35" />
                         <RowDefinition Height="4" />
-                        <RowDefinition Height="40" />
+                        <RowDefinition Height="50" />
                     </Grid.RowDefinitions>
 
                     <Image
-                        Grid.RowSpan="4"
+                        Grid.RowSpan="5"
                         Grid.Column="0"
                         Margin="10,3,0,0"
                         Aspect="AspectFit"
@@ -42,9 +43,9 @@
 
                     <progressBar:SfStepProgressBar
                         x:Name="stepProgress"
-                        Grid.Row="0"
+                        Grid.Row="1"
                         Grid.Column="2"
-                        Grid.ColumnSpan="4"
+                        Margin="0,0,5,0"
                         BindableLayout.ItemsSource="{Binding ProgressInformation}"
                         HorizontalOptions="CenterAndExpand"
                         Orientation="Horizontal"
@@ -55,19 +56,31 @@
                         <progressBar:SfStepProgressBar.NotStartedStepStyle>
                             <progressBar:StepStyle
                                 x:TypeArguments="progressBar:NotStartedStepState"
-                                MarkerContentSize="20"
+                                MarkerContentSize="{OnPlatform Android={OnIdiom Phone='13',
+                                                                                Tablet='20'},
+                                                               iOS={OnIdiom Phone='13',
+                                                                            Tablet='20'}}"
                                 MarkerShapeType="Circle"
-                                MarkerSize="30"
+                                MarkerSize="{OnPlatform Android={OnIdiom Phone='20',
+                                                                         Tablet='30'},
+                                                        iOS={OnIdiom Phone='20',
+                                                                     Tablet='30'}}"
                                 TrackColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarTrackColor, Converter={StaticResource stringToColorConverter}}" />
                         </progressBar:SfStepProgressBar.NotStartedStepStyle>
 
                         <progressBar:SfStepProgressBar.InProgressStepStyle>
                             <progressBar:StepStyle
                                 x:TypeArguments="progressBar:InProgressStepState"
-                                MarkerContentSize="20"
+                                MarkerContentSize="{OnPlatform Android={OnIdiom Phone='13',
+                                                                                Tablet='20'},
+                                                               iOS={OnIdiom Phone='13',
+                                                                            Tablet='20'}}"
                                 MarkerFillColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarInProgressMarkerFillColor, Converter={StaticResource stringToColorConverter}}"
                                 MarkerShapeType="Circle"
-                                MarkerSize="30"
+                                MarkerSize="{OnPlatform Android={OnIdiom Phone='20',
+                                                                         Tablet='30'},
+                                                        iOS={OnIdiom Phone='20',
+                                                                     Tablet='30'}}"
                                 MarkerStrokeColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarInProgressMarkerStrokeColor, Converter={StaticResource stringToColorConverter}}"
                                 MarkerStrokeWidth="1"
                                 TrackColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarTrackColor, Converter={StaticResource stringToColorConverter}}" />
@@ -76,10 +89,16 @@
                         <progressBar:SfStepProgressBar.CompletedStepStyle>
                             <progressBar:StepStyle
                                 x:TypeArguments="progressBar:CompletedStepState"
-                                MarkerContentSize="20"
+                                MarkerContentSize="{OnPlatform Android={OnIdiom Phone='13',
+                                                                                Tablet='20'},
+                                                               iOS={OnIdiom Phone='13',
+                                                                            Tablet='20'}}"
                                 MarkerFillColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarCompletedBgColor, Converter={StaticResource stringToColorConverter}}"
                                 MarkerShapeType="Circle"
-                                MarkerSize="30"
+                                MarkerSize="{OnPlatform Android={OnIdiom Phone='20',
+                                                                         Tablet='30'},
+                                                        iOS={OnIdiom Phone='20',
+                                                                     Tablet='30'}}"
                                 ProgressLineColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarTrackColor, Converter={StaticResource stringToColorConverter}}" />
                         </progressBar:SfStepProgressBar.CompletedStepStyle>
                         <BindableLayout.ItemTemplate>
@@ -99,19 +118,29 @@
                         </BindableLayout.ItemTemplate>
                     </progressBar:SfStepProgressBar>
 
-                    <FlexLayout
-                        Grid.Row="1"
+                    <Grid
+                        Grid.Row="2"
                         Grid.Column="2"
-                        Grid.ColumnSpan="4"
-                        HorizontalOptions="Center"
-                        JustifyContent="Center"
-                        VerticalOptions="Center">
+                        HorizontalOptions="CenterAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="14*" />
+                            <ColumnDefinition Width="14*" />
+                            <ColumnDefinition Width="15" />
+                            <ColumnDefinition Width="14*" />
+                            <ColumnDefinition Width="14*" />
+                            <ColumnDefinition Width="14*" />
+                            <ColumnDefinition Width="15" />
+                            <ColumnDefinition Width="14*" />
+                            <ColumnDefinition Width="14*" />
+                            <ColumnDefinition Width="10" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25" />
+                        </Grid.RowDefinitions>
                         <sfButtons:SfButton
-                            Margin="4,0,0,0"
+                            Grid.Column="0"
                             BackgroundColor="Transparent"
-                            Command="{Binding goHome}"
-                            CornerRadius="40"
-                            WidthRequest="40">
+                            Command="{Binding goHome}">
                             <Image>
                                 <Image.Source>
                                     <FontImageSource
@@ -121,12 +150,11 @@
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
+
                         <sfButtons:SfButton
-                            Margin="8,0,0,0"
+                            Grid.Column="1"
                             BackgroundColor="Transparent"
-                            Command="{Binding changeTheme}"
-                            CornerRadius="40"
-                            WidthRequest="40">
+                            Command="{Binding changeTheme}">
                             <Image>
                                 <Image.Source>
                                     <FontImageSource
@@ -136,92 +164,87 @@
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
+
                         <sfButtons:SfButton
-                            Margin="30,0,0,0"
-                            BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
-                            Command="{Binding playAudio}"
-                            CornerRadius="40"
-                            WidthRequest="40">
+                            Grid.Column="3"
+                            BackgroundColor="Transparent"
+                            Command="{Binding playAudio}">
                             <Image>
                                 <Image.Source>
                                     <FontImageSource
                                         FontFamily="FontAwesome5Solid"
-                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.PlayCircle}"
-                                        Color="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
+                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.Play}"
+                                        Color="{Binding DefaultStyle.ThemeButtonBgColor, Converter={StaticResource stringToColorConverter}}" />
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
+
                         <sfButtons:SfButton
-                            Margin="4,0,0,0"
-                            BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
-                            Command="{Binding pauseAudio}"
-                            CornerRadius="40"
-                            WidthRequest="40">
+                            Grid.Column="4"
+                            BackgroundColor="Transparent"
+                            Command="{Binding pauseAudio}">
                             <Image>
                                 <Image.Source>
                                     <FontImageSource
                                         FontFamily="FontAwesome5Solid"
-                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.PauseCircle}"
-                                        Color="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
+                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.Pause}"
+                                        Color="{Binding DefaultStyle.ThemeButtonBgColor, Converter={StaticResource stringToColorConverter}}" />
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
                         <sfButtons:SfButton
-                            Margin="4,0,0,0"
-                            BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
+                            Grid.Column="5"
+                            BackgroundColor="Transparent"
                             Command="{Binding stopAudio}"
-                            CornerRadius="40"
-                            WidthRequest="40">
+                            CornerRadius="0">
                             <Image>
                                 <Image.Source>
                                     <FontImageSource
                                         FontFamily="FontAwesome5Solid"
-                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.StopCircle}"
-                                        Color="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
+                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.Stop}"
+                                        Color="{Binding DefaultStyle.ThemeButtonBgColor, Converter={StaticResource stringToColorConverter}}" />
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
+
                         <sfButtons:SfButton
-                            Margin="30,0,0,0"
-                            BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
+                            Grid.Column="7"
+                            BackgroundColor="Transparent"
                             Command="{Binding increaseFont}"
                             CornerRadius="40"
-                            WidthRequest="40">
+                            IsEnabled="{Binding IsFree}">
                             <Image>
                                 <Image.Source>
                                     <FontImageSource
                                         FontFamily="FontAwesome5Solid"
-                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.PlusCircle}"
-                                        Color="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
+                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.Plus}"
+                                        Color="{Binding DefaultStyle.ThemeButtonBgColor, Converter={StaticResource stringToColorConverter}}" />
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
                         <sfButtons:SfButton
-                            Margin="4,0,0,0"
-                            BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
+                            Grid.Column="8"
+                            BackgroundColor="Transparent"
                             Command="{Binding decreaseFont}"
                             CornerRadius="40"
-                            WidthRequest="40">
+                            IsEnabled="{Binding IsFree}">
                             <Image>
                                 <Image.Source>
                                     <FontImageSource
                                         FontFamily="FontAwesome5Solid"
-                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.MinusCircle}"
-                                        Color="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource stringToColorConverter}}" />
+                                        Glyph="{x:Static fontAwesome:FontAwesomeIcons.Minus}"
+                                        Color="{Binding DefaultStyle.ThemeButtonBgColor, Converter={StaticResource stringToColorConverter}}" />
                                 </Image.Source>
                             </Image>
                         </sfButtons:SfButton>
-                    </FlexLayout>
+                    </Grid>
 
-                    <Grid
-                        Grid.Row="3"
-                        Grid.Column="1"
-                        Grid.ColumnSpan="5">
+                    <Grid Grid.Row="4" Grid.Column="2">
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="20" />
+                            <ColumnDefinition Width="5" />
                             <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="*" />
-                            <ColumnDefinition Width="20" />
+                            <ColumnDefinition Width="5" />
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="50" />
@@ -243,7 +266,7 @@
                                 </Grid.ColumnDefinitions>
                                 <Label
                                     Grid.Column="2"
-                                    Margin="10,0,0,0"
+                                    Margin="0,0,10,0"
                                     FontAttributes="Bold"
                                     FontSize="Medium"
                                     HorizontalOptions="Center"

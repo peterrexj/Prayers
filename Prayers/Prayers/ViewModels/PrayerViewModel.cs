@@ -38,8 +38,8 @@ namespace Prayers.ViewModels
             }
         }
         private int pageIndex => PageId - 1;
-        private const int maxFontSize = 10;
-        private const int minFontSize = 2;
+        private const int maxFontSize = 8;
+        private const int minFontSize = -2;
 
         private SinglePageDataModel _singlePageDataModel;
         public SinglePageDataModel SinglePageDataModel
@@ -205,80 +205,86 @@ namespace Prayers.ViewModels
         {
             await Task.Run(() =>
             {
+                IsBusy = true;
                 try
                 {
-                    foreach (var para in ParaContentViews)
-                    {
-                        var realFontSize = SinglePageDataModel.Content.FirstOrDefault(f => f.Content == para.ParaContent)?.FontSize;
-                        if (realFontSize != null && realFontSize > 0)
-                        {
-                            if (para.FontSize < realFontSize + maxFontSize)
-                            {
-                                para.FontSize++;
-                            }
-                        }
-                    }
-
-                    foreach (var para in ParaBulletViews)
-                    {
-                        var realFontSize = SinglePageDataModel.Content.FirstOrDefault(f => f.Content == para.ParaContent)?.FontSize;
-                        if (realFontSize != null && realFontSize > 0)
-                        {
-                            if (para.FontSize < realFontSize + maxFontSize)
-                            {
-                                para.FontSize++;
-                            }
-                        }
-                    }
-                    if (SettingsHelper.Model.CurrentFontSize < maxFontSize)
+                    if (SettingsHelper.Model.CurrentFontSize == 0 || SettingsHelper.Model.CurrentFontSize < maxFontSize)
                     {
                         SettingsHelper.Model.CurrentFontSize++;
+
+                        foreach (var para in ParaContentViews)
+                        {
+                            var realFontSize = SinglePageDataModel.Content.FirstOrDefault(f => f.Content == para.ParaContent)?.FontSize;
+                            if (realFontSize != null && realFontSize > 0)
+                            {
+                                if (para.FontSize < realFontSize + maxFontSize)
+                                {
+                                    para.FontSize++;
+                                }
+                            }
+                        }
+
+                        foreach (var para in ParaBulletViews)
+                        {
+                            var realFontSize = SinglePageDataModel.Content.FirstOrDefault(f => f.Content == para.ParaContent)?.FontSize;
+                            if (realFontSize != null && realFontSize > 0)
+                            {
+                                if (para.FontSize < realFontSize + maxFontSize)
+                                {
+                                    para.FontSize++;
+                                }
+                            }
+                        }
                     }
                 }
                 catch (Exception ex)
                 {
                     ExceptionHandler.CaptureException(ex);
                 }
+                finally { IsBusy = false; }
             });
         }
         public async Task DecreaseFont()
         {
             await Task.Run(() =>
             {
+                IsBusy = true;
                 try
                 {
-                    foreach (var para in ParaContentViews)
-                    {
-                        var realFontSize = SinglePageDataModel.Content.FirstOrDefault(f => f.Content == para.ParaContent)?.FontSize;
-                        if (realFontSize != null && realFontSize > 0)
-                        {
-                            if (para.FontSize > realFontSize - minFontSize)
-                            {
-                                para.FontSize--;
-                            }
-                        }
-                    }
-
-                    foreach (var para in ParaBulletViews)
-                    {
-                        var realFontSize = SinglePageDataModel.Content.FirstOrDefault(f => f.Content == para.ParaContent)?.FontSize;
-                        if (realFontSize != null && realFontSize > 0)
-                        {
-                            if (para.FontSize > realFontSize - maxFontSize)
-                            {
-                                para.FontSize--;
-                            }
-                        }
-                    }
-                    if (SettingsHelper.Model.CurrentFontSize > minFontSize)
+                    if (SettingsHelper.Model.CurrentFontSize == 0 || SettingsHelper.Model.CurrentFontSize > minFontSize)
                     {
                         SettingsHelper.Model.CurrentFontSize--;
+
+                        foreach (var para in ParaContentViews)
+                        {
+                            var realFontSize = SinglePageDataModel.Content.FirstOrDefault(f => f.Content == para.ParaContent)?.FontSize;
+                            if (realFontSize != null && realFontSize > 0)
+                            {
+                                if (para.FontSize > realFontSize + minFontSize)
+                                {
+                                    para.FontSize--;
+                                }
+                            }
+                        }
+
+                        foreach (var para in ParaBulletViews)
+                        {
+                            var realFontSize = SinglePageDataModel.Content.FirstOrDefault(f => f.Content == para.ParaContent)?.FontSize;
+                            if (realFontSize != null && realFontSize > 0)
+                            {
+                                if (para.FontSize > realFontSize + maxFontSize)
+                                {
+                                    para.FontSize--;
+                                }
+                            }
+                        }
                     }
                 }
                 catch (Exception ex)
                 {
                     ExceptionHandler.CaptureException(ex);
                 }
+                finally { IsBusy = false; }
             });
         }
 
