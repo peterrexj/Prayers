@@ -250,9 +250,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\Resources\StJoseph\Prod\Data\St Joseph Prayer.csv">
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Data\St Joseph Prayer.csv">
       <Link>Assets\St Joseph Prayer.csv</Link>
-    </None>
+    </Content>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

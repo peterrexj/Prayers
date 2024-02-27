@@ -20,7 +20,7 @@
         <Grid IsEnabled="{Binding IsFree}">
             <magic:GradientView GradientSource="{Binding DefaultStyle.DefaultMgPageBgSource}" VerticalOptions="FillAndExpand" />
             <StackLayout>
-                <Grid Margin="{OnPlatform Android={OnIdiom Phone='0,0,0,15', Tablet='0,0,0,15'}, iOS={OnIdiom Phone='0,50,0,15', Tablet='0,50,0,15'}}">
+                <Grid Margin="{OnPlatform Android={OnIdiom Phone='0,0,0,15', Tablet='0,0,0,15'}, iOS={OnIdiom Phone='0,50,0,15', Tablet='0,50,0,15'}, UWP='0,2,0,10'}">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="110" />
                         <ColumnDefinition Width="10" />
@@ -59,12 +59,12 @@
                                 MarkerContentSize="{OnPlatform Android={OnIdiom Phone='13',
                                                                                 Tablet='20'},
                                                                iOS={OnIdiom Phone='13',
-                                                                            Tablet='20'}}"
+                                                                            Tablet='20'}, UWP='20'}"
                                 MarkerShapeType="Circle"
                                 MarkerSize="{OnPlatform Android={OnIdiom Phone='20',
                                                                          Tablet='30'},
                                                         iOS={OnIdiom Phone='20',
-                                                                     Tablet='30'}}"
+                                                                     Tablet='30'}, UWP='30'}"
                                 TrackColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarTrackColor, Converter={StaticResource stringToColorConverter}}" />
                         </progressBar:SfStepProgressBar.NotStartedStepStyle>
 
@@ -74,13 +74,13 @@
                                 MarkerContentSize="{OnPlatform Android={OnIdiom Phone='13',
                                                                                 Tablet='20'},
                                                                iOS={OnIdiom Phone='13',
-                                                                            Tablet='20'}}"
+                                                                            Tablet='20'}, UWP='20'}"
                                 MarkerFillColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarInProgressMarkerFillColor, Converter={StaticResource stringToColorConverter}}"
                                 MarkerShapeType="Circle"
                                 MarkerSize="{OnPlatform Android={OnIdiom Phone='20',
                                                                          Tablet='30'},
                                                         iOS={OnIdiom Phone='20',
-                                                                     Tablet='30'}}"
+                                                                     Tablet='30'}, UWP='30'}"
                                 MarkerStrokeColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarInProgressMarkerStrokeColor, Converter={StaticResource stringToColorConverter}}"
                                 MarkerStrokeWidth="1"
                                 TrackColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarTrackColor, Converter={StaticResource stringToColorConverter}}" />
@@ -92,13 +92,13 @@
                                 MarkerContentSize="{OnPlatform Android={OnIdiom Phone='13',
                                                                                 Tablet='20'},
                                                                iOS={OnIdiom Phone='13',
-                                                                            Tablet='20'}}"
+                                                                            Tablet='20'}, UWP='20'}"
                                 MarkerFillColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarCompletedBgColor, Converter={StaticResource stringToColorConverter}}"
                                 MarkerShapeType="Circle"
                                 MarkerSize="{OnPlatform Android={OnIdiom Phone='20',
                                                                          Tablet='30'},
                                                         iOS={OnIdiom Phone='20',
-                                                                     Tablet='30'}}"
+                                                                     Tablet='30'},UWP='30'}"
                                 ProgressLineColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ProgressBarTrackColor, Converter={StaticResource stringToColorConverter}}" />
                         </progressBar:SfStepProgressBar.CompletedStepStyle>
                         <BindableLayout.ItemTemplate>
@@ -278,9 +278,17 @@
                                     BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                                     Command="{Binding btnGoPreviousCommand}"
                                     CornerRadius="30"
-                                    HeightRequest="25"
+                                    HeightRequest="{OnPlatform Android={OnIdiom Phone='25',
+                                                                                Tablet='25'},
+                                                               iOS={OnIdiom Phone='25',
+                                                                            Tablet='25'},
+                                                               UWP='30'}"
                                     VerticalOptions="Center"
-                                    WidthRequest="30">
+                                    WidthRequest="{OnPlatform Android={OnIdiom Phone='30',
+                                                                               Tablet='30'},
+                                                              iOS={OnIdiom Phone='30',
+                                                                           Tablet='30'},
+                                                              UWP='30'}">
                                     <Image>
                                         <Image.Source>
                                             <FontImageSource
@@ -323,10 +331,18 @@
                                     BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource stringToColorConverter}}"
                                     Command="{Binding btnGoNextCommand}"
                                     CornerRadius="30"
-                                    HeightRequest="25"
+                                    HeightRequest="{OnPlatform Android={OnIdiom Phone='25',
+                                                                                Tablet='25'},
+                                                               iOS={OnIdiom Phone='25',
+                                                                            Tablet='25'},
+                                                               UWP='30'}"
                                     IsEnabled="{Binding IsFree}"
                                     VerticalOptions="Center"
-                                    WidthRequest="30">
+                                    WidthRequest="{OnPlatform Android={OnIdiom Phone='30',
+                                                                               Tablet='30'},
+                                                              iOS={OnIdiom Phone='30',
+                                                                           Tablet='30'},
+                                                              UWP='30'}">
                                     <Image>
                                         <Image.Source>
                                             <FontImageSource

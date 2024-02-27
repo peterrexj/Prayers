@@ -24,9 +24,19 @@
                     Margin="{OnPlatform Android={OnIdiom Phone='10,20,10,0',
                                                          Tablet='10,20,10,0'},
                                         iOS={OnIdiom Phone='10,60,10,0',
-                                                     Tablet='10,60,10,0'}}"
+                                                     Tablet='10,60,10,0'},
+                                        UWP='15,30,15,20'}"
+                    CharacterSpacing="{OnPlatform Android={OnIdiom Phone='0',
+                                                                   Tablet='0'},
+                                                  iOS={OnIdiom Phone='0',
+                                                               Tablet='0'},
+                                                  UWP='-0.8'}"
                     FontAttributes="Bold"
-                    FontSize="34"
+                    FontSize="{OnPlatform Android={OnIdiom Phone='34',
+                                                           Tablet='34'},
+                                          iOS={OnIdiom Phone='34',
+                                                       Tablet='34'},
+                                          UWP='26'}"
                     HorizontalOptions="CenterAndExpand"
                     HorizontalTextAlignment="Center"
                     Text="{Binding PrayerMainHeader01}"
@@ -50,15 +60,23 @@
                     </Grid>
                 </sfBorder:SfBorder>
                 <Label
-                    Margin="0"
+                    Margin="{OnPlatform Android={OnIdiom Phone='0',
+                                                         Tablet='0'},
+                                        iOS={OnIdiom Phone='0',
+                                                     Tablet='0'},
+                                        UWP='15,30,15,20'}"
                     FontAttributes="Bold"
-                    FontSize="25"
+                    FontSize="{OnPlatform Android={OnIdiom Phone='25',
+                                                           Tablet='25'},
+                                          iOS={OnIdiom Phone='25',
+                                                       Tablet='25'},
+                                          UWP='18'}"
                     HorizontalOptions="CenterAndExpand"
                     HorizontalTextAlignment="Center"
                     Text="{Binding PrayerMainHeader02}"
                     TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
                     VerticalOptions="CenterAndExpand" />
-                <Grid Margin="{OnPlatform Android={OnIdiom Phone='10,0,10,30', Tablet='10,0,10,30'}, iOS={OnIdiom Phone='10,0,10,60', Tablet='10,0,10,60'}}">
+                <Grid Margin="{OnPlatform Android={OnIdiom Phone='10,0,10,30', Tablet='10,0,10,30'}, iOS={OnIdiom Phone='10,0,10,60', Tablet='10,0,10,60'}, UWP='10,0,10,30'}">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="50" />
                     </Grid.RowDefinitions>
