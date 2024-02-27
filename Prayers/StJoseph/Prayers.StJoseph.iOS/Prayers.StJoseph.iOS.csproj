@@ -88,6 +88,9 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Renderer\LabelExtendedRenderer.cs" />
     <Compile Include="Services\AppInformation.cs" />
+    <None Include="..\..\..\Resources\StJoseph\Prod\Data\St Joseph Prayer.csv">
+      <Link>St Joseph Prayer.csv</Link>
+    </None>
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -101,9 +104,6 @@
       <Visible>false</Visible>
     </ImageAsset>
     <InterfaceDefinition Include="Resources\SplashScreen.storyboard" />
-    <BundleResource Include="..\..\..\Resources\St Joseph Prayer.csv">
-      <Link>St Joseph Prayer.csv</Link>
-    </BundleResource>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\1024.png">
       <Visible>false</Visible>
     </ImageAsset>
@@ -222,92 +222,92 @@
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page1 - Content1.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page1 - Content1.mp3">
       <Link>Resources\Page1 - Content1.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page1 - Content2.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page1 - Content2.mp3">
       <Link>Resources\Page1 - Content2.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page2 - Content1.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page2 - Content1.mp3">
       <Link>Resources\Page2 - Content1.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page3 - Content1.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page3 - Content1.mp3">
       <Link>Resources\Page3 - Content1.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page3 - Content2.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page3 - Content2.mp3">
       <Link>Resources\Page3 - Content2.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page4 - Content1.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content1.mp3">
       <Link>Resources\Page4 - Content1.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page4 - Content2.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content2.mp3">
       <Link>Resources\Page4 - Content2.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page4 - Content3.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content3.mp3">
       <Link>Resources\Page4 - Content3.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page4 - Content4.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content4.mp3">
       <Link>Resources\Page4 - Content4.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page4 - Content5.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content5.mp3">
       <Link>Resources\Page4 - Content5.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page4 - Content6.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content6.mp3">
       <Link>Resources\Page4 - Content6.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page5 - Content1.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page5 - Content1.mp3">
       <Link>Resources\Page5 - Content1.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page5 - Content2.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page5 - Content2.mp3">
       <Link>Resources\Page5 - Content2.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page6 - Content1.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page6 - Content1.mp3">
       <Link>Resources\Page6 - Content1.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page7 - Content1.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page7 - Content1.mp3">
       <Link>Resources\Page7 - Content1.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page7 - Content2.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page7 - Content2.mp3">
       <Link>Resources\Page7 - Content2.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page8 - Content1.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page8 - Content1.mp3">
       <Link>Resources\Page8 - Content1.mp3</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="..\..\..\Resources\StJoseph\Audio\Page9 - Content1.mp3">
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Audio\Page9 - Content1.mp3">
       <Link>Resources\Page9 - Content1.mp3</Link>
     </BundleResource>
   </ItemGroup>

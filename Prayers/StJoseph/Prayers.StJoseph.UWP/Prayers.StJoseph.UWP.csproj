@@ -122,6 +122,60 @@
     <Content Include="..\..\..\Resources\StJoseph\mainpic.jpg">
       <Link>Assets\mainpic.jpg</Link>
     </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page1 - Content1.mp3">
+      <Link>Assets\Page1 - Content1.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page1 - Content2.mp3">
+      <Link>Assets\Page1 - Content2.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page2 - Content1.mp3">
+      <Link>Assets\Page2 - Content1.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page3 - Content1.mp3">
+      <Link>Assets\Page3 - Content1.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page3 - Content2.mp3">
+      <Link>Assets\Page3 - Content2.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content1.mp3">
+      <Link>Assets\Page4 - Content1.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content2.mp3">
+      <Link>Assets\Page4 - Content2.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content3.mp3">
+      <Link>Assets\Page4 - Content3.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content4.mp3">
+      <Link>Assets\Page4 - Content4.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content5.mp3">
+      <Link>Assets\Page4 - Content5.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content6.mp3">
+      <Link>Assets\Page4 - Content6.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page5 - Content1.mp3">
+      <Link>Assets\Page5 - Content1.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page5 - Content2.mp3">
+      <Link>Assets\Page5 - Content2.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page6 - Content1.mp3">
+      <Link>Assets\Page6 - Content1.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page7 - Content1.mp3">
+      <Link>Assets\Page7 - Content1.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page7 - Content2.mp3">
+      <Link>Assets\Page7 - Content2.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page8 - Content1.mp3">
+      <Link>Assets\Page8 - Content1.mp3</Link>
+    </Content>
+    <Content Include="..\..\..\Resources\StJoseph\Prod\Audio\Page9 - Content1.mp3">
+      <Link>Assets\Page9 - Content1.mp3</Link>
+    </Content>
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
@@ -191,14 +245,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\..\Resources\St Joseph Prayer.csv">
-      <Link>Assets\St Joseph Prayer.csv</Link>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="..\..\..\LinkFiles\CommonConfigs.json">
       <Link>Assets\CommonConfigs.json</Link>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Resources\StJoseph\Prod\Data\St Joseph Prayer.csv">
+      <Link>Assets\St Joseph Prayer.csv</Link>
+    </None>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
