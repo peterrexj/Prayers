@@ -132,6 +132,7 @@ namespace Prayers.ViewModels
             {
                 if (args != null && pageIndex != args.Index)
                 {
+                    StopAudio();
                     var route = $"Page{args.Index + 1}?PageId={args.Index + 1}";
                     await Shell.Current.GoToAsync(route);
                 }
