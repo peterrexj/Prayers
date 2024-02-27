@@ -88,9 +88,6 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Renderer\LabelExtendedRenderer.cs" />
     <Compile Include="Services\AppInformation.cs" />
-    <None Include="..\..\..\Resources\StJoseph\Prod\Data\St Joseph Prayer.csv">
-      <Link>St Joseph Prayer.csv</Link>
-    </None>
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -219,6 +216,9 @@
   <ItemGroup>
     <BundleResource Include="..\..\..\Resources\StJoseph\mainpic.jpg">
       <Link>Resources\mainpic.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Resources\StJoseph\Prod\Data\St Joseph Prayer.csv">
+      <Link>St Joseph Prayer.csv</Link>
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
