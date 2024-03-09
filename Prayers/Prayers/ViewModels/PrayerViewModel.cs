@@ -41,6 +41,17 @@ namespace Prayers.ViewModels
         private const int maxFontSize = 8;
         private const int minFontSize = -2;
 
+        private string _prayerMainTitle;
+        public string PrayerMainTitle
+        {
+            get { return _prayerMainTitle; }
+            set
+            {
+                _prayerMainTitle = value;
+                OnPropertyChanged("PrayerMainTitle");
+            }
+        }
+
         private SinglePageDataModel _singlePageDataModel;
         public SinglePageDataModel SinglePageDataModel
         {

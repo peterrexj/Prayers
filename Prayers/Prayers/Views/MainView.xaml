@@ -10,7 +10,7 @@
     xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
     xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
-    Title="{Binding PrayerMainHeader01}"
+    Title="{Binding PrayerMainTitle}"
     ios:Page.UseSafeArea="False">
     <ContentPage.Resources>
         <ResourceDictionary>

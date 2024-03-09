@@ -22,7 +22,7 @@ namespace Prayers.Views
             InitializeComponent();
             viewModel = new MainViewModel
             {
-
+                PrayerMainTitle = SharedServices.PrayerViewModelData.MainTitle
             };
 
             if (SharedServices.PrayerViewModelData.MainHeaders.Count > 0)

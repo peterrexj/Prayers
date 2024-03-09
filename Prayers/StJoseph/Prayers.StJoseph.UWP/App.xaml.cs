@@ -1,22 +1,14 @@
-﻿using Syncfusion.XForms.UWP.Border;
+﻿using FontAwesome;
+using Syncfusion.XForms.UWP.Border;
 using Syncfusion.XForms.UWP.ProgressBar;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 namespace Prayers.UWP
@@ -69,7 +61,8 @@ namespace Prayers.UWP
                 List<Assembly> assembliesToInclude = new List<Assembly>
                 {
                     typeof(SfLinearProgressRenderer).GetTypeInfo().Assembly,
-                    typeof(SfBorderRenderer).GetTypeInfo().Assembly
+                    typeof(SfBorderRenderer).GetTypeInfo().Assembly,
+                    typeof(FontAwesomeIcons).GetTypeInfo().Assembly,
                 };
 
                 Xamarin.Forms.Forms.Init(e, assembliesToInclude);

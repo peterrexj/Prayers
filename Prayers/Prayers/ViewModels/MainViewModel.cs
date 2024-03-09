@@ -36,6 +36,17 @@ namespace Prayers.ViewModels
             }
         }
 
+        private string _prayerMainTitle;
+        public string PrayerMainTitle
+        {
+            get { return _prayerMainTitle; }
+            set
+            {
+                _prayerMainTitle = value;
+                OnPropertyChanged("PrayerMainTitle");
+            }
+        }
+
         public string PathToMainImage => SharedServices.PathToMainImage;
 
         public MainViewModel()

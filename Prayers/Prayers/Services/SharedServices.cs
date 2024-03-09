@@ -53,6 +53,10 @@ namespace Prayers.Services
                             {
                                 _prayerViewModelData.MainHeaders.Add(data.Content.Trim());
                             }
+                            else if (data.ContentType == "MHT")
+                            {
+                                _prayerViewModelData.MainTitle = data.Content.Trim() ?? "";
+                            }
                         }
 
 

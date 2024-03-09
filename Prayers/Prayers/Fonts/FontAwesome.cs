@@ -1,5 +1,7 @@
 ﻿using System;
+using Xamarin.Forms;
 
+[assembly: ExportFont("Font Awesome 5 Free-Solid-900.otf", Alias = "FontAwesome5Solid")]
 namespace FontAwesome
 {
     /// <summary>

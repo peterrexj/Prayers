@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="E9CAF6BD-CBCA-4444-B4C4-2585822129BE"
-    Publisher="CN=70CA3692-F0F5-4F83-B5B1-C2A99DE44350"
-    Version="1.0.0.0" />
+    Name="YourSimpleApps.272948F5C5906"
+    Publisher="CN=39208EA1-D5D2-424A-8611-3802B30527E1"
+    Version="1.0.1.0" />
 
-  <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="c1eaa118-8451-4b83-a914-f6fa8271dcb3" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>St. Joseph Novena (Malayalam)</DisplayName>
-    <PublisherDisplayName>70CA3692-F0F5-4F83-B5B1-C2A99DE44350</PublisherDisplayName>
+    <DisplayName>St Joseph Novena Malayalam</DisplayName>
+    <PublisherDisplayName>Your Simple Apps</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

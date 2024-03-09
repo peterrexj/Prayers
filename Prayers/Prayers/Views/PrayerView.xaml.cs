@@ -25,7 +25,10 @@ namespace Prayers.Views
         {
             InitializeComponent();
 
-            viewModel = new PrayerViewModel();
+            viewModel = new PrayerViewModel
+            {
+                PrayerMainTitle = SharedServices.PrayerViewModelData.MainTitle
+            };
 
             BindingContext = viewModel;
         }
