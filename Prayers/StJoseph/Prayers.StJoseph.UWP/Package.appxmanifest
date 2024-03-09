@@ -9,7 +9,7 @@
   <Identity
     Name="YourSimpleApps.272948F5C5906"
     Publisher="CN=39208EA1-D5D2-424A-8611-3802B30527E1"
-    Version="1.0.1.0" />
+    Version="1.0.13.0" />
 
   <mp:PhoneIdentity PhoneProductId="c1eaa118-8451-4b83-a914-f6fa8271dcb3" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -40,8 +40,8 @@
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
-            <uap:ShowOn Tile="wide310x150Logo" />
             <uap:ShowOn Tile="square310x310Logo" />
+            <uap:ShowOn Tile="wide310x150Logo"/>
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

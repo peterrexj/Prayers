@@ -1,5 +1,6 @@
 ﻿using FontAwesome;
 using Syncfusion.XForms.UWP.Border;
+using Syncfusion.XForms.UWP.Buttons;
 using Syncfusion.XForms.UWP.ProgressBar;
 using System;
 using System.Collections.Generic;
@@ -61,6 +62,7 @@ namespace Prayers.UWP
                 List<Assembly> assembliesToInclude = new List<Assembly>
                 {
                     typeof(SfLinearProgressRenderer).GetTypeInfo().Assembly,
+                    typeof(SfButtonRenderer).GetTypeInfo().Assembly,
                     typeof(SfBorderRenderer).GetTypeInfo().Assembly,
                     typeof(FontAwesomeIcons).GetTypeInfo().Assembly,
                 };
