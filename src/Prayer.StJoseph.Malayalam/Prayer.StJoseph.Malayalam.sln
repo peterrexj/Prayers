@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34212.112
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prayer.StJoseph.Malayalam", "Prayer.StJoseph.Malayalam\Prayer.StJoseph.Malayalam.csproj", "{84C8C02F-BB1C-4F56-87D6-DD2BF04A40D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prayer.CoreUI", "Prayers.CoreUI\Prayer.CoreUI.csproj", "{AEBAC88A-09B2-4952-88AB-101D32DB5340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84C8C02F-BB1C-4F56-87D6-DD2BF04A40D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C8C02F-BB1C-4F56-87D6-DD2BF04A40D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C8C02F-BB1C-4F56-87D6-DD2BF04A40D4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{84C8C02F-BB1C-4F56-87D6-DD2BF04A40D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C8C02F-BB1C-4F56-87D6-DD2BF04A40D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C8C02F-BB1C-4F56-87D6-DD2BF04A40D4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AEBAC88A-09B2-4952-88AB-101D32DB5340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBAC88A-09B2-4952-88AB-101D32DB5340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBAC88A-09B2-4952-88AB-101D32DB5340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBAC88A-09B2-4952-88AB-101D32DB5340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {854A9E58-E2C8-466A-9038-E884F62EFE85}
+	EndGlobalSection
+EndGlobal
