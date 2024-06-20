@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4AF10AE7-F247-4D3E-95D7-9B06CFA4D962}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{89a4fe7c-635d-49c9-8d8c-5cd363c0d68d}</TemplateGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Prayers.StJoseph.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Prayers.StJoseph.iOS</AssemblyName>
+    <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
+    <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+    <ProvisioningType>automatic</ProvisioningType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignKey>Apple Development: Created via API (965CR7HS5Q)</CodesignKey>
+    <CodesignProvision>VS: com.pj.stjosephnovenamalayalam Development</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <CodesignProvision>Automatic</CodesignProvision>
+    <CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
+    <OptimizePNGs>false</OptimizePNGs>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>Apple Development: Created via API (965CR7HS5Q)</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>None</MtouchLink>
+    <MtouchInterpreter>-all</MtouchInterpreter>
+    <CodesignProvision>VS: WildCard Development</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
+    <CodesignEntitlements>
+    </CodesignEntitlements>
+    <CodesignProvision>StJosephNovenaMalayalam</CodesignProvision>
+    <MtouchInterpreter>-all</MtouchInterpreter>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="Services\AppInformation.cs" />
+    <None Include="Entitlements.plist" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include=".DS_Store" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\start_logo.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <InterfaceDefinition Include="Resources\SplashScreen.storyboard" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\1024.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\76.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\60.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\120 1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\58.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\167.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\72.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\29.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\100.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\114.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\29 1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\120.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\20.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\80 1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\40 1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\40 2.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\180.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\57.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\80.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\40.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\87.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\50.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\144.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\58 1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\152.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\start_logo.imageset\splash_logo.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CsvHelper">
+      <Version>30.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Pj.Library">
+      <Version>1.0.4.31</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.Buttons">
+      <Version>23.1.39</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.Core">
+      <Version>23.1.39</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfProgressBar">
+      <Version>23.1.39</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2662" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\mainpic.jpg">
+      <Link>Resources\mainpic.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Data\St Joseph Prayer.csv">
+      <Link>St Joseph Prayer.csv</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page1 - Content1.mp3">
+      <Link>Resources\Page1 - Content1.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page1 - Content2.mp3">
+      <Link>Resources\Page1 - Content2.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page2 - Content1.mp3">
+      <Link>Resources\Page2 - Content1.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page3 - Content1.mp3">
+      <Link>Resources\Page3 - Content1.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page3 - Content2.mp3">
+      <Link>Resources\Page3 - Content2.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content1.mp3">
+      <Link>Resources\Page4 - Content1.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content2.mp3">
+      <Link>Resources\Page4 - Content2.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content3.mp3">
+      <Link>Resources\Page4 - Content3.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content4.mp3">
+      <Link>Resources\Page4 - Content4.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content5.mp3">
+      <Link>Resources\Page4 - Content5.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page4 - Content6.mp3">
+      <Link>Resources\Page4 - Content6.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page5 - Content1.mp3">
+      <Link>Resources\Page5 - Content1.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page5 - Content2.mp3">
+      <Link>Resources\Page5 - Content2.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page6 - Content1.mp3">
+      <Link>Resources\Page6 - Content1.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page7 - Content1.mp3">
+      <Link>Resources\Page7 - Content1.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page7 - Content2.mp3">
+      <Link>Resources\Page7 - Content2.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page8 - Content1.mp3">
+      <Link>Resources\Page8 - Content1.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\..\..\Resources\StJoseph\Prod\Audio\Page9 - Content1.mp3">
+      <Link>Resources\Page9 - Content1.mp3</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Xamarin.DependencyServices\Prayers.iOS\Prayers.iOS.csproj">
+      <Project>{fbb90532-0ec3-4098-a17d-ab68faef588f}</Project>
+      <Name>Prayers.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Xamarin.DependencyServices\Prayers.ServiceDefinitions\Prayers.ServiceDefinitions.csproj">
+      <Project>{8db85dd7-476e-464d-aa99-5b510e45305b}</Project>
+      <Name>Prayers.ServiceDefinitions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Xamarin.Prayers\Prayers.csproj">
+      <Project>{33725c84-416b-446c-b434-7e39c4c49a3d}</Project>
+      <Name>Prayers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>
