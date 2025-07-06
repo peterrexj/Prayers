@@ -364,3 +364,4 @@ FodyWeavers.xsd
 
 # ios
 *.DS_Store
+/src/.idea/.idea.Xamarin.Prayers/.idea
