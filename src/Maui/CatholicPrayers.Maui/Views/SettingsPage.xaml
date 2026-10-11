@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:CatholicPrayers.Maui.ViewModels"
+             xmlns:sfInputs="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
+             x:Class="CatholicPrayers.Maui.Views.SettingsPage"
+             x:DataType="vm:SettingsViewModel"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="{DynamicResource PrayAppPageBgColor}">
+
+    <Grid RowDefinitions="Auto,*">
+
+        <!-- Header -->
+        <Border Grid.Row="0"
+                BackgroundColor="{DynamicResource PrayAppToolbarBgColor}"
+                Stroke="{DynamicResource PrayAppToolbarBorderColor}"
+                StrokeThickness="0,0,0,1"
+                StrokeShape="Rectangle"
+                Padding="16,12,16,12">
+            <Grid ColumnDefinitions="Auto,*">
+                <Button Grid.Column="0"
+                        Text="&#xf053;"
+                        FontFamily="FontAwesome5Solid"
+                        FontSize="18"
+                        BackgroundColor="Transparent"
+                        TextColor="{DynamicResource PrayAppAccentColor}"
+                        Clicked="OnBackClicked"
+                        HeightRequest="44"
+                        WidthRequest="44"
+                        Padding="0" />
+                <Label Grid.Column="1"
+                       Text="Settings"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="{DynamicResource PrayAppH1TextColor}"
+                       VerticalOptions="Center"
+                       Margin="8,0,0,0" />
+            </Grid>
+        </Border>
+
+        <!-- Settings content -->
+        <ScrollView Grid.Row="1">
+            <StackLayout Spacing="0" Padding="0,8,0,32">
+
+                <!-- Theme section -->
+                <Label Text="APPEARANCE"
+                       FontSize="12"
+                       FontAttributes="Bold"
+                       TextColor="{DynamicResource PrayAppSettingsSectionHeaderColor}"
+                       Margin="20,16,20,6"
+                       CharacterSpacing="2" />
+
+                <Border BackgroundColor="{DynamicResource PrayAppSettingsRowBgColor}"
+                        Stroke="{DynamicResource PrayAppCardBorderColor}"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 12"
+                        Margin="16,0,16,8"
+                        Padding="16,12">
+                    <StackLayout Spacing="8">
+                        <Label Text="Theme"
+                               FontSize="16"
+                               FontAttributes="Bold"
+                               TextColor="{DynamicResource PrayAppSettingsLabelColor}" />
+                        <sfInputs:SfComboBox ItemsSource="{Binding Themes}"
+                                            SelectedItem="{Binding SelectedTheme, Mode=TwoWay}"
+                                            IsClearButtonVisible="False"
+                                            IsEditable="False"
+                                            TextColor="{DynamicResource PrayAppSettingsLabelColor}"
+                                            Background="Transparent"
+                                            FontSize="15"
+                                            HeightRequest="44" />
+                    </StackLayout>
+                </Border>
+
+                <!-- Font family section -->
+                <Label Text="FONT"
+                       FontSize="12"
+                       FontAttributes="Bold"
+                       TextColor="{DynamicResource PrayAppSettingsSectionHeaderColor}"
+                       Margin="20,16,20,6"
+                       CharacterSpacing="2" />
+
+                <Border BackgroundColor="{DynamicResource PrayAppSettingsRowBgColor}"
+                        Stroke="{DynamicResource PrayAppCardBorderColor}"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 12"
+                        Margin="16,0,16,8"
+                        Padding="16,12">
+                    <StackLayout Spacing="12">
+                        <Label Text="Font Family"
+                               FontSize="16"
+                               FontAttributes="Bold"
+                               TextColor="{DynamicResource PrayAppSettingsLabelColor}" />
+                        <sfInputs:SfComboBox ItemsSource="{Binding FontFamilies}"
+                                            SelectedItem="{Binding SelectedFont, Mode=TwoWay}"
+                                            IsClearButtonVisible="False"
+                                            IsEditable="False"
+                                            TextColor="{DynamicResource PrayAppSettingsLabelColor}"
+                                            Background="Transparent"
+                                            FontSize="15"
+                                            HeightRequest="44" />
+
+                        <Label Text="Font Size"
+                               FontSize="16"
+                               FontAttributes="Bold"
+                               TextColor="{DynamicResource PrayAppSettingsLabelColor}" />
+                        <Grid ColumnDefinitions="Auto,*,Auto">
+                            <Button Grid.Column="0"
+                                    Text="&#xf031;"
+                                    FontFamily="FontAwesome5Solid"
+                                    Command="{Binding DecreaseFontCommand}"
+                                    BackgroundColor="{DynamicResource PrayAppNavButtonBgColor}"
+                                    TextColor="{DynamicResource PrayAppNavButtonFgColor}"
+                                    CornerRadius="8"
+                                    HeightRequest="36"
+                                    WidthRequest="48"
+                                    Padding="0"
+                                    FontSize="11" />
+                            <Label Grid.Column="1"
+                                   Text="{Binding FontSizeDelta, StringFormat='Size offset: {0:+0;-0;0}'}"
+                                   HorizontalTextAlignment="Center"
+                                   VerticalOptions="Center"
+                                   TextColor="{DynamicResource PrayAppSettingsValueColor}"
+                                   FontSize="14" />
+                            <Button Grid.Column="2"
+                                    Text="&#xf031;"
+                                    FontFamily="FontAwesome5Solid"
+                                    Command="{Binding IncreaseFontCommand}"
+                                    BackgroundColor="{DynamicResource PrayAppNavButtonBgColor}"
+                                    TextColor="{DynamicResource PrayAppNavButtonFgColor}"
+                                    CornerRadius="8"
+                                    HeightRequest="36"
+                                    WidthRequest="48"
+                                    Padding="0"
+                                    FontSize="16" />
+                        </Grid>
+
+                        <!-- Preview -->
+                        <Border BackgroundColor="{DynamicResource PrayAppCardBgColor}"
+                                StrokeShape="RoundRectangle 8"
+                                Stroke="{DynamicResource PrayAppDividerColor}"
+                                Padding="12,10">
+                            <Label Text="Our Father, who art in heaven, hallowed be thy name…"
+                                   FontFamily="{Binding SelectedFont}"
+                                   FontSize="{Binding PreviewFontSize}"
+                                   FontAttributes="Italic"
+                                   TextColor="{DynamicResource PrayAppBodyTextColor}"
+                                   LineHeight="1.5" />
+                        </Border>
+                    </StackLayout>
+                </Border>
+
+                <!-- Language section -->
+                <Label Text="LANGUAGE"
+                       FontSize="12"
+                       FontAttributes="Bold"
+                       TextColor="{DynamicResource PrayAppSettingsSectionHeaderColor}"
+                       Margin="20,16,20,6"
+                       CharacterSpacing="2" />
+
+                <Border BackgroundColor="{DynamicResource PrayAppSettingsRowBgColor}"
+                        Stroke="{DynamicResource PrayAppCardBorderColor}"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 12"
+                        Margin="16,0,16,8"
+                        Padding="16,12">
+                    <StackLayout Spacing="8">
+                        <Label Text="Prayer Language"
+                               FontSize="16"
+                               FontAttributes="Bold"
+                               TextColor="{DynamicResource PrayAppSettingsLabelColor}" />
+                        <Label Text="Where available, prayers will be shown in the selected language"
+                               FontSize="13"
+                               TextColor="{DynamicResource PrayAppSettingsValueColor}" />
+                        <Picker ItemsSource="{Binding Languages}"
+                                SelectedIndex="{Binding SelectedLanguageIndex}"
+                                TextColor="{DynamicResource PrayAppSettingsLabelColor}"
+                                BackgroundColor="Transparent"
+                                FontSize="15" />
+                    </StackLayout>
+                </Border>
+
+                <!-- Animations section -->
+                <Label Text="EXPERIENCE"
+                       FontSize="12"
+                       FontAttributes="Bold"
+                       TextColor="{DynamicResource PrayAppSettingsSectionHeaderColor}"
+                       Margin="20,16,20,6"
+                       CharacterSpacing="2" />
+
+                <Border BackgroundColor="{DynamicResource PrayAppSettingsRowBgColor}"
+                        Stroke="{DynamicResource PrayAppCardBorderColor}"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 12"
+                        Margin="16,0,16,8"
+                        Padding="16,14">
+                    <Grid ColumnDefinitions="*,Auto">
+                        <StackLayout Grid.Column="0" Spacing="2">
+                            <Label Text="Divine Animations"
+                                   FontSize="16"
+                                   TextColor="{DynamicResource PrayAppSettingsLabelColor}" />
+                            <Label Text="Subtle sacred symbols float across prayer pages"
+                                   FontSize="13"
+                                   TextColor="{DynamicResource PrayAppSettingsValueColor}" />
+                        </StackLayout>
+                        <Switch Grid.Column="1"
+                                IsToggled="{Binding ShowDivineAnimations}"
+                                OnColor="{DynamicResource PrayAppAccentColor}"
+                                ThumbColor="White"
+                                VerticalOptions="Center" />
+                    </Grid>
+                </Border>
+
+                <!-- About section -->
+                <Label Text="ABOUT"
+                       FontSize="12"
+                       FontAttributes="Bold"
+                       TextColor="{DynamicResource PrayAppSettingsSectionHeaderColor}"
+                       Margin="20,16,20,6"
+                       CharacterSpacing="2" />
+
+                <Border BackgroundColor="{DynamicResource PrayAppSettingsRowBgColor}"
+                        Stroke="{DynamicResource PrayAppCardBorderColor}"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 12"
+                        Margin="16,0,16,8"
+                        Padding="16,12">
+                    <StackLayout Spacing="8">
+                        <Grid ColumnDefinitions="*,Auto">
+                            <Label Grid.Column="0" Text="Version"
+                                   TextColor="{DynamicResource PrayAppSettingsLabelColor}"
+                                   FontSize="15" />
+                            <Label Grid.Column="1" Text="{Binding AppVersion}"
+                                   TextColor="{DynamicResource PrayAppSettingsValueColor}"
+                                   FontSize="15" />
+                        </Grid>
+                        <BoxView HeightRequest="1" BackgroundColor="{DynamicResource PrayAppDividerColor}" />
+                        <Grid ColumnDefinitions="*,Auto">
+                            <Label Grid.Column="0" Text="Build"
+                                   TextColor="{DynamicResource PrayAppSettingsLabelColor}"
+                                   FontSize="15" />
+                            <Label Grid.Column="1" Text="{Binding AppBuild}"
+                                   TextColor="{DynamicResource PrayAppSettingsValueColor}"
+                                   FontSize="15" />
+                        </Grid>
+                        <BoxView HeightRequest="1" BackgroundColor="{DynamicResource PrayAppDividerColor}" />
+                        <Label Text="Catholic Prayers — A treasury of sacred Catholic Christian prayers for all ages."
+                               TextColor="{DynamicResource PrayAppSubtitleTextColor}"
+                               FontSize="13"
+                               LineHeight="1.4" />
+                    </StackLayout>
+                </Border>
+
+            </StackLayout>
+        </ScrollView>
+
+    </Grid>
+</ContentPage>

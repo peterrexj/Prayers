@@ -1,0 +1,84 @@
+{
+  "Id": "novena_assumption",
+  "Title": "Assumption of Mary Novena",
+  "Subtitle": "The Blessed Virgin taken into Heaven",
+  "Format": "MultiPage",
+  "AccentColor": "#9B59B6",
+  "IntroText": "The Assumption of Mary — her being taken body and soul into heavenly glory at the end of her earthly life — was defined as dogma by Pope Pius XII on November 1, 1950. It is the principal feast of Our Lady. This novena is prayed from August 6 to August 14, ending on the vigil of August 15.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — Body and Soul into Heaven", "Blocks": [
+      { "Type": "H2", "Text": "Day 1 — August 6", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Assumption is God's \"yes\" to the human body. Mary's body — the same body that bore the Son of God — was taken up into heavenly glory. It is a pledge of our own bodily resurrection and a foretaste of what God intends for all His beloved.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O Mary, assumed into heaven body and soul, you are the first fruits of the resurrection. Help us to believe in the resurrection of our own bodies, to care for our bodies as temples of the Holy Spirit, and to look forward with hope to the life of the world to come.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Intercede for us, that we may share in your glory. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — Queen of Heaven and Earth", "Blocks": [
+      { "Type": "H2", "Text": "Day 2 — August 7", "Order": 1 },
+      { "Type": "Paragraph", "Text": "By her Assumption, Mary is crowned Queen of Heaven and Earth — sharing in the kingship of her Son. The Book of Revelation (12:1) shows \"a woman clothed with the sun, with the moon under her feet, and on her head a crown of twelve stars\" — a vision of Mary in glory.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Hail, Holy Queen, Mother of mercy, our life, our sweetness, and our hope! To you do we cry, poor banished children of Eve. To you do we send up our sighs, mourning and weeping in this valley of tears.", "FontStyle": "Italic", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Turn your merciful eyes toward us, and after this our exile, show unto us the blessed fruit of your womb, Jesus. O clement, O loving, O sweet Virgin Mary. Amen.", "FontStyle": "Italic", "Order": 6 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — Mary's Dormition", "Blocks": [
+      { "Type": "H2", "Text": "Day 3 — August 8", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Eastern Church celebrates the Dormition (\"Falling Asleep\") of Mary — her peaceful passing from this life. Her death, like her life, was holy and beautiful. She died in the arms of the Apostles, surrounded by love, and then her Son came for her.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Most Holy Mary, your death was like a gentle sleep, because love had prepared you entirely for God. Help us to prepare for our own death with the same readiness — through repentance, prayer, and the sacraments.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Be with us at the hour of our death, as you were with Jesus at Calvary. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — Our Hope", "Blocks": [
+      { "Type": "H2", "Text": "Day 4 — August 9", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Assumption is not just a doctrine about Mary — it is a doctrine about us. Her glorified body in heaven is the first example of what God intends for all humanity. The resurrection of the body is not a myth — Mary proves it.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O God, in the Assumption of the Blessed Virgin Mary you have given us a glimpse of what You intend for all Your children. Deepen our hope in the resurrection, in eternal life, in the communion of saints.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May the thought of heaven inspire us to live our earthly lives with greater love and urgency. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — Patron of the Departed", "Blocks": [
+      { "Type": "H2", "Text": "Day 5 — August 10", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Mary is the patron of those who have died, especially those in purgatory. Her Assumption reminds us that the bonds of love are not severed by death. We are still connected to those who have gone before us.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O Mary, Queen of all souls, we commend to your care all those who have died, especially our loved ones. Obtain for them the mercy of God and, if they are in purgatory, hasten their release.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May we be reunited with them in the eternal joy of heaven, where you reign in glory. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — Mary and the Church", "Blocks": [
+      { "Type": "H2", "Text": "Day 6 — August 11", "Order": 1 },
+      { "Type": "Paragraph", "Text": "In heaven, Mary continues her maternal mission for the Church. The Second Vatican Council called her \"Mother of the Church\" — she intercedes unceasingly for all her children. The Assumption means her intercession is all the more powerful.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Assumed into heaven, O Mary, you exercise your motherly care for the whole Church with even greater power. Protect the Church in these times; obtain wisdom for her pastors and fidelity for her members.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Gather all your children under your mantle and lead us all safely to your Son. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — The Beauty of Creation", "Blocks": [
+      { "Type": "H2", "Text": "Day 7 — August 12", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Assumption is the supreme affirmation that the material world — created good by God — is destined for glory. The body is not an obstacle to holiness but the instrument of it. Mary's glorified body is the proof.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Creator God, you affirmed in the Assumption that the physical creation is destined for glory. Help us to honor our bodies as temples of the Holy Spirit and to care for creation as a gift for future generations.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Through Mary's example, may we use our bodies for prayer, service, and worship, keeping them pure and strong for Your glory. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — Interceding Perfectly", "Blocks": [
+      { "Type": "H2", "Text": "Day 8 — August 13", "Order": 1 },
+      { "Type": "Paragraph", "Text": "In heaven, Mary sees our needs perfectly and presents them to God with perfect love. Her intercession is uniquely powerful because she is the Mother of the Mediator and has been glorified with both body and soul.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Most powerful intercessor, O Mary assumed into glory, we come to you with our pressing needs. You who see all things in the light of God, carry our petition before His throne.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "We trust in your motherly love and powerful intercession. Do for us what you did at Cana — see our need and bring it to Jesus. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Vigil of the Assumption", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — August 14 (Vigil of Feast)", "Order": 1 },
+      { "Type": "H3", "Text": "Tomorrow is the Solemnity of the Assumption", "Order": 2 },
+      { "Type": "Paragraph", "Text": "We conclude our novena on the eve of the great feast. August 15, the Assumption of Mary, is a holy day of obligation in the Church. Tomorrow we celebrate the greatest triumph of our Queen.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Glorious Mary, assumed into heaven, tomorrow your triumph is celebrated throughout the world. We rejoice with you and ask your motherly blessing on us and all those we love.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Grant what we have asked in this novena, if it is God's will. And above all, obtain for us the grace to follow your example of total surrender to God, that we may one day join you in that eternal glory. Amen.", "Order": 7 },
+      { "Type": "Paragraph", "Text": "Our Lady of the Assumption, pray for us!", "FontStyle": "Bold", "Alignment": "Center", "Order": 8 }
+    ]}
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "Id": "eph",
+  "Title": "Ephesians",
+  "Abbreviation": "Eph",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 8,
+          "Text": "For by grace you have been saved through faith, and this is not from you; it is the gift of God."
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "For we are his handiwork, created in Christ Jesus for the good works that God has prepared in advance, that we should live in them."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 4,
+          "Text": "One body and one Spirit, as you were also called to the one hope of your call;"
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "one Lord, one faith, one baptism;"
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "one God and Father of all, who is over all and through all and in all."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 5,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Be imitators of God, as beloved children,"
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "and live in love, as Christ loved us and handed himself over for us as a sacrificial offering to God."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 6,
+      "Verses": [
+        {
+          "VerseNumber": 10,
+          "Text": "Finally, draw your strength from the Lord and from his mighty power."
+        },
+        {
+          "VerseNumber": 11,
+          "Text": "Put on the armor of God so that you may be able to stand firm against the tactics of the devil."
+        }
+      ]
+    }
+  ]
+}

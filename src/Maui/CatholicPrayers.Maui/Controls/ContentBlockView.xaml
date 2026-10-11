@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatholicPrayers.Maui.Controls.ContentBlockView"
+             x:Name="self">
+
+    <!-- Renders a single ContentBlock. The correct sub-view is shown based on BlockType. -->
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <x:Boolean x:Key="True">True</x:Boolean>
+            <x:Boolean x:Key="False">False</x:Boolean>
+        </ResourceDictionary>
+    </ContentView.Resources>
+
+    <StackLayout Spacing="0">
+
+        <!-- H1 -->
+        <Label x:Name="h1Label"
+               Style="{DynamicResource PrayAppH1LabelStyle}"
+               IsVisible="False" />
+
+        <!-- H2 -->
+        <Label x:Name="h2Label"
+               Style="{DynamicResource PrayAppH2LabelStyle}"
+               IsVisible="False" />
+
+        <!-- H3 -->
+        <Label x:Name="h3Label"
+               Style="{DynamicResource PrayAppH3LabelStyle}"
+               IsVisible="False" />
+
+        <!-- Paragraph -->
+        <Label x:Name="paraLabel"
+               Style="{DynamicResource PrayAppBodyLabelStyle}"
+               IsVisible="False" />
+
+        <!-- Quote -->
+        <Label x:Name="quoteLabel"
+               Style="{DynamicResource PrayAppQuoteStyle}"
+               IsVisible="False" />
+
+        <!-- Bullet / Numbered / Response — single label with FormattedString -->
+        <Label x:Name="bulletGrid"
+               Margin="0,4"
+               LineHeight="1.5"
+               IsVisible="False" />
+
+        <!-- Inline image with optional caption -->
+        <StackLayout x:Name="imageContainer"
+                     Spacing="8"
+                     Margin="0,16"
+                     IsVisible="False"
+                     HorizontalOptions="Center">
+
+            <!-- Padding grid provides overflow room for halo glow and particles -->
+            <Grid HorizontalOptions="Center" Padding="20">
+
+                <!-- Main card — border clips tightly to image edges -->
+                <Border x:Name="imageBorder"
+                        StrokeShape="RoundRectangle 16"
+                        Stroke="{DynamicResource PrayAppAccentColor}"
+                        StrokeThickness="2.5"
+                        BackgroundColor="Transparent"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Padding="0">
+                    <Border.Shadow>
+                        <Shadow Brush="{DynamicResource PrayAppAccentColor}"
+                                Offset="0,0"
+                                Radius="22"
+                                Opacity="0.55" />
+                    </Border.Shadow>
+                    <Grid>
+                        <Image x:Name="inlineImage"
+                               Aspect="AspectFill"
+                               HeightRequest="300"
+                               WidthRequest="220"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" />
+                        <!-- Shimmer sweep bar — gradient and translation set in code -->
+                        <BoxView x:Name="shimmerBar"
+                                 HorizontalOptions="Fill"
+                                 VerticalOptions="Fill"
+                                 Color="Transparent"
+                                 InputTransparent="True" />
+                    </Grid>
+                </Border>
+
+                <!-- Particle canvas — gold sparks float upward from the card -->
+                <AbsoluteLayout x:Name="particleCanvas"
+                                HorizontalOptions="Fill"
+                                VerticalOptions="Fill"
+                                InputTransparent="True" />
+            </Grid>
+
+            <Label x:Name="imageCaptionLabel"
+                   FontSize="13"
+                   FontAttributes="Italic"
+                   HorizontalTextAlignment="Center"
+                   IsVisible="False" />
+        </StackLayout>
+
+        <!-- Divider -->
+        <BoxView x:Name="dividerView"
+                 HeightRequest="1"
+                 BackgroundColor="{DynamicResource PrayAppDividerColor}"
+                 Margin="16,12"
+                 IsVisible="False" />
+
+        <!-- Spacer -->
+        <BoxView x:Name="spacerView"
+                 HeightRequest="12"
+                 Color="Transparent"
+                 IsVisible="False" />
+
+    </StackLayout>
+</ContentView>

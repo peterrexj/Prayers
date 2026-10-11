@@ -1,0 +1,34 @@
+{
+  "Id": "act_of_faith",
+  "Title": "Act of Faith",
+  "Subtitle": "I Believe in God",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_cross.png",
+  "IntroText": "The Act of Faith is one of the three theological virtue prayers. It expresses our belief in God and all He has revealed.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#2980B9",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Act of Faith",
+      "Blocks": [
+        { "Type": "H1", "Text": "Act of Faith", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "O my God, I firmly believe that Thou art one God in Three Divine Persons,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "Father, Son, and Holy Spirit.", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "I believe that Thy Divine Son became man", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Paragraph", "Text": "and died for our sins,", "FontStyle": "Italic", "Order": 6 },
+        { "Type": "Paragraph", "Text": "and that He will come to judge the living and the dead.", "FontStyle": "Italic", "Order": 7 },
+        { "Type": "Spacer", "Order": 8 },
+        { "Type": "Paragraph", "Text": "I believe these and all the truths", "FontStyle": "Italic", "Order": 9 },
+        { "Type": "Paragraph", "Text": "which the Holy Catholic Church teaches,", "FontStyle": "Italic", "Order": 10 },
+        { "Type": "Paragraph", "Text": "because Thou hast revealed them,", "FontStyle": "Italic", "Order": 11 },
+        { "Type": "Paragraph", "Text": "who canst neither deceive nor be deceived.", "FontStyle": "Italic", "Order": 12 },
+        { "Type": "Spacer", "Order": 13 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 14 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["act_of_hope", "act_of_love", "act_of_contrition"]
+}

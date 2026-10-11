@@ -1,0 +1,27 @@
+{
+  "Id": "grace_before_meals",
+  "Title": "Grace Before Meals",
+  "Subtitle": "Bless Us, O Lord",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_dove.png",
+  "IntroText": "A traditional Catholic prayer said before meals to bless the food and give thanks to God.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#4CAF50",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Blessing Before Meals",
+      "Blocks": [
+        { "Type": "H1", "Text": "Grace Before Meals", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Bless us, O Lord, and these Thy gifts,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "which we are about to receive from Thy bounty,", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "through Christ Our Lord.", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Spacer", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 7 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["grace_after_meals"]
+}

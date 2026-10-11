@@ -1,0 +1,67 @@
+{
+  "Id": "hail_holy_queen",
+  "Title": "Salve Regina",
+  "Subtitle": "Antiphona Mariana",
+  "Format": "SinglePage",
+  "AccentColor": "#9B59B6",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Salve Regina",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Text": "Salve Regina",
+          "Order": 1
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Salve, Regina, Mater misericordiae,\nvita, dulcedo, et spes nostra, salve.",
+          "FontStyle": "Italic",
+          "Order": 2
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Ad te clamamus, exsules filii Hevae,\nad te suspiramus, gementes et flentes\nin hac lacrimarum valle.",
+          "FontStyle": "Italic",
+          "Order": 3
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Eia, ergo, advocata nostra,\nillos tuos misericordes oculos\nad nos converte.",
+          "FontStyle": "Italic",
+          "Order": 4
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Et Iesum, benedictum fructum\nventris tui, nobis post hoc exsilium\nostende.",
+          "FontStyle": "Italic",
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "O clemens, O pia,\nO dulcis Virgo Maria.",
+          "FontStyle": "Italic",
+          "Alignment": "Center",
+          "Order": 6
+        },
+        {
+          "Type": "Divider",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "V. Ora pro nobis, sancta Dei Genetrix.\nR. Ut digni efficiamur promissionibus Christi.",
+          "Order": 8
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Amen.",
+          "FontStyle": "Bold",
+          "Alignment": "Center",
+          "Order": 9
+        }
+      ]
+    }
+  ]
+}

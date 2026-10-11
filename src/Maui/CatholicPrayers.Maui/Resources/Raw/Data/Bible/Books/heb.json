@@ -1,0 +1,73 @@
+{
+  "Id": "heb",
+  "Title": "Hebrews",
+  "Abbreviation": "Heb",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "In times past, God spoke in partial and various ways to our ancestors through the prophets;"
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "in these last days, he spoke to us through a son, whom he made heir of all things and through whom he created the universe."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 12,
+          "Text": "Indeed, the word of God is living and effective, sharper than any two-edged sword, penetrating even between soul and spirit, joints and marrow, and able to discern reflections and thoughts of the heart."
+        },
+        {
+          "VerseNumber": 15,
+          "Text": "For we do not have a high priest who is unable to sympathize with our weaknesses, but one who has similarly been tested in every way, yet without sin."
+        },
+        {
+          "VerseNumber": 16,
+          "Text": "So let us confidently approach the throne of grace to receive mercy and to find grace for timely help."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 11,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Faith is the realization of what is hoped for and evidence of things not seen."
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "Without faith it is impossible to please him, for anyone who approaches God must believe that he exists and that he rewards those who seek him."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 12,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Therefore, since we are surrounded by so great a cloud of witnesses, let us rid ourselves of every burden and sin that clings to us and persevere in running the race that lies before us"
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "while keeping our eyes fixed on Jesus, the leader and perfecter of faith."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 13,
+      "Verses": [
+        {
+          "VerseNumber": 8,
+          "Text": "Jesus Christ is the same yesterday, today, and forever."
+        }
+      ]
+    }
+  ]
+}

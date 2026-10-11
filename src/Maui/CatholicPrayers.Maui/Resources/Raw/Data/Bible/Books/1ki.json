@@ -1,0 +1,39 @@
+{
+  "Id": "1ki",
+  "Title": "1 Kings",
+  "Abbreviation": "1Kgs",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 5,
+          "Text": "The LORD appeared to Solomon in a dream at night. God said: Whatever you ask I shall give you."
+        },
+        {
+          "VerseNumber": 9,
+          "Text": "Give your servant, therefore, a listening heart to judge your people and to distinguish between good and evil. For who is able to give judgment for this vast people of yours?"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 8,
+      "Verses": [
+        {
+          "VerseNumber": 27,
+          "Text": "Is God indeed to dwell on earth? If the heavens and the highest heavens cannot contain you, how much less this temple which I have built!"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 19,
+      "Verses": [
+        {
+          "VerseNumber": 12,
+          "Text": "After the earthquake there was fire—but the LORD was not in the fire. After the fire, a light silent sound."
+        }
+      ]
+    }
+  ]
+}

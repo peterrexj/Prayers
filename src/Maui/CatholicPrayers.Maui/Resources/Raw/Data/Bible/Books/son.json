@@ -1,0 +1,34 @@
+{
+  "Id": "son",
+  "Title": "Song of Songs",
+  "Abbreviation": "Song",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 3,
+          "Text": "Like an apple tree among the trees of the woods, so is my lover among men. In his shadow I delight to sit, and his fruit is sweet to my taste."
+        },
+        {
+          "VerseNumber": 16,
+          "Text": "My lover belongs to me and I to him; he browses among the lilies."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 8,
+      "Verses": [
+        {
+          "VerseNumber": 6,
+          "Text": "Set me as a seal on your heart, as a seal on your arm; For stern as death is love, relentless as the nether world is devotion; its flames are a blazing fire."
+        },
+        {
+          "VerseNumber": 7,
+          "Text": "Deep waters cannot quench love, nor floods sweep it away."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "Id": "divine_mercy_chaplet",
+  "Title": "Divine Mercy Chaplet",
+  "Subtitle": "Eternal Father, I Offer You",
+  "Format": "MultiPage",
+  "HeaderImageFile": "prayer_sacred_heart.png",
+  "IntroText": "The Chaplet of Divine Mercy was given to St. Faustina Kowalska by Jesus in the 1930s. It is prayed on rosary beads and is an act of profound mercy.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#E91E63",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Opening",
+      "Blocks": [
+        { "Type": "H1", "Text": "Divine Mercy Chaplet", "Order": 1 },
+        { "Type": "H2", "Text": "Opening Prayers", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Begin with the Sign of the Cross, followed by:", "Order": 3 },
+        { "Type": "Spacer", "Order": 4 },
+        { "Type": "BulletItem", "BulletLabel": "1×", "Text": "Our Father", "Order": 5 },
+        { "Type": "BulletItem", "BulletLabel": "1×", "Text": "Hail Mary", "Order": 6 },
+        { "Type": "BulletItem", "BulletLabel": "1×", "Text": "Apostles' Creed", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 2,
+      "Title": "The Chaplet Prayer",
+      "Blocks": [
+        { "Type": "H2", "Text": "On the Large Beads — Eternal Father", "Order": 1 },
+        { "Type": "Paragraph", "Text": "Eternal Father, I offer You the Body and Blood, Soul and Divinity of Your dearly beloved Son, Our Lord Jesus Christ,", "FontStyle": "Italic", "Order": 2 },
+        { "Type": "Paragraph", "Text": "in atonement for our sins and those of the whole world.", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Spacer", "Order": 4 },
+        { "Type": "H2", "Text": "On the Small Beads — For the Sake of", "Order": 5 },
+        { "Type": "Paragraph", "Text": "For the sake of His sorrowful Passion,", "FontStyle": "Italic", "Order": 6 },
+        { "Type": "BulletItem", "BulletLabel": "R.", "Text": "have mercy on us and on the whole world.", "IsResponse": true, "Order": 7 },
+        { "Type": "Paragraph", "Text": "(Repeat 10 times on small beads for each of 5 decades)", "Order": 8 }
+      ]
+    },
+    {
+      "SectionId": 3,
+      "Title": "Closing",
+      "Blocks": [
+        { "Type": "H2", "Text": "Closing Prayer (3×)", "Order": 1 },
+        { "Type": "Paragraph", "Text": "Holy God, Holy Mighty One, Holy Immortal One,", "FontStyle": "Italic", "Order": 2 },
+        { "Type": "Paragraph", "Text": "have mercy on us and on the whole world.", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Spacer", "Order": 4 },
+        { "Type": "H3", "Text": "Optional Closing", "Order": 5 },
+        { "Type": "Paragraph", "Text": "Eternal God, in whom mercy is endless and the treasury of compassion inexhaustible, look kindly upon us and increase Your mercy in us, that in difficult moments we might not despair nor become despondent, but with great confidence submit ourselves to Your holy will, which is Love and Mercy itself.", "Order": 6 },
+        { "Type": "Spacer", "Order": 7 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 8 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["rosary", "act_of_contrition"]
+}

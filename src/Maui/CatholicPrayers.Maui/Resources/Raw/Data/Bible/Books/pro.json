@@ -1,0 +1,61 @@
+{
+  "Id": "pro",
+  "Title": "Proverbs",
+  "Abbreviation": "Prov",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 7,
+          "Text": "Fear of the LORD is the beginning of knowledge; wisdom and instruction fools despise."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 5,
+          "Text": "Trust in the LORD with all your heart, on your own intelligence do not rely."
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "In all your ways be mindful of him, and he will make straight your paths."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 23,
+          "Text": "With all vigilance guard your heart, for in it are the sources of life."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 9,
+      "Verses": [
+        {
+          "VerseNumber": 10,
+          "Text": "The beginning of wisdom is fear of the LORD, and knowledge of the Holy One is understanding."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 31,
+      "Verses": [
+        {
+          "VerseNumber": 10,
+          "Text": "Who can find a woman of worth? Far beyond jewels is her value."
+        },
+        {
+          "VerseNumber": 30,
+          "Text": "Charm is deceptive and beauty fleeting; the woman who fears the LORD is to be praised."
+        }
+      ]
+    }
+  ]
+}

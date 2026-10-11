@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Prayers.StJoseph.Maui.Views.MainView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converters="clr-namespace:Prayers.StJoseph.Maui.Converters">
+    <ContentPage.Resources>
+        <converters:StringToColorConverter x:Key="ColorConv" />
+    </ContentPage.Resources>
+
+    <!-- Full-screen stack: image fills all space, button pinned to bottom-left -->
+    <Grid>
+        <!-- Saint image fills the entire screen -->
+        <Image
+            Aspect="AspectFill"
+            HorizontalOptions="Fill"
+            VerticalOptions="Fill"
+            Source="{Binding PathToMainImage}" />
+
+        <!-- Subtle dark overlay so text/button stay readable -->
+        <BoxView
+            BackgroundColor="#55000000"
+            HorizontalOptions="Fill"
+            VerticalOptions="Fill" />
+
+        <!-- Title/subtitle: bottom-left, above the Start button -->
+        <VerticalStackLayout
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Margin="20,0,0,110"
+            Spacing="4">
+            <Label
+                Style="{StaticResource TitleLabel}"
+                Text="{Binding PrayerMainHeader01}"
+                TextColor="White" />
+            <Label
+                Style="{StaticResource SubtitleLabel}"
+                Text="{Binding PrayerMainHeader02}"
+                TextColor="White" />
+        </VerticalStackLayout>
+
+        <!-- Start button: bottom-left -->
+        <Button
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Margin="20,0,0,40"
+            Command="{Binding BtnStartCommand}"
+            Text="Start  ▶"
+            FontAttributes="Bold"
+            FontSize="Medium"
+            BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource ColorConv}}"
+            TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource ColorConv}}"
+            WidthRequest="150"
+            HeightRequest="50" />
+    </Grid>
+</ContentPage>

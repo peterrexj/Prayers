@@ -1,0 +1,31 @@
+{
+  "Id": "act_of_hope",
+  "Title": "Act of Hope",
+  "Subtitle": "O My God, Relying on Thy Promises",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_bg_act_of_hope.png",
+  "HeaderImagePosition": "Top",
+  "IntroText": "The Act of Hope expresses trust in God's mercy and our hope for eternal salvation through Jesus Christ.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#1ABC9C",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Act of Hope",
+      "Blocks": [
+        { "Type": "H1", "Text": "Act of Hope", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "O my God, relying on Thy infinite goodness and promises,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "I hope to obtain pardon of my sins,", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "the help of Thy grace,", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Paragraph", "Text": "and life everlasting,", "FontStyle": "Italic", "Order": 6 },
+        { "Type": "Paragraph", "Text": "through the merits of Jesus Christ,", "FontStyle": "Italic", "Order": 7 },
+        { "Type": "Paragraph", "Text": "my Lord and Redeemer.", "FontStyle": "Italic", "Order": 8 },
+        { "Type": "Spacer", "Order": 9 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 10 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["act_of_faith", "act_of_love"]
+}

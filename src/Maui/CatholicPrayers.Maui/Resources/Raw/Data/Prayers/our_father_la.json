@@ -1,0 +1,57 @@
+{
+  "Id": "our_father",
+  "Title": "Pater Noster",
+  "Subtitle": "Oratio Dominica",
+  "Format": "SinglePage",
+  "AccentColor": "#4A90D9",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Pater Noster",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Text": "Pater Noster",
+          "Order": 1
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Pater noster, qui es in caelis,\nsanctificetur nomen tuum.",
+          "FontStyle": "Italic",
+          "Order": 2
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Adveniat regnum tuum.\nFiat voluntas tua,\nsicut in caelo et in terra.",
+          "FontStyle": "Italic",
+          "Order": 3
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Panem nostrum quotidianum\nda nobis hodie.",
+          "FontStyle": "Italic",
+          "Order": 4
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Et dimitte nobis debita nostra,\nsicut et nos dimittimus\ndebitoribus nostris.",
+          "FontStyle": "Italic",
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Et ne nos inducas in tentationem,\nsed libera nos a malo.",
+          "FontStyle": "Italic",
+          "Order": 6
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Amen.",
+          "FontStyle": "Bold",
+          "Alignment": "Center",
+          "Order": 7
+        }
+      ]
+    }
+  ]
+}

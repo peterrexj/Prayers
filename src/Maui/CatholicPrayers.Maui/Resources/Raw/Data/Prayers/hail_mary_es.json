@@ -1,0 +1,49 @@
+{
+  "Id": "hail_mary",
+  "Title": "Dios te Salve, María",
+  "Subtitle": "La Salutación Angélica",
+  "Format": "SinglePage",
+  "AccentColor": "#3498DB",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Ave María",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Dios te Salve, María"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Dios te salve, María,\nllena eres de gracia,\nel Señor es contigo.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Bendita tú eres entre todas las mujeres,\ny bendito es el fruto de tu vientre, Jesús.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Divider",
+          "Order": 4
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 5,
+          "Text": "Santa María, Madre de Dios,\nruega por nosotros, pecadores,\nahora y en la hora de nuestra muerte.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 6,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

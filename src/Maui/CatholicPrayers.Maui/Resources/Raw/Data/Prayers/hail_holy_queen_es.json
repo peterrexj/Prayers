@@ -1,0 +1,67 @@
+{
+  "Id": "hail_holy_queen",
+  "Title": "Dios te Salve, Reina y Madre",
+  "Subtitle": "La Salve Regina",
+  "Format": "SinglePage",
+  "AccentColor": "#9B59B6",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Salve",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Dios te Salve, Reina y Madre"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Dios te salve, Reina y Madre de misericordia,\nvida, dulzura y esperanza nuestra, Dios te salve.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "A ti llamamos los desterrados hijos de Eva;\na ti suspiramos, gimiendo y llorando\nen este valle de lágrimas.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Ea, pues, Señora, abogada nuestra,\nvuelve a nosotros esos tus ojos misericordiosos.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 5,
+          "Text": "Y después de este destierro, muéstranos a Jesús,\nfruto bendito de tu vientre.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 6,
+          "Text": "¡Oh clementísima, oh piadosa,\noh dulce Virgen María!",
+          "FontStyle": "Italic",
+          "Alignment": "Center"
+        },
+        {
+          "Type": "Divider",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 8,
+          "Text": "V. Ruega por nosotros, Santa Madre de Dios.\nR. Para que seamos dignos de alcanzar las promesas de Jesucristo."
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 9,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "Id": "jon",
+  "Title": "Jonah",
+  "Abbreviation": "Jonah",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 3,
+          "Text": "But Jonah made ready to flee to Tarshish, away from the LORD."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 2,
+          "Text": "Out of my distress I called to the LORD, and he answered me; from the womb of Sheol I cried for help, and you heard my voice."
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "Then the LORD commanded the fish to vomit Jonah upon dry land."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 2,
+          "Text": "For I knew that you are a gracious and merciful God, slow to anger, abounding in steadfast love, and relenting in punishment."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "Id": "jdt",
+  "Title": "Judith",
+  "Abbreviation": "Jdt",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 8,
+      "Verses": [
+        {
+          "VerseNumber": 25,
+          "Text": "Let us give thanks to the Lord our God, who is putting us to the test as he did our ancestors."
+        },
+        {
+          "VerseNumber": 26,
+          "Text": "Recall what he did with Abraham, and how he tested Isaac, and what happened to Jacob in Syrian Mesopotamia while he was tending the flocks of Laban, his mother's brother."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 13,
+      "Verses": [
+        {
+          "VerseNumber": 14,
+          "Text": "She said in a loud voice: Praise God, praise him! Praise God, who has not withdrawn his mercy from the house of Israel, but has shattered our enemies by my hand this very night!"
+        }
+      ]
+    }
+  ]
+}

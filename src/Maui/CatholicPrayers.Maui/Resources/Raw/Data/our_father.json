@@ -1,0 +1,40 @@
+{
+  "Id": "our_father",
+  "Title": "Our Father",
+  "Subtitle": "The Lord's Prayer",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_cross.png",
+  "IntroText": "The Our Father is the prayer Jesus himself taught his disciples. It is the most fundamental of all Christian prayers.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#4A90D9",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "The Lord's Prayer",
+      "Blocks": [
+        { "Type": "H1", "Text": "Our Father", "Order": 1 },
+        { "Type": "Quote", "Text": "Matthew 6:9-13", "Alignment": "Center", "Order": 2 },
+        { "Type": "Divider", "Order": 3 },
+        { "Type": "Paragraph", "Text": "Our Father, who art in heaven,", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "hallowed be thy name;", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Paragraph", "Text": "thy kingdom come,", "FontStyle": "Italic", "Order": 6 },
+        { "Type": "Paragraph", "Text": "thy will be done", "FontStyle": "Italic", "Order": 7 },
+        { "Type": "Paragraph", "Text": "on earth as it is in heaven.", "FontStyle": "Italic", "Order": 8 },
+        { "Type": "Spacer", "Order": 9 },
+        { "Type": "Paragraph", "Text": "Give us this day our daily bread,", "FontStyle": "Italic", "Order": 10 },
+        { "Type": "Paragraph", "Text": "and forgive us our trespasses,", "FontStyle": "Italic", "Order": 11 },
+        { "Type": "Paragraph", "Text": "as we forgive those who trespass against us;", "FontStyle": "Italic", "Order": 12 },
+        { "Type": "Spacer", "Order": 13 },
+        { "Type": "Paragraph", "Text": "and lead us not into temptation,", "FontStyle": "Italic", "Order": 14 },
+        { "Type": "Paragraph", "Text": "but deliver us from evil.", "FontStyle": "Italic", "Order": 15 },
+        { "Type": "Spacer", "Order": 16 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 17 },
+        { "Type": "Divider", "Order": 18 },
+        { "Type": "H3", "Text": "Reflection", "Order": 19 },
+        { "Type": "Paragraph", "Text": "In this prayer, Jesus teaches us to address God intimately as \"Our Father\" — acknowledging our relationship with Him and with one another as brothers and sisters in faith. Each petition brings our heart closer to the divine will.", "Order": 20 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["hail_mary", "glory_be"]
+}

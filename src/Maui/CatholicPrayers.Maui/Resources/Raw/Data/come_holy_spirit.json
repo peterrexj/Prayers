@@ -1,0 +1,32 @@
+{
+  "Id": "come_holy_spirit",
+  "Title": "Come Holy Spirit",
+  "Subtitle": "Veni Sancte Spiritus",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_dove.png",
+  "IntroText": "A prayer invoking the Holy Spirit, often prayed before important decisions, at the start of meetings, and during the Novena to the Holy Spirit before Pentecost.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#F39C12",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Come Holy Spirit",
+      "Blocks": [
+        { "Type": "H1", "Text": "Come Holy Spirit", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Come, Holy Spirit, fill the hearts of Thy faithful,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "and enkindle in them the fire of Thy love.", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Spacer", "Order": 5 },
+        { "Type": "BulletItem", "BulletLabel": "V.", "Text": "Send forth Thy Spirit, and they shall be created.", "Order": 6 },
+        { "Type": "BulletItem", "BulletLabel": "R.", "Text": "And Thou shalt renew the face of the earth.", "IsResponse": true, "Order": 7 },
+        { "Type": "Spacer", "Order": 8 },
+        { "Type": "H3", "Text": "Let us pray", "Order": 9 },
+        { "Type": "Paragraph", "Text": "O God, Who didst instruct the hearts of the faithful by the light of the Holy Spirit, grant us by the same Holy Spirit to be truly wise, and ever to rejoice in His consolations. Through Christ Our Lord.", "FontStyle": "Italic", "Order": 10 },
+        { "Type": "Spacer", "Order": 11 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 12 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["glory_be", "nicene_creed"]
+}

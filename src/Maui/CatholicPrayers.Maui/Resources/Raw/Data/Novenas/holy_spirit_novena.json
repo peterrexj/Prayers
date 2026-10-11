@@ -1,0 +1,85 @@
+{
+  "Id": "novena_holy_spirit",
+  "Title": "Holy Spirit Novena",
+  "Subtitle": "Veni Sancte Spiritus",
+  "Format": "MultiPage",
+  "AccentColor": "#F39C12",
+  "IntroText": "The original novena — the nine days the Apostles spent in prayer between the Ascension and Pentecost — was the Holy Spirit Novena. Jesus commanded them to wait and pray. This novena is prayed in the nine days between the Ascension and Pentecost Sunday.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — Come, Holy Spirit", "Blocks": [
+      { "Type": "H2", "Text": "Day 1 — After the Ascension", "Order": 1 },
+      { "Type": "Paragraph", "Text": "After Jesus ascended, the disciples gathered in the Upper Room with Mary. For nine days they prayed in one accord, waiting for the promise of the Father — the gift of the Holy Spirit.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Come, Holy Spirit, fill the hearts of Your faithful and kindle in them the fire of Your love. Send forth Your Spirit and they shall be created. And You shall renew the face of the earth.", "FontStyle": "Italic", "Order": 5 },
+      { "Type": "Paragraph", "Text": "O God, who by the light of the Holy Spirit instructed the hearts of the faithful, grant that in the same Spirit we may be truly wise and ever rejoice in His consolations. Through Christ our Lord. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — Gift of Wisdom", "Blocks": [
+      { "Type": "H2", "Text": "Day 2 — The Gift of Wisdom", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Wisdom is the greatest of the Holy Spirit's seven gifts. It enables us to judge all things according to their eternal value — to see as God sees.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Holy Spirit, grant me the gift of Wisdom. Help me to see beyond earthly appearances to eternal realities. When I must make decisions, let me judge them not by what is convenient or popular, but by what is true and holy.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May I love the things of God above all earthly pleasures, and seek His Kingdom first in all I do. Come, Spirit of Wisdom, enlighten my soul. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — Gift of Understanding", "Blocks": [
+      { "Type": "H2", "Text": "Day 3 — The Gift of Understanding", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Understanding enables us to grasp the truths of our faith more deeply — not just to know them by memory but to penetrate their meaning and live by them.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Holy Spirit of Understanding, open the eyes of my heart that I may comprehend more fully the mysteries of our faith. When I read Sacred Scripture, illuminate its meaning. When I hear the Church's teaching, help me to grasp its truth.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Deepen my faith so that it becomes not only a set of beliefs but a living encounter with the living God. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — Gift of Counsel", "Blocks": [
+      { "Type": "H2", "Text": "Day 4 — The Gift of Counsel", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Counsel is the gift by which the Holy Spirit guides us in the right way when we face difficult decisions. It is the interior voice that says: \"This is the way, walk in it.\"", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Holy Counselor, guide my steps today and always. When I face decisions large or small, whisper Your wisdom in my heart. When I am tempted to follow my own will, redirect me to Yours.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Help me to discern Your voice above the noise of the world and my own preferences. Make me docile to Your guidance. Come, Spirit of Counsel, be my guide. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — Gift of Fortitude", "Blocks": [
+      { "Type": "H2", "Text": "Day 5 — The Gift of Fortitude", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Fortitude gives us the strength to do good and avoid evil, even in the face of difficulty, persecution, or death. It was the gift that made the martyrs fearless.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Holy Spirit of Fortitude, I am weak without You. Strengthen my resolve to do good when it is difficult, to speak the truth when it is unpopular, to resist temptation when it is persistent.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Grant me the courage of the martyrs, the persistence of the saints, and the steadfastness of those who \"having done all, to stand\" (Eph 6:13). Come, Spirit of Fortitude, be my strength. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — Gift of Knowledge", "Blocks": [
+      { "Type": "H2", "Text": "Day 6 — The Gift of Knowledge", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Knowledge enables us to judge creatures as they truly are — to see them in relation to God, to use them rightly and not be enslaved by them. It reveals the emptiness of created things apart from God.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Holy Spirit, grant me the gift of Knowledge — that I may see all created things in relation to their Creator. May I neither despise the good things of the world nor make idols of them.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Help me to use all that I have and all that I am in the service of God and neighbor. Let nothing in creation block my sight of the One who made it. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — Gift of Piety", "Blocks": [
+      { "Type": "H2", "Text": "Day 7 — The Gift of Piety", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Piety is the gift by which we are drawn into a loving, filial relationship with God as our Father. It makes prayer natural and joyful, and fills us with a spirit of devotion and reverence.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Come, Holy Spirit of Piety. Teach me to approach God not merely as my judge or King but as my loving Father. Make prayer the great joy of my day — not a duty but a delight.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Help me to extend this filial love to all my brothers and sisters, seeing in them children of the same Father. Come, Spirit of Piety, enliven my devotion. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — Gift of Fear of the Lord", "Blocks": [
+      { "Type": "H2", "Text": "Day 8 — The Gift of Fear of the Lord", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Holy fear is not terror but a loving reverence — a deep awe before God's greatness and a desire never to offend Him. It is the beginning of wisdom (Proverbs 9:10) and the gift that keeps us faithful.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Holy Spirit, grant me a holy and filial fear of God. May I tremble to offend my heavenly Father not from dread of punishment but from love of Him. Let this fear keep me from sin and draw me always back to repentance.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May the awareness of God's infinite holiness make me humble, and His infinite mercy make me joyful. Come, Spirit of Holy Fear, guard my soul. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Pentecost", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — Vigil of Pentecost", "Order": 1 },
+      { "Type": "H3", "Text": "Come, Holy Spirit!", "Order": 2 },
+      { "Type": "Paragraph", "Text": "Tomorrow is Pentecost Sunday — the birthday of the Church. Fifty days after Easter, the Spirit descended in wind and fire, filling the disciples with courage, wisdom, and joy. That same Spirit is poured into us at Baptism and Confirmation.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Veni, Sancte Spiritus", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Come, Holy Spirit, come! And from your celestial home shed a ray of light divine! Come, Father of the poor! Come, source of all our store! Come, within our bosoms shine!", "FontStyle": "Italic", "Order": 6 },
+      { "Type": "Paragraph", "Text": "You, of comforters the best; You, the soul's most welcome guest; sweet refreshment here below; in our labor, rest most sweet; grateful coolness in the heat; solace in the midst of woe.", "FontStyle": "Italic", "Order": 7 },
+      { "Type": "Paragraph", "Text": "Come, Holy Spirit, renew in us the fire of Pentecost. Make us bold witnesses to Christ, faithful members of His Church, and radiant with the joy of those who know they are loved. Amen.", "Order": 8 },
+      { "Type": "Paragraph", "Text": "Come, Holy Spirit!", "FontStyle": "Bold", "Alignment": "Center", "Order": 9 }
+    ]}
+  ]
+}

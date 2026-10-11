@@ -1,0 +1,57 @@
+{
+  "Id": "our_father",
+  "Title": "Padre Nuestro",
+  "Subtitle": "La Oración del Señor",
+  "Format": "SinglePage",
+  "AccentColor": "#4A90D9",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Padre Nuestro",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Padre Nuestro"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Padre nuestro, que estás en el cielo,\nsantificado sea tu Nombre.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Venga tu reino.\nHágase tu voluntad\nen la tierra como en el cielo.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Danos hoy nuestro pan de cada día.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 5,
+          "Text": "Perdona nuestras ofensas,\ncomo también nosotros perdonamos\na los que nos ofenden.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 6,
+          "Text": "No nos dejes caer en la tentación,\ny líbranos del mal.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 7,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

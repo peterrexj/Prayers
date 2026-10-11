@@ -1,0 +1,34 @@
+{
+  "Id": "2pe",
+  "Title": "2 Peter",
+  "Abbreviation": "2Pet",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 3,
+          "Text": "His divine power has bestowed on us everything that makes for life and devotion, through the knowledge of him who called us by his own glory and power."
+        },
+        {
+          "VerseNumber": 21,
+          "Text": "For no prophecy ever came through human will; but rather human beings moved by the Holy Spirit spoke under the influence of God."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 9,
+          "Text": "The Lord does not delay his promise, as some regard delay, but he is patient with you, not wishing that any should perish but that all should come to repentance."
+        },
+        {
+          "VerseNumber": 18,
+          "Text": "But grow in grace and in the knowledge of our Lord and savior Jesus Christ."
+        }
+      ]
+    }
+  ]
+}

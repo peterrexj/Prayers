@@ -1,0 +1,33 @@
+{
+  "Id": "jud",
+  "Title": "Jude",
+  "Abbreviation": "Jude",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 3,
+          "Text": "I felt compelled to write to you to encourage you to contend for the faith that was once for all handed down to the holy ones."
+        },
+        {
+          "VerseNumber": 20,
+          "Text": "But you, beloved, build yourselves up in your most holy faith; pray in the Holy Spirit."
+        },
+        {
+          "VerseNumber": 21,
+          "Text": "Keep yourselves in the love of God and wait for the mercy of our Lord Jesus Christ that leads to eternal life."
+        },
+        {
+          "VerseNumber": 24,
+          "Text": "To the one who is able to keep you from stumbling and to present you unblemished and exultant, in the presence of his glory,"
+        },
+        {
+          "VerseNumber": 25,
+          "Text": "to the only God, our savior, through Jesus Christ our Lord be glory, majesty, power, and authority from ages past, now, and for ages to come. Amen."
+        }
+      ]
+    }
+  ]
+}

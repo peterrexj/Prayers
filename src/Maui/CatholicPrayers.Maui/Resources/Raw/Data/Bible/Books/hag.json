@@ -1,0 +1,17 @@
+{
+  "Id": "hag",
+  "Title": "Haggai",
+  "Abbreviation": "Hag",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 4,
+          "Text": "Take courage, Zerubbabel—oracle of the LORD—take courage, Joshua, son of Jehozadak, high priest. Take courage, all you people of the land—oracle of the LORD—and work! For I am with you—oracle of the LORD of hosts."
+        }
+      ]
+    }
+  ]
+}

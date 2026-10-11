@@ -1,0 +1,28 @@
+{
+  "Id": "jesus_prayer",
+  "Title": "The Jesus Prayer",
+  "Subtitle": "Lord Jesus Christ, Son of God",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_cross.png",
+  "IntroText": "The Jesus Prayer is an ancient Christian contemplative prayer rooted in the Eastern tradition. It calls on the Holy Name of Jesus and asks for His mercy.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#FF5722",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "The Jesus Prayer",
+      "Blocks": [
+        { "Type": "H1", "Text": "The Jesus Prayer", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Lord Jesus Christ,", "FontStyle": "Italic", "FontSizeOffset": 2, "Order": 3 },
+        { "Type": "Paragraph", "Text": "Son of God,", "FontStyle": "Italic", "FontSizeOffset": 2, "Order": 4 },
+        { "Type": "Paragraph", "Text": "have mercy on me, a sinner.", "FontStyle": "Italic", "FontSizeOffset": 2, "Order": 5 },
+        { "Type": "Spacer", "Order": 6 },
+        { "Type": "H3", "Text": "How to Pray", "Order": 7 },
+        { "Type": "Paragraph", "Text": "This short prayer can be repeated many times in rhythm with breathing — inhaling on \"Lord Jesus Christ, Son of God\" and exhaling on \"have mercy on me, a sinner.\" It is a form of continuous prayer, keeping the heart focused on God throughout the day.", "Order": 8 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["divine_mercy_chaplet", "act_of_contrition"]
+}

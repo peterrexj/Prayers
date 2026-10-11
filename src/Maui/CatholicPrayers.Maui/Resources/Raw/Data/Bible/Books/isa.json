@@ -1,0 +1,107 @@
+{
+  "Id": "isa",
+  "Title": "Isaiah",
+  "Abbreviation": "Isa",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 6,
+      "Verses": [
+        {
+          "VerseNumber": 3,
+          "Text": "Holy, holy, holy is the LORD of hosts! All the earth is filled with his glory!"
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "Then I heard the voice of the Lord saying, Whom shall I send? Who will go for us? Here I am, I said; send me!"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 7,
+      "Verses": [
+        {
+          "VerseNumber": 14,
+          "Text": "Therefore the Lord himself will give you a sign; the young woman, pregnant and about to bear a son, shall name him Emmanuel."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 9,
+      "Verses": [
+        {
+          "VerseNumber": 5,
+          "Text": "For a child is born to us, a son is given to us; upon his shoulder dominion rests. They name him Wonder-Counselor, God-Hero, Father-Forever, Prince of Peace."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 40,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Comfort, give comfort to my people, says your God."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "A voice cries out: In the desert prepare the way of the LORD! Make straight in the wasteland a highway for our God!"
+        },
+        {
+          "VerseNumber": 28,
+          "Text": "Do you not know? Have you not heard? The LORD is God from of old, creator of the ends of the earth.  He does not faint or grow weary, and his knowledge is beyond scrutiny."
+        },
+        {
+          "VerseNumber": 31,
+          "Text": "They that hope in the LORD will renew their strength, they will soar on eagles' wings; they will run and not grow weary, walk and not grow faint."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 43,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "But now, thus says the LORD, who created you, Jacob, and formed you, Israel: Do not fear, for I have redeemed you; I have called you by name: you are mine."
+        },
+        {
+          "VerseNumber": 19,
+          "Text": "See, I am doing something new! Now it springs forth, do you not perceive it?"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 53,
+      "Verses": [
+        {
+          "VerseNumber": 3,
+          "Text": "He was spurned and avoided by people, a man of suffering, knowing pain, like one from whom you turn your face, spurned, and we held him in no esteem."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "Yet it was our pain that he bore, our sufferings he endured."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "But he was pierced for our sins, crushed for our iniquity. He bore the punishment that makes us whole, by his wounds we were healed."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 55,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "All you who are thirsty, come to the water! You who have no money, come, buy grain and eat."
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "For my thoughts are not your thoughts, nor are your ways my ways—oracle of the LORD."
+        },
+        {
+          "VerseNumber": 11,
+          "Text": "So shall my word be that goes forth from my mouth; my word shall not return to me empty, but shall do what pleases me, achieving the end for which I sent it."
+        }
+      ]
+    }
+  ]
+}

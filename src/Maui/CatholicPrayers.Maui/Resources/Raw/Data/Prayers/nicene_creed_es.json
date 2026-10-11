@@ -1,0 +1,63 @@
+{
+  "Id": "nicene_creed",
+  "Title": "El Credo Niceno",
+  "Subtitle": "Símbolo Niceno-Constantinopolitano",
+  "Format": "SinglePage",
+  "AccentColor": "#1A237E",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "El Credo Niceno",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "El Credo Niceno"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Creo en un solo Dios, Padre todopoderoso,\nCreador del cielo y de la tierra,\nde todo lo visible y lo invisible.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Creo en un solo Señor, Jesucristo,\nHijo único de Dios, nacido del Padre antes de todos los siglos:\nDios de Dios, Luz de Luz, Dios verdadero de Dios verdadero,\nengendrado, no creado, de la misma naturaleza del Padre,\npor quien todo fue hecho.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Que por nosotros, los hombres, y por nuestra salvación\nbajó del cielo,\ny por obra del Espíritu Santo\nse encarnó de María, la Virgen,\ny se hizo hombre.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 5,
+          "Text": "Por nuestra causa fue crucificado en tiempos de Poncio Pilato;\npadeció y fue sepultado.\nAl tercer día resucitó, según las Escrituras,\nsubió al cielo, y está sentado a la derecha del Padre;\nde nuevo vendrá con gloria\npara juzgar a vivos y muertos,\ny su reino no tendrá fin.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 6,
+          "Text": "Creo en el Espíritu Santo,\nSeñor y dador de vida,\nque procede del Padre y del Hijo,\nque con el Padre y el Hijo recibe una misma adoración y gloria,\ny que habló por los profetas.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 7,
+          "Text": "Creo en la Iglesia,\nque es una, santa, católica y apostólica.\nConfieso que hay un solo bautismo\npara el perdón de los pecados.\nEspero la resurrección de los muertos\ny la vida del mundo futuro.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 8,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

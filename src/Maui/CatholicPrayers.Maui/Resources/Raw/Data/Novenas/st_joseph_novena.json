@@ -1,0 +1,129 @@
+{
+  "Id": "novena_st_joseph",
+  "Title": "St. Joseph Novena",
+  "Subtitle": "Patron of the Universal Church",
+  "Format": "MultiPage",
+  "AccentColor": "#795548",
+  "IntroText": "St. Joseph is the husband of the Blessed Virgin Mary, the foster father of Jesus, and the patron of the Universal Church. This novena is prayed from March 10 to March 18, culminating on his feast day on March 19.",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Day 1 — Guardian of the Holy Family",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 1 — March 10", "Order": 1 },
+        { "Type": "H3", "Text": "Joseph, guardian of the Holy Family", "Order": 2 },
+        { "Type": "Paragraph", "Text": "God chose St. Joseph above all men to be the guardian and protector of the Holy Family. His quiet strength and steadfast faith sustained Mary and the Child Jesus through the dangers of Bethlehem, Egypt, and Nazareth.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O Glorious St. Joseph, chosen by God to be the foster father of Jesus and guardian of the Holy Family, I come to you today seeking your powerful intercession. Just as you protected and provided for the Holy Family on earth, please watch over and protect my family.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Obtain for me the grace I need: [mention your request]. With full confidence in your fatherly care, I place myself under your protection. St. Joseph, guardian of families, pray for us. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 2,
+      "Title": "Day 2 — Joseph the Worker",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 2 — March 11", "Order": 1 },
+        { "Type": "H3", "Text": "Patron of workers and craftsmen", "Order": 2 },
+        { "Type": "Paragraph", "Text": "St. Joseph was a carpenter — a craftsman who sanctified daily labor by his dedication and care. Pope Pius XII established May 1 as the Feast of St. Joseph the Worker to remind us that all honest work is sacred when offered to God.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "Blessed St. Joseph, patron of all who labor, teach us to work as you did — with diligence, integrity, and love of God. Help us to see in our daily work an opportunity to serve God and our neighbors.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Intercede for all those who are without work, that they may find dignified employment. And for those who are struggling in their work, grant them perseverance and skill. St. Joseph the Worker, pray for us. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 3,
+      "Title": "Day 3 — Joseph's Silent Faith",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 3 — March 12", "Order": 1 },
+        { "Type": "H3", "Text": "A man of silent, heroic faith", "Order": 2 },
+        { "Type": "Paragraph", "Text": "The Gospels record no spoken words of St. Joseph. Yet his whole life was an eloquent proclamation of faith. He believed the angel's message, took Mary as his wife, and led the Holy Family through every trial with quiet courage.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "St. Joseph, man of faith and silence, teach us that true religion is not found in words alone but in deeds of love and trust in God. When we cannot understand God's ways, help us to trust as you trusted.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Strengthen our faith when it wavers, and give us the courage to act on what God asks of us, even when it is difficult or mysterious. St. Joseph, model of faith, pray for us. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 4,
+      "Title": "Day 4 — Patron of Fathers",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 4 — March 13", "Order": 1 },
+        { "Type": "H3", "Text": "Model for all fathers", "Order": 2 },
+        { "Type": "Paragraph", "Text": "As the foster father of Jesus, St. Joseph is the great patron and model of all fathers. He provided, protected, and guided the Holy Child with tenderness and strength. His fatherhood was a participation in the eternal Fatherhood of God.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "Glorious St. Joseph, model of all those who are devoted to labor, obtain for me the grace to work conscientiously, putting the call of duty above my natural inclinations. Help all fathers to lead their families with love, wisdom, and devotion to God.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Protect fatherless children, and comfort all who grieve the loss of their fathers. St. Joseph, patron of fathers, pray for us. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 5,
+      "Title": "Day 5 — Flight into Egypt",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 5 — March 14", "Order": 1 },
+        { "Type": "H3", "Text": "Protector in times of danger and exile", "Order": 2 },
+        { "Type": "Paragraph", "Text": "When King Herod sought to kill the Child Jesus, an angel warned Joseph in a dream. He rose in the night and led his family to safety in Egypt — a stranger in a foreign land, trusting in God's protection through every unknown mile.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "St. Joseph, you sheltered the Holy Family in times of danger and led them safely through exile. We ask your intercession for all refugees and those fleeing persecution, that they may find safety and welcome.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "When we face dangers, uncertainties, and the unknown roads ahead of us, be our guardian and guide. Help us trust in God's providence as you trusted on the dark road to Egypt. St. Joseph, our protector, pray for us. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 6,
+      "Title": "Day 6 — Joseph and the Hidden Life",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 6 — March 15", "Order": 1 },
+        { "Type": "H3", "Text": "Holiness in the ordinary life of Nazareth", "Order": 2 },
+        { "Type": "Paragraph", "Text": "For some thirty years, Jesus lived a hidden life in Nazareth with Mary and Joseph. The Holy Family sanctified the ordinary: meals and work, conversation and rest, the seasons and the liturgical year. Joseph was at the heart of this domestic holiness.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "St. Joseph, you lived a hidden life of sanctity in the house at Nazareth. Teach us to find holiness in our daily routines, to make our homes places of prayer, and to sanctify the ordinary moments of life.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Help us to be faithful in the small things, knowing that great holiness is built on countless ordinary acts of love and duty. St. Joseph of Nazareth, pray for us. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 7,
+      "Title": "Day 7 — Patron of the Dying",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 7 — March 16", "Order": 1 },
+        { "Type": "H3", "Text": "Patron of a happy death", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Tradition holds that St. Joseph died in the presence of Jesus and Mary — the most blessed death imaginable. Because of this, the Church invokes him as the patron of the dying and of a happy death.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O Blessed St. Joseph, who yielded up your soul in the arms of Jesus and Mary, obtain for me this grace: that I too may breathe forth my soul in the arms of Jesus and Mary at the hour of my death.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Intercede for all who are dying today, that they may depart this life in the grace of God and be welcomed into eternal life. Patron of a happy death, St. Joseph, pray for us. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 8,
+      "Title": "Day 8 — Patron of the Universal Church",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 8 — March 17", "Order": 1 },
+        { "Type": "H3", "Text": "Guardian of the whole Church", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Pope Pius IX declared St. Joseph patron of the Universal Church in 1870. Just as he watched over the Holy Family, he is asked to watch over the whole family of God — the Church. Pope Francis has placed his pontificate under St. Joseph's patronage.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "Most powerful patron St. Joseph, as you protected the Holy Family, please protect the Holy Church from all adversaries. Guard the Pope and all bishops and priests, that they may faithfully shepherd the flock of Christ.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Protect the faithful from error and confusion, and strengthen us all in the one holy Catholic faith. St. Joseph, guardian of the Church, pray for us. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 9,
+      "Title": "Day 9 — Feast of St. Joseph",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 9 — March 18 (Eve of Feast)", "Order": 1 },
+        { "Type": "H3", "Text": "Anticipating the feast", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Tomorrow the Church celebrates the Solemnity of St. Joseph, Spouse of the Blessed Virgin Mary. We conclude this novena with deep gratitude for his powerful intercession and renewed devotion to this great saint.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "The Prayer of Pope Francis to St. Joseph", "Order": 5 },
+        { "Type": "Paragraph", "Text": "Hail, Guardian of the Redeemer, Spouse of the Blessed Virgin Mary. To you God entrusted his only Son; in you Mary placed her trust; with you Christ became man.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Blessed Joseph, to us too, show yourself a father and guide us in the path of life. Obtain for us grace, mercy and courage, and defend us from every evil. Amen.", "Order": 7 },
+        { "Type": "Spacer", "Order": 8 },
+        { "Type": "Paragraph", "Text": "St. Joseph, pray for us!", "FontStyle": "Bold", "Alignment": "Center", "Order": 9 }
+      ]
+    }
+  ]
+}

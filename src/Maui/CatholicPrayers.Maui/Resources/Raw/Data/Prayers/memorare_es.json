@@ -1,0 +1,45 @@
+{
+  "Id": "memorare",
+  "Title": "Memorare",
+  "Subtitle": "Oración de San Bernardo",
+  "Format": "SinglePage",
+  "AccentColor": "#E67E22",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Memorare",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Memorare"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Acordaos, oh piadosísima Virgen María,\nque jamás se ha oído decir\nque ninguno de los que han acudido\na vuestra protección, implorado vuestro auxilio\ny reclamado vuestro socorro,\nhaya sido abandonado.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Animado por esta confianza,\na vos acudo, oh Madre, Virgen de las vírgenes;\na vos vengo, y arrepentido y pecador,\nme arrodillo ante vuestra presencia.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "No queráis, oh Madre del Verbo Divino,\ndesdeñar mis súplicas;\nantes bien, escuchadlas y atendedlas\npropiciamente.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 5,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

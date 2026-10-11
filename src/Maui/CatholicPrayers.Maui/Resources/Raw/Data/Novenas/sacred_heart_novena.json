@@ -1,0 +1,130 @@
+{
+  "Id": "novena_sacred_heart",
+  "Title": "Sacred Heart of Jesus Novena",
+  "Subtitle": "Devotion to the Heart of Christ",
+  "Format": "MultiPage",
+  "AccentColor": "#E53935",
+  "IntroText": "The Sacred Heart devotion was revealed to St. Margaret Mary Alacoque in visions. Jesus showed her His Heart, aflame with love, wounded and surrounded by thorns, and requested a feast in its honor. The novena is prayed in the nine days before the Feast of the Sacred Heart, which falls on the Friday after Corpus Christi.",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Day 1 — The Heart of Love",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 1", "Order": 1 },
+        { "Type": "H3", "Text": "The infinite love of the Sacred Heart", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Jesus said to St. Margaret Mary: \"Behold this Heart which has so loved men that It has spared nothing, even to exhausting and consuming Itself, in order to testify Its love.\" The Sacred Heart is the symbol of Christ's love — divine and human together.", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O most Sacred Heart of Jesus, fountain of every blessing, I adore Thee, I love Thee and with lively sorrow for my sins, I offer Thee this poor heart of mine.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Make me humble, patient, pure, and wholly obedient to Thy will. Grant, good Jesus, that I may live in Thee and for Thee. Protect me in my dangers. Fill me with blessings. Purify my soul. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 2,
+      "Title": "Day 2 — The Wounded Heart",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 2", "Order": 1 },
+        { "Type": "H3", "Text": "Wounded by love and by our sins", "Order": 2 },
+        { "Type": "Paragraph", "Text": "The Heart of Jesus was pierced on Calvary by the soldier's lance. From that wound flowed blood and water — symbols of the Eucharist and Baptism, the life of the Church. That same Heart is still wounded today by ingratitude and sin.", "Order": 3 },
+        { "Type": "Quote", "Text": "\"One of the soldiers thrust his lance into his side, and immediately blood and water flowed out.\" — John 19:34", "Order": 4 },
+        { "Type": "Divider", "Order": 5 },
+        { "Type": "H3", "Text": "Prayer", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Most Sacred Heart of Jesus, wounded by the lance of the soldier and more deeply wounded by our sins, accept our act of reparation for every coldness, every ingratitude, and every sacrilege committed against You.", "Order": 7 },
+        { "Type": "Paragraph", "Text": "We grieve for the wounds we have given Your Heart by our sins. From this day forward, we desire to love You as You deserve to be loved. Amen.", "Order": 8 }
+      ]
+    },
+    {
+      "SectionId": 3,
+      "Title": "Day 3 — Reparation and the First Friday Devotion",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 3", "Order": 1 },
+        { "Type": "H3", "Text": "The Nine First Fridays", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Jesus promised St. Margaret Mary that those who receive Holy Communion on nine consecutive First Fridays in reparation to His Sacred Heart will not die without receiving the graces necessary for final perseverance.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O Sacred Heart of Jesus, You promised those who receive You in Holy Communion on nine consecutive First Fridays that You would not permit them to die without the graces necessary for salvation.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "We desire to make this devotion out of love for You, not presumption. Accept our humble offering of Masses, Communions, and prayers as acts of love and reparation. Most Sacred Heart of Jesus, have mercy on us. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 4,
+      "Title": "Day 4 — The Promises of the Sacred Heart",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 4", "Order": 1 },
+        { "Type": "H3", "Text": "The twelve promises to those devoted to His Heart", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Jesus promised twelve graces to those devoted to His Sacred Heart, including: peace in families, consolation in trials, fervor for those who are lukewarm, a refuge in life and in the hour of death.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O Sacred Heart of Jesus, You have made wonderful promises to those who honor You. We consecrate ourselves to You with all that we are and all that we have — our hearts, our homes, our families.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Fulfill in us the promises You have made to those who love You. Establish Your reign in our hearts, and through our hearts, in the world around us. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 5,
+      "Title": "Day 5 — Enthroning the Sacred Heart",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 5", "Order": 1 },
+        { "Type": "H3", "Text": "The Kingdom of the Sacred Heart in families", "Order": 2 },
+        { "Type": "Paragraph", "Text": "The Enthronement of the Sacred Heart is a practice by which families formally consecrate their home to Jesus, placing His image in a place of honor. It is a recognition that Christ is King of the domestic church.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "Most Sacred Heart of Jesus, we invite You to reign in our home. May our family be filled with Your love, our conversations be guided by Your wisdom, our difficulties be offered to Your Sacred Heart.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Let every meal be a reminder of the Eucharistic banquet, every act of service a reflection of Your love, and every morning a renewed offering of ourselves to You. Heart of Jesus, be King of our home! Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 6,
+      "Title": "Day 6 — St. Margaret Mary Alacoque",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 6", "Order": 1 },
+        { "Type": "H3", "Text": "The instrument of the Sacred Heart devotion", "Order": 2 },
+        { "Type": "Paragraph", "Text": "St. Margaret Mary Alacoque (1647–1690) was a Visitation nun to whom Jesus appeared repeatedly, showing her His Sacred Heart and asking for a feast, reparation, and the First Friday devotion. She was canonized in 1920.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O Jesus, You chose St. Margaret Mary to spread devotion to Your Sacred Heart. Through her intercession, deepen in us this holy devotion. May we, like her, find our greatest joy in prayer before the Blessed Sacrament.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "St. Margaret Mary, intercede for us, that we may always respond generously to whatever Jesus asks of us, no matter how difficult. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 7,
+      "Title": "Day 7 — The Eucharist and the Sacred Heart",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 7", "Order": 1 },
+        { "Type": "H3", "Text": "The furnace of love in the tabernacle", "Order": 2 },
+        { "Type": "Paragraph", "Text": "The Sacred Heart is inseparably linked to the Eucharist. In every tabernacle, Jesus waits with the same burning love He showed St. Margaret Mary. Adoration of the Blessed Sacrament is one of the most powerful expressions of this devotion.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O Sacred Heart of Jesus, present in every tabernacle, I believe in Your Real Presence. Thank You for the gift of the Eucharist, in which You give us not just bread but Yourself.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Give us an ardent love for Holy Mass, a burning desire for Holy Communion, and the grace to spend time in adoration before You in the Blessed Sacrament. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 8,
+      "Title": "Day 8 — Consecration to the Sacred Heart",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 8", "Order": 1 },
+        { "Type": "H3", "Text": "\"I give and consecrate to the Sacred Heart of Our Lord Jesus Christ my person and my life...\"", "Order": 2 },
+        { "Type": "Paragraph", "Text": "The Act of Consecration to the Sacred Heart, composed by St. Margaret Mary, is one of the most beautiful acts of surrender in Catholic devotion. It gives everything — person, life, actions, penances, sufferings — to the Sacred Heart.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Act of Consecration", "Order": 5 },
+        { "Type": "Paragraph", "Text": "I give and consecrate to the Sacred Heart of Our Lord Jesus Christ my person and my life, my actions, penances, and sufferings, desiring not to make use of any part of my being for the future except in honoring, loving, and glorifying that Sacred Heart.", "FontStyle": "Italic", "Order": 6 },
+        { "Type": "Paragraph", "Text": "It is my unchanging intention to be all Yours and to do all things for Your love, while renouncing with all my heart whatever is displeasing to You. I therefore take You, O Sacred Heart, as the sole object of my love, the guardian of my life, my assurance of salvation, the remedy of my weakness and inconstancy, the atonement for all the faults of my life, and my sure refuge at the hour of my death. Amen.", "FontStyle": "Italic", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 9,
+      "Title": "Day 9 — Vigil of the Feast",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 9 — Vigil of the Sacred Heart", "Order": 1 },
+        { "Type": "H3", "Text": "\"The Heart which has so loved men\"", "Order": 2 },
+        { "Type": "Paragraph", "Text": "We conclude this novena on the eve of the Feast of the Sacred Heart. Through nine days of prayer, we have tried to enter more deeply into the love that burns in the Heart of Jesus. Tomorrow we celebrate that love in the liturgy of the Church.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O most Sacred Heart of Jesus, fountain of every blessing — we have spent these nine days contemplating Your infinite love. Thank You for every grace received during this novena.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Grant the particular intention we have brought to You, if it is according to Your will. And if not, grant us something better — the grace to love You more deeply and to serve You more faithfully. Amen.", "Order": 7 },
+        { "Type": "Spacer", "Order": 8 },
+        { "Type": "Paragraph", "Text": "Most Sacred Heart of Jesus, have mercy on us!", "FontStyle": "Bold", "Alignment": "Center", "Order": 9 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "Id": "morning_offering",
+  "Title": "Morning Offering",
+  "Subtitle": "O Jesus, Through the Immaculate Heart",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_sunrise.png",
+  "IntroText": "The Morning Offering consecrates the entire day to the Sacred Heart of Jesus through the Immaculate Heart of Mary.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#E67E22",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Morning Offering",
+      "Blocks": [
+        { "Type": "H1", "Text": "Morning Offering", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "O Jesus, through the Immaculate Heart of Mary,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "I offer You my prayers, works, joys and sufferings of this day", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "in union with the Holy Sacrifice of the Mass throughout the world.", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Spacer", "Order": 6 },
+        { "Type": "Paragraph", "Text": "I offer them for all the intentions of Your Sacred Heart:", "FontStyle": "Italic", "Order": 7 },
+        { "Type": "Paragraph", "Text": "the salvation of souls, reparation for sin,", "FontStyle": "Italic", "Order": 8 },
+        { "Type": "Paragraph", "Text": "and the reunion of all Christians.", "FontStyle": "Italic", "Order": 9 },
+        { "Type": "Spacer", "Order": 10 },
+        { "Type": "Paragraph", "Text": "I offer them for the intentions of our Bishops", "FontStyle": "Italic", "Order": 11 },
+        { "Type": "Paragraph", "Text": "and of all members of the Apostleship of Prayer,", "FontStyle": "Italic", "Order": 12 },
+        { "Type": "Paragraph", "Text": "and in particular for those recommended", "FontStyle": "Italic", "Order": 13 },
+        { "Type": "Paragraph", "Text": "by our Holy Father this month.", "FontStyle": "Italic", "Order": 14 },
+        { "Type": "Spacer", "Order": 15 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 16 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["act_of_love", "act_of_faith"]
+}

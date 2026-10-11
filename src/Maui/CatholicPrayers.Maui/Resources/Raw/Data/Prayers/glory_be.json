@@ -1,0 +1,31 @@
+{
+  "Id": "glory_be",
+  "Title": "Glory Be",
+  "Subtitle": "Gloria Patri",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_dove.png",
+  "IntroText": "The Glory Be is a doxology — a short hymn of praise to the Holy Trinity, prayed at the end of each decade of the Rosary.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#F39C12",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Gloria Patri",
+      "Blocks": [
+        { "Type": "H1", "Text": "Glory Be", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Glory be to the Father,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "and to the Son,", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "and to the Holy Spirit.", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Spacer", "Order": 6 },
+        { "Type": "Paragraph", "Text": "As it was in the beginning,", "FontStyle": "Italic", "Order": 7 },
+        { "Type": "Paragraph", "Text": "is now, and ever shall be,", "FontStyle": "Italic", "Order": 8 },
+        { "Type": "Paragraph", "Text": "world without end.", "FontStyle": "Italic", "Order": 9 },
+        { "Type": "Spacer", "Order": 10 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 11 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["our_father", "hail_mary"]
+}

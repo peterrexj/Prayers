@@ -1,0 +1,41 @@
+{
+  "Id": "angelus",
+  "Title": "The Angelus",
+  "Subtitle": "The Angel of the Lord",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_dove.png",
+  "IntroText": "The Angelus commemorates the Annunciation and is traditionally prayed at 6 AM, noon, and 6 PM at the ringing of the Angelus bell.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#3498DB",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "The Angelus",
+      "Blocks": [
+        { "Type": "H1", "Text": "The Angelus", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "BulletItem", "BulletLabel": "V.", "Text": "The Angel of the Lord declared unto Mary.", "Order": 3 },
+        { "Type": "BulletItem", "BulletLabel": "R.", "Text": "And she conceived of the Holy Spirit.", "IsResponse": true, "Order": 4 },
+        { "Type": "Paragraph", "Text": "Hail Mary, full of grace…", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Spacer", "Order": 6 },
+        { "Type": "BulletItem", "BulletLabel": "V.", "Text": "Behold the handmaid of the Lord.", "Order": 7 },
+        { "Type": "BulletItem", "BulletLabel": "R.", "Text": "Be it done unto me according to Thy word.", "IsResponse": true, "Order": 8 },
+        { "Type": "Paragraph", "Text": "Hail Mary, full of grace…", "FontStyle": "Italic", "Order": 9 },
+        { "Type": "Spacer", "Order": 10 },
+        { "Type": "BulletItem", "BulletLabel": "V.", "Text": "And the Word was made Flesh.", "Order": 11 },
+        { "Type": "BulletItem", "BulletLabel": "R.", "Text": "And dwelt among us.", "IsResponse": true, "Order": 12 },
+        { "Type": "Paragraph", "Text": "Hail Mary, full of grace…", "FontStyle": "Italic", "Order": 13 },
+        { "Type": "Spacer", "Order": 14 },
+        { "Type": "BulletItem", "BulletLabel": "V.", "Text": "Pray for us, O holy Mother of God.", "Order": 15 },
+        { "Type": "BulletItem", "BulletLabel": "R.", "Text": "That we may be made worthy of the promises of Christ.", "IsResponse": true, "Order": 16 },
+        { "Type": "Spacer", "Order": 17 },
+        { "Type": "H3", "Text": "Let us pray", "Order": 18 },
+        { "Type": "Paragraph", "Text": "Pour forth, we beseech Thee, O Lord, Thy grace into our hearts; that we, to whom the Incarnation of Christ, Thy Son, was made known by the message of an angel, may by His Passion and Cross be brought to the glory of His Resurrection, through the same Christ Our Lord.", "FontStyle": "Italic", "Order": 19 },
+        { "Type": "Spacer", "Order": 20 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 21 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["hail_mary", "our_father"]
+}

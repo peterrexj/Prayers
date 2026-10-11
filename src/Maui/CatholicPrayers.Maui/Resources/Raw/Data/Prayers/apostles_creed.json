@@ -1,0 +1,45 @@
+{
+  "Id": "apostles_creed",
+  "Title": "Apostles' Creed",
+  "Subtitle": "Statement of Faith",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_bg_apostles_creed.png",
+  "HeaderImagePosition": "Top",
+  "IntroText": "The Apostles' Creed is one of the oldest statements of Christian faith, summarising the core beliefs passed down from the apostles. It is prayed at the beginning of the Rosary.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#E74C3C",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "I Believe",
+      "Blocks": [
+        { "Type": "H1", "Text": "Apostles' Creed", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "I believe in God, the Father Almighty,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "Creator of heaven and earth,", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Spacer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "and in Jesus Christ, His only Son, our Lord,", "FontStyle": "Italic", "Order": 6 },
+        { "Type": "Paragraph", "Text": "who was conceived by the Holy Spirit,", "FontStyle": "Italic", "Order": 7 },
+        { "Type": "Paragraph", "Text": "born of the Virgin Mary,", "FontStyle": "Italic", "Order": 8 },
+        { "Type": "Paragraph", "Text": "suffered under Pontius Pilate,", "FontStyle": "Italic", "Order": 9 },
+        { "Type": "Paragraph", "Text": "was crucified, died and was buried;", "FontStyle": "Italic", "Order": 10 },
+        { "Type": "Paragraph", "Text": "He descended into hell;", "FontStyle": "Italic", "Order": 11 },
+        { "Type": "Paragraph", "Text": "on the third day He rose again from the dead;", "FontStyle": "Italic", "Order": 12 },
+        { "Type": "Paragraph", "Text": "He ascended into heaven,", "FontStyle": "Italic", "Order": 13 },
+        { "Type": "Paragraph", "Text": "and is seated at the right hand of God the Father Almighty;", "FontStyle": "Italic", "Order": 14 },
+        { "Type": "Paragraph", "Text": "from there He will come to judge the living and the dead.", "FontStyle": "Italic", "Order": 15 },
+        { "Type": "Spacer", "Order": 16 },
+        { "Type": "Paragraph", "Text": "I believe in the Holy Spirit,", "FontStyle": "Italic", "Order": 17 },
+        { "Type": "Paragraph", "Text": "the Holy Catholic Church,", "FontStyle": "Italic", "Order": 18 },
+        { "Type": "Paragraph", "Text": "the communion of saints,", "FontStyle": "Italic", "Order": 19 },
+        { "Type": "Paragraph", "Text": "the forgiveness of sins,", "FontStyle": "Italic", "Order": 20 },
+        { "Type": "Paragraph", "Text": "the resurrection of the body,", "FontStyle": "Italic", "Order": 21 },
+        { "Type": "Paragraph", "Text": "and life everlasting.", "FontStyle": "Italic", "Order": 22 },
+        { "Type": "Spacer", "Order": 23 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 24 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["nicene_creed", "our_father"]
+}

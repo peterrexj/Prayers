@@ -1,0 +1,45 @@
+{
+  "Id": "prayer_to_st_joseph",
+  "Title": "Oración a San José",
+  "Subtitle": "Al Patrono de la Iglesia Universal",
+  "Format": "SinglePage",
+  "AccentColor": "#5D4037",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Oración a San José",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Oración a San José"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "A ti, bienaventurado José,\nacudimos en nuestra tribulación,\ny después de implorar el auxilio de tu santísima Esposa,\nconfiados solicitamos también tu patrocinio.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Por el amor que te unió a la Inmaculada Virgen María\ny por el paternal afecto con que abrazaste al Niño Jesús,\nmira con bondad la herencia que Jesucristo adquirió\ncon su sangre, y socórrenos con tu poder.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Guarda, oh providentísimo custodio de la Sagrada Familia,\nla escogida descendencia de Jesucristo;\napar ta de nosotros, padre amantísimo,\nla pestilencia del error y de los vicios.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 5,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

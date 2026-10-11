@@ -1,0 +1,59 @@
+{
+  "Id": "php",
+  "Title": "Philippians",
+  "Abbreviation": "Phil",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 6,
+          "Text": "I am confident of this, that the one who began a good work in you will continue to complete it until the day of Christ Jesus."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 5,
+          "Text": "Have among yourselves the same attitude that is also yours in Christ Jesus,"
+        },
+        {
+          "VerseNumber": 7,
+          "Text": "Rather, he emptied himself, taking the form of a slave, coming in human likeness."
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "He humbled himself, becoming obedient to death, even death on a cross."
+        },
+        {
+          "VerseNumber": 9,
+          "Text": "Because of this, God greatly exalted him and bestowed on him the name that is above every name."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 4,
+          "Text": "Rejoice in the Lord always. I shall say it again: rejoice!"
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "Have no anxiety at all, but in everything, by prayer and petition, with thanksgiving, make your requests known to God."
+        },
+        {
+          "VerseNumber": 7,
+          "Text": "Then the peace of God that surpasses all understanding will guard your hearts and minds in Christ Jesus."
+        },
+        {
+          "VerseNumber": 13,
+          "Text": "I have the strength for everything through him who empowers me."
+        }
+      ]
+    }
+  ]
+}

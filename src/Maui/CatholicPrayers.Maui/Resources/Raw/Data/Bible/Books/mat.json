@@ -1,0 +1,329 @@
+{
+  "Id": "mat",
+  "Title": "Matthew",
+  "Abbreviation": "Matt",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 18,
+          "Text": "Now this is how the birth of Jesus Christ came about. When his mother Mary was betrothed to Joseph, but before they lived together, she was found with child through the Holy Spirit."
+        },
+        {
+          "VerseNumber": 19,
+          "Text": "Joseph her husband, since he was a righteous man, yet unwilling to expose her to shame, decided to divorce her quietly."
+        },
+        {
+          "VerseNumber": 20,
+          "Text": "Such was his intention when, behold, the angel of the Lord appeared to him in a dream and said, Joseph, son of David, do not be afraid to take Mary your wife into your home. For it is through the Holy Spirit that this child has been conceived in her."
+        },
+        {
+          "VerseNumber": 21,
+          "Text": "She will bear a son and you are to name him Jesus, because he will save his people from their sins."
+        },
+        {
+          "VerseNumber": 22,
+          "Text": "All this took place to fulfill what the Lord had said through the prophet:"
+        },
+        {
+          "VerseNumber": 23,
+          "Text": "Behold, the virgin shall be with child and bear a son, and they shall name him Emmanuel, which means God is with us."
+        },
+        {
+          "VerseNumber": 24,
+          "Text": "When Joseph awoke, he did as the angel of the Lord had commanded him and took his wife into his home."
+        },
+        {
+          "VerseNumber": 25,
+          "Text": "He had no relations with her until she bore a son, and he named him Jesus."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 5,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "When he saw the crowds, he went up the mountain, and after he had sat down, his disciples came to him."
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "He began to teach them, saying:"
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "Blessed are the poor in spirit, for theirs is the kingdom of heaven."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "Blessed are they who mourn, for they will be comforted."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "Blessed are the meek, for they will inherit the land."
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "Blessed are they who hunger and thirst for righteousness, for they will be satisfied."
+        },
+        {
+          "VerseNumber": 7,
+          "Text": "Blessed are the merciful, for they will be shown mercy."
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "Blessed are the clean of heart, for they will see God."
+        },
+        {
+          "VerseNumber": 9,
+          "Text": "Blessed are the peacemakers, for they will be called children of God."
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "Blessed are they who are persecuted for the sake of righteousness, for theirs is the kingdom of heaven."
+        },
+        {
+          "VerseNumber": 11,
+          "Text": "Blessed are you when they insult you and persecute you and utter every kind of evil against you [falsely] because of me."
+        },
+        {
+          "VerseNumber": 12,
+          "Text": "Rejoice and be glad, for your reward will be great in heaven. Thus they persecuted the prophets who were before you."
+        },
+        {
+          "VerseNumber": 13,
+          "Text": "You are the salt of the earth. But if salt loses its taste, with what can it be seasoned? It is no longer good for anything but to be thrown out and trampled underfoot."
+        },
+        {
+          "VerseNumber": 14,
+          "Text": "You are the light of the world. A city set on a mountain cannot be hidden."
+        },
+        {
+          "VerseNumber": 15,
+          "Text": "Nor do they light a lamp and then put it under a bushel basket; it is set on a lampstand, where it gives light to all in the house."
+        },
+        {
+          "VerseNumber": 16,
+          "Text": "Just so, your light must shine before others, that they may see your good deeds and glorify your heavenly Father."
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "Do not think that I have come to abolish the law or the prophets. I have come not to abolish but to fulfill."
+        },
+        {
+          "VerseNumber": 43,
+          "Text": "You have heard that it was said, You shall love your neighbor and hate your enemy."
+        },
+        {
+          "VerseNumber": 44,
+          "Text": "But I say to you, love your enemies, and pray for those who persecute you,"
+        },
+        {
+          "VerseNumber": 45,
+          "Text": "that you may be children of your heavenly Father, for he makes his sun rise on the bad and the good, and causes rain to fall on the just and the unjust."
+        },
+        {
+          "VerseNumber": 48,
+          "Text": "So be perfect, just as your heavenly Father is perfect."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 6,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Take care not to perform righteous deeds in order that people may see them; otherwise, you will have no recompense from your heavenly Father."
+        },
+        {
+          "VerseNumber": 7,
+          "Text": "In praying, do not babble like the pagans, who think that they will be heard because of their many words."
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "Do not be like them. Your Father knows what you need before you ask him."
+        },
+        {
+          "VerseNumber": 9,
+          "Text": "This is how you are to pray: Our Father in heaven, hallowed be your name,"
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "your kingdom come, your will be done, on earth as in heaven."
+        },
+        {
+          "VerseNumber": 11,
+          "Text": "Give us today our daily bread;"
+        },
+        {
+          "VerseNumber": 12,
+          "Text": "and forgive us our debts, as we forgive our debtors;"
+        },
+        {
+          "VerseNumber": 13,
+          "Text": "and do not subject us to the final test, but deliver us from the evil one."
+        },
+        {
+          "VerseNumber": 14,
+          "Text": "If you forgive others their transgressions, your heavenly Father will forgive you."
+        },
+        {
+          "VerseNumber": 19,
+          "Text": "Do not store up for yourselves treasures on earth, where moth and decay destroy, and thieves break in and steal."
+        },
+        {
+          "VerseNumber": 20,
+          "Text": "But store up treasures in heaven, where neither moth nor decay destroys, nor thieves break in and steal."
+        },
+        {
+          "VerseNumber": 21,
+          "Text": "For where your treasure is, there also will your heart be."
+        },
+        {
+          "VerseNumber": 24,
+          "Text": "No one can serve two masters. He will either hate one and love the other, or be devoted to one and despise the other. You cannot serve God and mammon."
+        },
+        {
+          "VerseNumber": 25,
+          "Text": "Therefore I tell you, do not worry about your life, what you will eat [or drink], or about your body, what you will wear. Is not life more than food and the body more than clothing?"
+        },
+        {
+          "VerseNumber": 26,
+          "Text": "Look at the birds in the sky; they do not sow or reap, they gather nothing into barns, yet your heavenly Father feeds them. Are not you more important than they?"
+        },
+        {
+          "VerseNumber": 33,
+          "Text": "But seek first the kingdom [of God] and his righteousness, and all these things will be given you besides."
+        },
+        {
+          "VerseNumber": 34,
+          "Text": "Do not worry about tomorrow; tomorrow will take care of itself. Sufficient for a day is its own evil."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 7,
+      "Verses": [
+        {
+          "VerseNumber": 7,
+          "Text": "Ask and it will be given to you; seek and you will find; knock and the door will be opened to you."
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "For everyone who asks, receives; and the one who seeks, finds; and to the one who knocks, the door will be opened."
+        },
+        {
+          "VerseNumber": 9,
+          "Text": "Which one of you would hand his son a stone when he asks for a loaf of bread,"
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "or a snake when he asks for a fish?"
+        },
+        {
+          "VerseNumber": 11,
+          "Text": "If you then, who are wicked, know how to give good gifts to your children, how much more will your heavenly Father give good things to those who ask him."
+        },
+        {
+          "VerseNumber": 12,
+          "Text": "Do to others whatever you would have them do to you. This is the law and the prophets."
+        },
+        {
+          "VerseNumber": 21,
+          "Text": "Not everyone who says to me, Lord, Lord, will enter the kingdom of heaven, but only the one who does the will of my Father in heaven."
+        },
+        {
+          "VerseNumber": 24,
+          "Text": "Everyone who listens to these words of mine and acts on them will be like a wise man who built his house on rock."
+        },
+        {
+          "VerseNumber": 25,
+          "Text": "The rain fell, the floods came, and the winds blew and buffeted the house. But it did not collapse; it had been set solidly on rock."
+        },
+        {
+          "VerseNumber": 26,
+          "Text": "And everyone who listens to these words of mine but does not act on them will be like a fool who built his house on sand."
+        },
+        {
+          "VerseNumber": 27,
+          "Text": "The rain fell, the floods came, and the winds blew and buffeted the house. And it collapsed and was completely ruined."
+        },
+        {
+          "VerseNumber": 28,
+          "Text": "When Jesus finished these words, the crowds were astonished at his teaching,"
+        },
+        {
+          "VerseNumber": 29,
+          "Text": "for he taught them as one having authority, and not as their scribes."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 28,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "After the sabbath, as the first day of the week was dawning, Mary Magdalene and the other Mary came to see the tomb."
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "And behold, there was a great earthquake; for an angel of the Lord descended from heaven, approached, rolled back the stone, and sat upon it."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "His appearance was like lightning and his clothing was white as snow."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "The guards were shaken with fear of him and became like dead men."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "Then the angel said to the women in reply, Do not be afraid! I know that you are seeking Jesus the crucified."
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "He is not here, for he has been raised just as he said. Come and see the place where he lay."
+        },
+        {
+          "VerseNumber": 7,
+          "Text": "Then go quickly and tell his disciples, He has been raised from the dead, and he is going before you to Galilee; there you will see him. Behold, I have told you."
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "Then they went away quickly from the tomb, fearful yet overjoyed, and ran to announce this to his disciples."
+        },
+        {
+          "VerseNumber": 9,
+          "Text": "And behold, Jesus met them on their way and greeted them. They approached, embraced his feet, and did him homage."
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "Then Jesus said to them, Do not be afraid. Go tell my brothers to go to Galilee, and there they will see me."
+        },
+        {
+          "VerseNumber": 16,
+          "Text": "The eleven disciples went to Galilee, to the mountain to which Jesus had ordered them."
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "When they saw him, they worshiped, but they doubted."
+        },
+        {
+          "VerseNumber": 18,
+          "Text": "Then Jesus approached and said to them, All power in heaven and on earth has been given to me."
+        },
+        {
+          "VerseNumber": 19,
+          "Text": "Go, therefore, and make disciples of all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Spirit,"
+        },
+        {
+          "VerseNumber": 20,
+          "Text": "teaching them to observe all that I have commanded you. And behold, I am with you always, until the end of the age."
+        }
+      ]
+    }
+  ]
+}

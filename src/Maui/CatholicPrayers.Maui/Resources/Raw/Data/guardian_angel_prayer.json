@@ -1,0 +1,28 @@
+{
+  "Id": "guardian_angel_prayer",
+  "Title": "Guardian Angel Prayer",
+  "Subtitle": "Angel of God",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_angel.png",
+  "IntroText": "This ancient prayer to our Guardian Angel has been taught to children for centuries. The Church celebrates the feast of Guardian Angels on October 2.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#27AE60",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Guardian Angel Prayer",
+      "Blocks": [
+        { "Type": "H1", "Text": "Guardian Angel Prayer", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Angel of God, my guardian dear,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "to whom God's love commits me here,", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "ever this day be at my side,", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Paragraph", "Text": "to light and guard, to rule and guide.", "FontStyle": "Italic", "Order": 6 },
+        { "Type": "Spacer", "Order": 7 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 8 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["morning_offering"]
+}

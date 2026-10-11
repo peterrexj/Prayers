@@ -1,0 +1,50 @@
+{
+  "Id": "col",
+  "Title": "Colossians",
+  "Abbreviation": "Col",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 15,
+          "Text": "He is the image of the invisible God, the firstborn of all creation."
+        },
+        {
+          "VerseNumber": 16,
+          "Text": "For in him were created all things in heaven and on earth, the visible and the invisible."
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "He is before all things, and in him all things hold together."
+        },
+        {
+          "VerseNumber": 18,
+          "Text": "He is the head of the body, the church."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 12,
+          "Text": "Put on then, as God's chosen ones, holy and beloved, heartfelt compassion, kindness, humility, gentleness, and patience,"
+        },
+        {
+          "VerseNumber": 14,
+          "Text": "And over all these put on love, that is, the bond of perfection."
+        },
+        {
+          "VerseNumber": 16,
+          "Text": "Let the word of Christ dwell in you richly, as in all wisdom you teach and admonish one another, singing psalms, hymns, and spiritual songs with gratitude in your hearts to God."
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "And whatever you do, in word or in deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him."
+        }
+      ]
+    }
+  ]
+}

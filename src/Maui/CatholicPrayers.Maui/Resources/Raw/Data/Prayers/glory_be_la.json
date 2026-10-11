@@ -1,0 +1,39 @@
+{
+  "Id": "glory_be",
+  "Title": "Gloria Patri",
+  "Subtitle": "Doxologia Minor",
+  "Format": "SinglePage",
+  "AccentColor": "#F39C12",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Gloria Patri",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Text": "Gloria Patri",
+          "Order": 1
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Gloria Patri, et Filio,\net Spiritui Sancto.",
+          "FontStyle": "Italic",
+          "Order": 2
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Sicut erat in principio,\net nunc et semper,\net in saecula saeculorum.",
+          "FontStyle": "Italic",
+          "Order": 3
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Amen.",
+          "FontStyle": "Bold",
+          "Alignment": "Center",
+          "Order": 4
+        }
+      ]
+    }
+  ]
+}

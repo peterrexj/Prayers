@@ -1,0 +1,26 @@
+{
+  "Id": "zec",
+  "Title": "Zechariah",
+  "Abbreviation": "Zech",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 6,
+          "Text": "Not by might and not by power, but by my spirit, says the LORD of hosts."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 9,
+      "Verses": [
+        {
+          "VerseNumber": 9,
+          "Text": "Rejoice heartily, O daughter Zion, shout for joy, O daughter Jerusalem! Behold: your king is coming to you, a just savior is he, humble, and riding on a donkey, on a colt, the foal of a donkey."
+        }
+      ]
+    }
+  ]
+}

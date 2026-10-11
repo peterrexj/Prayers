@@ -1,0 +1,89 @@
+{
+  "Id": "act",
+  "Title": "Acts",
+  "Abbreviation": "Acts",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 8,
+          "Text": "But you will receive power when the Holy Spirit comes upon you, and you will be my witnesses in Jerusalem, throughout Judea and Samaria, and to the ends of the earth."
+        },
+        {
+          "VerseNumber": 11,
+          "Text": "Men of Galilee, why are you standing there looking at the sky? This Jesus who has been taken up from you into heaven will return in the same way as you have seen him going into heaven."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "When the time for Pentecost was fulfilled, they were all in one place together."
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "And suddenly there came from the sky a noise like a strong driving wind, and it filled the entire house in which they were."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "Then there appeared to them tongues as of fire, which parted and came to rest on each one of them."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "And they were all filled with the Holy Spirit and began to speak in different tongues, as the Spirit enabled them to proclaim."
+        },
+        {
+          "VerseNumber": 42,
+          "Text": "They devoted themselves to the teaching of the apostles and to the communal life, to the breaking of the bread and to the prayers."
+        },
+        {
+          "VerseNumber": 44,
+          "Text": "All who believed were together and had all things in common."
+        },
+        {
+          "VerseNumber": 46,
+          "Text": "Every day they devoted themselves to meeting together in the temple area and to breaking bread in their homes."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 9,
+      "Verses": [
+        {
+          "VerseNumber": 3,
+          "Text": "On his journey, as he was nearing Damascus, a light from the sky suddenly flashed around him."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "He fell to the ground and heard a voice saying to him, Saul, Saul, why are you persecuting me?"
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "He said, Who are you, sir? The reply came, I am Jesus, whom you are persecuting."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 17,
+      "Verses": [
+        {
+          "VerseNumber": 28,
+          "Text": "For in him we live and move and have our being."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 28,
+      "Verses": [
+        {
+          "VerseNumber": 31,
+          "Text": "He proclaimed the kingdom of God and taught about the Lord Jesus Christ with all boldness and without hindrance."
+        }
+      ]
+    }
+  ]
+}

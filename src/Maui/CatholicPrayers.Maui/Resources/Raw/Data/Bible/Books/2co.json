@@ -1,0 +1,52 @@
+{
+  "Id": "2co",
+  "Title": "2 Corinthians",
+  "Abbreviation": "2Cor",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 6,
+          "Text": "For God who said, Let light shine out of darkness, has shone in our hearts to bring to light the knowledge of the glory of God on the face of [Jesus] Christ."
+        },
+        {
+          "VerseNumber": 16,
+          "Text": "Therefore, we are not discouraged; rather, although our outer self is wasting away, our inner self is being renewed day by day."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 5,
+      "Verses": [
+        {
+          "VerseNumber": 17,
+          "Text": "So whoever is in Christ is a new creation: the old things have passed away; behold, new things have come."
+        },
+        {
+          "VerseNumber": 20,
+          "Text": "So we are ambassadors for Christ, as if God were appealing through us."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 9,
+      "Verses": [
+        {
+          "VerseNumber": 7,
+          "Text": "Each must do as already determined, without sadness or compulsion, for God loves a cheerful giver."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 12,
+      "Verses": [
+        {
+          "VerseNumber": 9,
+          "Text": "My grace is sufficient for you, for power is made perfect in weakness."
+        }
+      ]
+    }
+  ]
+}

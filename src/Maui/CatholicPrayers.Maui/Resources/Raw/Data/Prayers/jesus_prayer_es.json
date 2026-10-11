@@ -1,0 +1,36 @@
+{
+  "Id": "jesus_prayer",
+  "Title": "La Oración de Jesús",
+  "Subtitle": "La Oración del Corazón",
+  "Format": "SinglePage",
+  "AccentColor": "#4CAF50",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "La Oración de Jesús",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "La Oración de Jesús"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Señor Jesucristo,\nHijo de Dios,\nten piedad de mí,\npecador.",
+          "FontStyle": "Italic",
+          "Alignment": "Center"
+        },
+        {
+          "Type": "Divider",
+          "Order": 3
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Esta oración milenaria proviene de los Padres del Desierto y se sigue en la Tradición Hesicasta Oriental. Se reza lentamente, sincronizando con la respiración: «Señor Jesucristo, Hijo de Dios» al inhalar, «ten piedad de mí, pecador» al exhalar."
+        }
+      ]
+    }
+  ]
+}

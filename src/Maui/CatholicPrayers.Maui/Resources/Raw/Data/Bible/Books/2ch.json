@@ -1,0 +1,26 @@
+{
+  "Id": "2ch",
+  "Title": "2 Chronicles",
+  "Abbreviation": "2Chr",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 7,
+      "Verses": [
+        {
+          "VerseNumber": 14,
+          "Text": "If my people, upon whom my name has been pronounced, humble themselves and pray, and seek my presence and turn from their evil ways, I will hear them from heaven and pardon their sins and restore their land."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 36,
+      "Verses": [
+        {
+          "VerseNumber": 23,
+          "Text": "Thus says Cyrus, king of Persia: All the kingdoms of the earth the LORD, the God of heaven, has given to me, and he has also charged me to build him a house in Jerusalem, which is in Judah. All among you who belong to his people—the LORD, your God, be with them, and let them go up!"
+        }
+      ]
+    }
+  ]
+}

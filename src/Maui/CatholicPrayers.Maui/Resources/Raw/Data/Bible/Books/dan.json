@@ -1,0 +1,39 @@
+{
+  "Id": "dan",
+  "Title": "Daniel",
+  "Abbreviation": "Dan",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 25,
+          "Text": "He answered, But I see four men walking about free in the fire, unharmed, and the fourth looks like a son of God."
+        },
+        {
+          "VerseNumber": 86,
+          "Text": "Bless the LORD, all you who are holy and humble of heart."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 6,
+      "Verses": [
+        {
+          "VerseNumber": 11,
+          "Text": "Daniel continued his custom of going home to kneel in prayer and give thanks to his God in the upper chamber three times a day, with the windows open toward Jerusalem."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 7,
+      "Verses": [
+        {
+          "VerseNumber": 13,
+          "Text": "As the visions during the night continued, I saw coming with the clouds of heaven one like a Son of man."
+        }
+      ]
+    }
+  ]
+}

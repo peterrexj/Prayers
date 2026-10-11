@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatholicPrayers.Maui.Controls.PrayerTileView"
+             x:Name="self">
+
+    <Border x:Name="tileBorder"
+            BackgroundColor="{DynamicResource PrayAppCardBgColor}"
+            Stroke="{DynamicResource PrayAppCardBorderColor}"
+            StrokeThickness="1.5"
+            StrokeShape="RoundRectangle 18"
+            Padding="0"
+            Margin="6">
+
+        <Border.Shadow>
+            <Shadow Brush="{DynamicResource PrayAppCardGlowColor}"
+                    Offset="0,4"
+                    Radius="12"
+                    Opacity="0.6" />
+        </Border.Shadow>
+
+        <Grid RowDefinitions="*,Auto" Padding="0">
+
+            <!-- Icon / Image area -->
+            <Grid Grid.Row="0"
+                  HeightRequest="90"
+                  BackgroundColor="Transparent">
+
+                <!-- Gradient overlay for icon bg -->
+                <BoxView>
+                    <BoxView.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Offset="0" Color="{Binding GlowColor, Source={x:Reference self}}" />
+                            <GradientStop Offset="1" Color="Transparent" />
+                        </LinearGradientBrush>
+                    </BoxView.Background>
+                </BoxView>
+
+                <!-- Font Awesome icon (hidden when a tile image is set) -->
+                <Label x:Name="iconLabel"
+                       Text="{Binding Icon, Source={x:Reference self}}"
+                       FontFamily="FontAwesome5Solid"
+                       FontSize="30"
+                       TextColor="{DynamicResource PrayAppAccentColor}"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+
+                <!-- Photo image — shown instead of glyph when TileImage is set -->
+                <Image x:Name="tileImage"
+                       Aspect="AspectFill"
+                       HorizontalOptions="Fill"
+                       VerticalOptions="Fill"
+                       IsVisible="False" />
+
+                <!-- Heart tap target — top-right corner -->
+                <Border x:Name="favTapArea"
+                        BackgroundColor="Transparent"
+                        Stroke="Transparent"
+                        StrokeThickness="0"
+                        HorizontalOptions="End"
+                        VerticalOptions="Start"
+                        WidthRequest="32"
+                        HeightRequest="32"
+                        Margin="0,4,4,0">
+                    <!-- Single heart label; colour changes on toggle -->
+                    <Label x:Name="favHeartLabel"
+                           Text="&#xf004;"
+                           FontFamily="FontAwesome5Solid"
+                           FontSize="14"
+                           TextColor="{DynamicResource PrayAppSubtitleTextColor}"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center" />
+                </Border>
+            </Grid>
+
+            <!-- Title / Subtitle -->
+            <StackLayout Grid.Row="1"
+                         Spacing="2"
+                         Padding="8,6,8,10">
+                <Label Text="{Binding TileTitle, Source={x:Reference self}}"
+                       FontSize="13"
+                       FontAttributes="Bold"
+                       TextColor="{DynamicResource PrayAppTileTitleColor}"
+                       HorizontalTextAlignment="Center"
+                       MaxLines="2"
+                       LineBreakMode="TailTruncation" />
+                <Label Text="{Binding TileSubtitle, Source={x:Reference self}}"
+                       FontSize="11"
+                       TextColor="{DynamicResource PrayAppSubtitleTextColor}"
+                       HorizontalTextAlignment="Center"
+                       MaxLines="1"
+                       LineBreakMode="TailTruncation"
+                       IsVisible="{Binding HasSubtitle, Source={x:Reference self}}" />
+            </StackLayout>
+
+        </Grid>
+    </Border>
+
+</ContentView>

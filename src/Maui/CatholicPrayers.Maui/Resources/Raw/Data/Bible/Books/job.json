@@ -1,0 +1,52 @@
+{
+  "Id": "job",
+  "Title": "Job",
+  "Abbreviation": "Job",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 21,
+          "Text": "The LORD gave and the LORD has taken away; blessed be the name of the LORD!"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 19,
+      "Verses": [
+        {
+          "VerseNumber": 25,
+          "Text": "I know that my vindicator lives, and that he will at last stand forth upon the dust."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 38,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "The LORD addressed Job out of the storm and said:"
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "Where were you when I founded the earth? Tell me, if you have understanding."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 42,
+      "Verses": [
+        {
+          "VerseNumber": 5,
+          "Text": "By hearsay I had heard of you, but now my eye has seen you."
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "The LORD restored the fortunes of Job, when he prayed for his friends; the LORD even gave to Job twice as much as he had before."
+        }
+      ]
+    }
+  ]
+}

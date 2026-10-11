@@ -1,0 +1,30 @@
+{
+  "Id": "lev",
+  "Title": "Leviticus",
+  "Abbreviation": "Lev",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 19,
+      "Verses": [
+        {
+          "VerseNumber": 2,
+          "Text": "Be holy, for I, the LORD your God, am holy."
+        },
+        {
+          "VerseNumber": 18,
+          "Text": "You shall love your neighbor as yourself. I am the LORD."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 26,
+      "Verses": [
+        {
+          "VerseNumber": 12,
+          "Text": "I will walk among you and be your God, and you will be my people."
+        }
+      ]
+    }
+  ]
+}

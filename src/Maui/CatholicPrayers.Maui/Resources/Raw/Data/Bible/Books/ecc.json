@@ -1,0 +1,43 @@
+{
+  "Id": "ecc",
+  "Title": "Ecclesiastes",
+  "Abbreviation": "Eccl",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 2,
+          "Text": "Vanity of vanities, says Qoheleth, vanity of vanities! All things are vanity!"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "There is an appointed time for everything, and a time for every affair under the heavens."
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "A time to be born, and a time to die; a time to plant, and a time to uproot the plant."
+        },
+        {
+          "VerseNumber": 11,
+          "Text": "He has made everything appropriate to its time, and has put the timeless into their hearts, without men ever discovering, from beginning to end, the work which God has done."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 12,
+      "Verses": [
+        {
+          "VerseNumber": 13,
+          "Text": "Fear God and keep his commandments, for this is man's all; since God will bring to judgment every hidden deed, whether good or bad."
+        }
+      ]
+    }
+  ]
+}

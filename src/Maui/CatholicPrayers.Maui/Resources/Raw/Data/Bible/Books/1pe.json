@@ -1,0 +1,56 @@
+{
+  "Id": "1pe",
+  "Title": "1 Peter",
+  "Abbreviation": "1Pet",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 9,
+          "Text": "But you are a chosen race, a royal priesthood, a holy nation, a people of his own, so that you may announce the praises of him who called you out of darkness into his wonderful light."
+        },
+        {
+          "VerseNumber": 24,
+          "Text": "He himself bore our sins in his body upon the cross, so that, free from sin, we might live for righteousness. By his wounds you have been healed."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 15,
+          "Text": "Always be ready to give an explanation to anyone who asks you for a reason for your hope,"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 10,
+          "Text": "As each one has received a gift, use it to serve one another as good stewards of God's varied grace."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 5,
+      "Verses": [
+        {
+          "VerseNumber": 7,
+          "Text": "Cast all your worries upon him because he cares for you."
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "Be sober and vigilant. Your opponent the devil is prowling around like a roaring lion looking for [someone] to devour."
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "The God of all grace who called you to his eternal glory through Christ [Jesus] will himself restore, confirm, strengthen, and establish you after you have suffered a little."
+        }
+      ]
+    }
+  ]
+}

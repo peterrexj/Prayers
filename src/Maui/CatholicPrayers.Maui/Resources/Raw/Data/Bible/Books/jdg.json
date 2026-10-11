@@ -1,0 +1,26 @@
+{
+  "Id": "jdg",
+  "Title": "Judges",
+  "Abbreviation": "Judg",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 6,
+      "Verses": [
+        {
+          "VerseNumber": 12,
+          "Text": "The angel of the LORD appeared to him and said, The LORD is with you, you mighty warrior!"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 16,
+      "Verses": [
+        {
+          "VerseNumber": 28,
+          "Text": "Then Samson called to the LORD: Lord GOD, remember me! Strengthen me only this once that I may take revenge on the Philistines for my two eyes."
+        }
+      ]
+    }
+  ]
+}

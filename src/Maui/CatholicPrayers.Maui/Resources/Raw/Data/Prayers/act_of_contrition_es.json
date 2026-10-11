@@ -1,0 +1,45 @@
+{
+  "Id": "act_of_contrition",
+  "Title": "Acto de Contrición",
+  "Subtitle": "Oración de Arrepentimiento",
+  "Format": "SinglePage",
+  "AccentColor": "#C0392B",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Acto de Contrición",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Acto de Contrición"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Señor mío Jesucristo,\nDios y Hombre verdadero,\nCreador, Padre y Redentor mío.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Por ser Vos quien sois, Bondad infinita,\ny porque os amo sobre todas las cosas,\nme pesa de todo corazón haberos ofendido;\ntambién me pesa porque podéis castigarme\ncon las penas del infierno.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Ayudado de vuestra divina gracia,\npropongo firmemente nunca más pecar,\nconfesarme y cumplir la penitencia que me fuere impuesta.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 5,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

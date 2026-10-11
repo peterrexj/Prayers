@@ -1,0 +1,21 @@
+{
+  "Id": "mal",
+  "Title": "Malachi",
+  "Abbreviation": "Mal",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "I am sending my messenger to prepare the way before me; and the Lord whom you seek will suddenly come to his temple."
+        },
+        {
+          "VerseNumber": 20,
+          "Text": "But for you who fear my name, the sun of justice will arise with healing in its wings."
+        }
+      ]
+    }
+  ]
+}

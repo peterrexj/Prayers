@@ -1,0 +1,84 @@
+{
+  "Id": "novena_pentecost",
+  "Title": "Pentecost Novena",
+  "Subtitle": "The first novena in history",
+  "Format": "MultiPage",
+  "AccentColor": "#FF5722",
+  "IntroText": "The original novena in history: the nine days between the Ascension and Pentecost when the Apostles and Mary gathered in the Upper Room in prayer. This is a novena of preparation for the outpouring of the Holy Spirit.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — The Upper Room", "Blocks": [
+      { "Type": "H2", "Text": "Day 1 — After the Ascension", "Order": 1 },
+      { "Type": "Paragraph", "Text": "After Jesus ascended, the disciples returned to Jerusalem and went to the upper room. \"All these devoted themselves with one accord to prayer, together with some women, and Mary the mother of Jesus\" (Acts 1:14). They prayed together for nine days.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Lord Jesus, you commanded your disciples to wait and pray. Help us to be people of patient, persevering prayer, who do not give up waiting for the Spirit's work in our lives.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Come, Holy Spirit, come! Renew in us the fire of Pentecost. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — Wind and Fire", "Blocks": [
+      { "Type": "H2", "Text": "Day 2", "Order": 1 },
+      { "Type": "Paragraph", "Text": "When Pentecost came, the Spirit descended like a mighty wind and tongues of fire. These are vivid images of the Spirit's power: wind that moves invisibly but with great force; fire that warms, illuminates, and transforms.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Holy Spirit, come as You came at Pentecost — with power and fire. Set ablaze in my heart a love for God that overcomes all coldness and indifference.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Blow through my life as a rushing wind, removing whatever is stale and bringing the freshness of Your presence. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — Speaking in Tongues", "Blocks": [
+      { "Type": "H2", "Text": "Day 3", "Order": 1 },
+      { "Type": "Paragraph", "Text": "At Pentecost, the disciples spoke in tongues and were understood by people of every nation. The miracle reversed Babel. The Spirit heals the divisions of humanity and creates one people from many nations.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Holy Spirit, You spoke through the Apostles in every language. Help us to speak the language of love — understood by all people, transcending all barriers of culture and background.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Give us the words to proclaim Christ to those around us, and the courage to speak when we are afraid. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — Peter's Sermon", "Blocks": [
+      { "Type": "H2", "Text": "Day 4", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Before Pentecost, Peter denied Christ three times. After Pentecost, he boldly proclaimed the Resurrection to thousands. Three thousand were baptized that day. The Spirit transforms cowards into martyrs.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Holy Spirit, as You transformed Peter from coward to apostle, transform us. Where we are timid about our faith, give us boldness. Where we are ashamed of the Gospel, give us holy pride.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Make us witnesses to the Resurrection — not with empty words, but with a life so visibly changed that others ask: \"What has happened to you?\" Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — Birthday of the Church", "Blocks": [
+      { "Type": "H2", "Text": "Day 5", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Pentecost is called the Birthday of the Church. Three thousand were baptized that day, and the community of disciples became the visible Body of Christ on earth. The Church was born in prayer and fire — and it lives by prayer and fire still.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Holy Spirit, renew the Church as you renewed her at Pentecost. Rekindle the fire of faith, hope, and charity. Raise up new apostles, prophets, and servants who will transform the world for Christ.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Make us active members of the Body of Christ, each using our gifts for the building up of the whole. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — The Seven Gifts", "Blocks": [
+      { "Type": "H2", "Text": "Day 6", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Holy Spirit gives seven gifts: Wisdom, Understanding, Counsel, Fortitude, Knowledge, Piety, and Fear of the Lord. These gifts perfect the virtues and enable us to live according to God's guidance rather than our own limited understanding.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Come, Holy Spirit, and renew in us the seven gifts You gave us at Confirmation. Let Wisdom guide our decisions, Understanding open our minds, Counsel direct our paths, Fortitude strengthen our wills.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Let Knowledge clarify our priorities, Piety inflame our devotion, and holy Fear of the Lord guard our souls from sin. Come, Spirit of the living God, fall afresh on me. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — The Fruits of the Spirit", "Blocks": [
+      { "Type": "H2", "Text": "Day 7", "Order": 1 },
+      { "Type": "Paragraph", "Text": "St. Paul lists twelve fruits of the Holy Spirit: charity, joy, peace, patience, kindness, goodness, generosity, gentleness, faithfulness, modesty, self-control, chastity (Gal 5:22-23). These are the signs that the Spirit is at work in a soul.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Holy Spirit, let Your fruits grow in me. Where I lack charity, fill me. Where I lack peace, calm me. Where I lack patience, slow me. Where I lack gentleness, soften me.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May my life bear the fruit of Your presence, that those around me may taste and see that the Lord is good. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — Mary and the Spirit", "Blocks": [
+      { "Type": "H2", "Text": "Day 8", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Mary was in the Upper Room at Pentecost — she who had been overshadowed by the Spirit at the Annunciation was present for the Spirit's descent on the newborn Church. She is the Spouse of the Holy Spirit and the model of openness to His work.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Mary, Spouse of the Holy Spirit, intercede for us that the Spirit may work freely in our lives. You who said \"Be it done unto me according to Your word\" — teach us to be docile to the Spirit's promptings.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Pray for the outpouring of the Spirit on the Church and on the world. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Vigil of Pentecost", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — Vigil of Pentecost", "Order": 1 },
+      { "Type": "H3", "Text": "Come, Holy Spirit!", "Order": 2 },
+      { "Type": "Paragraph", "Text": "Tomorrow is Pentecost Sunday — the great feast of the Holy Spirit. We have prayed these nine days as the Apostles prayed. Now we prepare for the Spirit's coming.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer for the Coming of the Spirit", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Come, Holy Spirit, Creator, come from Your bright heavenly throne, come take possession of our souls, and make them all Your own.", "FontStyle": "Italic", "Order": 6 },
+      { "Type": "Paragraph", "Text": "You who are called the Paraclete, best gift of God above, the living spring, the vital fire, sweet unction and true love. Come, Holy Spirit, come!", "FontStyle": "Italic", "Order": 7 },
+      { "Type": "Paragraph", "Text": "Come, Holy Spirit!", "FontStyle": "Bold", "Alignment": "Center", "Order": 8 }
+    ]}
+  ]
+}

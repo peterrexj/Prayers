@@ -1,0 +1,1031 @@
+{
+  "AppVersion": "2.0",
+  "Sections": [
+    {
+      "Id": "section_prayers",
+      "Title": "Prayers",
+      "Subtitle": "Traditional & daily Catholic prayers",
+      "Icon": "",
+      "NodeType": "Collection",
+      "AccentColor": "#4A90D9",
+      "SortOrder": 1,
+      "ChildIds": [
+        "our_father",
+        "hail_mary",
+        "glory_be",
+        "apostles_creed",
+        "nicene_creed",
+        "hail_holy_queen",
+        "memorare",
+        "act_of_contrition",
+        "act_of_faith",
+        "act_of_hope",
+        "act_of_love",
+        "rosary",
+        "divine_mercy_chaplet",
+        "angelus",
+        "morning_offering",
+        "guardian_angel_prayer",
+        "st_michael_prayer",
+        "come_holy_spirit",
+        "prayer_to_st_joseph",
+        "prayer_for_the_dead",
+        "jesus_prayer",
+        "grace_before_meals",
+        "grace_after_meals"
+      ]
+    },
+    {
+      "Id": "section_novenas",
+      "Title": "Novenas",
+      "Subtitle": "9-day devotional prayers to the saints",
+      "Icon": "",
+      "NodeType": "Collection",
+      "AccentColor": "#9B59B6",
+      "SortOrder": 2,
+      "ChildIds": [
+        "novena_divine_mercy",
+        "novena_our_lady_fatima",
+        "novena_st_joseph",
+        "novena_st_michael",
+        "novena_sacred_heart",
+        "novena_holy_spirit",
+        "novena_immaculate_conception",
+        "novena_christmas",
+        "novena_st_anthony",
+        "novena_st_therese",
+        "novena_st_francis",
+        "novena_st_patrick",
+        "novena_st_jude",
+        "novena_assumption",
+        "novena_corpus_christi",
+        "novena_pentecost",
+        "novena_st_anne",
+        "novena_st_padre_pio",
+        "novena_our_lady_lourdes",
+        "novena_st_ignatius"
+      ]
+    },
+    {
+      "Id": "section_bible",
+      "Title": "The Bible",
+      "Subtitle": "73 books · Catholic canon (NAB)",
+      "Icon": "",
+      "NodeType": "Bible",
+      "AccentColor": "#27AE60",
+      "SortOrder": 3
+    },
+    {
+      "Id": "section_stations",
+      "Title": "Stations of the Cross",
+      "Subtitle": "Walk with Jesus on the way to Calvary",
+      "Icon": "",
+      "NodeType": "Prayer",
+      "AccentColor": "#C0392B",
+      "DataFile": "Data/Stations/stations_of_the_cross.json",
+      "SortOrder": 4,
+      "ImageFile": "section_stations_icon.png"
+    },
+    {
+      "Id": "section_saints",
+      "Title": "Saints",
+      "Subtitle": "Explore the lives of Catholic saints",
+      "Icon": "",
+      "NodeType": "PartnerApp",
+      "AccentColor": "#E67E22",
+      "SortOrder": 5,
+      "PartnerAppIconGlyph": "",
+      "PartnerAppShortDescription": "Discover the inspiring lives of Catholic saints throughout history",
+      "PartnerAppFullDescription": "All Saints is a dedicated app from the same developer packed with hundreds of Catholic saints — their biographies, feast days, patronages, and inspiring stories. Whether you are looking for a patron saint, preparing for a feast day, or simply want to deepen your knowledge of the communion of saints, this app is your companion on the journey.",
+      "PartnerAppUrlAndroid": "https://play.google.com/store/apps/details?id=com.pj.christiancatholicsaints",
+      "PartnerAppUrlIos": "https://apps.apple.com/app/id6470120151",
+      "PartnerAppImage": "partner_saints_banner.png",
+      "PartnerAppIconImage": "partner_saints_icon.png"
+    },
+    {
+      "Id": "section_popes",
+      "Title": "Popes",
+      "Subtitle": "Every pope in Catholic history",
+      "Icon": "",
+      "NodeType": "PartnerApp",
+      "AccentColor": "#FFD700",
+      "SortOrder": 6,
+      "PartnerAppIconGlyph": "",
+      "PartnerAppShortDescription": "Learn about every pope from St. Peter to today",
+      "PartnerAppFullDescription": "All Popes is a dedicated app from the same developer covering every pope in the history of the Catholic Church — from Saint Peter to the present day. Explore each pope's biography, papacy dates, major events, and legacy. A must-have reference for anyone interested in Church history.",
+      "PartnerAppUrlAndroid": "https://play.google.com/store/apps/details?id=com.pj.popesofchurch",
+      "PartnerAppUrlIos": "https://apps.apple.com/app/id6471321897",
+      "PartnerAppImage": "partner_popes_banner.png",
+      "PartnerAppIconImage": "partner_popes_icon.png"
+    }
+  ],
+  "Prayers": [
+    {
+      "Id": "our_father",
+      "Title": "Our Father",
+      "Subtitle": "The Lord's Prayer",
+      "Icon": "",
+      "ImageFile": "prayer_bg_our_father.png",
+      "DataFile": "Data/Prayers/our_father.json",
+      "Category": "Daily Prayers",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 1,
+      "IsFeatured": true,
+      "AccentColor": "#4A90D9",
+      "Tags": [
+        "daily",
+        "essential",
+        "lord"
+      ],
+      "RelatedPrayerIds": [
+        "hail_mary",
+        "glory_be"
+      ]
+    },
+    {
+      "Id": "hail_mary",
+      "Title": "Hail Mary",
+      "Subtitle": "Ave Maria",
+      "Icon": "",
+      "ImageFile": "prayer_bg_hail_mary.png",
+      "DataFile": "Data/Prayers/hail_mary.json",
+      "Category": "Marian Prayers",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 2,
+      "IsFeatured": true,
+      "AccentColor": "#9B59B6",
+      "Tags": [
+        "daily",
+        "mary",
+        "rosary"
+      ],
+      "RelatedPrayerIds": [
+        "our_father",
+        "glory_be",
+        "rosary"
+      ]
+    },
+    {
+      "Id": "glory_be",
+      "Title": "Glory Be",
+      "Subtitle": "Gloria Patri",
+      "Icon": "",
+      "ImageFile": "prayer_dove.png",
+      "DataFile": "Data/Prayers/glory_be.json",
+      "Category": "Daily Prayers",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 3,
+      "IsFeatured": false,
+      "AccentColor": "#F39C12",
+      "Tags": [
+        "daily",
+        "trinity",
+        "rosary"
+      ],
+      "RelatedPrayerIds": [
+        "our_father",
+        "hail_mary"
+      ]
+    },
+    {
+      "Id": "apostles_creed",
+      "Title": "Apostles' Creed",
+      "Subtitle": "Statement of Faith",
+      "Icon": "",
+      "ImageFile": "prayer_bg_apostles_creed.png",
+      "DataFile": "Data/Prayers/apostles_creed.json",
+      "Category": "Creeds",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 4,
+      "IsFeatured": true,
+      "AccentColor": "#E74C3C",
+      "Tags": [
+        "creed",
+        "faith",
+        "rosary"
+      ],
+      "RelatedPrayerIds": [
+        "nicene_creed",
+        "our_father"
+      ]
+    },
+    {
+      "Id": "nicene_creed",
+      "Title": "Nicene Creed",
+      "Subtitle": "Credo",
+      "Icon": "",
+      "ImageFile": "prayer_bg_nicene_creed.png",
+      "DataFile": "Data/Prayers/nicene_creed.json",
+      "Category": "Creeds",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 5,
+      "IsFeatured": false,
+      "AccentColor": "#C0392B",
+      "Tags": [
+        "creed",
+        "mass",
+        "faith"
+      ],
+      "RelatedPrayerIds": [
+        "apostles_creed"
+      ]
+    },
+    {
+      "Id": "hail_holy_queen",
+      "Title": "Hail Holy Queen",
+      "Subtitle": "Salve Regina",
+      "Icon": "",
+      "ImageFile": "prayer_bg_hail_holy_queen.png",
+      "DataFile": "Data/Prayers/hail_holy_queen.json",
+      "Category": "Marian Prayers",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 6,
+      "IsFeatured": false,
+      "AccentColor": "#8E44AD",
+      "Tags": [
+        "mary",
+        "rosary",
+        "marian"
+      ],
+      "RelatedPrayerIds": [
+        "hail_mary",
+        "memorare"
+      ]
+    },
+    {
+      "Id": "memorare",
+      "Title": "Memorare",
+      "Subtitle": "Remember, O Most Gracious Virgin",
+      "Icon": "",
+      "ImageFile": "prayer_bg_memorare.png",
+      "DataFile": "Data/Prayers/memorare.json",
+      "Category": "Marian Prayers",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 7,
+      "IsFeatured": false,
+      "AccentColor": "#7D3C98",
+      "Tags": [
+        "mary",
+        "intercession",
+        "marian"
+      ],
+      "RelatedPrayerIds": [
+        "hail_mary",
+        "hail_holy_queen"
+      ]
+    },
+    {
+      "Id": "act_of_contrition",
+      "Title": "Act of Contrition",
+      "Subtitle": "Prayer of Repentance",
+      "Icon": "",
+      "ImageFile": "prayer_bg_act_of_contrition.png",
+      "DataFile": "Data/Prayers/act_of_contrition.json",
+      "Category": "Penitential Prayers",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 8,
+      "IsFeatured": false,
+      "AccentColor": "#D35400",
+      "Tags": [
+        "confession",
+        "repentance",
+        "penitential"
+      ],
+      "RelatedPrayerIds": [
+        "act_of_faith",
+        "act_of_hope",
+        "act_of_love"
+      ]
+    },
+    {
+      "Id": "act_of_faith",
+      "Title": "Act of Faith",
+      "Subtitle": "I Believe in God",
+      "Icon": "",
+      "ImageFile": "prayer_bg_act_of_faith.png",
+      "DataFile": "Data/Prayers/act_of_faith.json",
+      "Category": "Theological Virtues",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 9,
+      "IsFeatured": false,
+      "AccentColor": "#2980B9",
+      "Tags": [
+        "virtue",
+        "faith"
+      ],
+      "RelatedPrayerIds": [
+        "act_of_hope",
+        "act_of_love",
+        "act_of_contrition"
+      ]
+    },
+    {
+      "Id": "act_of_hope",
+      "Title": "Act of Hope",
+      "Subtitle": "O My God, Relying on Thy Promises",
+      "Icon": "",
+      "ImageFile": "prayer_bg_act_of_hope.png",
+      "DataFile": "Data/Prayers/act_of_hope.json",
+      "Category": "Theological Virtues",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 10,
+      "IsFeatured": false,
+      "AccentColor": "#1ABC9C",
+      "Tags": [
+        "virtue",
+        "hope"
+      ],
+      "RelatedPrayerIds": [
+        "act_of_faith",
+        "act_of_love"
+      ]
+    },
+    {
+      "Id": "act_of_love",
+      "Title": "Act of Love",
+      "Subtitle": "O My God, I Love Thee",
+      "Icon": "",
+      "ImageFile": "prayer_bg_act_of_love.png",
+      "DataFile": "Data/Prayers/act_of_love.json",
+      "Category": "Theological Virtues",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 11,
+      "IsFeatured": false,
+      "AccentColor": "#E74C3C",
+      "Tags": [
+        "virtue",
+        "love",
+        "charity"
+      ],
+      "RelatedPrayerIds": [
+        "act_of_faith",
+        "act_of_hope"
+      ]
+    },
+    {
+      "Id": "rosary",
+      "Title": "Holy Rosary",
+      "Subtitle": "The Complete Rosary",
+      "Icon": "",
+      "ImageFile": "prayer_rosary.png",
+      "DataFile": "Data/Prayers/rosary.json",
+      "Category": "Rosary",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 12,
+      "IsFeatured": true,
+      "AccentColor": "#9B59B6",
+      "Tags": [
+        "rosary",
+        "mary",
+        "mysteries"
+      ],
+      "RelatedPrayerIds": [
+        "hail_mary",
+        "our_father",
+        "glory_be",
+        "apostles_creed"
+      ]
+    },
+    {
+      "Id": "divine_mercy_chaplet",
+      "Title": "Divine Mercy Chaplet",
+      "Subtitle": "Eternal Father, I Offer You",
+      "Icon": "",
+      "ImageFile": "prayer_sacred_heart.png",
+      "DataFile": "Data/Prayers/divine_mercy_chaplet.json",
+      "Category": "Chaplets",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 13,
+      "IsFeatured": true,
+      "AccentColor": "#E91E63",
+      "Tags": [
+        "mercy",
+        "chaplet",
+        "faustina"
+      ],
+      "RelatedPrayerIds": [
+        "rosary",
+        "act_of_contrition"
+      ]
+    },
+    {
+      "Id": "angelus",
+      "Title": "The Angelus",
+      "Subtitle": "The Angel of the Lord",
+      "Icon": "",
+      "ImageFile": "prayer_dove.png",
+      "DataFile": "Data/Prayers/angelus.json",
+      "Category": "Daily Prayers",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 14,
+      "IsFeatured": false,
+      "AccentColor": "#3498DB",
+      "Tags": [
+        "daily",
+        "annunciation",
+        "mary"
+      ],
+      "RelatedPrayerIds": [
+        "hail_mary",
+        "our_father"
+      ]
+    },
+    {
+      "Id": "morning_offering",
+      "Title": "Morning Offering",
+      "Subtitle": "O Jesus, Through the Immaculate Heart",
+      "Icon": "",
+      "ImageFile": "prayer_sunrise.png",
+      "DataFile": "Data/Prayers/morning_offering.json",
+      "Category": "Daily Prayers",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 15,
+      "IsFeatured": false,
+      "AccentColor": "#E67E22",
+      "Tags": [
+        "morning",
+        "daily",
+        "offering"
+      ],
+      "RelatedPrayerIds": [
+        "act_of_love",
+        "act_of_faith"
+      ]
+    },
+    {
+      "Id": "guardian_angel_prayer",
+      "Title": "Guardian Angel Prayer",
+      "Subtitle": "Angel of God",
+      "Icon": "",
+      "ImageFile": "prayer_angel.png",
+      "DataFile": "Data/Prayers/guardian_angel_prayer.json",
+      "Category": "Daily Prayers",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 16,
+      "IsFeatured": false,
+      "AccentColor": "#27AE60",
+      "Tags": [
+        "angel",
+        "protection",
+        "daily"
+      ],
+      "RelatedPrayerIds": [
+        "morning_offering"
+      ]
+    },
+    {
+      "Id": "st_michael_prayer",
+      "Title": "St. Michael Prayer",
+      "Subtitle": "Saint Michael the Archangel",
+      "Icon": "",
+      "ImageFile": "prayer_angel.png",
+      "DataFile": "Data/Prayers/st_michael_prayer.json",
+      "Category": "Prayers to Saints",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 17,
+      "IsFeatured": false,
+      "AccentColor": "#2C3E50",
+      "Tags": [
+        "michael",
+        "archangel",
+        "protection"
+      ],
+      "RelatedPrayerIds": [
+        "guardian_angel_prayer"
+      ]
+    },
+    {
+      "Id": "come_holy_spirit",
+      "Title": "Come Holy Spirit",
+      "Subtitle": "Veni Sancte Spiritus",
+      "Icon": "",
+      "ImageFile": "prayer_dove.png",
+      "DataFile": "Data/Prayers/come_holy_spirit.json",
+      "Category": "Holy Spirit Prayers",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 18,
+      "IsFeatured": false,
+      "AccentColor": "#F39C12",
+      "Tags": [
+        "holy spirit",
+        "pentecost"
+      ],
+      "RelatedPrayerIds": [
+        "glory_be",
+        "nicene_creed"
+      ]
+    },
+    {
+      "Id": "prayer_to_st_joseph",
+      "Title": "Prayer to St. Joseph",
+      "Subtitle": "Patron of the Universal Church",
+      "Icon": "",
+      "ImageFile": "prayer_cross.png",
+      "DataFile": "Data/Prayers/prayer_to_st_joseph.json",
+      "Category": "Prayers to Saints",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 19,
+      "IsFeatured": false,
+      "AccentColor": "#795548",
+      "Tags": [
+        "joseph",
+        "patron",
+        "intercession"
+      ],
+      "RelatedPrayerIds": [
+        "st_michael_prayer"
+      ]
+    },
+    {
+      "Id": "prayer_for_the_dead",
+      "Title": "Prayer for the Dead",
+      "Subtitle": "Eternal Rest Grant Unto Them",
+      "Icon": "",
+      "ImageFile": "prayer_candle.png",
+      "DataFile": "Data/Prayers/prayer_for_the_dead.json",
+      "Category": "Other Prayers",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 20,
+      "IsFeatured": false,
+      "AccentColor": "#607D8B",
+      "Tags": [
+        "deceased",
+        "eternal rest",
+        "mercy"
+      ],
+      "RelatedPrayerIds": [
+        "divine_mercy_chaplet",
+        "rosary"
+      ]
+    },
+    {
+      "Id": "jesus_prayer",
+      "Title": "The Jesus Prayer",
+      "Subtitle": "Lord Jesus Christ, Son of God",
+      "Icon": "",
+      "ImageFile": "prayer_cross.png",
+      "DataFile": "Data/Prayers/jesus_prayer.json",
+      "Category": "Daily Prayers",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 21,
+      "IsFeatured": false,
+      "AccentColor": "#FF5722",
+      "Tags": [
+        "jesus",
+        "mercy",
+        "contemplative"
+      ],
+      "RelatedPrayerIds": [
+        "divine_mercy_chaplet",
+        "act_of_contrition"
+      ]
+    },
+    {
+      "Id": "grace_before_meals",
+      "Title": "Grace Before Meals",
+      "Subtitle": "Bless Us, O Lord",
+      "Icon": "",
+      "ImageFile": "prayer_dove.png",
+      "DataFile": "Data/Prayers/grace_before_meals.json",
+      "Category": "Daily Prayers",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 22,
+      "IsFeatured": false,
+      "AccentColor": "#4CAF50",
+      "Tags": [
+        "meal",
+        "blessing",
+        "daily"
+      ],
+      "RelatedPrayerIds": [
+        "grace_after_meals"
+      ]
+    },
+    {
+      "Id": "grace_after_meals",
+      "Title": "Grace After Meals",
+      "Subtitle": "We Give You Thanks",
+      "Icon": "",
+      "ImageFile": "prayer_dove.png",
+      "DataFile": "Data/Prayers/grace_after_meals.json",
+      "Category": "Daily Prayers",
+      "NodeType": "Prayer",
+      "ParentId": "section_prayers",
+      "SortOrder": 23,
+      "IsFeatured": false,
+      "AccentColor": "#66BB6A",
+      "Tags": [
+        "meal",
+        "thanksgiving",
+        "daily"
+      ],
+      "RelatedPrayerIds": [
+        "grace_before_meals"
+      ]
+    },
+    {
+      "Id": "novena_divine_mercy",
+      "Title": "Divine Mercy Novena",
+      "Subtitle": "Dictated by Jesus to St. Faustina",
+      "Icon": "",
+      "DataFile": "Data/Novenas/divine_mercy_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "Second Sunday of Easter",
+      "StartDate": "Good Friday",
+      "AccentColor": "#E91E63",
+      "SortOrder": 1,
+      "Tags": [
+        "novena",
+        "mercy",
+        "faustina"
+      ]
+    },
+    {
+      "Id": "novena_our_lady_fatima",
+      "Title": "Our Lady of Fátima Novena",
+      "Subtitle": "Apparitions of the Blessed Virgin Mary",
+      "Icon": "",
+      "DataFile": "Data/Novenas/our_lady_fatima_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "May 13",
+      "StartDate": "May 4",
+      "AccentColor": "#9B59B6",
+      "SortOrder": 2,
+      "Tags": [
+        "novena",
+        "fatima",
+        "mary",
+        "rosary"
+      ]
+    },
+    {
+      "Id": "novena_st_joseph",
+      "Title": "St. Joseph Novena",
+      "Subtitle": "Patron of the Universal Church",
+      "Icon": "",
+      "DataFile": "Data/Novenas/st_joseph_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "March 19",
+      "StartDate": "March 10",
+      "AccentColor": "#795548",
+      "SortOrder": 3,
+      "Tags": [
+        "novena",
+        "joseph",
+        "patron"
+      ]
+    },
+    {
+      "Id": "novena_st_michael",
+      "Title": "St. Michael the Archangel Novena",
+      "Subtitle": "Prince of the Heavenly Host",
+      "Icon": "",
+      "DataFile": "Data/Novenas/st_michael_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "September 29",
+      "StartDate": "September 20",
+      "AccentColor": "#2C3E50",
+      "SortOrder": 4,
+      "Tags": [
+        "novena",
+        "michael",
+        "archangel"
+      ]
+    },
+    {
+      "Id": "novena_sacred_heart",
+      "Title": "Sacred Heart of Jesus Novena",
+      "Subtitle": "Devotion to the Heart of Christ",
+      "Icon": "",
+      "DataFile": "Data/Novenas/sacred_heart_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "Feast of Sacred Heart",
+      "StartDate": "9 days before",
+      "AccentColor": "#E53935",
+      "SortOrder": 5,
+      "Tags": [
+        "novena",
+        "sacred heart",
+        "reparation"
+      ]
+    },
+    {
+      "Id": "novena_holy_spirit",
+      "Title": "Holy Spirit Novena",
+      "Subtitle": "Veni Sancte Spiritus",
+      "Icon": "",
+      "DataFile": "Data/Novenas/holy_spirit_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "Pentecost Sunday",
+      "StartDate": "Ascension Day",
+      "AccentColor": "#F39C12",
+      "SortOrder": 6,
+      "Tags": [
+        "novena",
+        "holy spirit",
+        "pentecost"
+      ]
+    },
+    {
+      "Id": "novena_immaculate_conception",
+      "Title": "Immaculate Conception Novena",
+      "Subtitle": "Full of grace, the Lord is with thee",
+      "Icon": "",
+      "DataFile": "Data/Novenas/immaculate_conception_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "December 8",
+      "StartDate": "November 29",
+      "AccentColor": "#3498DB",
+      "SortOrder": 7,
+      "Tags": [
+        "novena",
+        "mary",
+        "immaculate"
+      ]
+    },
+    {
+      "Id": "novena_christmas",
+      "Title": "Christmas Novena",
+      "Subtitle": "Prepare your heart for the Christ Child",
+      "Icon": "",
+      "DataFile": "Data/Novenas/christmas_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "December 25",
+      "StartDate": "December 16",
+      "AccentColor": "#C0392B",
+      "SortOrder": 8,
+      "Tags": [
+        "novena",
+        "christmas",
+        "advent"
+      ]
+    },
+    {
+      "Id": "novena_st_anthony",
+      "Title": "St. Anthony of Padua Novena",
+      "Subtitle": "Patron of lost things and the poor",
+      "Icon": "",
+      "DataFile": "Data/Novenas/st_anthony_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "June 13",
+      "StartDate": "June 4",
+      "AccentColor": "#E67E22",
+      "SortOrder": 9,
+      "Tags": [
+        "novena",
+        "anthony",
+        "patron"
+      ]
+    },
+    {
+      "Id": "novena_st_therese",
+      "Title": "St. Thérèse of Lisieux Novena",
+      "Subtitle": "The Little Flower",
+      "Icon": "",
+      "DataFile": "Data/Novenas/st_therese_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "October 1",
+      "StartDate": "September 23",
+      "AccentColor": "#E91E63",
+      "SortOrder": 10,
+      "Tags": [
+        "novena",
+        "therese",
+        "little flower"
+      ]
+    },
+    {
+      "Id": "novena_st_francis",
+      "Title": "St. Francis of Assisi Novena",
+      "Subtitle": "Patron of animals and the environment",
+      "Icon": "",
+      "DataFile": "Data/Novenas/st_francis_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "October 4",
+      "StartDate": "September 25",
+      "AccentColor": "#8D6E63",
+      "SortOrder": 11,
+      "Tags": [
+        "novena",
+        "francis",
+        "assisi"
+      ]
+    },
+    {
+      "Id": "novena_st_patrick",
+      "Title": "St. Patrick Novena",
+      "Subtitle": "Apostle of Ireland",
+      "Icon": "",
+      "DataFile": "Data/Novenas/st_patrick_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "March 17",
+      "StartDate": "March 8",
+      "AccentColor": "#27AE60",
+      "SortOrder": 12,
+      "Tags": [
+        "novena",
+        "patrick",
+        "ireland"
+      ]
+    },
+    {
+      "Id": "novena_st_jude",
+      "Title": "St. Jude Novena",
+      "Subtitle": "Patron of hopeless and desperate cases",
+      "Icon": "",
+      "DataFile": "Data/Novenas/st_jude_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "October 28",
+      "StartDate": "October 19",
+      "AccentColor": "#1ABC9C",
+      "SortOrder": 13,
+      "Tags": [
+        "novena",
+        "jude",
+        "hopeless"
+      ]
+    },
+    {
+      "Id": "novena_assumption",
+      "Title": "Assumption of Mary Novena",
+      "Subtitle": "The Blessed Virgin taken into Heaven",
+      "Icon": "",
+      "DataFile": "Data/Novenas/assumption_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "August 15",
+      "StartDate": "August 6",
+      "AccentColor": "#9B59B6",
+      "SortOrder": 14,
+      "Tags": [
+        "novena",
+        "assumption",
+        "mary"
+      ]
+    },
+    {
+      "Id": "novena_corpus_christi",
+      "Title": "Corpus Christi Novena",
+      "Subtitle": "Body and Blood of Christ",
+      "Icon": "",
+      "DataFile": "Data/Novenas/corpus_christi_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "Corpus Christi",
+      "StartDate": "9 days before",
+      "AccentColor": "#F39C12",
+      "SortOrder": 15,
+      "Tags": [
+        "novena",
+        "eucharist",
+        "corpus christi"
+      ]
+    },
+    {
+      "Id": "novena_pentecost",
+      "Title": "Pentecost Novena",
+      "Subtitle": "The first novena in history",
+      "Icon": "",
+      "DataFile": "Data/Novenas/pentecost_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "Pentecost Sunday",
+      "StartDate": "Ascension Day",
+      "AccentColor": "#FF5722",
+      "SortOrder": 16,
+      "Tags": [
+        "novena",
+        "pentecost",
+        "holy spirit"
+      ]
+    },
+    {
+      "Id": "novena_st_anne",
+      "Title": "St. Anne Novena",
+      "Subtitle": "Mother of the Blessed Virgin Mary",
+      "Icon": "",
+      "DataFile": "Data/Novenas/st_anne_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "July 26",
+      "StartDate": "July 17",
+      "AccentColor": "#D4AC0D",
+      "SortOrder": 17,
+      "Tags": [
+        "novena",
+        "anne",
+        "mary"
+      ]
+    },
+    {
+      "Id": "novena_st_padre_pio",
+      "Title": "St. Padre Pio Novena",
+      "Subtitle": "Priest and mystic of Pietrelcina",
+      "Icon": "",
+      "DataFile": "Data/Novenas/st_padre_pio_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "September 23",
+      "StartDate": "September 14",
+      "AccentColor": "#6D4C41",
+      "SortOrder": 18,
+      "Tags": [
+        "novena",
+        "padre pio",
+        "stigmata"
+      ]
+    },
+    {
+      "Id": "novena_our_lady_lourdes",
+      "Title": "Our Lady of Lourdes Novena",
+      "Subtitle": "Apparitions at the Grotto of Massabielle",
+      "Icon": "",
+      "DataFile": "Data/Novenas/our_lady_lourdes_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "February 11",
+      "StartDate": "February 2",
+      "AccentColor": "#3498DB",
+      "SortOrder": 19,
+      "Tags": [
+        "novena",
+        "lourdes",
+        "mary",
+        "healing"
+      ]
+    },
+    {
+      "Id": "novena_st_ignatius",
+      "Title": "St. Ignatius of Loyola Novena",
+      "Subtitle": "Founder of the Society of Jesus",
+      "Icon": "",
+      "DataFile": "Data/Novenas/st_ignatius_novena.json",
+      "Category": "Novenas",
+      "NodeType": "Novena",
+      "ParentId": "section_novenas",
+      "FeastDate": "July 31",
+      "StartDate": "July 22",
+      "AccentColor": "#2C3E50",
+      "SortOrder": 20,
+      "Tags": [
+        "novena",
+        "ignatius",
+        "jesuit"
+      ]
+    }
+  ]
+}

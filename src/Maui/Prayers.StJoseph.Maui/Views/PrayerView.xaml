@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Prayers.StJoseph.Maui.Views.PrayerView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converters="clr-namespace:Prayers.StJoseph.Maui.Converters"
+    xmlns:sfBtn="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
+    Title="{Binding PrayerMainTitle}"
+    IsEnabled="{Binding IsFree}">
+
+    <ContentPage.Resources>
+        <converters:StringToColorConverter x:Key="ColorConv" />
+    </ContentPage.Resources>
+
+    <!-- Outer grid: header (Auto) + scrollable content (*) -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Page background -->
+        <BoxView
+            Grid.RowSpan="2"
+            BackgroundColor="{Binding DefaultStyle.PageBgColor, Converter={StaticResource ColorConv}}"
+            HorizontalOptions="Fill"
+            VerticalOptions="Fill" />
+
+        <!-- ══════════════════════════════════════════
+             HEADER  (3 rows: progress | pill | nav)
+             ══════════════════════════════════════════ -->
+        <Grid Grid.Row="0" Margin="{StaticResource HeaderTopMargin}" Padding="12,0,12,2">
+            <Grid.RowDefinitions>
+                <!-- Row 0: saint image alongside progress dots -->
+                <RowDefinition Height="Auto" />
+                <!-- Row 1: pill toolbar -->
+                <RowDefinition Height="Auto" />
+                <!-- Row 2: Back / Next nav -->
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- ── Row 0: image + progress ── -->
+            <Grid Grid.Row="0" Margin="0,2,0,4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60" />
+                    <ColumnDefinition Width="10" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Image
+                    Grid.Column="0"
+                    Source="{Binding PathToMainImage}"
+                    Aspect="AspectFit"
+                    WidthRequest="55"
+                    HeightRequest="65"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Center" />
+
+                <!-- Custom progress indicator built in code-behind -->
+                <Grid
+                    x:Name="stepProgressGrid"
+                    Grid.Column="2"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Center"
+                    HeightRequest="26" />
+            </Grid>
+
+            <!-- ── Row 1: pill toolbar ── -->
+            <!-- Pill toolbar: Border clips to rounded shape; BoxView inside provides color (reliable on iOS) -->
+            <Border
+                Grid.Row="1"
+                Stroke="Transparent"
+                StrokeShape="RoundRectangle 22"
+                HeightRequest="44"
+                Padding="0"
+                Margin="0,0,0,4">
+                <Grid>
+                    <BoxView x:Name="pillBg"
+                             HorizontalOptions="Fill" VerticalOptions="Fill" />
+                    <Grid x:Name="pillGrid" Padding="6,0" ColumnSpacing="2" BackgroundColor="Transparent">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <sfBtn:SfButton
+                        Grid.Column="0"
+                        Style="{StaticResource PillIconButtonStyle}"
+                        Command="{Binding GoHomeCommand}"
+                        Text="&#xf015;" />
+
+                    <sfBtn:SfButton
+                        Grid.Column="1"
+                        Style="{StaticResource PillIconButtonStyle}"
+                        Command="{Binding ChangeThemeCommand}"
+                        Text="&#xf185;" />
+
+                    <BoxView x:Name="pillDivider1" Grid.Column="2" WidthRequest="1" HeightRequest="22"
+                             VerticalOptions="Center" Opacity="0.3" />
+
+                    <sfBtn:SfButton
+                        Grid.Column="3"
+                        Style="{StaticResource PillIconButtonStyle}"
+                        Command="{Binding PlayAudioCommand}"
+                        Text="&#xf04b;" />
+
+                    <sfBtn:SfButton
+                        Grid.Column="4"
+                        Style="{StaticResource PillIconButtonStyle}"
+                        Command="{Binding PauseAudioCommand}"
+                        Text="&#xf04c;" />
+
+                    <sfBtn:SfButton
+                        Grid.Column="5"
+                        Style="{StaticResource PillIconButtonStyle}"
+                        Command="{Binding StopAudioCommand}"
+                        Text="&#xf04d;" />
+
+                    <BoxView x:Name="pillDivider2" Grid.Column="6" WidthRequest="1" HeightRequest="22"
+                             VerticalOptions="Center" Opacity="0.3" />
+
+                    <sfBtn:SfButton
+                        Grid.Column="7"
+                        Style="{StaticResource PillIconButtonStyle}"
+                        Command="{Binding IncreaseFontCommand}"
+                        Text="&#xf067;" />
+
+                    <sfBtn:SfButton
+                        Grid.Column="8"
+                        Style="{StaticResource PillIconButtonStyle}"
+                        Command="{Binding DecreaseFontCommand}"
+                        Text="&#xf068;" />
+                </Grid>
+                </Grid>
+            </Border>
+
+            <!-- ── Row 2: Back / Next ── -->
+            <Grid Grid.Row="2" Margin="0,0,0,2">
+                <Button
+                    Style="{StaticResource NavButtonStyle}"
+                    Command="{Binding BtnGoPreviousCommand}"
+                    IsVisible="{Binding CanGoPrevious}"
+                    Text="◀  Back"
+                    HorizontalOptions="Start"
+                    BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource ColorConv}}"
+                    TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource ColorConv}}"
+                    BorderColor="Transparent" />
+
+                <Button
+                    Style="{StaticResource NavButtonStyle}"
+                    Command="{Binding BtnGoNextCommand}"
+                    IsVisible="{Binding CanGoNext}"
+                    Text="Next  ▶"
+                    HorizontalOptions="End"
+                    BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource ColorConv}}"
+                    TextColor="{Binding DefaultStyle.ButtonFgColor, Converter={StaticResource ColorConv}}"
+                    BorderColor="Transparent" />
+            </Grid>
+
+            <!-- Thin divider between header and content -->
+            <BoxView
+                Grid.Row="2"
+                Style="{StaticResource DividerStyle}"
+                VerticalOptions="End"
+                Margin="0,0,0,-6"
+                BackgroundColor="{Binding DefaultStyle.ButtonBgColor, Converter={StaticResource ColorConv}}" />
+        </Grid>
+
+        <!-- ══════════════════════════════════════════
+             PRAYER CONTENT
+             ══════════════════════════════════════════ -->
+        <ScrollView Grid.Row="1">
+            <StackLayout x:Name="contentStack" Padding="14,10,14,40" Spacing="4" />
+        </ScrollView>
+    </Grid>
+</ContentPage>

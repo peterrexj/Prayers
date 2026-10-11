@@ -1,0 +1,26 @@
+{
+  "Id": "mic",
+  "Title": "Micah",
+  "Abbreviation": "Mic",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 5,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "But you, Bethlehem-Ephrathah, least among the clans of Judah, from you shall come forth for me one who is to be ruler in Israel; whose origin is from of old, from ancient times."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 6,
+      "Verses": [
+        {
+          "VerseNumber": 8,
+          "Text": "You have been told, O mortal, what is good, and what the LORD requires of you: Only to do justice and to love goodness, and to walk humbly with your God."
+        }
+      ]
+    }
+  ]
+}

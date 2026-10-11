@@ -1,0 +1,48 @@
+{
+  "Id": "1sa",
+  "Title": "1 Samuel",
+  "Abbreviation": "1Sam",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 27,
+          "Text": "I prayed for this child, and the LORD granted my request."
+        },
+        {
+          "VerseNumber": 28,
+          "Text": "Now I, in turn, give him to the LORD; as long as he lives, he shall be dedicated to the LORD."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 10,
+          "Text": "Samuel answered, Speak, for your servant is listening."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 16,
+      "Verses": [
+        {
+          "VerseNumber": 7,
+          "Text": "The LORD said to Samuel: Do not judge from his appearance or from his lofty stature, because I have rejected him. The LORD does not see as a mortal, who sees the appearance. The LORD looks into the heart."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 17,
+      "Verses": [
+        {
+          "VerseNumber": 45,
+          "Text": "David said to the Philistine, You come against me with sword and spear and scimitar, but I come against you in the name of the LORD of hosts."
+        }
+      ]
+    }
+  ]
+}

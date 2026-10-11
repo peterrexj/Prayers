@@ -1,0 +1,35 @@
+{
+  "Id": "hail_mary",
+  "Title": "Hail Mary",
+  "Subtitle": "Ave Maria",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_mary.png",
+  "IntroText": "The Hail Mary is the most beloved Marian prayer in the Catholic tradition, combining the greeting of the angel Gabriel and Elizabeth's words to Mary.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#9B59B6",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Ave Maria",
+      "Blocks": [
+        { "Type": "H1", "Text": "Hail Mary", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Hail Mary, full of grace,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "the Lord is with thee.", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "Blessed art thou among women,", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Paragraph", "Text": "and blessed is the fruit of thy womb, Jesus.", "FontStyle": "Italic", "Order": 6 },
+        { "Type": "Spacer", "Order": 7 },
+        { "Type": "Paragraph", "Text": "Holy Mary, Mother of God,", "FontStyle": "Italic", "Order": 8 },
+        { "Type": "Paragraph", "Text": "pray for us sinners,", "FontStyle": "Italic", "Order": 9 },
+        { "Type": "Paragraph", "Text": "now and at the hour of our death.", "FontStyle": "Italic", "Order": 10 },
+        { "Type": "Spacer", "Order": 11 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 12 },
+        { "Type": "Divider", "Order": 13 },
+        { "Type": "H3", "Text": "Origin", "Order": 14 },
+        { "Type": "Paragraph", "Text": "The first part of this prayer comes from the Gospel of Luke (1:28, 42), where the angel Gabriel greets Mary at the Annunciation and Elizabeth greets her at the Visitation. The second part is a petition for Mary's intercession.", "Order": 15 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["our_father", "glory_be", "rosary"]
+}

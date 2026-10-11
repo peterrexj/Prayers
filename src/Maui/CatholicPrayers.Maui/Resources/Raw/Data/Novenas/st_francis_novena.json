@@ -1,0 +1,84 @@
+{
+  "Id": "novena_st_francis",
+  "Title": "St. Francis of Assisi Novena",
+  "Subtitle": "Patron of animals and the environment",
+  "Format": "MultiPage",
+  "AccentColor": "#8D6E63",
+  "IntroText": "St. Francis of Assisi (1181–1226) founded the Franciscan Order and is one of the most universally beloved saints. Patron of animals, ecology, and Italy, he is known for his radical poverty, joy, and love of creation. His feast day is October 4.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — Conversion of Francis", "Blocks": [
+      { "Type": "H2", "Text": "Day 1 — September 25", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Francis was a wealthy merchant's son who dreamed of being a knight. After an illness and imprisonment in war, God spoke to him at the ruined chapel of San Damiano: \"Francis, go and repair My Church, which as you can see is falling into ruins.\" He obeyed.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Francis, you left wealth and honor to follow Christ in poverty. Grant us the grace of detachment — from comfort, from approval, from all that is not God. Help us to hear Christ's voice calling us to rebuild His Church, beginning with ourselves.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May we too have the courage to respond to God's call, no matter the cost. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — Lady Poverty", "Blocks": [
+      { "Type": "H2", "Text": "Day 2 — September 26", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Francis married \"Lady Poverty\" — giving away everything, wearing a rough habit, owning nothing. He saw in poverty not deprivation but freedom. His joy in poverty was legendary and infectious.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Francis, help us to hold loosely to the things of this world, knowing they can be taken from us at any moment. May we find our security not in possessions but in God.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Intercede for all who are materially poor, that they may know the dignity and love of God. And for those who are rich, that they may share freely. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — Preaching to the Birds", "Blocks": [
+      { "Type": "H2", "Text": "Day 3 — September 27", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Francis preached to birds, tamed a wolf, and wrote the Canticle of the Creatures — a song of praise for Brother Sun, Sister Moon, and all of creation. He saw all created things as gifts of God and brothers and sisters in the family of creation.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Francis, patron of creation and ecology, help us to be good stewards of the world God has given us. May we care for the earth as a gift entrusted to us, not a commodity to be exploited.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Teach us to find God in the beauty of nature and to reverence all life as sacred. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — Peace", "Blocks": [
+      { "Type": "H2", "Text": "Day 4 — September 28", "Order": 1 },
+      { "Type": "Quote", "Text": "\"Lord, make me an instrument of Your peace...\"", "Order": 2 },
+      { "Type": "Paragraph", "Text": "The Peace Prayer of St. Francis captures the heart of his spirituality — a desire to console rather than be consoled, to understand rather than be understood, to love rather than be loved.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "The Peace Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Lord, make me an instrument of Your peace. Where there is hatred, let me sow love; where there is injury, pardon; where there is doubt, faith; where there is despair, hope; where there is darkness, light; where there is sadness, joy.", "FontStyle": "Italic", "Order": 6 },
+      { "Type": "Paragraph", "Text": "O Divine Master, grant that I may not so much seek to be consoled as to console; to be understood as to understand; to be loved as to love. For it is in giving that we receive; it is in pardoning that we are pardoned; and it is in dying that we are born to eternal life. Amen.", "FontStyle": "Italic", "Order": 7 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — The Stigmata", "Blocks": [
+      { "Type": "H2", "Text": "Day 5 — September 29", "Order": 1 },
+      { "Type": "Paragraph", "Text": "On September 14, 1224, Francis received the stigmata — the five wounds of Christ — on Mount La Verna. He was the first recorded stigmatist. The wounds remained until his death, causing him great suffering and great joy.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Francis, you were so conformed to Christ that His wounds appeared in your body. Help us to be conformed to Christ in a spiritual way — to take on His humility, His mercy, and His love for the poor.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May the wounds of Christ speak to us of God's infinite love and move us to greater compassion for the suffering of others. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — St. Clare and the Franciscan Family", "Blocks": [
+      { "Type": "H2", "Text": "Day 6 — September 30", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Francis inspired St. Clare to found the Poor Ladies (later Poor Clares) and established the Secular Franciscan Order for laypeople. The Franciscan family — friars, sisters, and seculars — numbers millions worldwide.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Francis, through your inspiration the Franciscan family has served the Church for 800 years. Pray for all Franciscans today — friars, sisters, and lay members — that they may remain faithful to your charism of poverty, fraternity, and joy.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May the Franciscan spirit of simplicity and service spread throughout the Church. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — The Canticle of Creation", "Blocks": [
+      { "Type": "H2", "Text": "Day 7 — October 1", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Francis wrote the Canticle of the Creatures on his sickbed, near blind and in great pain. It bursts with joy and gratitude — praise for Brother Sun, Sister Water, Brother Wind, Sister Death. It is the first great poem in the Italian language.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Praised be You, my Lord, with all Your creatures, especially Sir Brother Sun. Praised be You, my Lord, through Sister Moon and Stars. Praised be You, my Lord, through Brothers Wind and Air.", "FontStyle": "Italic", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Praised be You, my Lord, through our Sister Mother Earth, who sustains and governs us. Praise and bless my Lord, and give Him thanks and serve Him with great humility. Amen.", "FontStyle": "Italic", "Order": 6 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — The Death of Francis", "Blocks": [
+      { "Type": "H2", "Text": "Day 8 — October 2", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Francis died on October 3, 1226, lying on the bare earth, asking to be stripped of his habit so that he might die as he had lived — poor and naked before God. He was singing Psalm 141 as he died. The next day he was with God.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Francis, you welcomed Sister Death as a friend, having lived each day as preparation for her arrival. Help us to live without fear of death, trusting that it is the door to eternal life.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Pray that when our time comes, we too may die peacefully, having given everything to God. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Feast of St. Francis", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — October 3 (Vigil of Feast)", "Order": 1 },
+      { "Type": "H3", "Text": "Tomorrow is the Feast of St. Francis", "Order": 2 },
+      { "Type": "Paragraph", "Text": "We conclude this novena on the eve of the feast day. Around the world, animals will be blessed in honor of St. Francis. We ask his intercession for our petitions and for the grace to live his simple, joyful spirituality.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "O most holy St. Francis, small and poor, you became great by the measure of God. You show us that true greatness lies in littleness, true wealth in poverty, and true freedom in total surrender to God.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Grant our petitions if they are for our good, and above all grant us your spirit of joyful poverty and fraternal love. St. Francis of Assisi, pray for us! Amen.", "Order": 7 }
+    ]}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "Id": "act_of_contrition",
+  "Title": "Act of Contrition",
+  "Subtitle": "Prayer of Repentance",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_candle.png",
+  "IntroText": "The Act of Contrition is a prayer expressing sorrow for sin, prayed especially before the Sacrament of Reconciliation.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#D35400",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Act of Contrition",
+      "Blocks": [
+        { "Type": "H1", "Text": "Act of Contrition", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "O my God, I am heartily sorry for having offended Thee,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "and I detest all my sins,", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "because of Thy just punishments,", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Paragraph", "Text": "but most of all because they offend Thee, my God,", "FontStyle": "Italic", "Order": 6 },
+        { "Type": "Paragraph", "Text": "who art all good and deserving of all my love.", "FontStyle": "Italic", "Order": 7 },
+        { "Type": "Spacer", "Order": 8 },
+        { "Type": "Paragraph", "Text": "I firmly resolve, with the help of Thy grace,", "FontStyle": "Italic", "Order": 9 },
+        { "Type": "Paragraph", "Text": "to sin no more,", "FontStyle": "Italic", "Order": 10 },
+        { "Type": "Paragraph", "Text": "and to avoid the near occasions of sin.", "FontStyle": "Italic", "Order": 11 },
+        { "Type": "Spacer", "Order": 12 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 13 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["act_of_faith", "act_of_hope", "act_of_love"]
+}

@@ -1,0 +1,30 @@
+{
+  "Id": "bar",
+  "Title": "Baruch",
+  "Abbreviation": "Bar",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 36,
+          "Text": "She is our God; no other is to be compared to her."
+        },
+        {
+          "VerseNumber": 37,
+          "Text": "She has unearthed the whole way of understanding and has given her to Jacob, her servant, to Israel, her beloved."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 2,
+          "Text": "Turn toward the light of her fire, and walk toward the brightness of her flames."
+        }
+      ]
+    }
+  ]
+}

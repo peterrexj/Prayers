@@ -1,0 +1,56 @@
+{
+  "Id": "wis",
+  "Title": "Wisdom",
+  "Abbreviation": "Wis",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 13,
+          "Text": "For God did not make death, nor does he rejoice in the destruction of the living."
+        },
+        {
+          "VerseNumber": 14,
+          "Text": "For he fashioned all things that they might have being."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "The souls of the just are in the hand of God, and no torment shall touch them."
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "They seemed, in the view of the foolish, to be dead; and their passing away was thought an affliction and their going forth from us, utter destruction. But they are in peace."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 7,
+      "Verses": [
+        {
+          "VerseNumber": 26,
+          "Text": "For she is the refulgence of eternal light, the spotless mirror of the power of God, the image of his goodness."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 9,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "God of my ancestors, Lord of mercy, you who have made all things by your word and in your wisdom have established humankind"
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "Or who ever knew your counsel, except you had given Wisdom and sent your holy spirit from on high?"
+        }
+      ]
+    }
+  ]
+}

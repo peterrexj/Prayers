@@ -1,0 +1,39 @@
+{
+  "Id": "hail_holy_queen",
+  "Title": "Hail Holy Queen",
+  "Subtitle": "Salve Regina",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_mary.png",
+  "IntroText": "The Hail Holy Queen (Salve Regina) is an ancient Marian antiphon prayed at the end of the Rosary and at Night Prayer.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#8E44AD",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Salve Regina",
+      "Blocks": [
+        { "Type": "H1", "Text": "Hail Holy Queen", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Hail, Holy Queen, Mother of Mercy,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "our life, our sweetness, and our hope.", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "To thee do we cry, poor banished children of Eve.", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Paragraph", "Text": "To thee do we send up our sighs,", "FontStyle": "Italic", "Order": 6 },
+        { "Type": "Paragraph", "Text": "mourning and weeping in this valley of tears.", "FontStyle": "Italic", "Order": 7 },
+        { "Type": "Spacer", "Order": 8 },
+        { "Type": "Paragraph", "Text": "Turn then, most gracious advocate,", "FontStyle": "Italic", "Order": 9 },
+        { "Type": "Paragraph", "Text": "thine eyes of mercy toward us;", "FontStyle": "Italic", "Order": 10 },
+        { "Type": "Paragraph", "Text": "and after this our exile,", "FontStyle": "Italic", "Order": 11 },
+        { "Type": "Paragraph", "Text": "show unto us the blessed fruit of thy womb, Jesus.", "FontStyle": "Italic", "Order": 12 },
+        { "Type": "Spacer", "Order": 13 },
+        { "Type": "Paragraph", "Text": "O clement, O loving, O sweet Virgin Mary.", "FontStyle": "Italic", "Order": 14 },
+        { "Type": "Spacer", "Order": 15 },
+        { "Type": "BulletItem", "BulletLabel": "V.", "Text": "Pray for us, O holy Mother of God.", "Order": 16 },
+        { "Type": "BulletItem", "BulletLabel": "R.", "Text": "That we may be made worthy of the promises of Christ.", "IsResponse": true, "Order": 17 },
+        { "Type": "Spacer", "Order": 18 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 19 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["hail_mary", "memorare"]
+}

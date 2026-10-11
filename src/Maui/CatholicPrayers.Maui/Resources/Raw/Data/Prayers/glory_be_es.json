@@ -1,0 +1,39 @@
+{
+  "Id": "glory_be",
+  "Title": "Gloria al Padre",
+  "Subtitle": "La Doxología",
+  "Format": "SinglePage",
+  "AccentColor": "#F39C12",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Gloria al Padre",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Gloria al Padre"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Gloria al Padre,\ny al Hijo,\ny al Espíritu Santo.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Como era en el principio,\nahora y siempre,\ny por los siglos de los siglos.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

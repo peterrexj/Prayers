@@ -1,0 +1,43 @@
+{
+  "Id": "2ti",
+  "Title": "2 Timothy",
+  "Abbreviation": "2Tim",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 7,
+          "Text": "For God did not give us a spirit of cowardice but rather of power and love and self-control."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 16,
+          "Text": "All scripture is inspired by God and is useful for teaching, for refutation, for correction, and for training in righteousness,"
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "so that one who belongs to God may be competent, equipped for every good work."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 7,
+          "Text": "I have competed well; I have finished the race; I have kept the faith."
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "From now on the crown of righteousness awaits me, which the Lord, the just judge, will award to me on that day."
+        }
+      ]
+    }
+  ]
+}

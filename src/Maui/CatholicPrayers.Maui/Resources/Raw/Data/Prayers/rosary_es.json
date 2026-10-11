@@ -1,0 +1,105 @@
+{
+  "Id": "rosary",
+  "Title": "El Santo Rosario",
+  "Subtitle": "La Corona de la Virgen",
+  "Format": "MultiPage",
+  "AccentColor": "#6A1B9A",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Cómo Rezar el Rosario",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "El Santo Rosario"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "El Rosario consta de 20 misterios divididos en cuatro series: Gozosos, Luminosos, Dolorosos y Gloriosos. Cada decena se reza con un Padre Nuestro, diez Avemarías y un Gloria."
+        },
+        {
+          "Type": "H3",
+          "Order": 3,
+          "Text": "Para comenzar"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "En el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén."
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 5,
+          "Text": "Creo en Dios... Padre Nuestro... 3 Avemarías... Gloria al Padre...",
+          "FontStyle": "Italic"
+        }
+      ]
+    },
+    {
+      "SectionId": 2,
+      "Title": "Misterios Gozosos (Lunes y Sábados)",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Misterios Gozosos"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "1. La Anunciación del Ángel a María\n2. La Visitación de María a Santa Isabel\n3. El Nacimiento de Jesús en Belén\n4. La Presentación de Jesús en el Templo\n5. El Niño Jesús perdido y hallado en el Templo"
+        }
+      ]
+    },
+    {
+      "SectionId": 3,
+      "Title": "Misterios Luminosos (Jueves)",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Misterios Luminosos"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "1. El Bautismo de Jesús en el Jordán\n2. Las Bodas de Caná\n3. El Anuncio del Reino de Dios\n4. La Transfiguración de Jesús\n5. La Institución de la Eucaristía"
+        }
+      ]
+    },
+    {
+      "SectionId": 4,
+      "Title": "Misterios Dolorosos (Martes y Viernes)",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Misterios Dolorosos"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "1. La Oración de Jesús en el Huerto\n2. La Flagelación del Señor\n3. La Coronación de Espinas\n4. Jesús con la Cruz a cuestas\n5. La Crucifixión y Muerte de Jesús"
+        }
+      ]
+    },
+    {
+      "SectionId": 5,
+      "Title": "Misterios Gloriosos (Miércoles y Domingos)",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Misterios Gloriosos"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "1. La Resurrección de Jesús\n2. La Ascensión de Jesús al Cielo\n3. La Venida del Espíritu Santo\n4. La Asunción de María al Cielo\n5. La Coronación de María en el Cielo"
+        }
+      ]
+    }
+  ]
+}

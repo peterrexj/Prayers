@@ -1,0 +1,60 @@
+{
+  "Id": "jer",
+  "Title": "Jeremiah",
+  "Abbreviation": "Jer",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 5,
+          "Text": "Before I formed you in the womb I knew you, before you were born I dedicated you."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 17,
+      "Verses": [
+        {
+          "VerseNumber": 7,
+          "Text": "Blessed are those who trust in the LORD; the LORD will be their trust."
+        },
+        {
+          "VerseNumber": 14,
+          "Text": "Heal me, LORD, that I may be healed; save me, that I may be saved, for you are my praise."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 29,
+      "Verses": [
+        {
+          "VerseNumber": 11,
+          "Text": "For I know well the plans I have in mind for you—oracle of the LORD—plans for your welfare and not for woe, so as to give you a future of hope."
+        },
+        {
+          "VerseNumber": 13,
+          "Text": "When you look for me, you will find me. Yes, when you seek me with all your heart,"
+        },
+        {
+          "VerseNumber": 14,
+          "Text": "I will let you find me—oracle of the LORD."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 31,
+      "Verses": [
+        {
+          "VerseNumber": 3,
+          "Text": "With age-old love I have loved you; so I have kept my mercy toward you."
+        },
+        {
+          "VerseNumber": 33,
+          "Text": "I will place my law within them, and write it upon their hearts; I will be their God, and they shall be my people."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "Id": "apostles_creed",
+  "Title": "El Credo de los Apóstoles",
+  "Subtitle": "El Símbolo de los Apóstoles",
+  "Format": "SinglePage",
+  "AccentColor": "#2C3E50",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "El Credo",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "El Credo de los Apóstoles"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Creo en Dios, Padre todopoderoso,\nCreador del cielo y de la tierra.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Creo en Jesucristo, su único Hijo, nuestro Señor,\nque fue concebido por obra y gracia del Espíritu Santo,\nnació de Santa María Virgen,\npadeció bajo el poder de Poncio Pilato,\nfue crucificado, muerto y sepultado,\ndescendió a los infiernos,\nal tercer día resucitó de entre los muertos,\nsubió a los cielos\ny está sentado a la derecha de Dios, Padre todopoderoso.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Desde allí ha de venir a juzgar\na vivos y muertos.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 5,
+          "Text": "Creo en el Espíritu Santo,\nla santa Iglesia católica,\nla comunión de los santos,\nel perdón de los pecados,\nla resurrección de la carne\ny la vida eterna.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 6,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

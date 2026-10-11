@@ -1,0 +1,49 @@
+{
+  "Id": "hail_mary",
+  "Title": "Ave Maria",
+  "Subtitle": "Salutatio Angelica",
+  "Format": "SinglePage",
+  "AccentColor": "#3498DB",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Ave Maria",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Text": "Ave Maria",
+          "Order": 1
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Ave Maria, gratia plena,\nDominus tecum.",
+          "FontStyle": "Italic",
+          "Order": 2
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Benedicta tu in mulieribus,\net benedictus fructus ventris tui, Iesus.",
+          "FontStyle": "Italic",
+          "Order": 3
+        },
+        {
+          "Type": "Divider",
+          "Order": 4
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Sancta Maria, Mater Dei,\nora pro nobis peccatoribus,\nnunc et in hora mortis nostrae.",
+          "FontStyle": "Italic",
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Amen.",
+          "FontStyle": "Bold",
+          "Alignment": "Center",
+          "Order": 6
+        }
+      ]
+    }
+  ]
+}

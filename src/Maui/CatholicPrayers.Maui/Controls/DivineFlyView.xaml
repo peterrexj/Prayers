@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatholicPrayers.Maui.Controls.DivineFlyView"
+             InputTransparent="True"
+             IsVisible="False">
+
+    <!-- Semi-transparent overlay for divine animations. InputTransparent so it never blocks prayer reading. -->
+    <Grid>
+        <Label x:Name="flyLabel"
+               FontFamily="FontAwesome5Solid"
+               FontSize="48"
+               TextColor="{DynamicResource PrayAppAccentColor}"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Opacity="0"
+               InputTransparent="True"
+               IsVisible="True" />
+    </Grid>
+
+</ContentView>

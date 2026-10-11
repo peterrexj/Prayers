@@ -1,0 +1,1030 @@
+{
+  "Id": "stations_of_the_cross",
+  "Title": "Stations of the Cross",
+  "Subtitle": "Via Crucis",
+  "Format": "MultiPage",
+  "HeaderImageFile": "prayer_bg_default.svg",
+  "AccentColor": "#C0392B",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Opening Prayer",
+      "Blocks": [
+        {
+          "Type": "H1",
+          "Text": "Stations of the Cross",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "Via Crucis",
+          "Order": 2
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "We adore You, O Christ, and we praise You, because by Your holy Cross You have redeemed the world.",
+          "Alignment": "Center",
+          "Order": 3
+        },
+        {
+          "Type": "Divider",
+          "Order": 4
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "O Jesus, You have said: 'And I, if I be lifted up from the earth, will draw all things to Myself.' Draw my heart and my love to Yourself. Let me walk the way of Your passion with faith, sorrow for my sins, and love for You.",
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Lord, I am not worthy to walk this holy way with You. Yet You invite me. Take my hand, lead me through each station, and transform my heart.",
+          "Order": 6
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 7
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 8
+        }
+      ]
+    },
+    {
+      "SectionId": 2,
+      "Title": "1st Station: Jesus is condemned to death",
+      "Blocks": [
+        {
+          "Type": "Image",
+          "ImageFile": "station_01_condemned_to_death.png",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "First Station",
+          "Order": 2
+        },
+        {
+          "Type": "H3",
+          "Text": "Jesus is condemned to death",
+          "Order": 3
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 4
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Pontius Pilate, though finding no fault in Jesus, yields to the crowd and condemns the innocent Son of God to death. Barabbas is freed; the Author of life is sentenced.",
+          "Order": 6
+        },
+        {
+          "Type": "Quote",
+          "Text": "He was oppressed and afflicted, yet He did not open His mouth. — Isaiah 53:7",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "FontStyle": "Italic",
+          "Text": "Lord Jesus, how often I have condemned the innocent, how often I have chosen Barabbas — my selfish desires — over You. Forgive me and teach me to choose You above all else.",
+          "Order": 8
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "Lord Jesus, help us walk in Your footsteps.",
+          "IsResponse": false,
+          "Order": 9
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "And bring us with You to eternal life. Amen.",
+          "IsResponse": true,
+          "Order": 10
+        }
+      ]
+    },
+    {
+      "SectionId": 3,
+      "Title": "2nd Station: Jesus takes up His Cross",
+      "Blocks": [
+        {
+          "Type": "Image",
+          "ImageFile": "station_02_carries_the_cross.png",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "Second Station",
+          "Order": 2
+        },
+        {
+          "Type": "H3",
+          "Text": "Jesus takes up His Cross",
+          "Order": 3
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 4
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "With love and complete obedience, Jesus takes up the heavy wooden cross. The weight of the sins of all humanity rests upon His shoulders. He accepts it willingly.",
+          "Order": 6
+        },
+        {
+          "Type": "Quote",
+          "Text": "'If anyone wishes to come after Me, let him deny himself, take up his cross, and follow Me.' — Matthew 16:24",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "FontStyle": "Italic",
+          "Text": "Lord Jesus, You carried a cross You did not deserve so that I might be free. Help me to embrace the crosses of my own life with courage and trust in Your love.",
+          "Order": 8
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "Lord Jesus, help us walk in Your footsteps.",
+          "IsResponse": false,
+          "Order": 9
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "And bring us with You to eternal life. Amen.",
+          "IsResponse": true,
+          "Order": 10
+        }
+      ]
+    },
+    {
+      "SectionId": 4,
+      "Title": "3rd Station: Jesus falls the first time",
+      "Blocks": [
+        {
+          "Type": "Image",
+          "ImageFile": "station_03_first_fall.png",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "Third Station",
+          "Order": 2
+        },
+        {
+          "Type": "H3",
+          "Text": "Jesus falls the first time",
+          "Order": 3
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 4
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Weakened by the scourging and the crown of thorns, Jesus falls beneath the weight of the Cross. Yet He rises again, not out of His own strength alone, but out of love for us.",
+          "Order": 6
+        },
+        {
+          "Type": "Quote",
+          "Text": "Though the just man fall seven times, he rises again. — Proverbs 24:16",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "FontStyle": "Italic",
+          "Text": "Lord Jesus, when I fall into sin, when I stumble and feel that I cannot go on, remind me that You fell too — and rose. Give me the strength to rise after every fall.",
+          "Order": 8
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "Lord Jesus, help us walk in Your footsteps.",
+          "IsResponse": false,
+          "Order": 9
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "And bring us with You to eternal life. Amen.",
+          "IsResponse": true,
+          "Order": 10
+        }
+      ]
+    },
+    {
+      "SectionId": 5,
+      "Title": "4th Station: Jesus meets His Mother",
+      "Blocks": [
+        {
+          "Type": "Image",
+          "ImageFile": "station_04_meets_his_mother.png",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "Fourth Station",
+          "Order": 2
+        },
+        {
+          "Type": "H3",
+          "Text": "Jesus meets His Sorrowful Mother",
+          "Order": 3
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 4
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "On the road to Calvary, Jesus encounters His Blessed Mother Mary. Their eyes meet. No words are needed — a mother's heart is pierced by sorrow, fulfilling Simeon's prophecy.",
+          "Order": 6
+        },
+        {
+          "Type": "Quote",
+          "Text": "'And a sword will pierce your own soul too.' — Luke 2:35",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "FontStyle": "Italic",
+          "Text": "Lord Jesus, Your suffering was not only Your own — it was shared by your Mother. May I turn to Mary as my Mother too, and may her intercession draw me closer to You.",
+          "Order": 8
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "Lord Jesus, help us walk in Your footsteps.",
+          "IsResponse": false,
+          "Order": 9
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "And bring us with You to eternal life. Amen.",
+          "IsResponse": true,
+          "Order": 10
+        }
+      ]
+    },
+    {
+      "SectionId": 6,
+      "Title": "5th Station: Simon helps Jesus carry the Cross",
+      "Blocks": [
+        {
+          "Type": "Image",
+          "ImageFile": "station_05_simon_helps.png",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "Fifth Station",
+          "Order": 2
+        },
+        {
+          "Type": "H3",
+          "Text": "Simon of Cyrene helps Jesus carry the Cross",
+          "Order": 3
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 4
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "The soldiers compel Simon of Cyrene, coming in from the fields, to carry the Cross. At first unwilling, he is drawn into the greatest act of love in human history.",
+          "Order": 6
+        },
+        {
+          "Type": "Quote",
+          "Text": "Carry one another's burdens, and in this way you will fulfil the law of Christ. — Galatians 6:2",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "FontStyle": "Italic",
+          "Text": "Lord Jesus, Simon did not choose his cross — it was placed upon him. How often You place unexpected burdens on my path. Grant me the grace to see Your face in every person who needs help carrying theirs.",
+          "Order": 8
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "Lord Jesus, help us walk in Your footsteps.",
+          "IsResponse": false,
+          "Order": 9
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "And bring us with You to eternal life. Amen.",
+          "IsResponse": true,
+          "Order": 10
+        }
+      ]
+    },
+    {
+      "SectionId": 7,
+      "Title": "6th Station: Veronica wipes the face of Jesus",
+      "Blocks": [
+        {
+          "Type": "Image",
+          "ImageFile": "station_06_veronica_wipes_face.png",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "Sixth Station",
+          "Order": 2
+        },
+        {
+          "Type": "H3",
+          "Text": "Veronica wipes the face of Jesus",
+          "Order": 3
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 4
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "A woman named Veronica steps out of the crowd and wipes the blood and sweat from the face of Jesus. In return, He leaves the imprint of His holy face upon her veil.",
+          "Order": 6
+        },
+        {
+          "Type": "Quote",
+          "Text": "'Blessed are the merciful, for they will be shown mercy.' — Matthew 5:7",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "FontStyle": "Italic",
+          "Text": "Lord Jesus, Veronica did one small act of mercy in the midst of a crowd too afraid to act. Give me the courage to offer comfort to those who suffer, even when it is costly.",
+          "Order": 8
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "Lord Jesus, help us walk in Your footsteps.",
+          "IsResponse": false,
+          "Order": 9
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "And bring us with You to eternal life. Amen.",
+          "IsResponse": true,
+          "Order": 10
+        }
+      ]
+    },
+    {
+      "SectionId": 8,
+      "Title": "7th Station: Jesus falls the second time",
+      "Blocks": [
+        {
+          "Type": "Image",
+          "ImageFile": "station_07_second_fall.png",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "Seventh Station",
+          "Order": 2
+        },
+        {
+          "Type": "H3",
+          "Text": "Jesus falls the second time",
+          "Order": 3
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 4
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Jesus falls a second time under the weight of the Cross. His body has already been through great suffering — the scourging, the crowning with thorns, the long walk — yet He rises again.",
+          "Order": 6
+        },
+        {
+          "Type": "Quote",
+          "Text": "He was crushed for our iniquities; the punishment that brought us peace was on Him. — Isaiah 53:5",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "FontStyle": "Italic",
+          "Text": "Lord Jesus, I have fallen again and again into the same sins. Your second fall tells me never to despair. No matter how many times I fall, You are there to lift me up through Your mercy.",
+          "Order": 8
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "Lord Jesus, help us walk in Your footsteps.",
+          "IsResponse": false,
+          "Order": 9
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "And bring us with You to eternal life. Amen.",
+          "IsResponse": true,
+          "Order": 10
+        }
+      ]
+    },
+    {
+      "SectionId": 9,
+      "Title": "8th Station: Jesus speaks to the women",
+      "Blocks": [
+        {
+          "Type": "Image",
+          "ImageFile": "station_08_meets_women.png",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "Eighth Station",
+          "Order": 2
+        },
+        {
+          "Type": "H3",
+          "Text": "Jesus speaks to the women of Jerusalem",
+          "Order": 3
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 4
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "A group of women weeps for Jesus as He passes. Even in His agony, Jesus turns to comfort them and speaks words of prophecy: 'Daughters of Jerusalem, weep not for Me, but for yourselves and for your children.'",
+          "Order": 6
+        },
+        {
+          "Type": "Quote",
+          "Text": "'Do not weep for Me; weep rather for yourselves and for your children.' — Luke 23:28",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "FontStyle": "Italic",
+          "Text": "Lord Jesus, even while suffering You thought of others. Teach me to turn outward in my pain, to see those who are hurting around me, and to offer what comfort I can.",
+          "Order": 8
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "Lord Jesus, help us walk in Your footsteps.",
+          "IsResponse": false,
+          "Order": 9
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "And bring us with You to eternal life. Amen.",
+          "IsResponse": true,
+          "Order": 10
+        }
+      ]
+    },
+    {
+      "SectionId": 10,
+      "Title": "9th Station: Jesus falls the third time",
+      "Blocks": [
+        {
+          "Type": "Image",
+          "ImageFile": "station_09_third_fall.png",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "Ninth Station",
+          "Order": 2
+        },
+        {
+          "Type": "H3",
+          "Text": "Jesus falls the third time",
+          "Order": 3
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 4
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Near Calvary, Jesus falls for the third time. He is at the end of His human strength. The goal is near, yet the pain is overwhelming. Still He rises — for love of us.",
+          "Order": 6
+        },
+        {
+          "Type": "Quote",
+          "Text": "My God, My God, why have you forsaken me? — Psalm 22:1",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "FontStyle": "Italic",
+          "Text": "Lord Jesus, in my darkest moments when I feel utterly alone and cannot go on, remind me of this station. You fell three times. You know the depths of human weakness — and You conquered them.",
+          "Order": 8
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "Lord Jesus, help us walk in Your footsteps.",
+          "IsResponse": false,
+          "Order": 9
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "And bring us with You to eternal life. Amen.",
+          "IsResponse": true,
+          "Order": 10
+        }
+      ]
+    },
+    {
+      "SectionId": 11,
+      "Title": "10th Station: Jesus is stripped of His garments",
+      "Blocks": [
+        {
+          "Type": "Image",
+          "ImageFile": "station_10_stripped_of_garments.png",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "Tenth Station",
+          "Order": 2
+        },
+        {
+          "Type": "H3",
+          "Text": "Jesus is stripped of His garments",
+          "Order": 3
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 4
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "At Calvary, the soldiers strip Jesus of His garments, fulfilling the prophecy: 'They divide My garments among them and cast lots for My clothing.' Jesus is left with nothing.",
+          "Order": 6
+        },
+        {
+          "Type": "Quote",
+          "Text": "They divided His garments among them by casting lots. — John 19:24",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "FontStyle": "Italic",
+          "Text": "Lord Jesus, You were stripped of everything — even Your dignity — so that I might be clothed in grace. Help me to detach from material things and find my true worth in You alone.",
+          "Order": 8
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "Lord Jesus, help us walk in Your footsteps.",
+          "IsResponse": false,
+          "Order": 9
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "And bring us with You to eternal life. Amen.",
+          "IsResponse": true,
+          "Order": 10
+        }
+      ]
+    },
+    {
+      "SectionId": 12,
+      "Title": "11th Station: Jesus is nailed to the Cross",
+      "Blocks": [
+        {
+          "Type": "Image",
+          "ImageFile": "station_11_nailed_to_cross.png",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "Eleventh Station",
+          "Order": 2
+        },
+        {
+          "Type": "H3",
+          "Text": "Jesus is nailed to the Cross",
+          "Order": 3
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 4
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Jesus is laid upon the Cross. Nails are driven through His hands and feet. He is lifted up between two criminals, fulfilling Isaiah's prophecy that He would be 'numbered among the transgressors.'",
+          "Order": 6
+        },
+        {
+          "Type": "Quote",
+          "Text": "Father, forgive them, for they know not what they do. — Luke 23:34",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "FontStyle": "Italic",
+          "Text": "Lord Jesus, even as nails tore through Your flesh, You prayed for forgiveness. Help me to forgive those who have hurt me, as You have forgiven me.",
+          "Order": 8
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "Lord Jesus, help us walk in Your footsteps.",
+          "IsResponse": false,
+          "Order": 9
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "And bring us with You to eternal life. Amen.",
+          "IsResponse": true,
+          "Order": 10
+        }
+      ]
+    },
+    {
+      "SectionId": 13,
+      "Title": "12th Station: Jesus dies on the Cross",
+      "Blocks": [
+        {
+          "Type": "Image",
+          "ImageFile": "station_12_dies_on_cross.png",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "Twelfth Station",
+          "Order": 2
+        },
+        {
+          "Type": "H3",
+          "Text": "Jesus dies on the Cross",
+          "Order": 3
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 4
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "After three hours on the Cross, Jesus cries out, 'It is finished!' and gives up His spirit. The earth shakes, the veil of the Temple is torn in two. The centurion declares: 'Truly this was the Son of God.'",
+          "Order": 6
+        },
+        {
+          "Type": "Quote",
+          "Text": "It is finished. — John 19:30",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "FontStyle": "Italic",
+          "Text": "Lord Jesus, in this moment all of history pivoted. You died so that I might live. Let me never take lightly the price of my redemption. Every sin I commit wounds You; every act of love honours You.",
+          "Order": 8
+        },
+        {
+          "Type": "Spacer",
+          "Order": 9
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "My Lord and my God!",
+          "Alignment": "Center",
+          "FontStyle": "Bold",
+          "Order": 10
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "Lord Jesus, help us walk in Your footsteps.",
+          "IsResponse": false,
+          "Order": 11
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "And bring us with You to eternal life. Amen.",
+          "IsResponse": true,
+          "Order": 12
+        }
+      ]
+    },
+    {
+      "SectionId": 14,
+      "Title": "13th Station: Jesus is taken down from the Cross",
+      "Blocks": [
+        {
+          "Type": "Image",
+          "ImageFile": "station_13_taken_down.png",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "Thirteenth Station",
+          "Order": 2
+        },
+        {
+          "Type": "H3",
+          "Text": "Jesus is taken down from the Cross",
+          "Order": 3
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 4
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Joseph of Arimathea and Nicodemus take the body of Jesus down from the Cross. Mary receives the body of her Son in her arms — the Pietà, the image of a mother's grief and love.",
+          "Order": 6
+        },
+        {
+          "Type": "Quote",
+          "Text": "Woman, behold your son... Behold your mother. — John 19:26–27",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "FontStyle": "Italic",
+          "Text": "Lord Jesus, Mary held You in her arms at Your birth and at Your death. May she hold me too in her maternal care. Let me be always under her mantle.",
+          "Order": 8
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "Lord Jesus, help us walk in Your footsteps.",
+          "IsResponse": false,
+          "Order": 9
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "And bring us with You to eternal life. Amen.",
+          "IsResponse": true,
+          "Order": 10
+        }
+      ]
+    },
+    {
+      "SectionId": 15,
+      "Title": "14th Station: Jesus is laid in the tomb",
+      "Blocks": [
+        {
+          "Type": "Image",
+          "ImageFile": "station_14_laid_in_tomb.png",
+          "Order": 1
+        },
+        {
+          "Type": "H2",
+          "Text": "Fourteenth Station",
+          "Order": 2
+        },
+        {
+          "Type": "H3",
+          "Text": "Jesus is laid in the tomb",
+          "Order": 3
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "We adore You, O Christ, and we praise You.",
+          "IsResponse": false,
+          "Order": 4
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Because by Your holy Cross You have redeemed the world.",
+          "IsResponse": true,
+          "Order": 5
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "The body of Jesus is wrapped in linen cloths with spices and laid in a new tomb. A large stone is rolled across the entrance. It appears that death has won.",
+          "Order": 6
+        },
+        {
+          "Type": "Quote",
+          "Text": "Unless a grain of wheat falls into the earth and dies, it remains alone; but if it dies, it bears much fruit. — John 12:24",
+          "Order": 7
+        },
+        {
+          "Type": "Paragraph",
+          "FontStyle": "Italic",
+          "Text": "Lord Jesus, the tomb was not the end. In the silence of Holy Saturday, You were at work. When my life feels sealed in darkness, remind me: the stone will roll away. You are the Resurrection and the Life.",
+          "Order": 8
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "Lord Jesus, help us walk in Your footsteps.",
+          "IsResponse": false,
+          "Order": 9
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "And bring us with You to eternal life. Amen.",
+          "IsResponse": true,
+          "Order": 10
+        }
+      ]
+    },
+    {
+      "SectionId": 16,
+      "Title": "Closing Prayer",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Text": "Closing Prayer",
+          "Order": 1
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "O Lord Jesus Christ, You have made this journey of love for me. You were condemned, You carried the Cross, You fell, You were nailed, You died, You were buried — all for love of me.",
+          "Order": 2
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Grant that the fruit of these Stations may remain with me always: a deeper sorrow for my sins, a firmer purpose of amendment, a greater love for You, and an unshakeable hope in Your Resurrection.",
+          "Order": 3
+        },
+        {
+          "Type": "Divider",
+          "Order": 4
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "We fly to Your patronage, O Holy Mother of God. Despise not our petitions in our necessities, but deliver us always from all dangers, O glorious and blessed Virgin. Amen.",
+          "Alignment": "Center",
+          "Order": 5
+        },
+        {
+          "Type": "Spacer",
+          "Order": 6
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "V.",
+          "Text": "May the souls of the faithful departed, through the mercy of God,",
+          "IsResponse": false,
+          "Order": 7
+        },
+        {
+          "Type": "BulletItem",
+          "BulletLabel": "R.",
+          "Text": "Rest in peace. Amen.",
+          "IsResponse": true,
+          "Order": 8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:CatholicPrayers.Maui.Controls"
+             xmlns:vm="clr-namespace:CatholicPrayers.Maui.ViewModels"
+             xmlns:models="clr-namespace:CatholicPrayers.Maui.Models"
+             x:Class="CatholicPrayers.Maui.Views.DashboardPage"
+             x:DataType="vm:DashboardViewModel"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="{DynamicResource PrayAppPageBgColor}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:InvertBoolConverter xmlns:converters="clr-namespace:CatholicPrayers.Maui.Converters"
+                                            x:Key="InvertBool" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="Auto,Auto,*">
+
+        <!-- ── Hero header ── -->
+        <Grid Grid.Row="0"
+              ColumnDefinitions="Auto,*,Auto"
+              Padding="8,52,8,16">
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Offset="0" Color="{DynamicResource PrayAppPageBgColor}" />
+                    <GradientStop Offset="1" Color="Transparent" />
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <!-- Hamburger — opens flyout -->
+            <Button Grid.Column="0"
+                    Text="&#xf0c9;"
+                    FontFamily="FontAwesome5Solid"
+                    FontSize="20"
+                    BackgroundColor="Transparent"
+                    TextColor="{DynamicResource PrayAppAccentColor}"
+                    HeightRequest="44"
+                    WidthRequest="44"
+                    Padding="0"
+                    VerticalOptions="Start"
+                    Clicked="OnHamburgerClicked" />
+
+            <!-- Title block -->
+            <StackLayout Grid.Column="1"
+                         Spacing="2"
+                         VerticalOptions="Start"
+                         Margin="4,0,0,0">
+                <StackLayout Orientation="Horizontal" Spacing="8">
+                    <Label Text="&#xf7a9;"
+                           FontFamily="FontAwesome5Solid"
+                           FontSize="22"
+                           TextColor="{DynamicResource PrayAppAccentColor}"
+                           VerticalOptions="Center" />
+                    <Label Text="Catholic Prayers"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           TextColor="{DynamicResource PrayAppH1TextColor}"
+                           VerticalOptions="Center" />
+                </StackLayout>
+                <Label Text="A treasury of sacred prayers"
+                       FontSize="13"
+                       TextColor="{DynamicResource PrayAppSubtitleTextColor}" />
+            </StackLayout>
+
+            <!-- Right toolbar: favourites filter + settings -->
+            <StackLayout Grid.Column="2"
+                         Orientation="Horizontal"
+                         VerticalOptions="Start"
+                         Spacing="0">
+
+                <!-- Favourites filter toggle -->
+                <Button x:Name="favFilterButton"
+                        Text="&#xf004;"
+                        FontFamily="FontAwesome5Solid"
+                        FontSize="18"
+                        BackgroundColor="Transparent"
+                        TextColor="{DynamicResource PrayAppSubtitleTextColor}"
+                        HeightRequest="44"
+                        WidthRequest="44"
+                        Padding="0"
+                        Command="{Binding ToggleFavouritesFilterCommand}"
+                        ToolTipProperties.Text="Show favourites" />
+
+                <!-- Settings -->
+                <Button Text="&#xf013;"
+                        FontFamily="FontAwesome5Solid"
+                        FontSize="20"
+                        BackgroundColor="Transparent"
+                        TextColor="{DynamicResource PrayAppAccentColor}"
+                        HeightRequest="44"
+                        WidthRequest="44"
+                        Padding="0"
+                        Command="{Binding NavigateToSettingsCommand}" />
+            </StackLayout>
+        </Grid>
+
+        <!-- ── Search bar ── -->
+        <Border Grid.Row="1"
+                BackgroundColor="{DynamicResource PrayAppSearchBgColor}"
+                Stroke="{DynamicResource PrayAppSearchBorderColor}"
+                StrokeThickness="1"
+                StrokeShape="RoundRectangle 24"
+                Margin="16,0,16,8"
+                Padding="12,0">
+            <Border.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnSearchBarTapped" />
+            </Border.GestureRecognizers>
+            <Grid ColumnDefinitions="Auto,*,Auto">
+                <Label Grid.Column="0"
+                       Text="&#xf002;"
+                       FontFamily="FontAwesome5Solid"
+                       FontSize="15"
+                       TextColor="{DynamicResource PrayAppSearchPlaceholderColor}"
+                       VerticalOptions="Center"
+                       Margin="0,0,6,0" />
+                <Entry x:Name="searchEntry"
+                       Grid.Column="1"
+                       Text="{Binding SearchText}"
+                       Placeholder="Search prayers…"
+                       PlaceholderColor="{DynamicResource PrayAppSearchPlaceholderColor}"
+                       TextColor="{DynamicResource PrayAppSearchTextColor}"
+                       BackgroundColor="Transparent"
+                       VerticalOptions="Center"
+                       ReturnType="Search"
+                       HeightRequest="44"
+                       Focused="OnSearchFocused"
+                       Unfocused="OnSearchUnfocused" />
+                <Button Grid.Column="2"
+                        Text="&#xf00d;"
+                        FontFamily="FontAwesome5Solid"
+                        FontSize="14"
+                        BackgroundColor="Transparent"
+                        TextColor="{DynamicResource PrayAppSubtitleTextColor}"
+                        IsVisible="{Binding IsSearchActive}"
+                        Command="{Binding ClearSearchCommand}"
+                        Clicked="OnClearSearchClicked"
+                        HeightRequest="44"
+                        WidthRequest="36"
+                        Padding="0" />
+            </Grid>
+        </Border>
+
+        <!-- ── Content ── -->
+        <ScrollView Grid.Row="2">
+            <StackLayout Spacing="0">
+
+                <!-- Search results -->
+                <StackLayout x:Name="searchResultsPanel"
+                             IsVisible="{Binding IsSearchActive}"
+                             Spacing="0"
+                             Padding="12,4">
+                    <Label Text="Search Results"
+                           FontSize="15"
+                           FontAttributes="Bold"
+                           TextColor="{DynamicResource PrayAppAccentColor}"
+                           Margin="4,8,4,4" />
+                    <BindableLayout.ItemsSource>
+                        <Binding Path="FilteredPrayers" />
+                    </BindableLayout.ItemsSource>
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate x:DataType="models:PrayerMasterEntry">
+                            <Border BackgroundColor="{DynamicResource PrayAppCardBgColor}"
+                                    Stroke="{DynamicResource PrayAppCardBorderColor}"
+                                    StrokeThickness="1"
+                                    StrokeShape="RoundRectangle 12"
+                                    Margin="0,4"
+                                    Padding="14,12">
+                                <Grid ColumnDefinitions="36,*">
+                                    <Label Grid.Column="0"
+                                           Text="{Binding Icon}"
+                                           FontFamily="FontAwesome5Solid"
+                                           FontSize="20"
+                                           TextColor="{DynamicResource PrayAppAccentColor}"
+                                           VerticalOptions="Center" />
+                                    <StackLayout Grid.Column="1" Spacing="2" Margin="8,0,0,0">
+                                        <Label Text="{Binding Title}"
+                                               FontSize="16"
+                                               FontAttributes="Bold"
+                                               TextColor="{DynamicResource PrayAppH2TextColor}" />
+                                        <Label Text="{Binding Category}"
+                                               FontSize="12"
+                                               TextColor="{DynamicResource PrayAppSubtitleTextColor}" />
+                                    </StackLayout>
+                                </Grid>
+                                <Border.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type vm:DashboardViewModel}}, Path=NavigateToPrayerCommand}"
+                                        CommandParameter="{Binding .}" />
+                                </Border.GestureRecognizers>
+                            </Border>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </StackLayout>
+
+                <!-- Normal dashboard (hidden during search) -->
+                <StackLayout x:Name="normalDashboard"
+                             IsVisible="{Binding IsSearchActive, Converter={StaticResource InvertBool}}"
+                             Spacing="0">
+
+                    <!-- Featured prayers horizontal scroll -->
+                    <StackLayout x:Name="featuredSection"
+                                 IsVisible="{Binding HasFeatured}"
+                                 Spacing="0">
+                        <Label Text="Featured Prayers"
+                               FontSize="17"
+                               FontAttributes="Bold"
+                               TextColor="{DynamicResource PrayAppH2TextColor}"
+                               Margin="20,12,20,8" />
+                        <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                            <HorizontalStackLayout x:Name="featuredStack"
+                                                   Spacing="0"
+                                                   Padding="12,0,12,12" />
+                        </ScrollView>
+                    </StackLayout>
+
+                    <!-- Section cards built in code-behind -->
+                    <StackLayout x:Name="sectionStack"
+                                 Spacing="10"
+                                 Padding="16,8,16,24" />
+
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+
+        <!-- Loading overlay -->
+        <Grid Grid.RowSpan="3"
+              IsVisible="{Binding IsBusy}"
+              BackgroundColor="#80000000">
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="12">
+                <ActivityIndicator IsRunning="{Binding IsBusy}"
+                                   Color="{DynamicResource PrayAppAccentColor}"
+                                   HeightRequest="40"
+                                   WidthRequest="40" />
+                <Label Text="Loading prayers…"
+                       TextColor="White"
+                       HorizontalTextAlignment="Center" />
+            </StackLayout>
+        </Grid>
+
+    </Grid>
+</ContentPage>

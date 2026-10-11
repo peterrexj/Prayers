@@ -1,0 +1,34 @@
+{
+  "Id": "prayer_to_st_joseph",
+  "Title": "Prayer to St. Joseph",
+  "Subtitle": "Patron of the Universal Church",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_cross.png",
+  "IntroText": "Pope Leo XIII officially proclaimed St. Joseph Patron of the Universal Church in 1870. He is also patron of fathers, workers, and the dying.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#795548",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Prayer to St. Joseph",
+      "Blocks": [
+        { "Type": "H1", "Text": "Prayer to St. Joseph", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "O Blessed Saint Joseph, faithful guardian and protector of virgins,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "to whom God entrusted Jesus and Mary,", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "I pray and beseech thee to help me in all my necessities,", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Paragraph", "Text": "to intercede for me with thy foster child Jesus Christ,", "FontStyle": "Italic", "Order": 6 },
+        { "Type": "Paragraph", "Text": "and to turn away from me all dangers of soul and body.", "FontStyle": "Italic", "Order": 7 },
+        { "Type": "Spacer", "Order": 8 },
+        { "Type": "Paragraph", "Text": "Most glorious patriarch Saint Joseph,", "FontStyle": "Italic", "Order": 9 },
+        { "Type": "Paragraph", "Text": "I beseech thee, through the love thou didst bear for Jesus and Mary,", "FontStyle": "Italic", "Order": 10 },
+        { "Type": "Paragraph", "Text": "not to abandon me in my needs,", "FontStyle": "Italic", "Order": 11 },
+        { "Type": "Paragraph", "Text": "but to present my cause before the throne of God.", "FontStyle": "Italic", "Order": 12 },
+        { "Type": "Spacer", "Order": 13 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 14 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["st_michael_prayer"]
+}

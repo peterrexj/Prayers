@@ -1,0 +1,85 @@
+{
+  "Id": "novena_st_padre_pio",
+  "Title": "St. Padre Pio Novena",
+  "Subtitle": "Priest and mystic of Pietrelcina",
+  "Format": "MultiPage",
+  "AccentColor": "#6D4C41",
+  "IntroText": "St. Padre Pio (1887–1968) was a Capuchin Franciscan friar who bore the stigmata for 50 years. He was a remarkable confessor, spiritual director, and mystic. He is known for bilocation, prophecy, reading souls, and the aroma of his sanctity. He was canonized by Pope John Paul II in 2002. His feast day is September 23.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — The Stigmata", "Blocks": [
+      { "Type": "H2", "Text": "Day 1 — September 14", "Order": 1 },
+      { "Type": "Paragraph", "Text": "On September 20, 1918, after Padre Pio's Mass, he received the visible stigmata — the five wounds of Christ — on his hands, feet, and side. He bore them for 50 years until his death, when they disappeared. He said the wounds were a source of both suffering and joy.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O St. Padre Pio, you participated so deeply in the sufferings of Christ that His wounds appeared in your body. Help us to unite our own sufferings — however small — to the Cross of Jesus.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "When we suffer, remind us that suffering united to Christ is not wasted but redemptive. Obtain for us the grace to carry our cross with love. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — Confessor of the World", "Blocks": [
+      { "Type": "H2", "Text": "Day 2 — September 15", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Padre Pio spent up to 16 hours a day in the confessional. Millions came from around the world to confess their sins to him. He had the gift of reading souls — knowing sins that penitents had not confessed. He was known to weep for the sins of others.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Padre Pio, you showed the world the healing power of the sacrament of Confession. Obtain for us a deep sense of our sinfulness and an equally deep trust in God's mercy.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May we approach the confessional regularly and with genuine contrition, and may we receive its grace with humility and gratitude. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — Pray, Hope, and Don't Worry", "Blocks": [
+      { "Type": "H2", "Text": "Day 3 — September 16", "Order": 1 },
+      { "Type": "Quote", "Text": "\"Pray, hope, and don't worry. Worry is useless. God is merciful and will hear your prayer.\" — St. Padre Pio", "Order": 2 },
+      { "Type": "Paragraph", "Text": "This simple counsel — \"Pray, hope, and don't worry\" — has comforted millions. It is not passivity but the active trust of a child in a loving Father.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "St. Padre Pio, you faced great suffering, opposition, and spiritual trial — yet you were always joyful and at peace. Obtain for us your gift of trust.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Help us to pray with confidence, hope without reservation, and to let go of anxiety, trusting that our Father knows what we need before we ask. Amen.", "Order": 7 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — The Mysteries of Prayer", "Blocks": [
+      { "Type": "H2", "Text": "Day 4 — September 17", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Padre Pio reportedly said: \"More things are wrought by prayer than this world dreams of.\" He dedicated the last years of his life to building the House for the Relief of Suffering — a hospital born from prayer and sacrifice.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Padre Pio, great man of prayer, teach us to pray. Not just to say prayers, but to truly encounter God in prayer. Help us to find time each day for genuine conversation with God.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Intercede for those who feel their prayers are not heard, and deepen in all of us the conviction that prayer changes everything. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — Spiritual Direction", "Blocks": [
+      { "Type": "H2", "Text": "Day 5 — September 18", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Padre Pio was a gifted spiritual director. He could see clearly into souls and give each person precisely what they needed — encouragement, challenge, consolation, or correction. Many of his spiritual children became saints.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Padre Pio, guide us from heaven as you guided so many on earth. Help us to find good spiritual direction and to be open to the guidance of God through the Church, Scripture, and prayer.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "For those who feel spiritually lost or abandoned, be their guide. Lead us all on the path that leads to eternal life. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — The Aroma of Sanctity", "Blocks": [
+      { "Type": "H2", "Text": "Day 6 — September 19", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Those near Padre Pio often reported a beautiful fragrance — of flowers or incense — even when no such source existed. This is called the \"odor of sanctity\" and has been reported with many saints as a supernatural sign of God's presence.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Padre Pio, you were so filled with God's life that His presence was almost tangible around you. Help us to cultivate the interior life so that we too may carry the fragrance of Christ wherever we go.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May our words, attitudes, and presence be a sweet fragrance of Christ to everyone we meet. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — Suffering and Joy", "Blocks": [
+      { "Type": "H2", "Text": "Day 7 — September 20", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Despite intense suffering — the stigmata, the opposition of religious authorities for years, dark nights of the soul — Padre Pio was full of joy. He joked with his spiritual children, laughed frequently, and radiated a peace that drew people to God.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Padre Pio, you show us that joy is not the absence of suffering but the fruit of union with Christ. Obtain for us that deep joy which the world cannot give or take away.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Help us to carry our crosses with a cheerful heart, knowing that the God who loves us is with us in every trial. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — The House of Relief", "Blocks": [
+      { "Type": "H2", "Text": "Day 8 — September 21", "Order": 1 },
+      { "Type": "Paragraph", "Text": "\"Casa Sollievo della Sofferenza\" (House for the Relief of Suffering), the hospital Padre Pio built at San Giovanni Rotondo, opened in 1956. It was born from decades of prayer and sacrifice. Today it is one of Italy's largest hospitals. He said: \"Pain is the greatest grace God can give man.\"", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Padre Pio, you saw in every sick person the suffering Christ and moved to help them. Intercede for all the sick and dying today, that they may receive the care they need and the comfort of God's presence.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Pray for doctors, nurses, and all healthcare workers, that they may serve with dedication and compassion. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Feast of St. Padre Pio", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — September 22 (Vigil)", "Order": 1 },
+      { "Type": "H3", "Text": "Tomorrow is the Feast of St. Padre Pio", "Order": 2 },
+      { "Type": "Paragraph", "Text": "We conclude this novena on the eve of the feast of St. Padre Pio. He died on September 23, 1968, saying \"Jesus, Mary.\" His last words were a summary of his life.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "O St. Padre Pio, wonderful worker of God, full of love for God and for all creatures, we bring our petitions to you with confidence. You know what it is to struggle, to suffer, and to trust.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Carry our needs before the throne of God, and obtain for us the graces we need. Above all, pray that we may become saints — through the little ways of daily love and fidelity. Amen.", "Order": 7 },
+      { "Type": "Paragraph", "Text": "St. Padre Pio, pray for us!", "FontStyle": "Bold", "Alignment": "Center", "Order": 8 }
+    ]}
+  ]
+}

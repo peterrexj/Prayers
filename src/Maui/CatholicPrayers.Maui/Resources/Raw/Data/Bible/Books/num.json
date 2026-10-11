@@ -1,0 +1,43 @@
+{
+  "Id": "num",
+  "Title": "Numbers",
+  "Abbreviation": "Num",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 6,
+      "Verses": [
+        {
+          "VerseNumber": 24,
+          "Text": "The LORD bless you and keep you!"
+        },
+        {
+          "VerseNumber": 25,
+          "Text": "The LORD let his face shine upon you, and be gracious to you!"
+        },
+        {
+          "VerseNumber": 26,
+          "Text": "The LORD look upon you kindly and give you peace!"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 14,
+      "Verses": [
+        {
+          "VerseNumber": 18,
+          "Text": "The LORD is slow to anger and abounding in kindness, forgiving iniquity and rebellion."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 21,
+      "Verses": [
+        {
+          "VerseNumber": 8,
+          "Text": "Make a seraph and mount it on a pole, and everyone who has been bitten will look at it and recover."
+        }
+      ]
+    }
+  ]
+}

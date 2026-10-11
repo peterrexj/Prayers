@@ -1,0 +1,30 @@
+{
+  "Id": "rut",
+  "Title": "Ruth",
+  "Abbreviation": "Ruth",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 16,
+          "Text": "Wherever you go I will go, wherever you lodge I will lodge. Your people shall be my people and your God my God."
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "Where you die I will die, and there be buried. May the LORD do thus to me, and more, if even death separates me from you!"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 14,
+          "Text": "Blessed is the LORD who has not failed to provide you today with a redeemer. May he become famous in Israel!"
+        }
+      ]
+    }
+  ]
+}

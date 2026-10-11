@@ -1,0 +1,26 @@
+{
+  "Id": "jos",
+  "Title": "Joshua",
+  "Abbreviation": "Josh",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 9,
+          "Text": "I command you: be strong and steadfast! Do not be frightened or dismayed, for the LORD, your God, is with you wherever you go."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 24,
+      "Verses": [
+        {
+          "VerseNumber": 15,
+          "Text": "If it is displeasing to you to serve the LORD, choose today whom you will serve, the gods your ancestors served beyond the River or the gods of the Amorites in whose country you are dwelling. As for me and my household, we will serve the LORD."
+        }
+      ]
+    }
+  ]
+}

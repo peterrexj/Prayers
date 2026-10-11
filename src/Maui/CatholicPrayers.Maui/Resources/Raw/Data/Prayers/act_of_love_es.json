@@ -1,0 +1,39 @@
+{
+  "Id": "act_of_love",
+  "Title": "Acto de Amor",
+  "Subtitle": "Oración de Caridad",
+  "Format": "SinglePage",
+  "AccentColor": "#E91E63",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Acto de Amor",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Acto de Amor"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Señor Dios mío, os amo sobre todas las cosas\ncon toda mi alma, con todo mi corazón\ny con todas mis fuerzas,\nporque sois infinitamente bueno\ny digno de todo amor.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Amo también a mi prójimo como a mí mismo\npor amor a Vos.\nPerdono a todos los que me han ofendido\ny pido perdón a quienes he ofendido.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

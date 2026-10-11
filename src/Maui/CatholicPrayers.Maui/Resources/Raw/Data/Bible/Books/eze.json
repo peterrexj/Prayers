@@ -1,0 +1,51 @@
+{
+  "Id": "eze",
+  "Title": "Ezekiel",
+  "Abbreviation": "Ezek",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 17,
+          "Text": "Son of man, I have made you a watchman for the house of Israel."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 36,
+      "Verses": [
+        {
+          "VerseNumber": 25,
+          "Text": "I will sprinkle clean water over you to make you clean."
+        },
+        {
+          "VerseNumber": 26,
+          "Text": "I will give you a new heart, and a new spirit I will put within you. I will remove the heart of stone from your flesh and give you a heart of flesh."
+        },
+        {
+          "VerseNumber": 27,
+          "Text": "I will put my spirit within you so that you walk in my statutes, observe my ordinances, and keep them."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 37,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "The hand of the LORD came upon me, and he led me out in the spirit of the LORD and set me in the center of the plain, which was now filled with bones."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "He asked me: Son of man, can these bones come back to life? I answered, Lord GOD, you alone know that."
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "I prophesied as he commanded me, and the breath entered them; they came to life and stood on their feet, a vast army."
+        }
+      ]
+    }
+  ]
+}

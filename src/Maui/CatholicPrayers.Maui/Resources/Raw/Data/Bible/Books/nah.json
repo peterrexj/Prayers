@@ -1,0 +1,17 @@
+{
+  "Id": "nah",
+  "Title": "Nahum",
+  "Abbreviation": "Nah",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 7,
+          "Text": "The LORD is good to those who wait for him, a refuge on the day of distress, taking care of those who look to him for protection."
+        }
+      ]
+    }
+  ]
+}

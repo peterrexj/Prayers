@@ -1,0 +1,105 @@
+{
+  "Id": "rom",
+  "Title": "Romans",
+  "Abbreviation": "Rom",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 16,
+          "Text": "For I am not ashamed of the gospel. It is the power of God for the salvation of everyone who believes."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 23,
+          "Text": "All have sinned and are deprived of the glory of God."
+        },
+        {
+          "VerseNumber": 24,
+          "Text": "They are justified freely by his grace through the redemption in Christ Jesus."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 5,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Therefore, since we have been justified by faith, we have peace with God through our Lord Jesus Christ,"
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "Not only that, but we even boast of our afflictions, knowing that affliction produces endurance,"
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "and endurance, proven character, and proven character, hope,"
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "and hope does not disappoint, because the love of God has been poured out into our hearts through the Holy Spirit that has been given to us."
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "But God proves his love for us in that while we were still sinners Christ died for us."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 8,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Hence, now there is no condemnation for those who are in Christ Jesus."
+        },
+        {
+          "VerseNumber": 28,
+          "Text": "We know that all things work for good for those who love God, who are called according to his purpose."
+        },
+        {
+          "VerseNumber": 31,
+          "Text": "What then shall we say to this? If God is for us, who can be against us?"
+        },
+        {
+          "VerseNumber": 35,
+          "Text": "What will separate us from the love of Christ?"
+        },
+        {
+          "VerseNumber": 38,
+          "Text": "For I am convinced that neither death, nor life, nor angels, nor principalities, nor present things, nor future things, nor powers,"
+        },
+        {
+          "VerseNumber": 39,
+          "Text": "nor height, nor depth, nor any other creature will be able to separate us from the love of God in Christ Jesus our Lord."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 12,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "I urge you therefore, brothers, by the mercies of God, to offer your bodies as a living sacrifice, holy and pleasing to God, your spiritual worship."
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "Do not conform yourselves to this age but be transformed by the renewal of your mind, that you may discern what is the will of God, what is good and pleasing and perfect."
+        },
+        {
+          "VerseNumber": 9,
+          "Text": "Love must be sincere; hate what is evil, hold on to what is good."
+        },
+        {
+          "VerseNumber": 12,
+          "Text": "Rejoice in hope, endure in affliction, persevere in prayer."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "Id": "novena_st_michael",
+  "Title": "St. Michael the Archangel Novena",
+  "Subtitle": "Prince of the Heavenly Host",
+  "Format": "MultiPage",
+  "AccentColor": "#2C3E50",
+  "IntroText": "St. Michael the Archangel is the great prince of the heavenly host and the warrior angel who battles evil. This novena is prayed from September 20 to September 28, ending on the vigil of his feast day, September 29 (Michaelmas).",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Day 1 — Commander of the Heavenly Armies",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 1 — September 20", "Order": 1 },
+        { "Type": "H3", "Text": "Prince of the Heavenly Host", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Scripture reveals Michael as the great prince who stands guard over God's people (Daniel 12:1). In the Book of Revelation, he leads the armies of heaven against the dragon. His name means \"Who is like God?\" — a battle cry against pride.", "Order": 3 },
+        { "Type": "Quote", "Text": "\"At that time there shall arise Michael, the great prince, guardian of your people.\" — Daniel 12:1", "Order": 4 },
+        { "Type": "Divider", "Order": 5 },
+        { "Type": "H3", "Text": "Prayer", "Order": 6 },
+        { "Type": "Paragraph", "Text": "O glorious Prince of the heavenly armies, St. Michael the Archangel, defend us in the battle against principalities and powers, against the rulers of this world of darkness, against the spirits of wickedness in the high places.", "Order": 7 },
+        { "Type": "Paragraph", "Text": "Come to the aid of men, whom God has created to His image and likeness, and whom He has redeemed at so great a price from the tyranny of the devil. Holy Michael, Archangel, defend us in the hour of conflict. Amen.", "Order": 8 }
+      ]
+    },
+    {
+      "SectionId": 2,
+      "Title": "Day 2 — Defender Against Evil",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 2 — September 21", "Order": 1 },
+        { "Type": "H3", "Text": "Our protection against the devil", "Order": 2 },
+        { "Type": "Paragraph", "Text": "The Prayer to St. Michael was composed by Pope Leo XIII in 1886 after he reportedly had a vision of evil spirits attacking the Church. He ordered it to be said after every Low Mass. Though this practice ended after Vatican II, devotion to St. Michael remains strong.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "St. Michael Prayer (Pope Leo XIII)", "Order": 5 },
+        { "Type": "Paragraph", "Text": "Saint Michael the Archangel, defend us in battle. Be our protection against the wickedness and snares of the devil. May God rebuke him, we humbly pray; and do thou, O Prince of the heavenly host, by the power of God, thrust into hell Satan and all evil spirits who wander through the world seeking the ruin of souls. Amen.", "FontStyle": "Italic", "Order": 6 }
+      ]
+    },
+    {
+      "SectionId": 3,
+      "Title": "Day 3 — Patron of the Church",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 3 — September 22", "Order": 1 },
+        { "Type": "H3", "Text": "Guardian of the Church Militant", "Order": 2 },
+        { "Type": "Paragraph", "Text": "From the earliest centuries, the Church has venerated St. Michael as her protector. He is the patron of the Church Militant — the faithful on earth who struggle against sin and the forces of evil.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O most powerful Prince of the heavenly armies, defender of the faithful, guardian of the Church, we beg you to watch over the Holy Catholic Church and her members in these perilous times.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Protect the Pope, the bishops, the priests, and all the faithful from the attacks of the enemy. Let your sword of light shine in the darkness, and lead us all to victory in Christ. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 4,
+      "Title": "Day 4 — Patron of Police and Military",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 4 — September 23", "Order": 1 },
+        { "Type": "H3", "Text": "Patron of those who protect and serve", "Order": 2 },
+        { "Type": "Paragraph", "Text": "St. Michael is the patron of police officers, soldiers, paramedics, and all who put themselves in danger to protect others. As he stood guard over Israel, he watches over those who keep vigil for our safety.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "St. Michael, patron of those who guard and protect, we commend to your care all police officers, soldiers, firefighters, and first responders. Stand at their side in times of danger; strengthen them in moments of fear.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "For those who have given their lives in service, may St. Michael bear their souls safely to heaven. For those who serve today, may he be their shield and strength. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 5,
+      "Title": "Day 5 — Angel of the Last Judgment",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 5 — September 24", "Order": 1 },
+        { "Type": "H3", "Text": "He who weighs souls at the final hour", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Tradition holds that St. Michael will sound the trumpet at the Last Judgment and that he assists at the death of every soul. The Church in the Roman Rite has traditionally prayed that Michael lead the faithful to heaven.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O St. Michael, who holds the scales of divine justice, help us in our daily examination of conscience. Make us eager to repent of our sins, to receive the sacraments often, and to prepare well for the moment of our death.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "When the hour of our death arrives, stand beside us. Carry our souls safely past the temptations of the enemy and present us before the throne of God. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 6,
+      "Title": "Day 6 — The Battle in Heaven",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 6 — September 25", "Order": 1 },
+        { "Type": "H3", "Text": "Michael and the fall of Lucifer", "Order": 2 },
+        { "Type": "Paragraph", "Text": "In the Book of Revelation (12:7-9), St. Michael leads the angels of God against Satan and his followers, casting them from heaven. His battle cry — \"Who is like God?\" — is a rebuke to all pride and a call to humble submission to the Creator.", "Order": 3 },
+        { "Type": "Quote", "Text": "\"Then war broke out in heaven; Michael and his angels battled against the dragon.\" — Revelation 12:7", "Order": 4 },
+        { "Type": "Divider", "Order": 5 },
+        { "Type": "H3", "Text": "Prayer", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Mighty St. Michael, you defeated Lucifer and his pride. Defeat in us all that seeks to exalt itself above God — our vanity, our disobedience, our love of sin. Teach us true humility.", "Order": 7 },
+        { "Type": "Paragraph", "Text": "Help us to cry out with you: \"Who is like God?\" — and to mean it, surrendering our will entirely to the One who made us. Amen.", "Order": 8 }
+      ]
+    },
+    {
+      "SectionId": 7,
+      "Title": "Day 7 — Spiritual Warfare",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 7 — September 26", "Order": 1 },
+        { "Type": "H3", "Text": "Put on the armor of God", "Order": 2 },
+        { "Type": "Paragraph", "Text": "St. Paul tells us that our struggle is not against flesh and blood but against spiritual forces. St. Michael arms us in this warfare. The \"armor of God\" — truth, righteousness, faith, salvation, the Word — is our equipment for battle.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "St. Michael, teach us to be vigilant against the three sources of evil — the world, the flesh, and the devil. Help us to keep custody of our eyes, guard our hearts, and flee near occasions of sin.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Arm us with prayer, fasting, and the sacraments. Let the sign of the Cross be our weapon and the Holy Name of Jesus our war cry. St. Michael, captain of the Lord's army, pray for us. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 8,
+      "Title": "Day 8 — Apparitions of St. Michael",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 8 — September 27", "Order": 1 },
+        { "Type": "H3", "Text": "Monte Gargano and Mont Saint-Michel", "Order": 2 },
+        { "Type": "Paragraph", "Text": "St. Michael has appeared many times in history. The most famous are at Monte Gargano in Italy (490 AD) and at Mont Saint-Michel in Normandy, France (708 AD). His apparitions always came with a call to defend the faith and trust in God's power.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "Great Archangel St. Michael, you have shown yourself to God's people across the centuries. We ask you to make your powerful presence felt in our lives. Be the heavenly warrior who fights for us when we are weak.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "As pilgrims have sought healing and grace at your shrines, may we too receive from God, through your intercession, whatever we need for our souls. St. Michael, intercede for us. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 9,
+      "Title": "Day 9 — Michaelmas Eve",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 9 — September 28 (Vigil of the Feast)", "Order": 1 },
+        { "Type": "H3", "Text": "On the eve of Michaelmas", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Tomorrow the Church celebrates the feast of the Archangels Michael, Gabriel, and Raphael. We conclude this novena by placing ourselves under St. Michael's powerful protection and asking his intercession for our deepest needs.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O glorious St. Michael, Prince of the Angels, guardian of the Church, champion of God's people — we have spent these nine days seeking your intercession. We thank you for your watchful care over us.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "On this vigil of your feast, we ask you to carry our petitions before the throne of God. May His will be done in our lives, may we be faithful until the end, and may you one day escort our souls to the eternal kingdom. Amen.", "Order": 7 },
+        { "Type": "Spacer", "Order": 8 },
+        { "Type": "Paragraph", "Text": "St. Michael the Archangel, pray for us!", "FontStyle": "Bold", "Alignment": "Center", "Order": 9 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "Id": "2sa",
+  "Title": "2 Samuel",
+  "Abbreviation": "2Sam",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 7,
+      "Verses": [
+        {
+          "VerseNumber": 12,
+          "Text": "When your days have been completed and you rest with your ancestors, I will raise up your offspring after you, sprung from your loins, and I will establish his kingdom."
+        },
+        {
+          "VerseNumber": 16,
+          "Text": "Your house and your kingdom are firm forever before me; your throne shall be firmly established forever."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 12,
+      "Verses": [
+        {
+          "VerseNumber": 13,
+          "Text": "David said to Nathan, I have sinned against the LORD. Nathan answered David: The LORD has forgiven your sin; you shall not die."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 22,
+      "Verses": [
+        {
+          "VerseNumber": 2,
+          "Text": "The LORD is my rock, my fortress, my deliverer, my God, my rock of refuge."
+        }
+      ]
+    }
+  ]
+}

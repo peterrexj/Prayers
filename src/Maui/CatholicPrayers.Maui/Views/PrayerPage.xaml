@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:CatholicPrayers.Maui.Controls"
+             xmlns:vm="clr-namespace:CatholicPrayers.Maui.ViewModels"
+             xmlns:models="clr-namespace:CatholicPrayers.Maui.Models"
+             xmlns:converters="clr-namespace:CatholicPrayers.Maui.Converters"
+             x:Class="CatholicPrayers.Maui.Views.PrayerPage"
+             x:DataType="vm:PrayerViewModel"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="{DynamicResource PrayAppPageBgColor}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:InvertBoolConverter x:Key="InvertBool" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="Auto,Auto,*,Auto">
+
+        <!-- ── Prayer background image (very low opacity, spans full page) ── -->
+        <Image Grid.RowSpan="4"
+               Source="{Binding BackgroundImageSource}"
+               Aspect="AspectFill"
+               Opacity="0.07"
+               InputTransparent="True"
+               HorizontalOptions="Fill"
+               VerticalOptions="Fill" />
+
+        <!-- ── Top toolbar ── -->
+        <Border Grid.Row="0"
+                BackgroundColor="{DynamicResource PrayAppToolbarBgColor}"
+                Stroke="{DynamicResource PrayAppToolbarBorderColor}"
+                StrokeThickness="0,0,0,1"
+                StrokeShape="Rectangle"
+                Padding="8,8,8,8">
+            <Grid ColumnDefinitions="Auto,*,Auto,Auto,Auto,Auto">
+
+                <!-- Home button -->
+                <Button Grid.Column="0"
+                        Text="&#xf015;"
+                        FontFamily="FontAwesome5Solid"
+                        FontSize="18"
+                        BackgroundColor="Transparent"
+                        TextColor="{DynamicResource PrayAppAccentColor}"
+                        Command="{Binding GoHomeCommand}"
+                        HeightRequest="44"
+                        WidthRequest="44"
+                        Padding="0"
+                        ToolTipProperties.Text="Go to Home" />
+
+                <!-- Title -->
+                <StackLayout Grid.Column="1"
+                             VerticalOptions="Center"
+                             Margin="4,0"
+                             Spacing="0">
+                    <Label Text="{Binding PageTitle}"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="{DynamicResource PrayAppH1TextColor}"
+                           MaxLines="1"
+                           LineBreakMode="TailTruncation" />
+                    <Label Text="{Binding PageSubtitle}"
+                           FontSize="12"
+                           TextColor="{DynamicResource PrayAppSubtitleTextColor}"
+                           MaxLines="1"
+                           LineBreakMode="TailTruncation" />
+                </StackLayout>
+
+                <!-- Favourite heart -->
+                <Button Grid.Column="2"
+                        x:Name="favButton"
+                        Text="&#xf004;"
+                        FontFamily="FontAwesome5Solid"
+                        FontSize="18"
+                        BackgroundColor="Transparent"
+                        TextColor="{DynamicResource PrayAppSubtitleTextColor}"
+                        Command="{Binding ToggleFavouriteCommand}"
+                        HeightRequest="44"
+                        WidthRequest="44"
+                        Padding="0"
+                        ToolTipProperties.Text="Favourite">
+                    <Button.Triggers>
+                        <DataTrigger TargetType="Button" Binding="{Binding IsFavourite}" Value="True">
+                            <Setter Property="TextColor" Value="#E53935" />
+                        </DataTrigger>
+                    </Button.Triggers>
+                </Button>
+
+                <!-- Decrease font -->
+                <Button Grid.Column="3"
+                        Text="&#xf031;"
+                        FontFamily="FontAwesome5Solid"
+                        FontSize="13"
+                        BackgroundColor="Transparent"
+                        TextColor="{DynamicResource PrayAppAccentColor}"
+                        Command="{Binding DecreaseFontCommand}"
+                        HeightRequest="44"
+                        WidthRequest="44"
+                        Padding="0" />
+
+                <!-- Increase font -->
+                <Button Grid.Column="4"
+                        Text="&#xf031;"
+                        FontFamily="FontAwesome5Solid"
+                        FontSize="18"
+                        BackgroundColor="Transparent"
+                        TextColor="{DynamicResource PrayAppAccentColor}"
+                        Command="{Binding IncreaseFontCommand}"
+                        HeightRequest="44"
+                        WidthRequest="44"
+                        Padding="0" />
+
+                <!-- Back to prayer list -->
+                <Button Grid.Column="5"
+                        Text="&#xf060;"
+                        FontFamily="FontAwesome5Solid"
+                        FontSize="16"
+                        BackgroundColor="Transparent"
+                        TextColor="{DynamicResource PrayAppAccentColor}"
+                        Command="{Binding GoBackCommand}"
+                        HeightRequest="44"
+                        WidthRequest="44"
+                        Padding="0"
+                        ToolTipProperties.Text="Back to prayer list" />
+            </Grid>
+        </Border>
+
+        <!-- ── Section progress dots (only for multi-section prayers) ── -->
+        <Grid Grid.Row="1"
+              x:Name="progressGrid"
+              HeightRequest="48"
+              Padding="16,8"
+              IsVisible="{Binding HasMultipleSections}" />
+
+        <!-- ── Prayer content scroll area ── -->
+        <ScrollView Grid.Row="2"
+                    x:Name="contentScroll"
+                    Padding="0">
+            <StackLayout x:Name="contentStack"
+                         Padding="20,12,20,24"
+                         Spacing="0">
+
+                <!-- Blocks populated in code-behind -->
+
+            </StackLayout>
+        </ScrollView>
+
+        <!-- ── Bottom prev/next nav ── -->
+        <Grid Grid.Row="3"
+              ColumnDefinitions="*,Auto,*"
+              Padding="16,8,16,20"
+              BackgroundColor="{DynamicResource PrayAppToolbarBgColor}"
+              IsVisible="{Binding HasMultipleSections}">
+
+            <Button Grid.Column="0"
+                    Text="&#xf053;  Previous"
+                    FontFamily="FontAwesome5Solid"
+                    Style="{DynamicResource PrayAppNavButtonStyle}"
+                    Command="{Binding GoPreviousCommand}"
+                    IsEnabled="{Binding CanGoPrevious}"
+                    BackgroundColor="{Binding CanGoPrevious, Converter={StaticResource BoolToNavBgColor}}"
+                    HorizontalOptions="Start" />
+
+            <!-- Section counter -->
+            <Label Grid.Column="1"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   TextColor="{DynamicResource PrayAppSubtitleTextColor}"
+                   FontSize="13">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="{Binding CurrentSectionNumber, StringFormat='{0}'}" />
+                        <Span Text=" / " />
+                        <Span Text="{Binding SectionCount}" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <!-- Normal Next button (hidden on last section) -->
+            <Button Grid.Column="2"
+                    Text="Next  &#xf054;"
+                    FontFamily="FontAwesome5Solid"
+                    Style="{DynamicResource PrayAppNavButtonStyle}"
+                    Command="{Binding GoNextCommand}"
+                    IsVisible="{Binding IsLastSection, Converter={StaticResource InvertBool}}"
+                    HorizontalOptions="End" />
+
+            <!-- Amen button (shown on last section only) -->
+            <Button Grid.Column="2"
+                    x:Name="amenButton"
+                    Text="Amen  &#xf004;"
+                    FontFamily="FontAwesome5Solid"
+                    FontSize="15"
+                    BackgroundColor="{DynamicResource PrayAppAccentColor}"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="44"
+                    Padding="20,0"
+                    Command="{Binding ShowAmenCommand}"
+                    IsVisible="{Binding IsLastSection}"
+                    HorizontalOptions="End" />
+        </Grid>
+
+        <!-- ── Divine fly animation overlay (non-interactive) ── -->
+        <controls:DivineFlyView Grid.RowSpan="4"
+                                x:Name="divineFlyView"
+                                InputTransparent="True" />
+
+        <!-- ── Amen completion card (shown after tapping Amen) ── -->
+        <Grid Grid.RowSpan="4"
+              x:Name="amenOverlay"
+              IsVisible="False"
+              BackgroundColor="#CC000000">
+            <Border BackgroundColor="{DynamicResource PrayAppCardBgColor}"
+                    Stroke="{DynamicResource PrayAppAccentColor}"
+                    StrokeThickness="1.5"
+                    StrokeShape="RoundRectangle 24"
+                    Padding="32,36"
+                    Margin="32,0"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Center">
+                <StackLayout Spacing="16" HorizontalOptions="Center">
+                    <Label x:Name="amenIconLabel"
+                           Text="&#xf684;"
+                           FontFamily="FontAwesome5Solid"
+                           FontSize="52"
+                           TextColor="{DynamicResource PrayAppAccentColor}"
+                           HorizontalTextAlignment="Center" />
+                    <Label Text="Prayer Complete"
+                           FontSize="22"
+                           FontAttributes="Bold"
+                           TextColor="{DynamicResource PrayAppH1TextColor}"
+                           HorizontalTextAlignment="Center" />
+                    <Label x:Name="amenBlessingLabel"
+                           Text="May God bless you."
+                           FontSize="16"
+                           TextColor="{DynamicResource PrayAppBodyTextColor}"
+                           HorizontalTextAlignment="Center"
+                           LineHeight="1.5" />
+                    <Button Text="Go Home"
+                            FontSize="15"
+                            BackgroundColor="{DynamicResource PrayAppAccentColor}"
+                            TextColor="White"
+                            CornerRadius="20"
+                            HeightRequest="44"
+                            Padding="24,0"
+                            Margin="0,8,0,0"
+                            Clicked="OnAmenGoHomeClicked" />
+                </StackLayout>
+            </Border>
+        </Grid>
+
+        <!-- Loading overlay -->
+        <Grid Grid.RowSpan="4"
+              IsVisible="{Binding IsBusy}"
+              BackgroundColor="#80000000">
+            <ActivityIndicator IsRunning="{Binding IsBusy}"
+                               Color="{DynamicResource PrayAppAccentColor}"
+                               HeightRequest="48"
+                               WidthRequest="48"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" />
+        </Grid>
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:CatholicPrayers.Maui.Views"
+       x:Class="CatholicPrayers.Maui.AppShell"
+       Shell.FlyoutBehavior="Flyout"
+       Shell.BackgroundColor="{DynamicResource PrayAppShellBgColor}"
+       Shell.ForegroundColor="{DynamicResource PrayAppShellFgColor}"
+       Shell.TitleColor="{DynamicResource PrayAppShellTitleColor}"
+       Shell.DisabledColor="{DynamicResource PrayAppNavButtonDisabledFgColor}"
+       Shell.UnselectedColor="{DynamicResource PrayAppSubtitleTextColor}"
+       Shell.FlyoutBackgroundColor="{DynamicResource PrayAppPageBgColor}"
+       Shell.TabBarBackgroundColor="{DynamicResource PrayAppShellBgColor}"
+       Shell.TabBarForegroundColor="{DynamicResource PrayAppShellFgColor}"
+       Shell.TabBarUnselectedColor="{DynamicResource PrayAppSubtitleTextColor}">
+
+    <!-- Flyout header -->
+    <Shell.FlyoutHeader>
+        <Grid HeightRequest="160"
+              BackgroundColor="{DynamicResource PrayAppPageBgColor}"
+              Padding="20,40,20,16">
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Offset="0.0" Color="{DynamicResource PrayAppShellBgColor}" />
+                    <GradientStop Offset="1.0" Color="{DynamicResource PrayAppCardBgColor}" />
+                </LinearGradientBrush>
+            </Grid.Background>
+            <StackLayout VerticalOptions="End" Spacing="4">
+                <Label Text="&#xf7a9;"
+                       FontFamily="FontAwesome5Solid"
+                       FontSize="36"
+                       TextColor="{DynamicResource PrayAppAccentColor}"
+                       HorizontalOptions="Start" />
+                <Label Text="Catholic Prayers"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="{DynamicResource PrayAppH1TextColor}" />
+                <Label Text="A treasury of sacred prayers"
+                       FontSize="13"
+                       TextColor="{DynamicResource PrayAppSubtitleTextColor}" />
+            </StackLayout>
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <!-- Dashboard -->
+    <FlyoutItem Title="Home" Route="DashboardPage">
+        <FlyoutItem.Icon>
+            <FontImageSource FontFamily="FontAwesome5Solid"
+                             Glyph="&#xf015;"
+                             Color="{DynamicResource PrayAppAccentColor}"
+                             Size="20" />
+        </FlyoutItem.Icon>
+        <ShellContent ContentTemplate="{DataTemplate views:DashboardPage}"
+                      Route="DashboardPage" />
+    </FlyoutItem>
+
+    <!-- Prayer navigation items populated in code-behind -->
+
+    <!-- Settings always at bottom -->
+    <MenuItem Text="Settings" Clicked="OnSettingsClicked">
+        <MenuItem.IconImageSource>
+            <FontImageSource FontFamily="FontAwesome5Solid"
+                             Glyph="&#xf013;"
+                             Color="{DynamicResource PrayAppAccentColor}"
+                             Size="20" />
+        </MenuItem.IconImageSource>
+    </MenuItem>
+
+</Shell>

@@ -1,0 +1,83 @@
+{
+  "Id": "novena_corpus_christi",
+  "Title": "Corpus Christi Novena",
+  "Subtitle": "Body and Blood of Christ",
+  "Format": "MultiPage",
+  "AccentColor": "#F39C12",
+  "IntroText": "The Feast of Corpus Christi (Body and Blood of Christ) was instituted by Pope Urban IV in 1264, with the liturgy composed by St. Thomas Aquinas. It celebrates the Real Presence of Christ in the Eucharist. The novena is prayed in the nine days before the feast.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — The Real Presence", "Blocks": [
+      { "Type": "H2", "Text": "Day 1", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Jesus said: \"My flesh is true food and my blood is true drink. Whoever eats my flesh and drinks my blood remains in me and I in him\" (John 6:55-56). The Eucharist is not a symbol — it is truly Jesus.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Lord Jesus, I believe that You are truly present in the Eucharist — Body, Blood, Soul, and Divinity. I adore You present in every tabernacle throughout the world.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Deepen my faith in the Real Presence. May every Mass I attend and every Communion I receive draw me ever more closely into Your life. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — The Last Supper", "Blocks": [
+      { "Type": "H2", "Text": "Day 2", "Order": 1 },
+      { "Type": "Paragraph", "Text": "On the night before He died, Jesus took bread and wine, gave thanks, and gave them to His disciples saying: \"This is my Body... This is my Blood.\" The Mass makes present that same sacrifice, on every altar, every day.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Lord Jesus, You gave us the Eucharist as the greatest expression of Your love. Help us to receive it worthily, frequently, and with growing love. May Holy Communion never become routine for us but always be a personal encounter with You.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Thank You for the gift of the Mass. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — Bread of Angels", "Blocks": [
+      { "Type": "H2", "Text": "Day 3", "Order": 1 },
+      { "Type": "Paragraph", "Text": "St. Thomas Aquinas wrote in the Pange Lingua: \"Tantum ergo Sacramentum veneremur cernui\" — \"Down in adoration falling, Lo! the sacred Host we hail.\" He calls the Eucharist \"Panis angelicus\" — the Bread of Angels.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O Bread of Angels and food of pilgrims, we receive You in our weakness and unworthiness. Yet You come to us — the Lord of all creation entering our small and imperfect hearts.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Make us worthy of You. Purify us. Feed us with Your own life so that we may become what we receive. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — Eucharistic Adoration", "Blocks": [
+      { "Type": "H2", "Text": "Day 4", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Eucharistic Adoration — spending time in prayer before the Blessed Sacrament in a monstrance — has been called by many saints the most powerful form of prayer. St. John Paul II said it was the spiritual source of his pontificate.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Lord Jesus, present in the Blessed Sacrament, draw us to spend time before You in adoration. In our noisy, busy world, You wait for us in the silence of the tabernacle.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Teach us to be still before You — to listen more than we speak, to receive more than we give, and to let Your presence heal and transform us from within. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — First Holy Communion", "Blocks": [
+      { "Type": "H2", "Text": "Day 5", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The memory of First Holy Communion stays with many Catholics all their lives — the first time they received Jesus in the Eucharist. For many it was the most spiritually significant moment of their childhood. That grace is still available.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Lord Jesus, I want to receive You today with the faith and simplicity of my First Communion. Renew in me the awe and joy of that first encounter. May my faith in the Eucharist never grow cold.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "We pray for all children preparing for First Communion — that their hearts may be well prepared and that this encounter may transform their lives. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — Viaticum", "Blocks": [
+      { "Type": "H2", "Text": "Day 6", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Eucharist given to the dying is called Viaticum — \"food for the journey.\" It is the greatest gift the Church gives to those near death. The body of the Lord accompanies the dying soul on its passage to eternity.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Lord Jesus, You promised that whoever eats Your flesh and drinks Your blood has eternal life and You will raise them up on the last day. Give us a great love for Viaticum — Your Body as food for our final journey.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May no Catholic die without receiving You in their last hours. And when our time comes, may You be the last taste on our lips and the first face we see in eternity. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — Eucharistic Miracles", "Blocks": [
+      { "Type": "H2", "Text": "Day 7", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Throughout history, there have been hundreds of documented Eucharistic miracles — hosts that have bled, levitated, sustained life, or been recovered from catastrophes miraculously intact. They are God's signs to strengthen wavering faith.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Lord Jesus, You have confirmed the faith of Your Church through Eucharistic miracles. For those who struggle to believe in the Real Presence, grant the grace of faith.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "And for those of us who believe, deepen our faith until it becomes a living fire that transforms our lives and those around us. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — The Mass", "Blocks": [
+      { "Type": "H2", "Text": "Day 8", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Mass is the most important act in the universe — the sacrifice of Christ made present on the altar. Every other prayer derives its power from the Mass. The saints said that one Mass is worth more than all other prayers and penances combined.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Eternal Father, we offer You the Body and Blood, Soul and Divinity of Your dearly beloved Son, Our Lord Jesus Christ, in atonement for our sins and those of the whole world.", "FontStyle": "Italic", "Order": 5 },
+      { "Type": "Paragraph", "Text": "For the sake of His sorrowful Passion, have mercy on us and on the whole world. Amen.", "FontStyle": "Italic", "Order": 6 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Vigil of Corpus Christi", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — Vigil of the Feast", "Order": 1 },
+      { "Type": "H3", "Text": "Tomorrow we celebrate the Body of Christ", "Order": 2 },
+      { "Type": "Paragraph", "Text": "Tomorrow the Church processes through the streets with the Blessed Sacrament, proclaiming to the world that Christ is truly present in the Eucharist. We conclude our novena with profound gratitude for this most holy gift.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Tantum Ergo (St. Thomas Aquinas)", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Down in adoration falling, Lo! the sacred Host we hail, Lo! o'er ancient forms departing, Newer rites of grace prevail; Faith for all defects supplying, Where the feeble senses fail.", "FontStyle": "Italic", "Order": 6 },
+      { "Type": "Paragraph", "Text": "To the everlasting Father, And the Son who reigns on high, With the Holy Ghost proceeding Forth from Each eternally, Be salvation, honor, blessing, Might and endless majesty. Amen.", "FontStyle": "Italic", "Order": 7 }
+    ]}
+  ]
+}

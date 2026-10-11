@@ -1,0 +1,84 @@
+{
+  "Id": "novena_st_therese",
+  "Title": "St. Thérèse of Lisieux Novena",
+  "Subtitle": "The Little Flower",
+  "Format": "MultiPage",
+  "AccentColor": "#E91E63",
+  "IntroText": "St. Thérèse of Lisieux (1873–1897) was a Carmelite nun who died at 24 but became one of the most beloved saints in history. Her \"Little Way\" — doing small things with great love — is a spirituality for everyone. She promised to spend her heaven doing good on earth. Her feast is October 1.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — The Little Way", "Blocks": [
+      { "Type": "H2", "Text": "Day 1 — September 23", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Thérèse discovered that holiness does not require great deeds — only great love. She wrote: \"My way is all confidence and love. I do not understand souls who are afraid of so loving a Friend.\"", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Dear St. Thérèse, the Little Flower, please pick me a rose from the heavenly garden and send it to me with a message of love. Ask God to grant me the favor I thee implore, and tell Him I will love Him each day more and more.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Teach me your \"little way\" — to do small things with great love, to accept humiliations with peace, and to trust like a child in our heavenly Father's arms. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — Confidence in God's Mercy", "Blocks": [
+      { "Type": "H2", "Text": "Day 2 — September 24", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Thérèse taught that the surest way to God is confidence. She said: \"It is not because I have been preserved from mortal sin that I go to God with confidence and love. I feel that even if I had on my conscience every crime possible, I would lose nothing of my confidence.\"", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Thérèse, help us to approach God with the confidence of a child running to a loving parent. When we are burdened by our sins and failings, remind us that God's mercy is greater than all our weakness.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Obtain for us a deep and unshakeable trust in God's love, that we may never be paralyzed by fear or discouragement. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — Suffering with Love", "Blocks": [
+      { "Type": "H2", "Text": "Day 3 — September 25", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Thérèse suffered greatly — from tuberculosis, from spiritual darkness, and from the doubts against faith that tormented her final months. Yet she never lost her joy or her trust. She offered it all for love of God and souls.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Little Flower, you suffered much in your short life but offered it all with love. Help us to unite our sufferings to the Cross of Christ and to see in them a share in His redemptive work.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "When we are sick, sad, or misunderstood, give us your spirit of loving surrender. May we say with you: \"I accept everything.\" Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — Missionary from Heaven", "Blocks": [
+      { "Type": "H2", "Text": "Day 4 — September 26", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Thérèse was declared co-patron of missionaries — though she never left her convent. She prayed fervently for missionaries, especially Fr. Adolphe Roulland. She wrote: \"I shall spend my heaven doing good on earth. I will let fall a shower of roses.\"", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Thérèse, co-patron of missionaries, intercede for all who proclaim the Gospel in difficult places. Shower your roses of grace upon them, and upon those who have not yet heard of God's love.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Help us too to be missionaries in our own small sphere — by our prayer, our witness, and our kindness. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — The Story of a Soul", "Blocks": [
+      { "Type": "H2", "Text": "Day 5 — September 27", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Thérèse was ordered by her superior to write her autobiography. What she wrote — \"The Story of a Soul\" — has been translated into 60+ languages and has led millions to God. She wrote it with great simplicity and transparency, holding nothing back.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Thérèse, your spiritual autobiography has brought so many souls to God. Help us to be open to the grace that moves through the writings of the saints — to read and be transformed.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Give us the simplicity and humility to recognize our own weakness, and the trust to give it all to God. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — Love for the Church", "Blocks": [
+      { "Type": "H2", "Text": "Day 6 — September 28", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Thérèse wrote: \"In the heart of the Church, I will be love.\" She understood that the Church needs not only great missionaries and martyrs but also those who love — and that love is the most important vocation of all.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Thérèse, you discovered that your vocation was to love. Help us to discover ours — and then to fulfill it with the same generous abandonment that marked your life.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Intercede for the Church, that it may always be animated by love — love for God, for the poor, for sinners, and for all peoples. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — Doctor of the Church", "Blocks": [
+      { "Type": "H2", "Text": "Day 7 — September 29", "Order": 1 },
+      { "Type": "Paragraph", "Text": "In 1997, Pope John Paul II declared Thérèse a Doctor of the Church — the youngest person and third woman to receive that title. Her theology of love and mercy, though expressed simply, is profound and has transformed countless lives.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Little Doctor of the Church, guide us in the science of love — the only science that really matters. Let your writings be a light on our path and your example an encouragement to our weakness.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Teach the Church always that the greatest path to God is not complexity but simplicity — the simplicity of a child's trust. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — The Roses", "Blocks": [
+      { "Type": "H2", "Text": "Day 8 — September 30", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Thérèse promised: \"After my death, I will let fall a shower of roses.\" Many have reported receiving roses — real or symbolic — as a sign of her intercession. She is the most popular saint in the world for this reason.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Thérèse, you promised to send us roses from heaven. We do not ask for signs, but we ask for the substance behind the sign — your powerful intercession with God for our needs.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "In your charity, remember us before God. Obtain for us the grace we need, and above all the grace of final perseverance. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Feast of the Little Flower", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — Vigil of October 1", "Order": 1 },
+      { "Type": "H3", "Text": "Tomorrow is the Feast of St. Thérèse", "Order": 2 },
+      { "Type": "Paragraph", "Text": "We conclude this novena on the eve of the feast of St. Thérèse. Nine days of prayer have brought us closer to her Little Way — and through her, closer to God.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "O Little Flower, God chose you — young, hidden, and unrecognized — to show the world the power of love. Your life proves that holiness is not about great deeds but about a great heart.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Intercede for us as we attempt our own little way. When we fail, help us rise. When we succeed, keep us humble. And when we reach the end of our road, welcome us into that heaven where you spend your eternity doing good on earth. Amen.", "Order": 7 },
+      { "Type": "Paragraph", "Text": "St. Thérèse of the Child Jesus, pray for us!", "FontStyle": "Bold", "Alignment": "Center", "Order": 8 }
+    ]}
+  ]
+}

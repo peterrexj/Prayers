@@ -1,0 +1,63 @@
+{
+  "Id": "come_holy_spirit",
+  "Title": "Ven, Espíritu Santo",
+  "Subtitle": "Secuencia de Pentecostés",
+  "Format": "SinglePage",
+  "AccentColor": "#FF6B35",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Ven, Espíritu Santo",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Ven, Espíritu Santo"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Ven, Espíritu Santo,\nenvía desde el cielo\nun rayo de tu luz.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Ven, Padre de los pobres;\nven, dador de dones;\nven, luz de los corazones.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Consolador perfecto,\nhospedero dulce del alma,\nrefrigerio en el ardor.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 5,
+          "Text": "En el trabajo, descanso;\nen el ardor, frescor;\nen el llanto, consuelo.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 6,
+          "Text": "Lava lo que está sucio,\nriega lo que está árido,\nsana lo que está enfermo.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 7,
+          "Text": "Dobla lo que está rígido,\ncalienta lo que está frío,\nendireza lo que está torcido.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 8,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

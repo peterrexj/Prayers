@@ -1,0 +1,26 @@
+{
+  "Id": "2ki",
+  "Title": "2 Kings",
+  "Abbreviation": "2Kgs",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 11,
+          "Text": "As they were walking along and talking, a fiery chariot and fiery horses came between them, and Elijah went up to heaven in a whirlwind."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 5,
+      "Verses": [
+        {
+          "VerseNumber": 14,
+          "Text": "So Naaman went down and plunged into the Jordan seven times, as the man of God had said. His flesh became again like the flesh of a little child, and he was clean."
+        }
+      ]
+    }
+  ]
+}

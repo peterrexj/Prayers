@@ -1,0 +1,45 @@
+{
+  "Id": "memorare",
+  "Title": "Memorare",
+  "Subtitle": "Oratio S. Bernardi",
+  "Format": "SinglePage",
+  "AccentColor": "#E67E22",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Memorare",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Text": "Memorare",
+          "Order": 1
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Memorare, O piissima Virgo Maria,\nnon esse auditum a saeculo,\nquemquam ad tua currentem praesidia,\ntua implorantem auxilia,\ntua petentem suffragia,\nesse derelictum.",
+          "FontStyle": "Italic",
+          "Order": 2
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Ego tali animatus confidentia,\nad te, Virgo Virginum, Mater, curro,\nad te venio, coram te gemens\npeccator assisto.",
+          "FontStyle": "Italic",
+          "Order": 3
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Noli, Mater Verbi, verba mea despicere;\nsed audi propitia et exaudi.",
+          "FontStyle": "Italic",
+          "Order": 4
+        },
+        {
+          "Type": "Paragraph",
+          "Text": "Amen.",
+          "FontStyle": "Bold",
+          "Alignment": "Center",
+          "Order": 5
+        }
+      ]
+    }
+  ]
+}

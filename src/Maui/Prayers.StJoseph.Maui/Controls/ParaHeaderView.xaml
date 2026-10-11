@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="Prayers.StJoseph.Maui.Controls.ParaHeaderView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Border
+        x:Name="headerBorder"
+        Margin="10"
+        Padding="10"
+        StrokeThickness="2"
+        StrokeShape="RoundRectangle 10">
+        <Label
+            x:Name="lblContent"
+            FontAttributes="Bold"
+            FontFamily="OpenSansSemibold"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            VerticalOptions="Center" />
+    </Border>
+</ContentView>

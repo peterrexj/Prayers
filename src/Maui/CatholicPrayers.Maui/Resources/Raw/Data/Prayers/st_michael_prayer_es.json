@@ -1,0 +1,39 @@
+{
+  "Id": "st_michael_prayer",
+  "Title": "Oración a San Miguel Arcángel",
+  "Subtitle": "La Exorcización del Papa León XIII",
+  "Format": "SinglePage",
+  "AccentColor": "#1565C0",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Oración a San Miguel",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Oración a San Miguel Arcángel"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "San Miguel Arcángel, defiéndenos en la batalla.\nSé nuestro amparo contra la maldad y asechanzas del demonio.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Que Dios lo reprenda, pedimos suplicantes.\nY tú, Príncipe de la Milicia Celestial,\ncon el poder que Dios te ha dado,\narroja al infierno a Satanás\ny a los otros espíritus malvados\nque vagan por el mundo buscando las almas.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

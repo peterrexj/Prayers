@@ -1,0 +1,45 @@
+{
+  "Id": "prayer_for_the_dead",
+  "Title": "Oración por los Difuntos",
+  "Subtitle": "Por las almas del Purgatorio",
+  "Format": "SinglePage",
+  "AccentColor": "#546E7A",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Por los Difuntos",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Oración por los Difuntos"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Dios de todos los que viven y de los que ya murieron,\ncreemos que nuestros hermanos difuntos viven en Ti.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Te pedimos que los admitas en tu presencia\ny les des el descanso eterno.\nQue brille para ellos la luz y la paz sin fin.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Y ya que por tu misericordia\nquizás todavía necesiten purificarse,\nconcédeles alcanzar pronto\nla plena visión de tu rostro.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 5,
+          "Text": "Descansen en paz. Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

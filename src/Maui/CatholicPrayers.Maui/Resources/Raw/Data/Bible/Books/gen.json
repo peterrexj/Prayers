@@ -1,0 +1,119 @@
+{
+  "Id": "gen",
+  "Title": "Genesis",
+  "Abbreviation": "Gen",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "In the beginning, when God created the heavens and the earth—"
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "and the earth was without form or shape, with darkness over the abyss and a mighty wind sweeping over the waters—"
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "Then God said: Let there be light, and there was light."
+        },
+        {
+          "VerseNumber": 26,
+          "Text": "Then God said: Let us make human beings in our image, after our likeness."
+        },
+        {
+          "VerseNumber": 27,
+          "Text": "God created mankind in his image; in the image of God he created them; male and female he created them."
+        },
+        {
+          "VerseNumber": 28,
+          "Text": "God blessed them and God said to them: Be fertile and multiply; fill the earth and subdue it."
+        },
+        {
+          "VerseNumber": 31,
+          "Text": "God looked at everything he had made, and found it very good."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 7,
+          "Text": "the LORD God formed the man out of the dust of the ground and blew into his nostrils the breath of life, and the man became a living being."
+        },
+        {
+          "VerseNumber": 18,
+          "Text": "The LORD God said: It is not good for the man to be alone. I will make a helper suited to him."
+        },
+        {
+          "VerseNumber": 24,
+          "Text": "That is why a man leaves his father and mother and clings to his wife, and the two of them become one body."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 15,
+          "Text": "I will put enmity between you and the woman, and between your offspring and hers; they will strike at your head, while you strike at their heel."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 12,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "The LORD said to Abram: Go forth from your land, your relatives, and from your father's house to a land that I will show you."
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "I will make of you a great nation, and I will bless you; I will make your name great, so that you will be a blessing."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 22,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Some time afterward, God put Abraham to the test and said to him: Abraham! Here I am! he replied."
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "God himself will provide the sheep for the burnt offering, my son, Abraham answered."
+        },
+        {
+          "VerseNumber": 18,
+          "Text": "In your descendants all the nations of the earth shall find blessing—because you obeyed my command."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 28,
+      "Verses": [
+        {
+          "VerseNumber": 12,
+          "Text": "He had a dream: a stairway rested on the ground, with its top reaching to the heavens; and God's angels were going up and down on it."
+        },
+        {
+          "VerseNumber": 15,
+          "Text": "I am with you and will protect you wherever you go, and bring you back to this land. I will never leave you until I have done what I promised you."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 50,
+      "Verses": [
+        {
+          "VerseNumber": 20,
+          "Text": "Even though you intended to do harm to me, God intended it for good, to accomplish what is now being done, the saving of many lives."
+        }
+      ]
+    }
+  ]
+}

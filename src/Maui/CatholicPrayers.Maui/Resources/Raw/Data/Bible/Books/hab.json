@@ -1,0 +1,30 @@
+{
+  "Id": "hab",
+  "Title": "Habakkuk",
+  "Abbreviation": "Hab",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 4,
+          "Text": "But the just one, because of his faith, shall live."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 17,
+          "Text": "For though the fig tree does not blossom, and no fruit appears on the vine, though the yield of the olive fails and the terraces produce no nourishment, though the flocks disappear from the fold and there is no herd in the stalls,"
+        },
+        {
+          "VerseNumber": 18,
+          "Text": "Yet I will rejoice in the LORD and exult in my saving God."
+        }
+      ]
+    }
+  ]
+}

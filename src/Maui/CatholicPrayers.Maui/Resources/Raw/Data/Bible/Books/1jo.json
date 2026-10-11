@@ -1,0 +1,76 @@
+{
+  "Id": "1jo",
+  "Title": "1 John",
+  "Abbreviation": "1John",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 5,
+          "Text": "Now this is the message that we have heard from him and proclaim to you: God is light, and in him there is no darkness at all."
+        },
+        {
+          "VerseNumber": 9,
+          "Text": "If we acknowledge our sins, he is faithful and just and will forgive our sins and cleanse us from every wrongdoing."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "See what love the Father has bestowed on us that we may be called the children of God. Yet so we are."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 7,
+          "Text": "Beloved, let us love one another, because love is of God; everyone who loves is begotten by God and knows God."
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "Whoever is without love does not know God, for God is love."
+        },
+        {
+          "VerseNumber": 9,
+          "Text": "In this way the love of God was revealed to us: God sent his only Son into the world so that we might have life through him."
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "In this is love: not that we have loved God, but that he loved us and sent his Son as expiation for our sins."
+        },
+        {
+          "VerseNumber": 11,
+          "Text": "Beloved, if God so loved us, we also must love one another."
+        },
+        {
+          "VerseNumber": 16,
+          "Text": "God is love, and whoever remains in love remains in God and God in him."
+        },
+        {
+          "VerseNumber": 18,
+          "Text": "There is no fear in love, but perfect love drives out fear."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 5,
+      "Verses": [
+        {
+          "VerseNumber": 3,
+          "Text": "For the love of God is this, that we keep his commandments. And his commandments are not burdensome."
+        },
+        {
+          "VerseNumber": 20,
+          "Text": "We also know that the Son of God has come and has given us discernment to know the one who is true."
+        }
+      ]
+    }
+  ]
+}

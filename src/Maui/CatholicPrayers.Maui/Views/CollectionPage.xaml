@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:CatholicPrayers.Maui.ViewModels"
+             x:Class="CatholicPrayers.Maui.Views.CollectionPage"
+             x:DataType="vm:CollectionViewModel"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="{DynamicResource PrayAppPageBgColor}">
+
+    <Grid RowDefinitions="Auto,*">
+
+        <!-- ── Toolbar ── -->
+        <Border Grid.Row="0"
+                BackgroundColor="{DynamicResource PrayAppToolbarBgColor}"
+                Stroke="{DynamicResource PrayAppToolbarBorderColor}"
+                StrokeThickness="0,0,0,1"
+                StrokeShape="Rectangle"
+                Padding="8,8,16,8">
+            <Grid ColumnDefinitions="Auto,*,Auto">
+                <Button Grid.Column="0"
+                        Text="&#xf053;"
+                        FontFamily="FontAwesome5Solid"
+                        FontSize="18"
+                        BackgroundColor="Transparent"
+                        TextColor="{DynamicResource PrayAppAccentColor}"
+                        Command="{Binding GoBackCommand}"
+                        HeightRequest="44"
+                        WidthRequest="44"
+                        Padding="0" />
+                <StackLayout Grid.Column="1" VerticalOptions="Center" Spacing="0" Margin="4,0">
+                    <Label Text="{Binding PageTitle}"
+                           FontSize="17"
+                           FontAttributes="Bold"
+                           TextColor="{DynamicResource PrayAppH1TextColor}"
+                           MaxLines="1"
+                           LineBreakMode="TailTruncation" />
+                    <Label Text="{Binding PageSubtitle}"
+                           FontSize="12"
+                           TextColor="{DynamicResource PrayAppSubtitleTextColor}"
+                           MaxLines="1"
+                           LineBreakMode="TailTruncation" />
+                </StackLayout>
+                <!-- App home -->
+                <Button Grid.Column="2"
+                        Text="&#xf015;"
+                        FontFamily="FontAwesome5Solid"
+                        FontSize="16"
+                        BackgroundColor="Transparent"
+                        TextColor="{DynamicResource PrayAppAccentColor}"
+                        Command="{Binding GoHomeCommand}"
+                        HeightRequest="44"
+                        WidthRequest="44"
+                        Padding="0" />
+            </Grid>
+        </Border>
+
+        <!-- ── Item list ── -->
+        <ScrollView Grid.Row="1">
+            <StackLayout x:Name="itemStack"
+                         Padding="16,12,16,32"
+                         Spacing="8" />
+        </ScrollView>
+
+        <!-- ── Loading overlay ── -->
+        <Grid Grid.RowSpan="2"
+              IsVisible="{Binding IsBusy}"
+              BackgroundColor="#80000000">
+            <ActivityIndicator IsRunning="{Binding IsBusy}"
+                               Color="{DynamicResource PrayAppAccentColor}"
+                               HeightRequest="48"
+                               WidthRequest="48"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" />
+        </Grid>
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,34 @@
+{
+  "Id": "gal",
+  "Title": "Galatians",
+  "Abbreviation": "Gal",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 20,
+          "Text": "Yet I live, no longer I, but Christ lives in me; insofar as I now live in the flesh, I live by faith in the Son of God who has loved me and given himself up for me."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 5,
+      "Verses": [
+        {
+          "VerseNumber": 22,
+          "Text": "In contrast, the fruit of the Spirit is love, joy, peace, patience, kindness, generosity, faithfulness,"
+        },
+        {
+          "VerseNumber": 23,
+          "Text": "gentleness, self-control. Against such there is no law."
+        },
+        {
+          "VerseNumber": 25,
+          "Text": "If we live in the Spirit, let us also follow the Spirit."
+        }
+      ]
+    }
+  ]
+}

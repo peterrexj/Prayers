@@ -1,0 +1,21 @@
+{
+  "Id": "phm",
+  "Title": "Philemon",
+  "Abbreviation": "Phlm",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 15,
+          "Text": "Perhaps this is why he was away from you for a while, that you might have him back forever,"
+        },
+        {
+          "VerseNumber": 16,
+          "Text": "no longer as a slave but better than a slave, as a dear brother."
+        }
+      ]
+    }
+  ]
+}

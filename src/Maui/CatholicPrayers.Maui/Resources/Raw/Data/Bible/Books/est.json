@@ -1,0 +1,26 @@
+{
+  "Id": "est",
+  "Title": "Esther",
+  "Abbreviation": "Esth",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 14,
+          "Text": "Who knows but that it was for a time like this that you obtained the royal dignity?"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 14,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Queen Esther, seized with mortal anguish, fled to the LORD for refuge."
+        }
+      ]
+    }
+  ]
+}

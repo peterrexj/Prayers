@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="false" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- ── Forest Theme: Dark Sacred Grove ── -->
+    <Color x:Key="PrayAppPageBgColor">#0D2818</Color>
+    <Color x:Key="PrayAppPageBgGradientStart">#0D2818</Color>
+    <Color x:Key="PrayAppPageBgGradientEnd">#1A3D24</Color>
+
+    <Color x:Key="PrayAppH1TextColor">#D4EDDA</Color>
+    <Color x:Key="PrayAppH2TextColor">#A8D5B5</Color>
+    <Color x:Key="PrayAppH3TextColor">#86C995</Color>
+    <Color x:Key="PrayAppBodyTextColor">#C8E6CC</Color>
+    <Color x:Key="PrayAppSubtitleTextColor">#6B9E78</Color>
+    <Color x:Key="PrayAppAccentColor">#4ADE80</Color>
+    <Color x:Key="PrayAppResponseTextColor">#FCD34D</Color>
+
+    <Color x:Key="PrayAppCardBgColor">#132E1C</Color>
+    <Color x:Key="PrayAppCardBorderColor">#1E5C2E</Color>
+    <Color x:Key="PrayAppCardShadowColor">#60000000</Color>
+    <Color x:Key="PrayAppCardGlowColor">#404ADE80</Color>
+
+    <Color x:Key="PrayAppTileBgGradientStart">#132E1C</Color>
+    <Color x:Key="PrayAppTileBgGradientEnd">#0D2818</Color>
+    <Color x:Key="PrayAppTileBorderColor">#1E5C2E</Color>
+    <Color x:Key="PrayAppTileIconColor">#4ADE80</Color>
+    <Color x:Key="PrayAppTileTitleColor">#D4EDDA</Color>
+
+    <Color x:Key="PrayAppNavButtonBgColor">#166534</Color>
+    <Color x:Key="PrayAppNavButtonFgColor">#D4EDDA</Color>
+    <Color x:Key="PrayAppNavButtonDisabledBgColor">#1E5C2E</Color>
+    <Color x:Key="PrayAppNavButtonDisabledFgColor">#4B6A53</Color>
+    <Color x:Key="PrayAppToolbarBgColor">#132E1C</Color>
+    <Color x:Key="PrayAppToolbarBorderColor">#1E5C2E</Color>
+
+    <Color x:Key="PrayAppShellBgColor">#0D2818</Color>
+    <Color x:Key="PrayAppShellFgColor">#C8E6CC</Color>
+    <Color x:Key="PrayAppShellTitleColor">#4ADE80</Color>
+    <Color x:Key="PrayAppShellBorderColor">#1E5C2E</Color>
+    <Color x:Key="PrayAppShellSelectedItemBgColor">#1E5C2E</Color>
+    <Color x:Key="PrayAppShellSelectedItemFgColor">#4ADE80</Color>
+
+    <Color x:Key="PrayAppStepCompletedColor">#4ADE80</Color>
+    <Color x:Key="PrayAppStepActiveColor">#FCD34D</Color>
+    <Color x:Key="PrayAppStepInactiveColor">#1E5C2E</Color>
+    <Color x:Key="PrayAppStepConnectorColor">#1E5C2E</Color>
+    <Color x:Key="PrayAppDividerColor">#1E5C2E</Color>
+
+    <Color x:Key="PrayAppSearchBgColor">#132E1C</Color>
+    <Color x:Key="PrayAppSearchTextColor">#C8E6CC</Color>
+    <Color x:Key="PrayAppSearchPlaceholderColor">#4B6A53</Color>
+    <Color x:Key="PrayAppSearchBorderColor">#1E5C2E</Color>
+
+    <Color x:Key="PrayAppSettingsSectionHeaderColor">#4ADE80</Color>
+    <Color x:Key="PrayAppSettingsRowBgColor">#132E1C</Color>
+    <Color x:Key="PrayAppSettingsLabelColor">#C8E6CC</Color>
+    <Color x:Key="PrayAppSettingsValueColor">#6B9E78</Color>
+
+    <LinearGradientBrush x:Key="PrayAppPageBgBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Offset="0.0" Color="{StaticResource PrayAppPageBgGradientStart}" />
+        <GradientStop Offset="1.0" Color="{StaticResource PrayAppPageBgGradientEnd}" />
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="PrayAppTileBgBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Offset="0.0" Color="{StaticResource PrayAppTileBgGradientStart}" />
+        <GradientStop Offset="1.0" Color="{StaticResource PrayAppTileBgGradientEnd}" />
+    </LinearGradientBrush>
+
+</ResourceDictionary>

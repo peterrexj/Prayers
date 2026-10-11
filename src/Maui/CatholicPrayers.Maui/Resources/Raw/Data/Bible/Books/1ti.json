@@ -1,0 +1,47 @@
+{
+  "Id": "1ti",
+  "Title": "1 Timothy",
+  "Abbreviation": "1Tim",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "First of all, then, I ask that supplications, prayers, petitions, and thanksgivings be offered for everyone,"
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "for kings and for all in authority, that we may lead a quiet and tranquil life in all devotion and dignity."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "For there is one God. There is also one mediator between God and the human race, Christ Jesus, himself human."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 8,
+          "Text": "For physical training is of limited benefit, but devotion is of benefit in every respect, since it holds a promise of life both for the present and for the future."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 6,
+      "Verses": [
+        {
+          "VerseNumber": 6,
+          "Text": "Indeed, religion with contentment is a great gain."
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "For the love of money is the root of all evils, and some people in their desire for it have strayed from the faith and have pierced themselves with many pains."
+        }
+      ]
+    }
+  ]
+}

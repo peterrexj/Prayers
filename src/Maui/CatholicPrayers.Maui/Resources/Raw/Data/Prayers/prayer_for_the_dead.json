@@ -1,0 +1,30 @@
+{
+  "Id": "prayer_for_the_dead",
+  "Title": "Prayer for the Dead",
+  "Subtitle": "Eternal Rest Grant Unto Them",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_candle.png",
+  "IntroText": "The Church encourages prayers for the faithful departed, that they may be purified and enter eternal life. This prayer is prayed especially on All Souls' Day and at funerals.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#607D8B",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Prayer for the Dead",
+      "Blocks": [
+        { "Type": "H1", "Text": "Prayer for the Dead", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Eternal rest grant unto them, O Lord,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "BulletItem", "BulletLabel": "R.", "Text": "And let perpetual light shine upon them.", "IsResponse": true, "Order": 4 },
+        { "Type": "Spacer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "May their souls and the souls of all the faithful departed,", "FontStyle": "Italic", "Order": 6 },
+        { "Type": "Paragraph", "Text": "through the mercy of God,", "FontStyle": "Italic", "Order": 7 },
+        { "Type": "Paragraph", "Text": "rest in peace.", "FontStyle": "Italic", "Order": 8 },
+        { "Type": "Spacer", "Order": 9 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 10 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["divine_mercy_chaplet", "rosary"]
+}

@@ -1,0 +1,84 @@
+{
+  "Id": "novena_immaculate_conception",
+  "Title": "Immaculate Conception Novena",
+  "Subtitle": "Full of grace, the Lord is with thee",
+  "Format": "MultiPage",
+  "AccentColor": "#3498DB",
+  "IntroText": "The dogma of the Immaculate Conception was defined by Pope Pius IX on December 8, 1854. It teaches that Mary was preserved from original sin from the moment of her conception. This novena is prayed from November 29 through December 7, culminating on her feast day, December 8.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — The Immaculate Conception", "Blocks": [
+      { "Type": "H2", "Text": "Day 1 — November 29", "Order": 1 },
+      { "Type": "Paragraph", "Text": "God prepared Mary from the very first moment of her existence to be the Mother of His Son. By a singular privilege, she was preserved from the stain of original sin by the merits of Christ, her future Son.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O Mary, conceived without sin, pray for us who have recourse to thee! We honor your immaculate purity and ask you to intercede for us before the throne of your Son.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "By the privilege of your Immaculate Conception, obtain for us purity of heart, that we may love God and neighbor as you loved. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — Mary, Full of Grace", "Blocks": [
+      { "Type": "H2", "Text": "Day 2 — November 30", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The angel greeted Mary as \"full of grace\" — meaning she was filled with sanctifying grace from the beginning of her existence. She is the masterpiece of God's creative love.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Hail Mary, full of grace! You were chosen from eternity to be the vessel of our salvation. Through your \"yes\" to God, the Word became flesh and dwelt among us.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Teach us to be open to grace as you were — to say \"yes\" to God in every circumstance of our lives, however difficult or unexpected His call may be. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — The Miraculous Medal", "Blocks": [
+      { "Type": "H2", "Text": "Day 3 — December 1", "Order": 1 },
+      { "Type": "Paragraph", "Text": "In 1830, Our Lady appeared to St. Catherine Labouré and showed her the Miraculous Medal. On the medal were the words: \"O Mary, conceived without sin, pray for us who have recourse to thee.\" The medal became a powerful instrument of grace worldwide.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O Mary, conceived without sin, you appeared to St. Catherine to give us the Miraculous Medal as a sign of your protection. Through this medal, many have received conversions, healings, and grace.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "We ask you to spread your mantle of protection over all who wear this medal with faith, and to obtain for us the conversion of sinners and the grace we need. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — The Lourdes Connection", "Blocks": [
+      { "Type": "H2", "Text": "Day 4 — December 2", "Order": 1 },
+      { "Type": "Paragraph", "Text": "On March 25, 1858, Our Lady appeared to Bernadette Soubirous at Lourdes and identified herself: \"I am the Immaculate Conception.\" This confirmed the dogma defined only four years earlier and gave witness that Mary herself identified with this great privilege.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O Mary, who proclaimed yourself the Immaculate Conception at Lourdes, we kneel before you in faith and love. Through the waters of Lourdes you have healed many bodies; through your intercession, heal our souls.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Bring us, like Bernadette, to a life of simplicity, humility, and prayer. May we too be found worthy of heaven through your loving intercession. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — Model of Purity", "Blocks": [
+      { "Type": "H2", "Text": "Day 5 — December 3", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Mary's immaculate heart was a heart of perfect purity — entirely ordered toward God and neighbor, free from all selfishness and sin. She is the model for all the baptized, who are called to holiness.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O most pure Virgin Mary, help us to imitate your spotless purity of heart and mind. In a world that glorifies sensuality and self-seeking, teach us to guard our hearts and love with a pure and selfless love.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Obtain for us purity in thought, in word, and in deed, that we may reflect the holiness to which God calls each of us. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — Mother of the Church", "Blocks": [
+      { "Type": "H2", "Text": "Day 6 — December 4", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Immaculate Conception prepared Mary to be both Mother of Christ and Mother of the Church. From the Cross, Jesus gave her to us as our Mother (John 19:27). She intercedes ceaselessly for her children.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Immaculate Mother Mary, you were given to us as our spiritual Mother at Calvary. As any good mother intercedes for her children, intercede for us before your divine Son.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Pray for the Church, for the Pope, for all your children throughout the world. Gather us all under your mantle and lead us to your Son. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — Preparation for Advent", "Blocks": [
+      { "Type": "H2", "Text": "Day 7 — December 5", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The feast of the Immaculate Conception falls in Advent — the season of waiting and preparation for Christmas. Mary is the perfect model of Advent: she carried the Word in her womb, and we are called to carry Him in our hearts.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O Immaculate Virgin, guide us through this Advent season as you guided the early Church in its waiting. Teach us to prepare our hearts for the coming of Christ at Christmas and at the end of time.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Help us to fast and pray, to give and forgive, to make straight the path for the Lord, that He may truly come and dwell among us. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — The New Eve", "Blocks": [
+      { "Type": "H2", "Text": "Day 8 — December 6", "Order": 1 },
+      { "Type": "Paragraph", "Text": "From early times the Church saw in Mary the fulfillment of Eve. Where Eve brought sin into the world by disobedience, Mary brought salvation through obedience. She is the New Eve, the Woman of Genesis 3:15 who crushed the serpent's head.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O New Eve, whose obedience reversed the disobedience of our first mother, help us to overcome in ourselves all the inheritance of sin. Where Eve said \"I will not serve,\" teach us to say with you, \"Be it done unto me according to Thy word.\"", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Crush by your intercession the power of the serpent in our lives, and lead us to the perfect obedience of your Son. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Vigil of the Feast", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — December 7", "Order": 1 },
+      { "Type": "H3", "Text": "Eve of the Immaculate Conception", "Order": 2 },
+      { "Type": "Paragraph", "Text": "Tomorrow the Church celebrates one of the greatest feasts of Our Lady — the Immaculate Conception. We have spent nine days meditating on this great privilege and asking for Mary's intercession.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "O Mary, on the eve of your great feast, we renew our love for you and our trust in your intercession. You were preserved from all sin by the merits of your Son; obtain for us the grace to overcome our sins and grow in holiness.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Grant the intentions we have brought to this novena, if they are according to God's will. And above all, grant us the grace of final perseverance and a holy death. Amen.", "Order": 7 },
+      { "Type": "Paragraph", "Text": "O Mary, conceived without sin, pray for us who have recourse to thee!", "FontStyle": "Bold", "Alignment": "Center", "Order": 8 }
+    ]}
+  ]
+}

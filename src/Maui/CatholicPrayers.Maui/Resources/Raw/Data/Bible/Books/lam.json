@@ -1,0 +1,33 @@
+{
+  "Id": "lam",
+  "Title": "Lamentations",
+  "Abbreviation": "Lam",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 21,
+          "Text": "But this I call to mind; therefore I have hope:"
+        },
+        {
+          "VerseNumber": 22,
+          "Text": "The LORD's acts of mercy are not exhausted, his compassion is not spent;"
+        },
+        {
+          "VerseNumber": 23,
+          "Text": "They are renewed each morning—great is your faithfulness!"
+        },
+        {
+          "VerseNumber": 24,
+          "Text": "The LORD is my portion, I tell myself, therefore I will hope in him."
+        },
+        {
+          "VerseNumber": 25,
+          "Text": "The LORD is good to those who trust in him, to the one that seeks him."
+        }
+      ]
+    }
+  ]
+}

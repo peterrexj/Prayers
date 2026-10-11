@@ -1,0 +1,30 @@
+{
+  "Id": "2mc",
+  "Title": "2 Maccabees",
+  "Abbreviation": "2Macc",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 7,
+      "Verses": [
+        {
+          "VerseNumber": 9,
+          "Text": "You accursed fiend, you dismiss us from this present life, but the King of the universe will raise us up to live again forever. It is for his laws that we are dying."
+        },
+        {
+          "VerseNumber": 28,
+          "Text": "I beg you, child, to look at the heavens and the earth and see all that is in them; then you will know that God did not make them out of existing things."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 12,
+      "Verses": [
+        {
+          "VerseNumber": 46,
+          "Text": "Thus he made atonement for the dead that they might be freed from this sin."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "Id": "deu",
+  "Title": "Deuteronomy",
+  "Abbreviation": "Deut",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 6,
+      "Verses": [
+        {
+          "VerseNumber": 4,
+          "Text": "Hear, O Israel! The LORD is our God, the LORD alone!"
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "Therefore, you shall love the LORD, your God, with your whole heart, and with your whole being, and with your whole strength."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 8,
+      "Verses": [
+        {
+          "VerseNumber": 3,
+          "Text": "He therefore let you be afflicted with hunger, and then fed you with manna, a food unknown to you and your ancestors, so you might know that it is not by bread alone that people live, but by all that comes forth from the mouth of the LORD."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 30,
+      "Verses": [
+        {
+          "VerseNumber": 19,
+          "Text": "I have today set before you life and good, death and evil. Choose life, then, that you and your descendants may live, by loving the LORD, your God, obeying his voice, and holding fast to him."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 31,
+      "Verses": [
+        {
+          "VerseNumber": 6,
+          "Text": "Be strong and steadfast; have no fear or dread of them, for it is the LORD, your God, who marches with you; he will never fail you or forsake you."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 34,
+      "Verses": [
+        {
+          "VerseNumber": 10,
+          "Text": "Since then no prophet has arisen in Israel like Moses, whom the LORD knew face to face."
+        }
+      ]
+    }
+  ]
+}

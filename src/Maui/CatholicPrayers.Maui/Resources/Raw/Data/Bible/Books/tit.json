@@ -1,0 +1,38 @@
+{
+  "Id": "tit",
+  "Title": "Titus",
+  "Abbreviation": "Tit",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 11,
+          "Text": "For the grace of God has appeared, saving all and"
+        },
+        {
+          "VerseNumber": 12,
+          "Text": "training us to reject godless ways and worldly desires and to live temperately, justly, and devoutly in this age."
+        },
+        {
+          "VerseNumber": 13,
+          "Text": "as we await the blessed hope, the appearance of the glory of the great God and of our savior Jesus Christ."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 4,
+          "Text": "But when the kindness and generous love of God our savior appeared,"
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "not because of any righteous deeds we had done but because of his mercy, he saved us through the bath of rebirth and renewal by the Holy Spirit."
+        }
+      ]
+    }
+  ]
+}

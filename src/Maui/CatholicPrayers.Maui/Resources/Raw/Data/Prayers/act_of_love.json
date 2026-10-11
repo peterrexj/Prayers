@@ -1,0 +1,32 @@
+{
+  "Id": "act_of_love",
+  "Title": "Act of Love",
+  "Subtitle": "O My God, I Love Thee",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_bg_act_of_love.png",
+  "HeaderImagePosition": "Top",
+  "IntroText": "The Act of Love (or Charity) expresses our love for God above all things, and love for our neighbour for God's sake.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#E74C3C",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Act of Love",
+      "Blocks": [
+        { "Type": "H1", "Text": "Act of Love", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "O my God, I love Thee above all things,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "with my whole heart and soul,", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "because Thou art all good and worthy of all love.", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Spacer", "Order": 6 },
+        { "Type": "Paragraph", "Text": "I love my neighbour as myself for love of Thee.", "FontStyle": "Italic", "Order": 7 },
+        { "Type": "Paragraph", "Text": "I forgive all who have injured me", "FontStyle": "Italic", "Order": 8 },
+        { "Type": "Paragraph", "Text": "and ask pardon of all whom I have injured.", "FontStyle": "Italic", "Order": 9 },
+        { "Type": "Spacer", "Order": 10 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 11 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["act_of_faith", "act_of_hope"]
+}

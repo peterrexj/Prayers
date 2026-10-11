@@ -1,0 +1,38 @@
+{
+  "Id": "1th",
+  "Title": "1 Thessalonians",
+  "Abbreviation": "1Thess",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 13,
+          "Text": "We do not want you to be unaware, brothers, about those who have fallen asleep, so that you may not grieve like the rest, who have no hope."
+        },
+        {
+          "VerseNumber": 14,
+          "Text": "For if we believe that Jesus died and rose, so too will God, through Jesus, bring with him those who have fallen asleep."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 5,
+      "Verses": [
+        {
+          "VerseNumber": 16,
+          "Text": "Rejoice always."
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "Pray without ceasing."
+        },
+        {
+          "VerseNumber": 18,
+          "Text": "In all circumstances give thanks, for this is the will of God for you in Christ Jesus."
+        }
+      ]
+    }
+  ]
+}

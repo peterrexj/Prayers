@@ -1,0 +1,85 @@
+{
+  "Id": "novena_st_jude",
+  "Title": "St. Jude Novena",
+  "Subtitle": "Patron of hopeless and desperate cases",
+  "Format": "MultiPage",
+  "AccentColor": "#1ABC9C",
+  "IntroText": "St. Jude Thaddaeus was one of the twelve Apostles. He is the author of the Epistle of Jude and the patron of hopeless causes. His feast day is October 28, and this novena begins October 19.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — Apostle of Hope", "Blocks": [
+      { "Type": "H2", "Text": "Day 1 — October 19", "Order": 1 },
+      { "Type": "Paragraph", "Text": "St. Jude was one of Jesus's twelve apostles and a relative of the Lord. He preached in Persia and Armenia, where he was martyred. He was long forgotten — perhaps because his name resembles Judas — until devotion to him as patron of hopeless cases exploded in the modern era.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O most holy Apostle St. Jude, faithful servant and friend of Jesus, the Church honors and invokes you universally as the patron of hopeless cases, of things almost despaired of.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Pray for me; I am so helpless and alone. Please use your special power to bring visible and speedy help where help is almost despaired of. Come to my assistance in this great need [state your request], that I may receive the consolation and help of heaven in all my necessities, tribulations, and sufferings. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — The Epistle of Jude", "Blocks": [
+      { "Type": "H2", "Text": "Day 2 — October 20", "Order": 1 },
+      { "Type": "Paragraph", "Text": "St. Jude wrote a short but powerful epistle calling the faithful to \"contend for the faith that was once for all entrusted to the holy ones.\" He warns against false teachers and encourages perseverance in the love of God.", "Order": 2 },
+      { "Type": "Quote", "Text": "\"Keep yourselves in the love of God and wait for the mercy of our Lord Jesus Christ.\" — Jude 21", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "St. Jude, author of God's Word, pray for us that we may hold firm to the faith entrusted to us. When the world pressures us to compromise or give up, strengthen our conviction.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Especially for my impossible situation, help me to keep myself in the love of God and wait with patience for His mercy. Amen.", "Order": 7 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — Patron of Desperate Cases", "Blocks": [
+      { "Type": "H2", "Text": "Day 3 — October 21", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The tradition of praying to St. Jude for hopeless causes is centuries old. Perhaps because his name was avoided (confusion with Judas), he accumulated fewer intercessors — and so, when people finally turned to him, he responded with exceptional generosity.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O glorious St. Jude, I come to you in the distress of my situation. I confess that I have not always been faithful to God, yet I trust in His mercy. Through your intercession, powerful and abundant, help me now.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "I promise that if my prayer is answered I will make known your name and encourage devotion to you. St. Jude, helper of the hopeless, pray for me. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — When All Seems Lost", "Blocks": [
+      { "Type": "H2", "Text": "Day 4 — October 22", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Sometimes our situations seem truly hopeless — sickness, broken relationships, addiction, financial ruin, spiritual darkness. St. Jude reminds us: nothing is hopeless before God. He created all things from nothing and can create new hope from despair.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Lord Jesus, You raised Lazarus from the dead when hope seemed gone. Through the intercession of St. Jude, raise up what seems dead in my life — my hope, my health, my relationships, my faith.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "I believe that You are Lord of the impossible. Help my unbelief. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — Trust in God's Timing", "Blocks": [
+      { "Type": "H2", "Text": "Day 5 — October 23", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Sometimes God answers prayer differently than we expect — and in His time, not ours. St. Jude teaches us that even a \"no\" or a delayed answer is part of God's loving plan. Our role is to trust and persevere.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Jude, help me to trust God even when His answer is silence or \"wait.\" Help me not to give up prayer but to persevere, believing that He hears and cares for me.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "And if God answers differently than I ask, help me to accept His will with peace, knowing that He always gives us what is best for our souls. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — The Communion of Saints", "Blocks": [
+      { "Type": "H2", "Text": "Day 6 — October 24", "Order": 1 },
+      { "Type": "Paragraph", "Text": "We believe in the Communion of Saints — that the saints in heaven are alive in Christ, aware of our needs, and able to intercede for us. Asking St. Jude to pray for us is no different from asking a friend to pray — except the friend is in heaven.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Jude, friend of Christ and fellow member of His Body, I ask you to pray for me as one friend asks another. Your prayers, offered at the very throne of God, have a power that mine lack.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Join your intercession to mine and carry my petition before the Lord who loves both of us. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — Martyr for the Gospel", "Blocks": [
+      { "Type": "H2", "Text": "Day 7 — October 25", "Order": 1 },
+      { "Type": "Paragraph", "Text": "St. Jude was martyred for his faith, traditionally with an axe — the instrument shown in his iconography. He gave his life for the Gospel. His willingness to die for Christ speaks of a love stronger than death.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Jude, faithful to Christ even unto death, strengthen us in our own trials. Our sufferings are minor compared to martyrdom, but they are real. Help us to endure with the patience and love you showed.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Pray especially for persecuted Christians around the world today, that they may be strengthened by your example and comforted by God's presence. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — God's Power in Weakness", "Blocks": [
+      { "Type": "H2", "Text": "Day 8 — October 26", "Order": 1 },
+      { "Type": "Paragraph", "Text": "St. Paul wrote: \"When I am weak, then I am strong.\" Our weakness and desperate need is not a barrier to God — it is an invitation. God loves to show His power in human impossibility.", "Order": 2 },
+      { "Type": "Quote", "Text": "\"My grace is sufficient for you, for power is made perfect in weakness.\" — 2 Corinthians 12:9", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Lord, I acknowledge my total weakness and dependence on You. I have no power to solve my situation; I bring it to You entirely. Through St. Jude's intercession, let Your strength be made perfect in my weakness.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "I trust not in myself but in You alone. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Feast of St. Simon and Jude", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — October 27 (Vigil of Feast)", "Order": 1 },
+      { "Type": "H3", "Text": "Tomorrow is the Feast of St. Simon and St. Jude", "Order": 2 },
+      { "Type": "Paragraph", "Text": "The Church celebrates St. Simon and St. Jude together on October 28. Both apostles who labored in the East, they remind us that every apostle — however obscure — was a bearer of the light of Christ.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "O most powerful Apostle St. Jude, we conclude this novena with confidence in your intercession. We have placed before you our most pressing needs, and we trust in your power before God.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "May this novena deepen our faith and draw us closer to God, whatever the outcome of our petition. We are grateful for your friendship and intercession. St. Jude, pray for us! Amen.", "Order": 7 }
+    ]}
+  ]
+}

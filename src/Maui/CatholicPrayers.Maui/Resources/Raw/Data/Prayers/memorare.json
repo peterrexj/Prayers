@@ -1,0 +1,42 @@
+{
+  "Id": "memorare",
+  "Title": "Memorare",
+  "Subtitle": "Remember, O Most Gracious Virgin",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_bg_memorare.png",
+  "HeaderImagePosition": "Top",
+  "IntroText": "The Memorare is a centuries-old prayer of petition to the Virgin Mary, asking for her intercession and help in time of need.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#7D3C98",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Memorare",
+      "Blocks": [
+        { "Type": "H1", "Text": "Memorare", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Remember, O most gracious Virgin Mary,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "that never was it known", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "that anyone who fled to your protection,", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Paragraph", "Text": "implored your help,", "FontStyle": "Italic", "Order": 6 },
+        { "Type": "Paragraph", "Text": "or sought your intercession,", "FontStyle": "Italic", "Order": 7 },
+        { "Type": "Paragraph", "Text": "was left unaided.", "FontStyle": "Italic", "Order": 8 },
+        { "Type": "Spacer", "Order": 9 },
+        { "Type": "Paragraph", "Text": "Inspired by this confidence,", "FontStyle": "Italic", "Order": 10 },
+        { "Type": "Paragraph", "Text": "I fly unto you,", "FontStyle": "Italic", "Order": 11 },
+        { "Type": "Paragraph", "Text": "O Virgin of virgins, my mother.", "FontStyle": "Italic", "Order": 12 },
+        { "Type": "Paragraph", "Text": "To you do I come,", "FontStyle": "Italic", "Order": 13 },
+        { "Type": "Paragraph", "Text": "before you I stand,", "FontStyle": "Italic", "Order": 14 },
+        { "Type": "Paragraph", "Text": "sinful and sorrowful.", "FontStyle": "Italic", "Order": 15 },
+        { "Type": "Spacer", "Order": 16 },
+        { "Type": "Paragraph", "Text": "O Mother of the Word Incarnate,", "FontStyle": "Italic", "Order": 17 },
+        { "Type": "Paragraph", "Text": "despise not my petitions,", "FontStyle": "Italic", "Order": 18 },
+        { "Type": "Paragraph", "Text": "but in your mercy hear and answer me.", "FontStyle": "Italic", "Order": 19 },
+        { "Type": "Spacer", "Order": 20 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 21 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["hail_mary", "hail_holy_queen"]
+}

@@ -1,0 +1,39 @@
+{
+  "Id": "morning_offering",
+  "Title": "Ofrenda de la Mañana",
+  "Subtitle": "Para comenzar el día",
+  "Format": "SinglePage",
+  "AccentColor": "#FF6F00",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Ofrenda de la Mañana",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Ofrenda de la Mañana"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Oh Jesús, por el Corazón Inmaculado de María,\nte ofrezco las oraciones, los trabajos,\nlas alegrías y los sufrimientos del día de hoy,\nen unión con el Santo Sacrificio de la Misa\nen todo el mundo.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Lo ofrezco por las intenciones de tu Sagrado Corazón:\nla reparación de los pecados,\nla unión de todos los cristianos,\ny las intenciones del Santo Padre.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

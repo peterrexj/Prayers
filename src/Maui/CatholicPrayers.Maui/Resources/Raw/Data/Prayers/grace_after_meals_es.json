@@ -1,0 +1,33 @@
+{
+  "Id": "grace_after_meals",
+  "Title": "Acción de Gracias",
+  "Subtitle": "Después de las comidas",
+  "Format": "SinglePage",
+  "AccentColor": "#388E3C",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Acción de Gracias",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Después de las Comidas"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Te damos gracias, Señor,\npor todos los beneficios que hemos recibido\ny por los alimentos que acabamos de tomar.\nPor Cristo, nuestro Señor.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

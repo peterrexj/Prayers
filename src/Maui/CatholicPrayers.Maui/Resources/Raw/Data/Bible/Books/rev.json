@@ -1,0 +1,85 @@
+{
+  "Id": "rev",
+  "Title": "Revelation",
+  "Abbreviation": "Rev",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 8,
+          "Text": "I am the Alpha and the Omega, says the Lord God, the one who is and who was and who is to come, the almighty."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 20,
+          "Text": "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, [then] I will enter his house and dine with him, and he with me."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 7,
+      "Verses": [
+        {
+          "VerseNumber": 9,
+          "Text": "After this I had a vision of a great multitude, which no one could count, from every nation, race, people, and tongue. They stood before the throne and before the Lamb, wearing white robes and holding palm branches in their hands."
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "For the Lamb who is in the center of the throne will shepherd them and lead them to springs of life-giving water, and God will wipe away every tear from their eyes."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 21,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Then I saw a new heaven and a new earth. The former heaven and the former earth had passed away, and the sea was no more."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "I heard a loud voice from the throne saying, Behold, God's dwelling is with the human race. He will dwell with them and they will be his people and God himself will always be with them [as their God]."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "He will wipe every tear from their eyes, and there shall be no more death or mourning, wailing or pain, [for] the old order has passed away."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "The one who sat on the throne said, Behold, I make all things new."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 22,
+      "Verses": [
+        {
+          "VerseNumber": 12,
+          "Text": "Behold, I am coming soon. I bring with me the recompense I will give to each according to his deeds."
+        },
+        {
+          "VerseNumber": 13,
+          "Text": "I am the Alpha and the Omega, the first and the last, the beginning and the end."
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "The Spirit and the bride say, Come. Let the hearer say, Come. Let the one who thirsts come forward, and the one who wants it receive the gift of life-giving water."
+        },
+        {
+          "VerseNumber": 20,
+          "Text": "The one who gives this testimony says, Yes, I am coming soon. Amen! Come, Lord Jesus!"
+        },
+        {
+          "VerseNumber": 21,
+          "Text": "The grace of the Lord Jesus be with all."
+        }
+      ]
+    }
+  ]
+}

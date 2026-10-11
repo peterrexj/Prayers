@@ -1,0 +1,86 @@
+{
+  "Id": "novena_st_ignatius",
+  "Title": "St. Ignatius of Loyola Novena",
+  "Subtitle": "Founder of the Society of Jesus",
+  "Format": "MultiPage",
+  "AccentColor": "#2C3E50",
+  "IntroText": "St. Ignatius of Loyola (1491–1556) was a Spanish soldier-turned-mystic who founded the Jesuits. His Spiritual Exercises are one of the most influential works of Christian spirituality. He is the patron of retreats and spiritual directors. His feast day is July 31.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — The Soldier's Conversion", "Blocks": [
+      { "Type": "H2", "Text": "Day 1 — July 22", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Ignatius was a proud, ambitious soldier when a cannonball shattered his leg at the Battle of Pamplona in 1521. During his long convalescence, he read the life of Christ and the lives of the saints — and was transformed. \"What if I were to do what St. Francis did? What if I were to do what St. Dominic did?\"", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Ignatius, God used a broken leg to get your attention. Help us to hear God speaking through the difficulties and reversals of our own lives.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "When our plans collapse, may we open our hands and our hearts to whatever God is trying to give us. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — Ad Majorem Dei Gloriam", "Blocks": [
+      { "Type": "H2", "Text": "Day 2 — July 23", "Order": 1 },
+      { "Type": "Quote", "Text": "\"Ad Majorem Dei Gloriam\" — For the Greater Glory of God", "Order": 2 },
+      { "Type": "Paragraph", "Text": "This motto of the Jesuits captures Ignatius's driving principle: everything — prayer, work, study, conversation, suffering — is to be offered for the greater glory of God. It is a complete offering of one's life to God's purposes.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Lord God, through the example of Ignatius, teach us to do all things for Your greater glory. Whether we eat or drink, work or rest, speak or are silent — may it all be ordered to You.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Make us generous in Your service, accepting no reward except the knowledge that we serve the One who loves us. Amen.", "Order": 7 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — Contemplation in Action", "Blocks": [
+      { "Type": "H2", "Text": "Day 3 — July 24", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Ignatius sought to find God in all things — not just in chapel but in the marketplace, the classroom, and daily human activity. The Jesuits became \"contemplatives in action\" — people of deep prayer who were also radically engaged with the world.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Ignatius, help us to find God not only in our times of prayer but in every moment of the day. May our work be prayer, our relationships be sacraments, and our service be worship.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Teach us to be contemplatives in whatever active life God has called us to. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — The Spiritual Exercises", "Blocks": [
+      { "Type": "H2", "Text": "Day 4 — July 25", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Spiritual Exercises of St. Ignatius are a 4-week program of meditation, prayer, and examination designed to lead a person to a radical choice for God. They have been made by millions, including kings, saints, and popes. They are a masterpiece of applied spirituality.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Ignatius, your Spiritual Exercises have led countless souls to deeper union with God. Obtain for us the grace of a serious interior life — one that is not content with superficial faith but seeks genuine transformation.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May we never settle for a comfortable religion but always seek to give God more. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — Discernment of Spirits", "Blocks": [
+      { "Type": "H2", "Text": "Day 5 — July 26", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Ignatius was a master of discernment — the art of distinguishing the movements of God's Spirit from those of self-interest and the evil spirit. His rules of discernment are among the most practical and reliable guides to interior life in the Christian tradition.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Ignatius, teacher of discernment, help us to know the difference between what is of God and what is of self or the enemy. Teach us to notice the movements of our hearts — consolation and desolation — as signs of God's leading.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Give us wisdom to make right choices, especially in the important decisions of our lives. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — The Jesuits", "Blocks": [
+      { "Type": "H2", "Text": "Day 6 — July 27", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Society of Jesus, founded in 1540, became one of the most influential orders in Church history — at the forefront of education, science, missions, and theology. Jesuit missionaries brought the faith to Japan, China, India, and the Americas.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Ignatius, your sons have labored and died in every corner of the world for the greater glory of God. Pray for all Jesuits today, that they may remain faithful to your charism of prayer, service, and love for the Church.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "And for all religious orders, grant fidelity to their founding charism and zeal for souls. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — Suscipe", "Blocks": [
+      { "Type": "H2", "Text": "Day 7 — July 28", "Order": 1 },
+      { "Type": "H3", "Text": "The prayer of total surrender", "Order": 2 },
+      { "Type": "Paragraph", "Text": "The Suscipe (\"Take, Lord, receive\") is the culminating prayer of the Spiritual Exercises — Ignatius's great act of surrender. It is one of the most radical prayers in all of Christian spirituality.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Suscipe", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Take, Lord, and receive all my liberty, my memory, my understanding, and my entire will — all I have and call my own. You have given all to me. To you, Lord, I return it.", "FontStyle": "Italic", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Everything is yours; do with it what you will. Give me only your love and your grace, that is enough for me. Amen.", "FontStyle": "Italic", "Order": 7 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — Patron of Retreats", "Blocks": [
+      { "Type": "H2", "Text": "Day 8 — July 29", "Order": 1 },
+      { "Type": "Paragraph", "Text": "St. Ignatius is the patron of retreats and spiritual directors. His insight that every Christian needs regular periods of silence, prayer, and reflection has proven as true in the 21st century as it was in the 16th. The retreat tradition he helped establish has shaped Catholic spirituality ever since.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Ignatius, help us to find time for retreat — daily, monthly, annually. In the silence of prayer, let God speak to us the words we cannot hear in the noise of everyday life.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May we treasure the gift of silence and use it to hear the voice of God calling us to ever greater generosity and love. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Vigil of the Feast", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — July 30 (Vigil)", "Order": 1 },
+      { "Type": "H3", "Text": "Tomorrow is the Feast of St. Ignatius", "Order": 2 },
+      { "Type": "Paragraph", "Text": "Tomorrow the Church celebrates the feast of St. Ignatius of Loyola. We conclude our novena with deep gratitude for this great saint and renewed commitment to giving our lives more fully to God.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "O St. Ignatius of Loyola, soldier of Christ and founder of the Jesuits, you gave everything to the greater glory of God. Obtain for us the generous, unconditional surrender to God that characterized your life.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Grant the intention of this novena if it is for our spiritual good and God's glory. And above all, grant us the grace to say with you, now and at the hour of our death: \"Take, Lord, and receive.\" Amen.", "Order": 7 },
+      { "Type": "Paragraph", "Text": "St. Ignatius of Loyola, pray for us!", "FontStyle": "Bold", "Alignment": "Center", "Order": 8 }
+    ]}
+  ]
+}

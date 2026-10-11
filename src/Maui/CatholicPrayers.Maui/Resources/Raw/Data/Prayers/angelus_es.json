@@ -1,0 +1,99 @@
+{
+  "Id": "angelus",
+  "Title": "El Ángelus",
+  "Subtitle": "La Oración del Mediodía",
+  "Format": "SinglePage",
+  "AccentColor": "#795548",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "El Ángelus",
+      "Blocks": [
+        {
+          "Type": "H3",
+          "Order": 1,
+          "Text": "V. El ángel del Señor anunció a María."
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "R. Y ella concibió por obra del Espíritu Santo."
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Dios te salve, María...",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Divider",
+          "Order": 4
+        },
+        {
+          "Type": "H3",
+          "Order": 5,
+          "Text": "V. He aquí la esclava del Señor."
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 6,
+          "Text": "R. Hágase en mí según tu palabra."
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 7,
+          "Text": "Dios te salve, María...",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Divider",
+          "Order": 8
+        },
+        {
+          "Type": "H3",
+          "Order": 9,
+          "Text": "V. Y el Verbo se hizo carne."
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 10,
+          "Text": "R. Y habitó entre nosotros."
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 11,
+          "Text": "Dios te salve, María...",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Divider",
+          "Order": 12
+        },
+        {
+          "Type": "H3",
+          "Order": 13,
+          "Text": "V. Ruega por nosotros, Santa Madre de Dios."
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 14,
+          "Text": "R. Para que seamos dignos de las promesas de Cristo."
+        },
+        {
+          "Type": "Divider",
+          "Order": 15
+        },
+        {
+          "Type": "H3",
+          "Order": 16,
+          "Text": "Oremos"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 17,
+          "Text": "Te rogamos, Señor, que derrames tu gracia en nuestras almas, para que los que hemos conocido, por el anuncio del ángel, la Encarnación de tu Hijo Jesucristo, lleguemos por su Pasión y su Cruz a la gloria de la Resurrección. Por Jesucristo nuestro Señor. Amén."
+        }
+      ]
+    }
+  ]
+}

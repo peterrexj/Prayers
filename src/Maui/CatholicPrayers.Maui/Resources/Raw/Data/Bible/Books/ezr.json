@@ -1,0 +1,26 @@
+{
+  "Id": "ezr",
+  "Title": "Ezra",
+  "Abbreviation": "Ezra",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 11,
+          "Text": "They sang in praise and thanksgiving to the LORD: He is good, his mercy toward Israel endures forever. And all the people shouted with a great shout in praising the LORD because the foundation of the LORD'S house had been laid."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 7,
+      "Verses": [
+        {
+          "VerseNumber": 10,
+          "Text": "Ezra had set his heart on the study and practice of the law of the LORD and on teaching statutes and ordinances in Israel."
+        }
+      ]
+    }
+  ]
+}

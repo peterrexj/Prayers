@@ -1,0 +1,39 @@
+{
+  "Id": "act_of_faith",
+  "Title": "Acto de Fe",
+  "Subtitle": "Oración de Fe",
+  "Format": "SinglePage",
+  "AccentColor": "#2980B9",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Acto de Fe",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Acto de Fe"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Dios mío,\nporque sois la verdad infalible,\ncreo todo lo que habéis revelado\ny la Santa Iglesia Católica nos propone creer.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Creo firmemente en la Santísima Trinidad,\nPadre, Hijo y Espíritu Santo;\nen Jesucristo, Dios y Hombre verdadero,\nnacido de la Virgen María,\nque murió y resucitó por nuestra salvación.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

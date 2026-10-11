@@ -1,0 +1,21 @@
+{
+  "Id": "3jo",
+  "Title": "3 John",
+  "Abbreviation": "3John",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 2,
+          "Text": "Beloved, I hope you are prospering in every respect and are in good health, just as your soul is prospering."
+        },
+        {
+          "VerseNumber": 11,
+          "Text": "Beloved, do not imitate evil but imitate good. Whoever does what is good is of God; whoever does what is evil has never seen God."
+        }
+      ]
+    }
+  ]
+}

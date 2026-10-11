@@ -1,0 +1,84 @@
+{
+  "Id": "novena_st_anthony",
+  "Title": "St. Anthony of Padua Novena",
+  "Subtitle": "Patron of lost things and the poor",
+  "Format": "MultiPage",
+  "AccentColor": "#E67E22",
+  "IntroText": "St. Anthony of Padua (1195–1231) was a Franciscan friar, renowned preacher, and Doctor of the Church. Known as the \"hammer of heretics\" and the \"ark of the covenant,\" he is beloved worldwide as the patron of lost things. His feast day is June 13, and this novena begins June 4.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — Finder of Lost Things", "Blocks": [
+      { "Type": "H2", "Text": "Day 1 — June 4", "Order": 1 },
+      { "Type": "Paragraph", "Text": "St. Anthony is celebrated as the patron of lost things. When a novice stole his psalter, Anthony prayed and the novice returned it. For centuries the faithful have prayed to him when things are lost — and he has not let them down.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O Holy St. Anthony, the gentlest and most lovable of saints, your love for God and charity for His creatures made you worthy, when on earth, to possess miraculous powers.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Encouraged by this thought, I implore you to obtain for me [mention your request]. The answer to my prayer may require a miracle; even so, you are the saint of miracles. O gentle and loving St. Anthony, whose heart was ever full of human sympathy, whisper my petition into the ears of the Sweet Infant Jesus, who loved to be folded in your arms. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — Hammer of Heretics", "Blocks": [
+      { "Type": "H2", "Text": "Day 2 — June 5", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Anthony was known as the \"Hammer of Heretics\" — not because he was harsh, but because his preaching was so clear and compelling that it brought many back to the faith. He was appointed by St. Francis to teach theology to the friars.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Anthony, defender of the faith, pray for the Church in these times of confusion. Grant wisdom to teachers and preachers, that they may defend and proclaim the truth with clarity and charity.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "For those who have drifted from the faith, obtain the grace of return. And strengthen our own faith, that we may hold fast to what we believe. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — The Paduan Saint", "Blocks": [
+      { "Type": "H2", "Text": "Day 3 — June 6", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Though born in Lisbon and a native Portuguese, Anthony spent the last years of his life in Padua, Italy, where he preached with such power that the city was transformed. Today his basilica in Padua is one of the great pilgrimage destinations of the world.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Dear St. Anthony, patron of Padua and friend of all in need, from your basilica millions of pilgrims have brought their petitions to you. We add our voices to that great company.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Hear our prayer and carry it to the throne of God with your powerful intercession. Help us to trust that God answers every prayer, in His time and His way. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — The Vision of the Christ Child", "Blocks": [
+      { "Type": "H2", "Text": "Day 4 — June 7", "Order": 1 },
+      { "Type": "Paragraph", "Text": "It is said that a visitor once looked through Anthony's window and saw him holding the Christ Child in his arms. The image of Anthony with the Child Jesus has become one of the most beloved in Catholic iconography — a sign of his deep union with Christ.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Anthony, you held the Christ Child in your arms, a privilege granted to few. Through your loving closeness to Jesus, intercede for us who need to be drawn closer to Him.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Especially pray for children — all the children in the world who need protection, love, and the knowledge of God. Guard them under your mantle. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — The Preacher", "Blocks": [
+      { "Type": "H2", "Text": "Day 5 — June 8", "Order": 1 },
+      { "Type": "Paragraph", "Text": "When Anthony preached, thousands would gather — markets would close, prisoners would be released, and enemies would be reconciled. Pope Gregory IX called him the \"Ark of the Testament\" for his deep knowledge of Sacred Scripture.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Anthony, Doctor of the Church and great preacher of the Word of God, intercede for all preachers, teachers, and evangelists in the Church today.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May the Word of God go forth with power and be welcomed with open hearts. And help us too to carry the Gospel in how we live, speak, and act. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — Friend of the Poor", "Blocks": [
+      { "Type": "H2", "Text": "Day 6 — June 9", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Anthony was passionately devoted to the poor. He once preached against the greed of a rich usurer and persuaded his congregation to give their wealth away. The \"Bread of St. Anthony\" — a tradition of giving bread to the poor in his honor — continues worldwide.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Anthony, friend of the poor, open our eyes to those in need around us. Help us to see in every poor person the face of Christ, and respond with generosity and compassion.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Intercede for all who are hungry, homeless, or in despair today. And help us to be instruments of God's Providence in their lives. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — A Short Life, a Great Legacy", "Blocks": [
+      { "Type": "H2", "Text": "Day 7 — June 10", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Anthony died at only 36 years of age. Yet in that short life he accomplished what few could in a century. He was canonized less than a year after his death — one of the fastest canonizations in history — and declared a Doctor of the Church in 1946.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Anthony, you show us that it is not the length of our life but its depth of love that matters. Help us to live each day as though it were our last — fully, generously, and in union with God.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May we, like you, spend ourselves in the service of God and neighbor, and be ready to meet Him whenever He calls. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — The Miracle of the Mule", "Blocks": [
+      { "Type": "H2", "Text": "Day 8 — June 11", "Order": 1 },
+      { "Type": "Paragraph", "Text": "A famous miracle attributed to St. Anthony: a heretic challenged him to prove the Real Presence. Anthony fasted a mule for three days, then led it before a monstrance. The mule knelt before the Blessed Sacrament instead of eating hay. The heretic converted.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Anthony, defender of the Real Presence of Christ in the Eucharist, deepen our faith in this greatest of mysteries. May we never approach the altar carelessly, but with awe and love.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "For all who have lost faith in the Eucharist, obtain the grace of renewed belief. And for us who believe, increase our devotion. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Eve of the Feast", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — June 12 (Vigil of Feast)", "Order": 1 },
+      { "Type": "H3", "Text": "Tomorrow is the Feast of St. Anthony", "Order": 2 },
+      { "Type": "Paragraph", "Text": "We conclude our novena with gratitude for the great intercessor God has given us in St. Anthony. Tomorrow his feast day is celebrated around the world with special devotion, processions, and the blessing of bread for the poor.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "The Responsory of St. Anthony", "Order": 5 },
+      { "Type": "Paragraph", "Text": "If then you ask for miracles, death, error, all calamities, the leprosy and demons fly, and health succeeds infirmities.", "FontStyle": "Italic", "Order": 6 },
+      { "Type": "Paragraph", "Text": "The sea obeys and fetters break; lost things are found; the young and old find help; and all return with health. He makes the pallid corpse arise; binds feet and hands and chides the tide; treasures lost are found again when young or old St. Anthony is asked to gain.", "FontStyle": "Italic", "Order": 7 },
+      { "Type": "Paragraph", "Text": "St. Anthony of Padua, pray for us!", "FontStyle": "Bold", "Alignment": "Center", "Order": 8 }
+    ]}
+  ]
+}

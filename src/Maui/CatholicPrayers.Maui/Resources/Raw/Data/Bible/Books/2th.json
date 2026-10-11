@@ -1,0 +1,17 @@
+{
+  "Id": "2th",
+  "Title": "2 Thessalonians",
+  "Abbreviation": "2Thess",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 3,
+          "Text": "But the Lord is faithful; he will strengthen you and guard you from the evil one."
+        }
+      ]
+    }
+  ]
+}

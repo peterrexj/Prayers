@@ -1,0 +1,86 @@
+{
+  "Id": "novena_christmas",
+  "Title": "Christmas Novena",
+  "Subtitle": "Prepare your heart for the Christ Child",
+  "Format": "MultiPage",
+  "AccentColor": "#C0392B",
+  "IntroText": "The Christmas Novena is prayed from December 16 through December 24, culminating on Christmas Eve. Each day includes a reflection on one aspect of Christ's coming, together with a prayer to prepare the heart to welcome Him.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — Longing for the Messiah", "Blocks": [
+      { "Type": "H2", "Text": "Day 1 — December 16", "Order": 1 },
+      { "Type": "Paragraph", "Text": "For centuries, Israel waited and longed for the promised Messiah. The prophets spoke of His coming; the people hoped and prayed. Tonight we enter into that longing and make it our own.", "Order": 2 },
+      { "Type": "Quote", "Text": "\"O come, O come, Emmanuel, and ransom captive Israel.\"", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Come, Lord Jesus. We are a people in darkness and we long for Your light. We are a people in exile and we long for home. Come and be born again in our hearts this Christmas.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Make us ready for Your coming — by repentance, by prayer, by charity to those in need. O Come, Emmanuel. Amen.", "Order": 7 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — Mary's Yes", "Blocks": [
+      { "Type": "H2", "Text": "Day 2 — December 17", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Everything changed when Mary said \"yes.\" The Annunciation was the hinge of human history — the moment when God became man. Mary's faith and obedience opened the door for our salvation.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Heavenly Father, we thank You for the faithful \"yes\" of Our Lady. Through her willingness to be Your handmaid, Your Word took flesh and came to dwell among us.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Give us the same willing obedience. When You ask something of us — however unexpected or difficult — may we respond as Mary responded: \"Behold, I am the handmaid of the Lord. Be it done unto me according to Your word.\" Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — Joseph's Faith", "Blocks": [
+      { "Type": "H2", "Text": "Day 3 — December 18", "Order": 1 },
+      { "Type": "Paragraph", "Text": "St. Joseph received the most astonishing message in a dream — and he rose and obeyed. His silent faith and tender care for Mary and the Child are a model for all who must trust God in the darkness.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Joseph, model of faith and silent devotion, pray for us as we prepare for Christmas. Teach us to trust God's word even when we cannot understand His ways.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Help us to make our homes places of welcome and warmth, where the Christ Child can be received with love. Holy Foster Father of Jesus, pray for us. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — The Journey to Bethlehem", "Blocks": [
+      { "Type": "H2", "Text": "Day 4 — December 19", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Mary and Joseph made a long, difficult journey to Bethlehem for the census. The Child Jesus was carried in Mary's womb through every hardship. Sometimes our spiritual journey is also long and hard.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Lord Jesus, as Mary and Joseph journeyed to Bethlehem with You hidden in their midst, help us to carry You in our hearts through every journey of this life — the joyful paths and the difficult ones alike.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Be our companion on the road, our guide in confusion, and our rest at the end. Bring us safely to the stable of Your birth and ultimately to the eternal Bethlehem of heaven. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — No Room at the Inn", "Blocks": [
+      { "Type": "H2", "Text": "Day 5 — December 20", "Order": 1 },
+      { "Type": "Paragraph", "Text": "There was no room for Mary and Joseph in the inn. The Son of God was born in a stable. Christmas asks us: Is there room in the inn of our hearts for Christ? Have we made space for Him among the busyness of the season?", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Lord Jesus, forgive us for the times we have crowded You out of our lives — with busyness, distraction, and self-concern. Clear a space in our hearts for Your coming.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Help us to make room for You this Christmas — in our schedules, in our prayers, and in our acts of charity. Let us not close the door on You who come so humbly. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — The Shepherds", "Blocks": [
+      { "Type": "H2", "Text": "Day 6 — December 21", "Order": 1 },
+      { "Type": "Paragraph", "Text": "God chose humble shepherds to be the first witnesses of the Nativity. They were considered lowly and unimportant, yet the angel came to them with the great news. God exalts the humble.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Lord God, like the shepherds, we are ordinary and often spiritually poor. But You delight to reveal Yourself to the humble and lowly. Come to us in our simplicity and need.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May we, like the shepherds, hasten to Bethlehem — leaving behind our concerns and distractions — to find there, in humility and wonder, the Child who is our Savior. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — The Magi", "Blocks": [
+      { "Type": "H2", "Text": "Day 7 — December 22", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Magi came from distant lands, following a star. They represent all the nations of the world drawn to Christ. Their gifts — gold, frankincense, and myrrh — symbolize His kingship, divinity, and sacrificial death.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Lord Jesus, You drew the Magi from afar by the light of a star. Draw all nations to Yourself — every people and tongue that has not yet heard the Good News. May the whole world find its rest in You.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Like the Magi, may we bring you our gifts — not gold and incense, but our love, our prayers, and our lives offered in service. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — The Word Made Flesh", "Blocks": [
+      { "Type": "H2", "Text": "Day 8 — December 23", "Order": 1 },
+      { "Type": "Quote", "Text": "\"And the Word was made flesh, and dwelt among us.\" — John 1:14", "Order": 2 },
+      { "Type": "Paragraph", "Text": "The Incarnation is the most astonishing fact in human history: the eternal Son of God became a human child. He took on our nature — our hunger and thirst, our pain and sorrow — so that we might share His divine life.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "O eternal Word, made flesh for love of us — we adore You. You emptied Yourself of glory and took the form of a servant, a tiny Child, a helpless infant in a manger.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Grant that we may comprehend even a fraction of this mystery — that You, who hold the universe in being, chose to be carried in a mother's arms. May this mystery fill us with wonder and gratitude. Amen.", "Order": 7 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Christmas Eve", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — December 24 · Christmas Eve", "Order": 1 },
+      { "Type": "H3", "Text": "This night a Savior is born", "Order": 2 },
+      { "Type": "Paragraph", "Text": "This is the holy night. In a few hours the Church will sing: \"Today is born our Savior, Christ the Lord.\" Nine days of preparation have brought us to this moment.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "O God our Father, on this holy night we stand before the mystery of Your love. You sent Your Son not to condemn the world but to save it — not in power and glory but in poverty and humility.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "May we welcome Him tonight with all our hearts. May our homes be filled with joy, our families with peace, and our hearts with the love that He brings into the world.", "Order": 7 },
+      { "Type": "Paragraph", "Text": "Welcome, Lord Jesus! Come and be born in our hearts. Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 8 }
+    ]}
+  ]
+}

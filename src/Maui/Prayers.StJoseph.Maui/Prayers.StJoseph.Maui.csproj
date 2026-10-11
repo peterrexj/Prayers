@@ -1,0 +1,74 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net9.0-android36.0;net9.0-ios18.0;net9.0-maccatalyst</TargetFrameworks>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Prayers.StJoseph.Maui</RootNamespace>
+    <UseMaui>true</UseMaui>
+    <SingleProject>true</SingleProject>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+
+    <!-- App info -->
+    <ApplicationTitle>St Joseph Novena Malayalam</ApplicationTitle>
+    <ApplicationId>com.pj.stjosephnovenamalayalam</ApplicationId>
+    <ApplicationDisplayVersion>7.0</ApplicationDisplayVersion>
+    <ApplicationVersion>7</ApplicationVersion>
+
+    <!-- Platform minima -->
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">15.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">15.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+
+    <!-- iOS release signing -->
+    <CodesignKey Condition="$(TargetFramework.Contains('-ios')) AND '$(Configuration)' == 'Release'">Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
+    <CodesignProvision Condition="$(TargetFramework.Contains('-ios')) AND '$(Configuration)' == 'Release'">Automatic:Distribution</CodesignProvision>
+    <ArchiveOnBuild Condition="$(TargetFramework.Contains('-ios')) AND '$(Configuration)' == 'Release'">true</ArchiveOnBuild>
+    <RuntimeIdentifier Condition="$(TargetFramework.Contains('-ios')) AND '$(Configuration)' == 'Release'">ios-arm64</RuntimeIdentifier>
+
+    <!-- Android release signing -->
+    <AndroidSigningKeyStore Condition="$(TargetFramework.Contains('-android')) AND '$(Configuration)' == 'Release'">$(MSBuildThisFileDirectory)..\..\..\Resources\catholicsaints.keystore</AndroidSigningKeyStore>
+    <AndroidSigningKeyAlias Condition="$(TargetFramework.Contains('-android')) AND '$(Configuration)' == 'Release'">keyalias.alias</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass Condition="$(TargetFramework.Contains('-android')) AND '$(Configuration)' == 'Release'">CatholicSaintsPassword@01</AndroidSigningKeyPass>
+    <AndroidSigningStorePass Condition="$(TargetFramework.Contains('-android')) AND '$(Configuration)' == 'Release'">CatholicSaintsPassword@01</AndroidSigningStorePass>
+    <AndroidPackageFormat Condition="$(TargetFramework.Contains('-android')) AND '$(Configuration)' == 'Release'">aab</AndroidPackageFormat>
+  </PropertyGroup>
+
+
+  <!-- Splash -->
+  <ItemGroup>
+    <MauiSplashScreen Include="Resources/Splash/splash.png" Color="#1B2631" BaseSize="128,128" />
+  </ItemGroup>
+
+  <!-- Images -->
+  <ItemGroup>
+    <MauiImage Include="Resources/Images/*" />
+  </ItemGroup>
+
+  <!-- Fonts -->
+  <ItemGroup>
+    <MauiFont Include="Resources/Fonts/*" />
+  </ItemGroup>
+
+  <!-- Raw assets (audio + data) -->
+  <ItemGroup>
+    <MauiAsset Include="Resources/Raw/**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <!-- NuGet packages -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+    <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
+    <PackageReference Include="CommunityToolkit.Maui" Version="9.0.0" />
+    <PackageReference Include="Syncfusion.Maui.Core" Version="33.2.6" />
+    <PackageReference Include="Syncfusion.Maui.Buttons" Version="33.2.6" />
+    <PackageReference Include="Syncfusion.Maui.ProgressBar" Version="33.2.6" />
+    <PackageReference Include="CsvHelper" Version="33.0.1" />
+    <PackageReference Include="Pj.Library" Version="1.0.4.33" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="5.0.3" Condition="$(TargetFramework.Contains('-android'))" />
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="5.0.3" Condition="$(TargetFramework.Contains('-android'))" />
+  </ItemGroup>
+
+</Project>

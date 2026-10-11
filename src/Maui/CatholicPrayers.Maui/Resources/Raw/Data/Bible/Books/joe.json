@@ -1,0 +1,34 @@
+{
+  "Id": "joe",
+  "Title": "Joel",
+  "Abbreviation": "Joel",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 12,
+          "Text": "Yet even now—oracle of the LORD—return to me with your whole heart, with fasting, weeping, and mourning."
+        },
+        {
+          "VerseNumber": 13,
+          "Text": "Rend your hearts, not your garments, and return to the LORD, your God, for he is gracious and merciful, slow to anger, abounding in steadfast love."
+        },
+        {
+          "VerseNumber": 28,
+          "Text": "I will pour out my spirit upon all flesh. Your sons and daughters will prophesy, your old men will dream dreams, your young men will see visions."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 5,
+          "Text": "Everyone who calls on the name of the LORD will escape harm."
+        }
+      ]
+    }
+  ]
+}

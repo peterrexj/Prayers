@@ -1,0 +1,30 @@
+{
+  "Id": "1ch",
+  "Title": "1 Chronicles",
+  "Abbreviation": "1Chr",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 16,
+      "Verses": [
+        {
+          "VerseNumber": 8,
+          "Text": "Give thanks to the LORD, acclaim his name; make known among the peoples his deeds."
+        },
+        {
+          "VerseNumber": 34,
+          "Text": "Give thanks to the LORD, for he is good, for his mercy endures forever."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 29,
+      "Verses": [
+        {
+          "VerseNumber": 11,
+          "Text": "Yours, LORD, are greatness and might, majesty, splendor, and glory. For everything in heaven and on earth is yours; yours, LORD, is the kingship; you are exalted as head over all."
+        }
+      ]
+    }
+  ]
+}

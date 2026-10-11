@@ -1,0 +1,55 @@
+{
+  "Id": "jas",
+  "Title": "James",
+  "Abbreviation": "Jas",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 2,
+          "Text": "Consider it all joy, my brothers, when you encounter various trials,"
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "for you know that the testing of your faith produces perseverance."
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "Every good gift and every perfect gift is from above, coming down from the Father of lights, with whom there is no alteration or shadow caused by change."
+        },
+        {
+          "VerseNumber": 27,
+          "Text": "Religion that is pure and undefiled before God and the Father is this: to care for orphans and widows in their affliction and to keep oneself unstained by the world."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 14,
+          "Text": "What good is it, my brothers, if someone says he has faith but does not have works? Can that faith save him?"
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "So also faith of itself, if it does not have works, is dead."
+        },
+        {
+          "VerseNumber": 26,
+          "Text": "For just as a body without a spirit is dead, so also faith without works is dead."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 5,
+      "Verses": [
+        {
+          "VerseNumber": 16,
+          "Text": "Therefore, confess your sins to one another and pray for one another, that you may be healed. The fervent prayer of a righteous person is very powerful."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "Id": "novena_st_anne",
+  "Title": "St. Anne Novena",
+  "Subtitle": "Mother of the Blessed Virgin Mary",
+  "Format": "MultiPage",
+  "AccentColor": "#D4AC0D",
+  "IntroText": "St. Anne is the mother of the Blessed Virgin Mary and grandmother of Jesus. Though not named in Scripture, she is honored in tradition and is patron of mothers, grandmothers, and housewives. Her feast day is July 26.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — Grandmother of God", "Blocks": [
+      { "Type": "H2", "Text": "Day 1 — July 17", "Order": 1 },
+      { "Type": "Paragraph", "Text": "St. Anne is called \"Grandmother of God\" — the woman who raised the woman who bore the Son of God. The faith she passed to Mary was the same faith that Mary brought to Jesus. Families are where faith is first transmitted.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O good St. Anne, grandmother of Jesus and mother of our Blessed Lady, obtain for us through your powerful intercession the grace we need [mention your request]. You are the patron of those who seek children, of mothers and grandmothers, and of all who struggle with family difficulties.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Pray for our families, that they may be schools of faith, love, and holiness. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — The Gift of a Child", "Blocks": [
+      { "Type": "H2", "Text": "Day 2 — July 18", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Tradition tells us that Anne and her husband Joachim were elderly and childless when God sent them the gift of Mary. Like Abraham and Sarah, their faith was rewarded with a miraculous child. St. Anne is patron of those who pray for children.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Anne, you waited and prayed and did not give up hope. Intercede for all couples who long for children and have not yet received them. Comfort them in their waiting and strengthen their faith.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "For all children, born and unborn, obtain the protection of God. And for all parents, grant the wisdom and patience to raise their children in faith. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — Patron of Mothers", "Blocks": [
+      { "Type": "H2", "Text": "Day 3 — July 19", "Order": 1 },
+      { "Type": "Paragraph", "Text": "St. Anne raised Mary so beautifully that Mary was fit to be the Mother of God. Her motherhood was a gift of extraordinary grace. She is the patron of all mothers and grandmothers, and of those who work to transmit the faith.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Anne, model of holy motherhood, intercede for all mothers today — especially those who are struggling, those who are afraid, and those who feel inadequate to the task God has given them.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Grant them the grace to raise their children in the knowledge and love of God, trusting that He who calls them is faithful. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — Patron of Grandparents", "Blocks": [
+      { "Type": "H2", "Text": "Day 4 — July 20", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Pope Francis established the World Day of Grandparents and the Elderly on the Sunday closest to the feast of St. Anne and Joachim (July 26). Grandparents are treasure-keepers of family faith and history.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Anne and Joachim, patrons of grandparents, we pray for all elderly people today. May they know they are valued and loved, not burdens but blessings.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Help grandparents to pass on the faith to their grandchildren, to be bridges between generations, and to know the dignity of their vocation in God's family. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — Shrine of Sainte-Anne-de-Beaupré", "Blocks": [
+      { "Type": "H2", "Text": "Day 5 — July 21", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Shrine of Sainte-Anne-de-Beaupré in Quebec, Canada, is one of the great pilgrimage sites in North America. Since the 17th century, pilgrims have received miraculous healings there. The walls are covered with crutches left by those healed through St. Anne's intercession.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Good St. Anne, at whose shrine thousands have been healed and consoled, hear our prayer. Whether we need physical healing, emotional healing, or the healing of our relationships, come to our aid.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "We trust in your powerful intercession before God, who made you worthy to be the grandmother of His Son. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — Prayer for the Family", "Blocks": [
+      { "Type": "H2", "Text": "Day 6 — July 22", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Holy Family — Jesus, Mary, and Joseph — began with Anne and Joachim. Their faithful, prayerful marriage prepared the way for the Incarnation. All Christian families look to the Holy Family as their model.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Anne, protect our families. Where there is conflict, bring peace. Where there is distance, bring closeness. Where there is hurt, bring forgiveness.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May the example of the Holy Family guide every Christian household, and may our homes be places where God's love is experienced and shared. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — Faith Passed On", "Blocks": [
+      { "Type": "H2", "Text": "Day 7 — July 23", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The most precious inheritance a parent can leave a child is faith. Anne gave Mary a faith so strong and pure that she could say \"yes\" to becoming the Mother of God without hesitation. That faith changed the world.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Anne, help us to hand on the faith to the next generation. May our children and grandchildren see in our lives a faith worth believing, and be drawn to embrace it themselves.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "For those who have drifted from the faith, obtain the grace of return. And for children who have not yet received it, plant the seed of faith through the witness of those who love them. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — The Holy Couple Joachim and Anne", "Blocks": [
+      { "Type": "H2", "Text": "Day 8 — July 24", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Joachim and Anne are venerated together as the holy parents of Mary. Their feast day is shared (July 26), a sign that holy marriage is a partnership in faith and service. Their fidelity to each other and to God made their home a place where the Immaculate Conception could grow.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Sts. Anne and Joachim, model of holy marriage, intercede for all married couples. In times of difficulty, give them perseverance. In times of joy, give them gratitude.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May every marriage be a place where faith is nurtured and love grows day by day, as it did in your holy home. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Vigil of the Feast", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — July 25 (Vigil)", "Order": 1 },
+      { "Type": "H3", "Text": "Tomorrow is the Feast of Sts. Anne and Joachim", "Order": 2 },
+      { "Type": "Paragraph", "Text": "We conclude this novena on the eve of the feast of Sts. Anne and Joachim. Nine days of prayer have brought us closer to these faithful ancestors of Our Lord.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Good St. Anne, mother of Mary and grandmother of Jesus, receive our prayer. We have asked for [mention your request] and placed it entirely in your hands and those of your divine Grandson.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Whether our petition is answered as we hope or in a different way, we accept God's will with trust. May our families be holy, our faith strong, and our hope unshaken until we see God face to face. Amen.", "Order": 7 },
+      { "Type": "Paragraph", "Text": "St. Anne, pray for us!", "FontStyle": "Bold", "Alignment": "Center", "Order": 8 }
+    ]}
+  ]
+}

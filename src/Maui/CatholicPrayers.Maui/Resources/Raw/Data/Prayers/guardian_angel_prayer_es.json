@@ -1,0 +1,39 @@
+{
+  "Id": "guardian_angel_prayer",
+  "Title": "Oración al Ángel de la Guarda",
+  "Subtitle": "A nuestro ángel custodio",
+  "Format": "SinglePage",
+  "AccentColor": "#81C784",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Ángel de la Guarda",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Ángel de la Guarda"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Ángel de la guarda,\ndulce compañía,\nno me desampares\nni de noche ni de día.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "No me dejes solo\nnunca en el camino;\nllévame de la mano\nhasta llegar al destino.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

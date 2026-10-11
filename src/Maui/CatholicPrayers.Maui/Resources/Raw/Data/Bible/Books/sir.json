@@ -1,0 +1,57 @@
+{
+  "Id": "sir",
+  "Title": "Sirach",
+  "Abbreviation": "Sir",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "All wisdom comes from the LORD and with him it remains forever."
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "The root of wisdom—to whom has it been revealed? Her subtleties—who knows them?"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 18,
+          "Text": "Let us fall into the hands of the LORD and not the hands of mortals, for equal to his majesty is his mercy, and equal to his name are his works."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 24,
+      "Verses": [
+        {
+          "VerseNumber": 9,
+          "Text": "Before all ages, from the beginning, he created me, and through all ages I shall not cease to be."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 44,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Let us now praise those godly people, our ancestors, each in their own time:"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 50,
+      "Verses": [
+        {
+          "VerseNumber": 22,
+          "Text": "And now, bless the God of all, who has done wonders on earth; who fosters people's growth from their mother's womb, and fashions them according to his will!"
+        }
+      ]
+    }
+  ]
+}

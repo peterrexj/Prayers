@@ -1,0 +1,84 @@
+{
+  "Id": "novena_st_patrick",
+  "Title": "St. Patrick Novena",
+  "Subtitle": "Apostle of Ireland",
+  "Format": "MultiPage",
+  "AccentColor": "#27AE60",
+  "IntroText": "St. Patrick (385–461) was a Romano-British missionary who converted Ireland to Christianity, almost single-handedly. Captured as a slave at 16, his imprisonment deepened his faith. He returned as a bishop and spent the rest of his life bringing the Irish people to Christ. His feast day is March 17.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — Patrick the Slave", "Blocks": [
+      { "Type": "H2", "Text": "Day 1 — March 8", "Order": 1 },
+      { "Type": "Paragraph", "Text": "At 16, Patrick was captured by Irish raiders and enslaved in Ireland for six years. He herded sheep on a hillside, cold and alone. In his autobiography he wrote: \"The Lord opened the understanding of my unbelieving heart. Then I was corrected, and truly I was wakened.\" Suffering led him to God.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Patrick, you discovered God in the darkness of slavery. Help us to find God in our own trials and suffering, however they come. Teach us to pray in desolation, as you prayed on that cold Irish hillside.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Intercede for all who are enslaved today — physically, spiritually, and by addiction. May they know the freedom that comes from knowing God. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — The Return to Ireland", "Blocks": [
+      { "Type": "H2", "Text": "Day 2 — March 9", "Order": 1 },
+      { "Type": "Paragraph", "Text": "After escaping slavery and returning to Britain, Patrick had a vision of a man bringing letters from Ireland, crying: \"We beg you, holy boy, to come and walk among us again.\" He spent years preparing, then returned as a bishop — to the very people who had enslaved him.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Patrick, you returned to those who had wronged you, driven not by bitterness but by love and the call of God. Help us to forgive those who have hurt us, and to see in every person — even an enemy — a soul worth saving.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Give us the courage to go where God calls us, even when it is difficult or frightening. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — St. Patrick's Breastplate", "Blocks": [
+      { "Type": "H2", "Text": "Day 3 — March 10", "Order": 1 },
+      { "Type": "H3", "Text": "I bind unto myself today the strong Name of the Trinity", "Order": 2 },
+      { "Type": "Paragraph", "Text": "The \"Lorica\" (Breastplate) of St. Patrick is one of the most ancient Christian prayers in the Irish tradition — a prayer of protection invoking the Trinity, the Incarnation, the angels, and all creation.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "St. Patrick's Breastplate", "Order": 5 },
+      { "Type": "Paragraph", "Text": "I bind unto myself today the strong Name of the Trinity, by invocation of the same, the Three in One, and One in Three. I bind this day to me forever, by power of faith, Christ's Incarnation.", "FontStyle": "Italic", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Christ with me, Christ before me, Christ behind me, Christ in me, Christ beneath me, Christ above me, Christ on my right, Christ on my left. Christ when I lie down, Christ when I sit down, Christ when I arise. Amen.", "FontStyle": "Italic", "Order": 7 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — The Shamrock", "Blocks": [
+      { "Type": "H2", "Text": "Day 4 — March 11", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Patrick famously used the shamrock — three leaves on one stem — to explain the mystery of the Holy Trinity to the Irish chieftains. The simplest things can explain the deepest mysteries when we have the Holy Spirit as our teacher.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Holy Trinity — Father, Son, and Holy Spirit — we adore You. Three Persons, one God. You chose to reveal this mystery to simple people through a simple plant.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Help us, like St. Patrick, to find ways to share the faith with those around us — through simple words, lived example, and the Holy Spirit's inspiration. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — Fire at Tara", "Blocks": [
+      { "Type": "H2", "Text": "Day 5 — March 12", "Order": 1 },
+      { "Type": "Paragraph", "Text": "At Easter, Patrick lit the Pascal fire on the Hill of Slane, in defiance of the pagan king at Tara who had forbidden any fire except his own. This bold act of faith confronted the pagan powers and announced the arrival of Christ's light in Ireland.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Patrick, you were fearless before earthly powers because you feared only God. Give us a share of your holy boldness — to stand for the truth without apology, to live our faith publicly, and to trust that God will protect us.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May the light of Christ shine in us so brightly that it cannot be hidden. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — Prayer on Croagh Patrick", "Blocks": [
+      { "Type": "H2", "Text": "Day 6 — March 13", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Patrick spent 40 days in prayer and fasting on the summit of Croagh Patrick, a mountain in County Mayo. He interceded for Ireland — past, present, and future — and is said to have wrested great promises for the Irish people from God.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Patrick, great intercessor, you prayed and fasted for Ireland with a love that knew no limit. Pray now for our nation, our families, and our Church, that the faith may be renewed and the people may return to God.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Help us to be people of prayer, who persevere in intercession for others as you interceded for the Irish people. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — The Snakes", "Blocks": [
+      { "Type": "H2", "Text": "Day 7 — March 14", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Legend says Patrick drove the snakes from Ireland. Whether historical or symbolic, it speaks of his mission to drive out pagan worship, spiritual darkness, and all that is contrary to Christ. He truly transformed Ireland.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Patrick, you drove spiritual darkness from a nation. Drive the darkness from our hearts — all fear, all sin, all habit that separates us from God. By your intercession, let the light of Christ penetrate every corner of our souls.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Pray for our families, our communities, and our world, that the \"snakes\" of evil may be expelled through prayer and the power of the Cross. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — Legacy of the Irish Church", "Blocks": [
+      { "Type": "H2", "Text": "Day 8 — March 15", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Irish monks Patrick inspired — Columba, Brendan, Columbanus — re-evangelized a Europe darkened by the fall of Rome, founding monasteries from Scotland to Italy. The faith Patrick planted bore extraordinary fruit.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Patrick, the seeds you planted bore a harvest beyond what any one person could imagine. Help us to sow faithfully in our own lives, trusting that God will bring the fruit in His time.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "We pray for the people of Ireland, that the ancient faith may be renewed and the land once called the Island of Saints may shine again with Gospel light. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Vigil of St. Patrick's Feast", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — March 16", "Order": 1 },
+      { "Type": "H3", "Text": "Tomorrow is the Feast of St. Patrick", "Order": 2 },
+      { "Type": "Paragraph", "Text": "Tomorrow, March 17, the Church celebrates the feast of St. Patrick, Apostle of Ireland. We conclude this novena with renewed devotion to this great saint and trust in his powerful intercession.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "O glorious St. Patrick, apostle and martyr of charity, we give thanks for your life, your prayer, and your mission. Through your intercession, may we receive what we have asked in this novena.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Help us to share in your spirit — fearless in faith, fervent in prayer, and burning with love for the souls God has placed in our lives. St. Patrick, pray for us! Amen.", "Order": 7 }
+    ]}
+  ]
+}

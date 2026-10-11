@@ -1,0 +1,460 @@
+{
+  "Id": "psa",
+  "Title": "Psalms",
+  "Abbreviation": "Ps",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Blessed is the man who does not walk in the counsel of the wicked, nor stand in the way of sinners, nor sit in company with scoffers."
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "Rather, the law of the LORD is his joy; and on his law he meditates day and night."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "He is like a tree planted near streams of water, that yields its fruit in season; its leaves never wither; whatever he does prospers."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "But not so are the wicked, not so! They are like chaff driven by the wind."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "Therefore the wicked will not survive judgment, nor will sinners in the assembly of the just."
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "The LORD watches over the way of the just, but the way of the wicked leads to ruin."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 22,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "My God, my God, why have you abandoned me? Why so far from my call for help, from my cries of anguish?"
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "My God, I call by day, but you do not answer; by night, but I have no relief."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "Yet you are enthroned as the Holy One; you are the glory of Israel."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "In you our fathers trusted; they trusted and you rescued them."
+        },
+        {
+          "VerseNumber": 9,
+          "Text": "Yet you drew me forth from the womb, made me safe at my mother's breast."
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "Upon you I was thrust from the womb; since birth you are my God."
+        },
+        {
+          "VerseNumber": 11,
+          "Text": "Do not stay far from me, for trouble is near, and there is no one to help."
+        },
+        {
+          "VerseNumber": 14,
+          "Text": "Like water my life drains away; all my bones grow soft. My heart has become like wax, it melts away within me."
+        },
+        {
+          "VerseNumber": 18,
+          "Text": "They divide my garments among them; for my clothing they cast lots."
+        },
+        {
+          "VerseNumber": 24,
+          "Text": "For he has not spurned or disdained the misery of this poor wretch, did not turn away from me, but heard me when I cried out."
+        },
+        {
+          "VerseNumber": 25,
+          "Text": "I will offer praise in the great assembly; my vows I will fulfill before those who fear him."
+        },
+        {
+          "VerseNumber": 27,
+          "Text": "All the ends of the earth will worship and turn to the LORD; all the families of nations will bow low before him."
+        },
+        {
+          "VerseNumber": 31,
+          "Text": "Future generations will be told of the Lord; they will proclaim his righteousness to a people yet unborn."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 23,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "The LORD is my shepherd; there is nothing I lack."
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "In green pastures he makes me lie down; to still waters he leads me;"
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "he restores my soul. He guides me along right paths for the sake of his name."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff comfort me."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "You set a table before me in front of my enemies; you anoint my head with oil; my cup overflows."
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "Indeed, goodness and mercy will pursue me all the days of my life; I will dwell in the house of the LORD for endless days."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 46,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "God is our refuge and our strength, an ever-present help in distress."
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "Thus we do not fear, though earth be shaken and mountains quake to the depths of the sea,"
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "Though its waters rage and foam and mountains totter at its surging."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "Streams of the river gladden the city of God, the holy dwelling of the Most High."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "God is in its midst; it shall not be shaken; God will help it at break of day."
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "Be still and know that I am God! I am exalted among the nations, exalted on the earth."
+        },
+        {
+          "VerseNumber": 11,
+          "Text": "The LORD of hosts is with us; our stronghold is the God of Jacob."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 51,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Have mercy on me, God, in your goodness; in your abundant compassion blot out my offense."
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "Wash away all my guilt; from my sin cleanse me."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "For I know my offense; my sin is always before me."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "Against you alone have I sinned; I have done such evil in your sight that you are just in your sentence, blameless when you condemn."
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "A clean heart create for me, God; renew in me a steadfast spirit."
+        },
+        {
+          "VerseNumber": 11,
+          "Text": "Do not drive me from your presence, nor take from me your Holy Spirit."
+        },
+        {
+          "VerseNumber": 12,
+          "Text": "Restore my joy in your salvation; sustain in me a willing spirit."
+        },
+        {
+          "VerseNumber": 13,
+          "Text": "I will teach the wicked your ways, that sinners may return to you."
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "My sacrifice, God, is a broken spirit; a broken, humbled heart, O God, you will not scorn."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 90,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Lord, you have been our refuge through all generations."
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "Before the mountains were born, the earth and the world brought forth, from eternity to eternity you are God."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "A thousand years in your eyes are merely a yesterday, but yesterday already gone, a watch of the night."
+        },
+        {
+          "VerseNumber": 10,
+          "Text": "Seventy is the sum of our years, or eighty, if we are strong; Most of them are toil and sorrow; they pass quickly, we are all but gone."
+        },
+        {
+          "VerseNumber": 12,
+          "Text": "Teach us to count our days aright, that we may gain wisdom of heart."
+        },
+        {
+          "VerseNumber": 14,
+          "Text": "Fill us at daybreak with your mercy, that all our days we may sing for joy."
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "May the favor of the Lord our God be ours. Prosper the work of our hands! Prosper the work of our hands!"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 91,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "You who dwell in the shelter of the Most High, who abide in the shadow of the Almighty,"
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "Say to the LORD, My refuge and my fortress, my God in whom I trust."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "He will rescue you from the fowler's snare, from the destroying plague,"
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "He will shelter you with his pinions, and under his wings you may take refuge; his faithfulness is a protecting shield."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "You shall not fear the terror of the night nor the arrow that flies by day,"
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "Nor the pestilence that roams in darkness, nor the plague that ravages at noon."
+        },
+        {
+          "VerseNumber": 11,
+          "Text": "For he commands his angels with regard to you, to guard you wherever you go."
+        },
+        {
+          "VerseNumber": 12,
+          "Text": "With their hands they shall support you, lest you strike your foot against a stone."
+        },
+        {
+          "VerseNumber": 14,
+          "Text": "Because he clings to me I will deliver him; because he knows my name I will set him on high."
+        },
+        {
+          "VerseNumber": 15,
+          "Text": "He will call upon me and I will answer; I will be with him in distress; I will deliver him and give him honor."
+        },
+        {
+          "VerseNumber": 16,
+          "Text": "With length of days I will satisfy him, and I will show him my saving power."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 100,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Shout joyfully to the LORD, all you lands;"
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "serve the LORD with gladness; come before him with joyful song."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "Know that the LORD is God, he made us, we belong to him, we are his people, the flock he shepherds."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "Enter his gates with thanksgiving, his courts with praise; give thanks to him, bless his name."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "Good indeed is the LORD, his mercy endures forever, his faithfulness lasts through every generation."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 121,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "I raise my eyes toward the mountains. From where will my help come?"
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "My help comes from the LORD, the maker of heaven and earth."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "He will not allow your foot to slip; or your guardian to sleep."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "Truly, the guardian of Israel never slumbers nor sleeps."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "The LORD is your guardian; the LORD is your shade at your right hand."
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "By day the sun cannot harm you, nor the moon by night."
+        },
+        {
+          "VerseNumber": 7,
+          "Text": "The LORD will guard you from all evil, he will guard your soul."
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "The LORD will guard your coming and going both now and forever."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 130,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Out of the depths I call to you, LORD;"
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "Lord, hear my cry! May your ears be attentive to my cry for mercy."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "If you, LORD, mark our sins, Lord, who can stand?"
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "But with you is forgiveness and so you are revered."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "I wait for the LORD, my soul waits and I hope in his word."
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "My soul looks for the Lord more than sentinels for daybreak. More than sentinels for daybreak,"
+        },
+        {
+          "VerseNumber": 7,
+          "Text": "let Israel hope in the LORD, for with the LORD is mercy, with him is full redemption,"
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "and God will redeem Israel from all its sins."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 139,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "LORD, you have probed me, you know me:"
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "you know when I sit and stand; you understand my thoughts from afar."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "You sift through my travels and my rest; with all my ways you are familiar."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "Even before a word is on my tongue, LORD, you know it all."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "Behind and before you encircle me and rest your hand upon me."
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "Such knowledge is beyond me, far too lofty for me to reach."
+        },
+        {
+          "VerseNumber": 7,
+          "Text": "Where can I go from your spirit? From your presence, where can I flee?"
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "If I ascend to the heavens, you are there; if I lie down in Sheol, there you are."
+        },
+        {
+          "VerseNumber": 13,
+          "Text": "You formed my inmost being; you knit me in my mother's womb."
+        },
+        {
+          "VerseNumber": 14,
+          "Text": "I praise you, because I am wonderfully made; wonderful are your works! My very self you know."
+        },
+        {
+          "VerseNumber": 23,
+          "Text": "Probe me, God, know my heart; try me, know my thoughts."
+        },
+        {
+          "VerseNumber": 24,
+          "Text": "See if there is a wicked path in me; lead me along an ancient path."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 150,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Hallelujah! Praise God in his holy sanctuary; give praise in the mighty dome of heaven."
+        },
+        {
+          "VerseNumber": 2,
+          "Text": "Give praise for his mighty deeds, praise him for his great majesty."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "Give praise with blasts upon the horn, praise him with harp and lyre."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "Give praise with tambourines and dance, praise him with flutes and strings."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "Give praise with crashing cymbals, praise him with sounding cymbals."
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "Let everything that has breath give praise to the LORD! Hallelujah!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "Id": "divine_mercy_chaplet",
+  "Title": "Coronilla de la Divina Misericordia",
+  "Subtitle": "Dada por Jesús a Santa Faustina",
+  "Format": "MultiPage",
+  "AccentColor": "#E91E63",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Cómo Rezar la Coronilla",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Coronilla de la Divina Misericordia"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Rezada con el rosario ordinario. Dictada por Jesús a Santa Faustina Kowalska en 1935."
+        },
+        {
+          "Type": "H3",
+          "Order": 3,
+          "Text": "Para comenzar"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Padre Nuestro...\nDios te Salve, María...\nCreo en Dios...",
+          "FontStyle": "Italic"
+        }
+      ]
+    },
+    {
+      "SectionId": 2,
+      "Title": "Las Oraciones",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Oraciones de la Coronilla"
+        },
+        {
+          "Type": "H3",
+          "Order": 2,
+          "Text": "En las cuentas grandes (Padre Nuestro)"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Padre Eterno,\nte ofrezco el Cuerpo y la Sangre,\nel Alma y la Divinidad\nde tu amadísimo Hijo,\nnuestro Señor Jesucristo,\nen expiación de nuestros pecados\ny los del mundo entero.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "H3",
+          "Order": 4,
+          "Text": "En las cuentas pequeñas (Ave María)"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 5,
+          "Text": "Por su dolorosa Pasión,\nten misericordia de nosotros\ny del mundo entero.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "H3",
+          "Order": 6,
+          "Text": "Al finalizar (3 veces)"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 7,
+          "Text": "Santo Dios, Santo Fuerte,\nSanto Inmortal,\nten piedad de nosotros\ny del mundo entero.",
+          "FontStyle": "Italic",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

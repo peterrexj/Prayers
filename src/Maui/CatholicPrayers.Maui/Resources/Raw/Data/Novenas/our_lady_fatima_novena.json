@@ -1,0 +1,130 @@
+{
+  "Id": "novena_our_lady_fatima",
+  "Title": "Our Lady of Fátima Novena",
+  "Subtitle": "Apparitions of the Blessed Virgin Mary",
+  "Format": "MultiPage",
+  "AccentColor": "#9B59B6",
+  "IntroText": "The Our Lady of Fátima Novena is prayed from May 4 through May 12, culminating on the feast day of Our Lady of Fátima on May 13 — the anniversary of her first apparition to the three shepherd children in 1917.",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Day 1 — The Apparitions at Fátima",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 1 — May 4", "Order": 1 },
+        { "Type": "H3", "Text": "The Message of Fátima", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Our Lady appeared to Lúcia, Francisco, and Jacinta at Fátima on May 13, 1917. She came from heaven with a message of prayer, penance, and conversion. Her words to the children have guided the Church ever since.", "Order": 3 },
+        { "Type": "Quote", "Text": "\"Pray the Rosary every day to bring peace to the world and an end to the war.\" — Our Lady of Fátima", "Order": 4 },
+        { "Type": "Divider", "Order": 5 },
+        { "Type": "H3", "Text": "Prayer", "Order": 6 },
+        { "Type": "Paragraph", "Text": "O Most Holy Virgin Mary, Queen of the most holy Rosary, you were pleased to appear to the children of Fátima and reveal a glorious message. We implore you, inspire in our hearts a fervent love for the recitation of the Rosary.", "Order": 7 },
+        { "Type": "Paragraph", "Text": "By meditating on the mysteries of the redemption that are recalled therein may we obtain peace for the world, conversion of sinners and the grace which we need. We ask this through Christ our Lord. Amen.", "Order": 8 }
+      ]
+    },
+    {
+      "SectionId": 2,
+      "Title": "Day 2 — The Three Children",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 2 — May 5", "Order": 1 },
+        { "Type": "H3", "Text": "Lúcia, Francisco, and Jacinta", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Our Lady chose three humble shepherd children to receive her messages. Blessed Francisco and Blessed Jacinta Marto were beatified by Pope John Paul II in 2000, and canonized by Pope Francis in 2017. Lúcia became a Carmelite nun and lived until 2005.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O Mary, Mother of God and our Mother, we come before you today to thank you for the gift of the apparitions at Fátima. Through the example of the three blessed children, teach us the value of simplicity, sacrifice, and prayer.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "May we learn like them to say 'yes' to whatever God asks of us, and may we find our joy in doing His will. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 3,
+      "Title": "Day 3 — Prayer and Penance",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 3 — May 6", "Order": 1 },
+        { "Type": "H3", "Text": "Pray and make sacrifice for sinners", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Our Lady said: \"Pray, pray a great deal and make sacrifices for sinners, for many souls go to hell because they have no one to make sacrifices and to pray for them.\"", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O Our Lady of Fátima, you have asked us to pray for poor sinners, that they may be converted and save their souls from the fires of hell. We unite our prayers and penances to the sufferings of your Son and offer them for the conversion of the world.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Sweet Mother, accept our little sacrifices and help us to make them with a willing heart, as a sign of our love for God and our concern for the souls of our brothers and sisters. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 4,
+      "Title": "Day 4 — The Rosary",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 4 — May 7", "Order": 1 },
+        { "Type": "H3", "Text": "Pray the Rosary every day", "Order": 2 },
+        { "Type": "Paragraph", "Text": "At every apparition, Our Lady asked the children to pray the Rosary. She said it was the weapon against evil and the way to peace. The Rosary meditates on the mysteries of Christ's life through the intercession of Mary.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "Blessed Virgin Mary of Fátima, you have told us that the Rosary is the key to peace. Help us to pray it with faith and devotion each day, meditating on the mysteries of our redemption.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Through the power of the Rosary, may hearts be converted, families be strengthened, and peace be established in the world. We trust in your intercession, most Holy Mother. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 5,
+      "Title": "Day 5 — The First Saturday Devotion",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 5 — May 8", "Order": 1 },
+        { "Type": "H3", "Text": "The Five First Saturdays", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Our Lady of Fátima requested that the faithful make reparation to her Immaculate Heart on the first Saturday of five consecutive months, through Confession, Holy Mass, the Rosary, and 15 minutes of meditation on the mysteries.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O Immaculate Heart of Mary, we desire to make reparation for the many sins committed against your honor and dignity. You love us so tenderly and we have repaid that love with so little love in return.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "We consecrate ourselves to your Immaculate Heart, and ask that you obtain for us all the graces necessary for our salvation, and the grace of final perseverance. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 6,
+      "Title": "Day 6 — Consecration to the Immaculate Heart",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 6 — May 9", "Order": 1 },
+        { "Type": "H3", "Text": "\"My Immaculate Heart will triumph\"", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Our Lady promised: \"In the end, my Immaculate Heart will triumph. The Holy Father will consecrate Russia to me, and she will be converted, and a period of peace will be granted to the world.\"", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "Heavenly Father, your Blessed Mother came to Fátima to lead us to your Son. Through her Immaculate Heart, we place our trust in the victory of grace over sin, of love over hatred, and of life over death.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "May the triumph of her Immaculate Heart hasten the coming of your Kingdom on earth, and may we live to see the era of peace she promised. We ask this through Christ our Lord. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 7,
+      "Title": "Day 7 — Peace in the World",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 7 — May 10", "Order": 1 },
+        { "Type": "H3", "Text": "Pray for peace", "Order": 2 },
+        { "Type": "Paragraph", "Text": "A central theme of Our Lady's message at Fátima was the need for world peace. She warned that if people did not stop offending God, a worse war would break out. She promised that prayer and penance could bring peace.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O Queen of Peace, in a world torn by conflict and division, we cry out to you. Intercede before your Son, who is the Prince of Peace, that war and violence may cease throughout the world.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Obtain for leaders the wisdom to seek peace, for soldiers the grace of safety, and for all peoples the blessing of harmony and love. May the peace that passes all understanding fill every heart. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 8,
+      "Title": "Day 8 — Our Lady's Sorrowful Heart",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 8 — May 11", "Order": 1 },
+        { "Type": "H3", "Text": "The suffering of the Immaculate Heart", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Our Lady showed the children her Immaculate Heart surrounded by thorns — the thorns of ingratitude and the sins of those who neither loved nor made reparation to her. She asked us to console her by our love and prayer.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "Sorrowful and Immaculate Heart of Mary, we are sorry for the sins that pierce you. Accept our love as a small consolation for the many offenses committed against you and your divine Son.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "We join our sufferings to yours and offer them in reparation for our sins and the sins of the whole world. United to the sufferings of Jesus, may these offerings be acceptable to God the Father. Amen.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 9,
+      "Title": "Day 9 — Feast of Our Lady of Fátima",
+      "Blocks": [
+        { "Type": "H2", "Text": "Day 9 — May 12 (Eve of Feast Day)", "Order": 1 },
+        { "Type": "H3", "Text": "Our Lady, Queen of the Holy Rosary", "Order": 2 },
+        { "Type": "Paragraph", "Text": "On May 13, 1917, Our Lady appeared for the first time to the three children of Fátima. She identified herself as \"Our Lady of the Rosary\" and invited all to pray it daily. Tomorrow we celebrate the anniversary of that first, glorious apparition.", "Order": 3 },
+        { "Type": "Divider", "Order": 4 },
+        { "Type": "H3", "Text": "Prayer", "Order": 5 },
+        { "Type": "Paragraph", "Text": "O Most Holy Virgin, who graciously appeared at Fátima to reveal the divine treasures of grace to three small shepherd children, we beg you to deepen our faith, strengthen our hope, and set our hearts on fire with love of God.", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Lead us ever more deeply into the mysteries of your Son through the Holy Rosary, that united to you and to him, we may merit the salvation of our souls and the peace of the world. Amen.", "Order": 7 },
+        { "Type": "Spacer", "Order": 8 },
+        { "Type": "Paragraph", "Text": "Our Lady of Fátima, pray for us!", "FontStyle": "Bold", "Alignment": "Center", "Order": 9 }
+      ]
+    }
+  ]
+}

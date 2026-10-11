@@ -1,0 +1,17 @@
+{
+  "Id": "zep",
+  "Title": "Zephaniah",
+  "Abbreviation": "Zeph",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 17,
+          "Text": "The LORD, your God, is in your midst, a mighty savior, who will rejoice over you with gladness, and renew you in his love, who will sing joyfully because of you."
+        }
+      ]
+    }
+  ]
+}

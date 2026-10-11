@@ -1,0 +1,21 @@
+{
+  "Id": "2jo",
+  "Title": "2 John",
+  "Abbreviation": "2John",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 5,
+          "Text": "But now, Lady, I ask you, not as though I were writing a new commandment but the one we have had from the beginning: let us love one another."
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "For this is love, that we walk according to his commandments."
+        }
+      ]
+    }
+  ]
+}

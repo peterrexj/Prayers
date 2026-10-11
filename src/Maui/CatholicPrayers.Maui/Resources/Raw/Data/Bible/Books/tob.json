@@ -1,0 +1,39 @@
+{
+  "Id": "tob",
+  "Title": "Tobit",
+  "Abbreviation": "Tob",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 15,
+          "Text": "Do to no one what you yourself hate. Do not drink wine to the point of drunkenness; let not drunkenness accompany you on your way."
+        },
+        {
+          "VerseNumber": 19,
+          "Text": "Seek advice from every wise person, and do not think lightly of any useful counsel."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 12,
+      "Verses": [
+        {
+          "VerseNumber": 8,
+          "Text": "Prayer with fasting is good. Almsgiving with righteousness is better than wealth with wickedness. It is better to give alms than to store up gold."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 13,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "Blessed be God who lives forever, because his kingdom lasts for all ages."
+        }
+      ]
+    }
+  ]
+}

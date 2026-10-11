@@ -1,0 +1,35 @@
+{
+  "Id": "1mc",
+  "Title": "1 Maccabees",
+  "Abbreviation": "1Macc",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 50,
+          "Text": "Now, my children, show zeal for the law and give your lives for the covenant of our ancestors."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 18,
+          "Text": "It is easy for many to be overcome by a few; in the sight of Heaven there is no difference between deliverance by many or by few."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 4,
+      "Verses": [
+        {
+          "VerseNumber": 55,
+          "Text": "All the people prostrated themselves, bowing to the ground, and they praised Heaven, who had given them success."
+        }
+      ]
+    }
+  ]
+}

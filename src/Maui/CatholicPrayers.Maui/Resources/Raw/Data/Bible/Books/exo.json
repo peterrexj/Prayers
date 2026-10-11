@@ -1,0 +1,115 @@
+{
+  "Id": "exo",
+  "Title": "Exodus",
+  "Abbreviation": "Exod",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 3,
+      "Verses": [
+        {
+          "VerseNumber": 2,
+          "Text": "There the angel of the LORD appeared to him as fire flaming out of a bush."
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "Remove your sandals from your feet, for the place where you stand is holy ground."
+        },
+        {
+          "VerseNumber": 14,
+          "Text": "God replied to Moses: I am who I am. Then he added: This is what you will tell the Israelites: I AM has sent me to you."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 12,
+      "Verses": [
+        {
+          "VerseNumber": 13,
+          "Text": "The blood will mark the houses where you are. Seeing the blood, I will pass over you; thereby, when I strike the land of Egypt, no destructive blow will come upon you."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 14,
+      "Verses": [
+        {
+          "VerseNumber": 21,
+          "Text": "Moses stretched out his hand over the sea; and the LORD drove back the sea with a strong east wind all night long and turned the sea into dry ground."
+        },
+        {
+          "VerseNumber": 22,
+          "Text": "The Israelites went into the sea on dry ground, with the water as a wall to their right and to their left."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 15,
+      "Verses": [
+        {
+          "VerseNumber": 2,
+          "Text": "My strength and my refuge is the LORD, and he has been my savior. He is my God, I praise him; the God of my father, I extol him."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 20,
+      "Verses": [
+        {
+          "VerseNumber": 2,
+          "Text": "I am the LORD your God, who brought you out of the land of Egypt, out of the house of slavery."
+        },
+        {
+          "VerseNumber": 3,
+          "Text": "You shall not have other gods beside me."
+        },
+        {
+          "VerseNumber": 12,
+          "Text": "Honor your father and your mother, that you may have a long life in the land the LORD your God is giving you."
+        },
+        {
+          "VerseNumber": 13,
+          "Text": "You shall not kill."
+        },
+        {
+          "VerseNumber": 14,
+          "Text": "You shall not commit adultery."
+        },
+        {
+          "VerseNumber": 15,
+          "Text": "You shall not steal."
+        },
+        {
+          "VerseNumber": 16,
+          "Text": "You shall not bear false witness against your neighbor."
+        },
+        {
+          "VerseNumber": 17,
+          "Text": "You shall not covet your neighbor's house."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 33,
+      "Verses": [
+        {
+          "VerseNumber": 14,
+          "Text": "The LORD answered: I myself will go along, to give you rest."
+        },
+        {
+          "VerseNumber": 18,
+          "Text": "Moses said, Please let me see your glory! The LORD answered: I will make all my goodness pass before you."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 34,
+      "Verses": [
+        {
+          "VerseNumber": 6,
+          "Text": "The LORD passed before him and proclaimed: The LORD, the LORD, a God gracious and merciful, slow to anger and abounding in love and fidelity."
+        }
+      ]
+    }
+  ]
+}

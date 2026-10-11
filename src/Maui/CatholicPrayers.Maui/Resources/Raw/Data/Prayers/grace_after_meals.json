@@ -1,0 +1,30 @@
+{
+  "Id": "grace_after_meals",
+  "Title": "Grace After Meals",
+  "Subtitle": "We Give You Thanks",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_dove.png",
+  "IntroText": "A prayer of thanksgiving said after meals, acknowledging God's providence.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#66BB6A",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Thanksgiving After Meals",
+      "Blocks": [
+        { "Type": "H1", "Text": "Grace After Meals", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "We give Thee thanks, Almighty God,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "for all Thy benefits,", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "Who livest and reignest world without end.", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Spacer", "Order": 6 },
+        { "Type": "BulletItem", "BulletLabel": "V.", "Text": "May the souls of the faithful departed, through the mercy of God,", "Order": 7 },
+        { "Type": "BulletItem", "BulletLabel": "R.", "Text": "rest in peace.", "IsResponse": true, "Order": 8 },
+        { "Type": "Spacer", "Order": 9 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 10 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["grace_before_meals"]
+}

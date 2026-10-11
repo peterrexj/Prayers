@@ -1,0 +1,35 @@
+{
+  "Id": "st_michael_prayer",
+  "Title": "St. Michael Prayer",
+  "Subtitle": "Saint Michael the Archangel",
+  "Format": "SinglePage",
+  "HeaderImageFile": "prayer_angel.png",
+  "IntroText": "This powerful prayer was composed by Pope Leo XIII after a vision he received. It is traditionally prayed after Mass and invokes the protection of the archangel Michael.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#2C3E50",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Prayer to St. Michael",
+      "Blocks": [
+        { "Type": "H1", "Text": "Prayer to Saint Michael", "Order": 1 },
+        { "Type": "Divider", "Order": 2 },
+        { "Type": "Paragraph", "Text": "Saint Michael the Archangel,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "defend us in battle.", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Paragraph", "Text": "Be our protection against the wickedness", "FontStyle": "Italic", "Order": 5 },
+        { "Type": "Paragraph", "Text": "and snares of the devil.", "FontStyle": "Italic", "Order": 6 },
+        { "Type": "Spacer", "Order": 7 },
+        { "Type": "Paragraph", "Text": "May God rebuke him, we humbly pray;", "FontStyle": "Italic", "Order": 8 },
+        { "Type": "Paragraph", "Text": "and do thou, O Prince of the Heavenly Host,", "FontStyle": "Italic", "Order": 9 },
+        { "Type": "Paragraph", "Text": "by the power of God,", "FontStyle": "Italic", "Order": 10 },
+        { "Type": "Paragraph", "Text": "cast into hell Satan and all the evil spirits", "FontStyle": "Italic", "Order": 11 },
+        { "Type": "Paragraph", "Text": "who prowl throughout the world", "FontStyle": "Italic", "Order": 12 },
+        { "Type": "Paragraph", "Text": "seeking the ruin of souls.", "FontStyle": "Italic", "Order": 13 },
+        { "Type": "Spacer", "Order": 14 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 15 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["guardian_angel_prayer"]
+}

@@ -1,0 +1,99 @@
+{
+  "Id": "rosary",
+  "Title": "Holy Rosary",
+  "Subtitle": "The Complete Rosary",
+  "Format": "MultiPage",
+  "HeaderImageFile": "prayer_rosary.png",
+  "IntroText": "The Holy Rosary is a beloved Marian devotion meditating on the life, death, and resurrection of Jesus through 20 mysteries. Each decade consists of one Our Father, ten Hail Marys, and a Glory Be.",
+  "HasAudio": false,
+  "HasExternalLinks": false,
+  "AccentColor": "#9B59B6",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Opening",
+      "Blocks": [
+        { "Type": "H1", "Text": "The Holy Rosary", "Order": 1 },
+        { "Type": "H2", "Text": "How to Pray the Rosary", "Order": 2 },
+        { "Type": "NumberedItem", "BulletLabel": "1.", "Text": "Make the Sign of the Cross", "Order": 3 },
+        { "Type": "NumberedItem", "BulletLabel": "2.", "Text": "Pray the Apostles' Creed", "Order": 4 },
+        { "Type": "NumberedItem", "BulletLabel": "3.", "Text": "Pray the Our Father", "Order": 5 },
+        { "Type": "NumberedItem", "BulletLabel": "4.", "Text": "Pray 3 Hail Marys for an increase of Faith, Hope and Charity", "Order": 6 },
+        { "Type": "NumberedItem", "BulletLabel": "5.", "Text": "Pray the Glory Be", "Order": 7 },
+        { "Type": "NumberedItem", "BulletLabel": "6.", "Text": "Announce the First Mystery and pray the Our Father", "Order": 8 },
+        { "Type": "NumberedItem", "BulletLabel": "7.", "Text": "Pray 10 Hail Marys while meditating on the Mystery", "Order": 9 },
+        { "Type": "NumberedItem", "BulletLabel": "8.", "Text": "Pray the Glory Be and the Fatima Prayer", "Order": 10 },
+        { "Type": "NumberedItem", "BulletLabel": "9.", "Text": "Repeat steps 6–8 for each Mystery", "Order": 11 },
+        { "Type": "NumberedItem", "BulletLabel": "10.", "Text": "After all 5 decades, pray the Hail Holy Queen", "Order": 12 }
+      ]
+    },
+    {
+      "SectionId": 2,
+      "Title": "Joyful Mysteries (Monday & Saturday)",
+      "Blocks": [
+        { "Type": "H2", "Text": "The Joyful Mysteries", "Order": 1 },
+        { "Type": "Quote", "Text": "Prayed on Mondays and Saturdays", "Order": 2 },
+        { "Type": "NumberedItem", "BulletLabel": "1.", "Text": "The Annunciation — The angel Gabriel announces to Mary that she will bear the Son of God.", "Order": 3 },
+        { "Type": "NumberedItem", "BulletLabel": "2.", "Text": "The Visitation — Mary visits her cousin Elizabeth, who is also with child.", "Order": 4 },
+        { "Type": "NumberedItem", "BulletLabel": "3.", "Text": "The Nativity — Jesus is born in a manger in Bethlehem.", "Order": 5 },
+        { "Type": "NumberedItem", "BulletLabel": "4.", "Text": "The Presentation — Jesus is presented at the Temple and consecrated to God.", "Order": 6 },
+        { "Type": "NumberedItem", "BulletLabel": "5.", "Text": "The Finding of Jesus in the Temple — Jesus, lost for three days, is found in the Temple.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 3,
+      "Title": "Sorrowful Mysteries (Tuesday & Friday)",
+      "Blocks": [
+        { "Type": "H2", "Text": "The Sorrowful Mysteries", "Order": 1 },
+        { "Type": "Quote", "Text": "Prayed on Tuesdays and Fridays", "Order": 2 },
+        { "Type": "NumberedItem", "BulletLabel": "1.", "Text": "The Agony in the Garden — Jesus prays in Gethsemane, sweating blood in His anguish.", "Order": 3 },
+        { "Type": "NumberedItem", "BulletLabel": "2.", "Text": "The Scourging at the Pillar — Jesus is bound and scourged by Roman soldiers.", "Order": 4 },
+        { "Type": "NumberedItem", "BulletLabel": "3.", "Text": "The Crowning with Thorns — A crown of thorns is placed upon Jesus' head.", "Order": 5 },
+        { "Type": "NumberedItem", "BulletLabel": "4.", "Text": "The Carrying of the Cross — Jesus carries His cross to Calvary.", "Order": 6 },
+        { "Type": "NumberedItem", "BulletLabel": "5.", "Text": "The Crucifixion — Jesus is nailed to the cross and dies for our sins.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 4,
+      "Title": "Glorious Mysteries (Wednesday & Sunday)",
+      "Blocks": [
+        { "Type": "H2", "Text": "The Glorious Mysteries", "Order": 1 },
+        { "Type": "Quote", "Text": "Prayed on Wednesdays and Sundays", "Order": 2 },
+        { "Type": "NumberedItem", "BulletLabel": "1.", "Text": "The Resurrection — Jesus rises gloriously from the dead on Easter Sunday.", "Order": 3 },
+        { "Type": "NumberedItem", "BulletLabel": "2.", "Text": "The Ascension — Jesus ascends to heaven forty days after His resurrection.", "Order": 4 },
+        { "Type": "NumberedItem", "BulletLabel": "3.", "Text": "The Descent of the Holy Spirit — The Holy Spirit descends on the apostles at Pentecost.", "Order": 5 },
+        { "Type": "NumberedItem", "BulletLabel": "4.", "Text": "The Assumption of Mary — Mary is taken body and soul into heaven.", "Order": 6 },
+        { "Type": "NumberedItem", "BulletLabel": "5.", "Text": "The Coronation of Mary — Mary is crowned as Queen of Heaven and Earth.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 5,
+      "Title": "Luminous Mysteries (Thursday)",
+      "Blocks": [
+        { "Type": "H2", "Text": "The Luminous Mysteries", "Order": 1 },
+        { "Type": "Quote", "Text": "Prayed on Thursdays", "Order": 2 },
+        { "Type": "NumberedItem", "BulletLabel": "1.", "Text": "The Baptism of Jesus — Jesus is baptised in the Jordan; the Father declares Him His beloved Son.", "Order": 3 },
+        { "Type": "NumberedItem", "BulletLabel": "2.", "Text": "The Wedding at Cana — At Mary's intercession, Jesus changes water into wine.", "Order": 4 },
+        { "Type": "NumberedItem", "BulletLabel": "3.", "Text": "The Proclamation of the Kingdom — Jesus calls all to conversion and announces the Kingdom.", "Order": 5 },
+        { "Type": "NumberedItem", "BulletLabel": "4.", "Text": "The Transfiguration — Jesus is transfigured on Mount Tabor.", "Order": 6 },
+        { "Type": "NumberedItem", "BulletLabel": "5.", "Text": "The Institution of the Eucharist — Jesus gives us His Body and Blood at the Last Supper.", "Order": 7 }
+      ]
+    },
+    {
+      "SectionId": 6,
+      "Title": "Fatima Prayer & Closing",
+      "Blocks": [
+        { "Type": "H2", "Text": "Fatima Prayer (after each decade)", "Order": 1 },
+        { "Type": "Paragraph", "Text": "O my Jesus, forgive us our sins, save us from the fires of hell,", "FontStyle": "Italic", "Order": 2 },
+        { "Type": "Paragraph", "Text": "lead all souls to heaven,", "FontStyle": "Italic", "Order": 3 },
+        { "Type": "Paragraph", "Text": "especially those who are in most need of Your mercy.", "FontStyle": "Italic", "Order": 4 },
+        { "Type": "Spacer", "Order": 5 },
+        { "Type": "H2", "Text": "Closing: Hail Holy Queen", "Order": 6 },
+        { "Type": "Paragraph", "Text": "Hail, Holy Queen, Mother of Mercy, our life, our sweetness, and our hope...", "Order": 7 },
+        { "Type": "Spacer", "Order": 8 },
+        { "Type": "Paragraph", "Text": "Amen.", "FontStyle": "Bold", "Alignment": "Center", "Order": 9 }
+      ]
+    }
+  ],
+  "RelatedPrayerIds": ["hail_mary", "our_father", "glory_be", "apostles_creed"]
+}

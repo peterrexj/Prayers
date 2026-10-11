@@ -1,0 +1,39 @@
+{
+  "Id": "neh",
+  "Title": "Nehemiah",
+  "Abbreviation": "Neh",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 2,
+      "Verses": [
+        {
+          "VerseNumber": 4,
+          "Text": "The king asked, What is it, then, that you wish? I prayed to the God of heaven"
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "and then answered the king."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 8,
+      "Verses": [
+        {
+          "VerseNumber": 10,
+          "Text": "Do not be saddened this day, for rejoicing in the LORD is your strength!"
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 9,
+      "Verses": [
+        {
+          "VerseNumber": 6,
+          "Text": "You are the LORD, you alone. You made the heavens, the highest heavens with all their array, the earth and all that is upon it, the seas and all that is in them. To all of them you give life, and the heavenly array bows down before you."
+        }
+      ]
+    }
+  ]
+}

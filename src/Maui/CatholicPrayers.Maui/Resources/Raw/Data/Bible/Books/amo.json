@@ -1,0 +1,17 @@
+{
+  "Id": "amo",
+  "Title": "Amos",
+  "Abbreviation": "Amos",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 5,
+      "Verses": [
+        {
+          "VerseNumber": 24,
+          "Text": "But let justice surge like waters, and righteousness like an unfailing stream."
+        }
+      ]
+    }
+  ]
+}

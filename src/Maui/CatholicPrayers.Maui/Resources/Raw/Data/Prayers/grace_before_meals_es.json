@@ -1,0 +1,33 @@
+{
+  "Id": "grace_before_meals",
+  "Title": "Bendición de la Mesa",
+  "Subtitle": "Antes de las comidas",
+  "Format": "SinglePage",
+  "AccentColor": "#FF8F00",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Bendición de la Mesa",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Antes de las Comidas"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Bendícenos, Señor,\ny bendice estos alimentos\nque por tu bondad vamos a tomar.\nPor Cristo, nuestro Señor.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

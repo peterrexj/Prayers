@@ -1,0 +1,21 @@
+{
+  "Id": "oba",
+  "Title": "Obadiah",
+  "Abbreviation": "Obad",
+  "Testament": "OT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 15,
+          "Text": "For near is the day of the LORD against all the nations. As you have done, so will it be done to you, your deed will come back upon your own head."
+        },
+        {
+          "VerseNumber": 21,
+          "Text": "The victorious shall go up on Mount Zion to rule over Mount Esau, and the kingship shall be the LORD's."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "Id": "act_of_hope",
+  "Title": "Acto de Esperanza",
+  "Subtitle": "Oración de Esperanza",
+  "Format": "SinglePage",
+  "AccentColor": "#27AE60",
+  "Sections": [
+    {
+      "SectionId": 1,
+      "Title": "Acto de Esperanza",
+      "Blocks": [
+        {
+          "Type": "H2",
+          "Order": 1,
+          "Text": "Acto de Esperanza"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 2,
+          "Text": "Señor Dios mío,\nesperando en vuestra bondad y misericordia,\ny confiando en vuestras promesas divinas,\nespero alcanzar el perdón de mis pecados,\nla gracia y la vida eterna.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 3,
+          "Text": "No por mis méritos,\nsino por los méritos de Nuestro Señor Jesucristo.",
+          "FontStyle": "Italic"
+        },
+        {
+          "Type": "Paragraph",
+          "Order": 4,
+          "Text": "Amén.",
+          "FontStyle": "Bold",
+          "Alignment": "Center"
+        }
+      ]
+    }
+  ]
+}

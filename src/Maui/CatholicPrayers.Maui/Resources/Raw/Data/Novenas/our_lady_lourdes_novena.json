@@ -1,0 +1,84 @@
+{
+  "Id": "novena_our_lady_lourdes",
+  "Title": "Our Lady of Lourdes Novena",
+  "Subtitle": "Apparitions at the Grotto of Massabielle",
+  "Format": "MultiPage",
+  "AccentColor": "#3498DB",
+  "IntroText": "Between February 11 and July 16, 1858, the Blessed Virgin Mary appeared 18 times to 14-year-old Bernadette Soubirous at Lourdes, France. The apparitions culminated on March 25 when Mary identified herself as \"the Immaculate Conception.\" Lourdes has become one of the world's greatest pilgrimage sites, known for miraculous healings. The feast of Our Lady of Lourdes is February 11.",
+  "Sections": [
+    { "SectionId": 1, "Title": "Day 1 — The First Apparition", "Blocks": [
+      { "Type": "H2", "Text": "Day 1 — February 2", "Order": 1 },
+      { "Type": "Paragraph", "Text": "On February 11, 1858, Bernadette Soubirous was gathering firewood near the grotto of Massabielle when she heard a sound like wind. Looking toward the grotto, she saw \"a beautiful Lady\" in white, who began to pray the Rosary with her. The first apparition launched the greatest modern series of Marian visions.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Our Lady of Lourdes, you appeared to poor, simple Bernadette to bring God's message of prayer and penance to the world. We honor you and ask your intercession.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Help us to be as open as Bernadette was — humble enough to receive God's grace and courageous enough to act on it. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 2, "Title": "Day 2 — Penance, Penance, Penance", "Blocks": [
+      { "Type": "H2", "Text": "Day 2 — February 3", "Order": 1 },
+      { "Type": "Paragraph", "Text": "At the third apparition, Our Lady said: \"Penance! Penance! Penance! Pray to God for sinners. Kiss the ground as an act of penance for them.\" Bernadette knelt and kissed the earth — a gesture of humble intercession for sinners.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Our Lady of Lourdes, you asked for penance — not as punishment but as love. Help us to embrace the small penances of daily life: accepting inconvenience, denying our own will, bearing suffering with patience.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May our small acts of penance be united to the Cross of Christ and offered for the conversion of sinners. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 3, "Title": "Day 3 — The Spring", "Blocks": [
+      { "Type": "H2", "Text": "Day 3 — February 4", "Order": 1 },
+      { "Type": "Paragraph", "Text": "At the ninth apparition, Our Lady told Bernadette: \"Go drink from the spring and bathe in it.\" Bernadette dug in the dirt and uncovered a spring that had never been there before. Today that spring flows at 27,000 gallons per week and millions have bathed in its waters.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Our Lady of Lourdes, the spring you revealed has brought healing to countless souls. Refresh us with the water of grace. Wash away our sins in the stream of God's mercy.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "For all the sick who journey to Lourdes and for all who are sick and cannot go, obtain the healing — physical or spiritual — that God wills for them. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 4, "Title": "Day 4 — I Am the Immaculate Conception", "Blocks": [
+      { "Type": "H2", "Text": "Day 4 — February 5", "Order": 1 },
+      { "Type": "Paragraph", "Text": "On March 25, 1858 (the Feast of the Annunciation), Our Lady told Bernadette: \"I am the Immaculate Conception.\" Bernadette, who did not know what those words meant, repeated them to the parish priest, who was astonished — the dogma had been defined only four years earlier.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "O Mary, Immaculate Conception, you revealed yourself at Lourdes as the great sign of God's grace. Help us to believe in the power of grace to transform even the most imperfect soul into something beautiful.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "By your Immaculate Heart, obtain for us purity of intention and love of God above all things. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 5, "Title": "Day 5 — Bernadette's Simplicity", "Blocks": [
+      { "Type": "H2", "Text": "Day 5 — February 6", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Bernadette was a simple, illiterate girl from a very poor family. She suffered from asthma and was often ill. Yet God chose her for this extraordinary mission. When pressed about her visions, she said simply: \"My role is to tell, not to convince.\"", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "St. Bernadette, you were simple, humble, and faithful. Teach us that God does not require greatness or intelligence — only openness and trust.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Help us to accept whatever role God gives us, however small, and to fulfill it faithfully without seeking recognition. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 6, "Title": "Day 6 — Healing at Lourdes", "Blocks": [
+      { "Type": "H2", "Text": "Day 6 — February 7", "Order": 1 },
+      { "Type": "Paragraph", "Text": "The Lourdes Medical Bureau has recognized 70 official miraculous cures since 1858 — all subjected to rigorous scientific investigation. Thousands more have experienced cures that were not formally submitted. The most important healing, however, is the spiritual healing received by millions.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Our Lady of Lourdes, health of the sick, we bring before you all who are suffering in body, mind, or spirit. Intercede for miraculous healing where that is God's will, and for the grace of acceptance where it is not.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May every sick person know themselves to be loved by God, and may their suffering be united to that of Christ for the redemption of the world. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 7, "Title": "Day 7 — Pilgrimage", "Blocks": [
+      { "Type": "H2", "Text": "Day 7 — February 8", "Order": 1 },
+      { "Type": "Paragraph", "Text": "Millions of pilgrims journey to Lourdes each year — the sick, the well, the hopeful, and the desperate. Many arrive in wheelchairs and leave on foot. Others arrive healthy and leave spiritually transformed. Lourdes is a school of faith.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Our Lady of Lourdes, whether or not we can travel to your shrine, may our hearts make a pilgrimage to you today. In the grotto of our prayer, may we encounter your Son and receive His healing love.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "We pray for all pilgrims at Lourdes today — that they may receive what they seek, and above all the grace of a deeper faith. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 8, "Title": "Day 8 — The Rosary", "Blocks": [
+      { "Type": "H2", "Text": "Day 8 — February 9", "Order": 1 },
+      { "Type": "Paragraph", "Text": "At every apparition, Our Lady prayed the Rosary with Bernadette. She did not speak during most of the prayers — she listened, accompanying Bernadette through each mystery. The daily Rosary was her consistent request at Lourdes, as at Fátima.", "Order": 2 },
+      { "Type": "Divider", "Order": 3 },
+      { "Type": "H3", "Text": "Prayer", "Order": 4 },
+      { "Type": "Paragraph", "Text": "Our Lady of Lourdes, you have asked us so many times to pray the Rosary. Help us to hear this request and to make the daily Rosary a non-negotiable part of our prayer life.", "Order": 5 },
+      { "Type": "Paragraph", "Text": "May the mysteries of your Son's life, death, and resurrection be the meditation of our hearts throughout the day. Amen.", "Order": 6 }
+    ]},
+    { "SectionId": 9, "Title": "Day 9 — Feast of Our Lady of Lourdes", "Blocks": [
+      { "Type": "H2", "Text": "Day 9 — February 10 (Vigil)", "Order": 1 },
+      { "Type": "H3", "Text": "Tomorrow is the Feast of Our Lady of Lourdes", "Order": 2 },
+      { "Type": "Paragraph", "Text": "Tomorrow, February 11, is the feast of Our Lady of Lourdes and the World Day of the Sick. We conclude nine days of prayer with gratitude for the gift of Mary's apparitions and her maternal intercession.", "Order": 3 },
+      { "Type": "Divider", "Order": 4 },
+      { "Type": "H3", "Text": "Prayer", "Order": 5 },
+      { "Type": "Paragraph", "Text": "Our Lady of Lourdes, immaculate and holy, we thank you for coming to this world to remind us of God's love. Thank you for the healings, the conversions, and the consolations given at your shrine for over a century.", "Order": 6 },
+      { "Type": "Paragraph", "Text": "Grant the petition we have brought to this novena according to God's holy will. And may we carry the spirit of Lourdes — of prayer, penance, and trust — throughout our lives. Amen.", "Order": 7 },
+      { "Type": "Paragraph", "Text": "Our Lady of Lourdes, pray for us!", "FontStyle": "Bold", "Alignment": "Center", "Order": 8 }
+    ]}
+  ]
+}

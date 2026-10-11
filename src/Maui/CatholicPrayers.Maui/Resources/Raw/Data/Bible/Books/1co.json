@@ -1,0 +1,98 @@
+{
+  "Id": "1co",
+  "Title": "1 Corinthians",
+  "Abbreviation": "1Cor",
+  "Testament": "NT",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Verses": [
+        {
+          "VerseNumber": 25,
+          "Text": "For the foolishness of God is wiser than human wisdom, and the weakness of God is stronger than human strength."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 6,
+      "Verses": [
+        {
+          "VerseNumber": 19,
+          "Text": "Do you not know that your body is a temple of the Holy Spirit within you, whom you have from God, and that you are not your own?"
+        },
+        {
+          "VerseNumber": 20,
+          "Text": "For you have been purchased at a price. Therefore glorify God in your body."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 10,
+      "Verses": [
+        {
+          "VerseNumber": 13,
+          "Text": "No trial has come to you but what is human. God is faithful and will not let you be tried beyond your strength; but with the trial he will also provide a way out, so that you may be able to bear it."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 12,
+      "Verses": [
+        {
+          "VerseNumber": 4,
+          "Text": "There are different kinds of spiritual gifts but the same Spirit."
+        },
+        {
+          "VerseNumber": 12,
+          "Text": "As a body is one though it has many parts, and all the parts of the body, though many, are one body, so also Christ."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 13,
+      "Verses": [
+        {
+          "VerseNumber": 1,
+          "Text": "If I speak in human and angelic tongues but do not have love, I am a resounding gong or a clashing cymbal."
+        },
+        {
+          "VerseNumber": 4,
+          "Text": "Love is patient, love is kind. It is not jealous, [love] is not pompous, it is not inflated,"
+        },
+        {
+          "VerseNumber": 5,
+          "Text": "it is not rude, it does not seek its own interests, it is not quick-tempered, it does not brood over injury,"
+        },
+        {
+          "VerseNumber": 6,
+          "Text": "it does not rejoice over wrongdoing but rejoices with the truth."
+        },
+        {
+          "VerseNumber": 7,
+          "Text": "It bears all things, believes all things, hopes all things, endures all things."
+        },
+        {
+          "VerseNumber": 8,
+          "Text": "Love never fails."
+        },
+        {
+          "VerseNumber": 13,
+          "Text": "So faith, hope, love remain, these three; but the greatest of these is love."
+        }
+      ]
+    },
+    {
+      "ChapterNumber": 15,
+      "Verses": [
+        {
+          "VerseNumber": 55,
+          "Text": "Where, O death, is your victory? Where, O death, is your sting?"
+        },
+        {
+          "VerseNumber": 57,
+          "Text": "But thanks be to God who gives us the victory through our Lord Jesus Christ."
+        }
+      ]
+    }
+  ]
+}
